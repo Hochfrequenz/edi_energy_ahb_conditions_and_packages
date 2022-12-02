@@ -1,0 +1,482 @@
+[
+  {
+    "condition_key": "1",
+    "condition_text": "Wenn IMD+Z03 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "2",
+    "condition_text": "Wenn BGM+7 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "4",
+    "condition_text": "\u00dcbernahme der Angabe aus der QUOTES, wenn dort vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "6",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle LF vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "7",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle NB vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "9",
+    "condition_text": "Wenn bekannt",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "12",
+    "condition_text": "Wenn vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "13",
+    "condition_text": "Wenn SG2 LOC+172 nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "15",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle MSB vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "16",
+    "condition_text": "Wenn eine untergeordnete SG vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "17",
+    "condition_text": "Wenn ein Segment innerhalb der SG vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "18",
+    "condition_text": "Wenn IMD++Z11 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "19",
+    "condition_text": "Wenn IMD++Z12 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "21",
+    "condition_text": "Wenn BGM+Z28 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "23",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR mit Rolle NB vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "24",
+    "condition_text": "Wenn IMD++Z35 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "26",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle \u00dcNB vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "27",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR mit Rolle MSB vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "29",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR aus Sparte Gas",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "33",
+    "condition_text": "Wenn IMD+Z01 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "34",
+    "condition_text": "Wenn IMD+Z02 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "35",
+    "condition_text": "IMD++Z14+Z06 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "36",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR mit Rolle NB nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "38",
+    "condition_text": "Wenn FTX+Z04/Z05 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "39",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle \u00dcNB nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "45",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle MSB nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "46",
+    "condition_text": "Wenn SG29 IMD++Z46 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "47",
+    "condition_text": "Wenn SG29 IMD++Z46 \u00a0nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "50",
+    "condition_text": "Pro Nachricht ist die SG29 genau einmal anzugeben",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "51",
+    "condition_text": "Wenn BGM+Z48 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "52",
+    "condition_text": "Es sind nur die Artikelnummern erlaubt, die in der Codeliste der Artikelnummern des BDEW mit dem entsprechenden Pr\u00fcfidentifikator versehen sind.",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "54",
+    "condition_text": "Wenn FTX+Z06 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "55",
+    "condition_text": "Wenn DTM+469 nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "56",
+    "condition_text": "Wenn DTM+203 nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "57",
+    "condition_text": "Wenn im selben SG2 NAD DE3124 nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "60",
+    "condition_text": "MP-ID in SG2 NAD+MS aus Sparte Gas",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "61",
+    "condition_text": "MP-ID in SG2 NAD+MS aus Sparte Strom",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "62",
+    "condition_text": "MP-ID in SG2 NAD+MS mit Rolle MSB",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "63",
+    "condition_text": "MP-ID in SG2 NAD+MS mit Rolle NB",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "64",
+    "condition_text": "Wenn SG2 NAD+Z03 nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "66",
+    "condition_text": "Wenn FTX+Z08 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "67",
+    "condition_text": "Wenn DTM+163 nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "68",
+    "condition_text": "Wenn DTM+7 nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "69",
+    "condition_text": "Wenn NAD+Z23 nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "70",
+    "condition_text": "Wenn NAD+Z03 nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "73",
+    "condition_text": "Wenn CCI+Z39 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "74",
+    "condition_text": "MP-ID in SG2 NAD+MR aus Sparte Gas",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "75",
+    "condition_text": "Wenn f\u00fcr den erforderlichen Wert keine Z\u00e4hlzeit ben\u00f6tigt wird",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "76",
+    "condition_text": "Wenn in derselben SG29 mit Z27 in LIN DE1229 (Erforderlicher Wert der Marktlokation) das CCI+Z35 CAV+ZC4 (Kumuliert) vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "77",
+    "condition_text": "Wenn in derselben SG29 mit Z27 in LIN DE1229 (Erforderlicher Wert der Marktlokation) das CCI+Z35 CAV+ZC2 (Wirkarbeit) vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "84",
+    "condition_text": "IMD++Z14+Z07 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "86",
+    "condition_text": "Wenn in derselben SG29 mit Z19 in LIN DE1229 (Erforderlicher Wert der Messlokation) das CCI+Z35 CAV+ZC4 (Kumuliert) vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "87",
+    "condition_text": "Wenn in derselben SG29 mit Z19 in LIN DE1229 (Erforderlicher Wert der Messlokation) das CCI+Z35 CAV+ZC2 (Wirkarbeit) vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "89",
+    "condition_text": "F\u00fcr 11-stellige ID im SG2 LOC+172 (Meldepunk) DE3225 mindestens einmal anzugeben",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "90",
+    "condition_text": "F\u00fcr 33-stellige ID im SG2 LOC+172 (Meldepunk) DE3225 mindestens einmal anzugeben",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "492",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte StromZ04",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "493",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Gas",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "494",
+    "condition_text": "Der Wert muss \u2264 dem Erzeugungszeitpunkt sein.",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "495",
+    "condition_text": "Der Zeitpunkt muss \u2264 dem Wert im DE2380 des DTM+137 sein",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "500",
+    "condition_text": "Hinweis: Z\u00e4hlpunkt der BAS",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "501",
+    "condition_text": "Hinweis: Z\u00e4hlpunkt der DZR",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "502",
+    "condition_text": "Hinweis: Der Qualifier in DE7081 muss aus der in SG1 referenzierten QUOTES \u00fcbernommen werden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "503",
+    "condition_text": "Hinweis: Angabe eines technischen Ansprechpartners f\u00fcr die Ger\u00e4te\u00fcbernahme",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "504",
+    "condition_text": "Hinweis: \u00dcbernahme der Angabe aus der entsprechenden Position der QUOTES",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "505",
+    "condition_text": "Hinweis: Der Summenbetrag ist entsprechend der Summe der Einzelbetr\u00e4ge der Bestellposition aufzuf\u00fchren. Bei Annahme des Gesamtangebots kann der Summenbetrag (netto) aus der QUOTES \u00fcbernommen werden.",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "506",
+    "condition_text": "Hinweis: Datum, bis zu dem der MSBA zur Fortf\u00fchrung verpflichtet wird",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "514",
+    "condition_text": "Hinweis: Das Abonnement kann fr\u00fchestens ab dem aktuellen Liefermonat beim Netzbetreiber gestartet werden.",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "515",
+    "condition_text": "Hinweis: Das angegebene Betrachtungszeitintervall bestimmt beim Start Abo bzw. Ende Abo ab bzw. bis wann (einschlie\u00dflich) das Abo laufen soll.",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "517",
+    "condition_text": "Hinweis: Z\u00e4hlpunkt der LF- AASZR",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "518",
+    "condition_text": "Hinweis: Das angegebene Ausf\u00fchrungsdatum bestimmt beim Start Abo bzw. Ende Abo ab bzw. bis wann (einschlie\u00dflich) das Abo laufen soll.",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "519",
+    "condition_text": "Hinweis: Bei Gas bezieht sich die Anforderung immer sowohl auf die vorl\u00e4ufigen Profilwerte als auch auf die endg\u00fcltigen Profilwerte, falls diese bereits vorliegen.",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "521",
+    "condition_text": "Hinweis: Verwendung der ID der Marktlokation",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "522",
+    "condition_text": "Hinweis: Verwendung der ID der Messlokation",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "523",
+    "condition_text": "Hinweis: Verwendung der ID der Tranche",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "525",
+    "condition_text": "Hinweis: Wert aus BGM",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "527",
+    "condition_text": "Hinweis: Z\u00e4hlpunkt der BG-SZR (Kategorie B)",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "530",
+    "condition_text": "Hinweis: Wert aus BGM+310 DE1004 der QUOTES mit der das Angebot erfolgt ist.",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "531",
+    "condition_text": "Hinweis: Wert aus LIN DE1082 der QUOTES, mit der das",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "532",
+    "condition_text": "Hinweis: Wert aus BGM+Z29 DE1004 der QUOTES, mit der das Angebot zur Abrechnung des Messstellenbetriebs erfolgt ist.",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "533",
+    "condition_text": "Hinweis: Gerichtsvollzieher hat Termin vorgegeben",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "534",
+    "condition_text": "Hinweis: Dokumentennummer aus BGM DE1004 der UTILTS",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "535",
+    "condition_text": "Hinweis: Verwendung der ID der Messlokation der Sparte Strom",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "536",
+    "condition_text": "Hinweis: Vorgangsnummer",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "539",
+    "condition_text": "Hinweis: Wenn MP-ID in SG2 NAD+MR mit Rolle NB vorhanden, dann sind nur Codes aus Liste des NB anzugeben",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "540",
+    "condition_text": "Hinweis: Wenn MP-ID in SG2 NAD+MR mit Rolle MSB vorhanden, dann sind nur Codes aus Liste des LF anzugeben",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "541",
+    "condition_text": "Hinweis: Hier ist die ID aus dem SG2 LOC+172 und, falls vorhanden, die ID weiterer zugeordneter Marktlokationen aufzuf\u00fchren.",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "542",
+    "condition_text": "Hinweis: Wert aus BGM+Z57 DE1004 der QUOTES mit der das Angebot erfolgt ist.",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "903",
+    "condition_text": "Format: M\u00f6glicher Wert: 1",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "908",
+    "condition_text": "Format: M\u00f6gliche Werte: 1 bis n",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "911",
+    "condition_text": "Format: M\u00f6gliche Werte: 1 bis n, je Nachricht oder Segmentgruppe bei 1 beginnend und fortlaufend aufsteigend",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "912",
+    "condition_text": "Format: max. 6 Nachkommastellen",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "922",
+    "condition_text": "Format: TR-ID",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "930",
+    "condition_text": "Format: max. 2 Nachkommastellen",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "950",
+    "condition_text": "Format: Marktlokations-ID",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "951",
+    "condition_text": "Format: Z\u00e4hlpunktbezeichnung",
+    "edifact_format": "ORDERS"
+  }
+]

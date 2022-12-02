@@ -1,0 +1,82 @@
+[
+  {
+    "condition_key": "1",
+    "condition_text": "Wenn DTM+203 nicht vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "2",
+    "condition_text": "Wenn DTM+469 nicht vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "3",
+    "condition_text": "F\u00fcr 11-stellige ID im SG2 LOC+172 (Meldepunk) DE3225 mindestens einmal anzugeben",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "4",
+    "condition_text": "F\u00fcr 33-stellige ID im SG2 LOC+172 (Meldepunk) DE3225 mindestens einmal anzugeben",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "494",
+    "condition_text": "Der Wert muss \u2264 dem Erzeugungszeitpunkt sein.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "500",
+    "condition_text": "Hinweis: Angabe eines technischen Ansprechpartners f\u00fcr die Ger\u00e4te\u00fcbernahme",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "501",
+    "condition_text": "Hinweis: Angabe eines Ansprechpartners f\u00fcr die Rechnungsabwicklung",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "502",
+    "condition_text": "Hinweis: Verwendung der ID der Marktlokation",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "503",
+    "condition_text": "Hinweis: Verwendung der ID der Messlokation",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "504",
+    "condition_text": "Hinweis: Hier ist die ID aus dem SG2 LOC+172 und, falls vorhanden, die ID weiterer zugeordneter Marktlokationen aufzuf\u00fchren.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "505",
+    "condition_text": "Hinweis: Hier sind die ID zugeordneter Marktlokationen aufzuf\u00fchren.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "903",
+    "condition_text": "Format: M\u00f6glicher Wert: 1",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "911",
+    "condition_text": "Format: M\u00f6gliche Werte: 1 bis n, je Nachricht oder Segmentgruppe bei 1 beginnend und fortlaufend aufsteigend",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "950",
+    "condition_text": "Format: Marktlokations-ID",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "951",
+    "condition_text": "Format: Z\u00e4hlpunktbezeichnung",
+    "edifact_format": "REQOTE"
+  }
+]
