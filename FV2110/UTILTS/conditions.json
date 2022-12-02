@@ -1,0 +1,57 @@
+[
+  {
+    "condition_key": "1",
+    "condition_text": "Nur MP-ID aus Sparte Strom",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "20",
+    "condition_text": "Segment bzw. Segmentgruppe ist genau einmal anzugeben",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "21",
+    "condition_text": "Wenn in dieser CAV+ZD3 der Wert im DE7110 mit Z32 (sonstiger Z\u00e4hlzeitdefinitionstyp) vorhanden ist",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "22",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS (Nachrichtenabsender) in der Rolle NB",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "24",
+    "condition_text": "Wenn in STS+Z36+Z02 vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "25",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempf\u00e4nger) in der Rolle LF",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "27",
+    "condition_text": "Wenn in SG9 CAV+ZD4+Z26 (keine Verwendung des Hochlastzeitfensters) vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "28",
+    "condition_text": "Segmentgruppe ist mindestens je SG5 IDE+24 (Vorgang) zweimal anzugeben",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "494",
+    "condition_text": "Der Wert muss \u2264 dem Erzeugungszeitpunkt sein",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "506",
+    "condition_text": "Hinweis: Zeitpunkt, ab dem die \u00dcbersicht der Z\u00e4hlzeitdefinitionen g\u00fcltig ist",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "UTILTS"
+  }
+]

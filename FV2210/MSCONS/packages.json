@@ -1,0 +1,37 @@
+[
+  {
+    "package_key": "2P",
+    "package_expression": "[492]",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "package_key": "3P",
+    "package_expression": "[493]",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "package_key": "4P",
+    "package_expression": "[92]",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "package_key": "5P",
+    "package_expression": "[93]",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "package_key": "6P",
+    "package_expression": "[94]",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "package_key": "7P",
+    "package_expression": "[95]",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "package_key": "8P",
+    "package_expression": "[96]",
+    "edifact_format": "MSCONS"
+  }
+]

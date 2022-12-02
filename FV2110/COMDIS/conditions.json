@@ -1,0 +1,47 @@
+[
+  {
+    "condition_key": "1",
+    "condition_text": "Wenn SG3 AJT+Z61 oder SG3 AJT+Z62 vorhanden.",
+    "edifact_format": "COMDIS"
+  },
+  {
+    "condition_key": "2",
+    "condition_text": "Wenn SG3 AJT+Z58 oder SG3 AJT+Z59 oder SG3 AJT+Z60 vorhanden.",
+    "edifact_format": "COMDIS"
+  },
+  {
+    "condition_key": "3",
+    "condition_text": "Nur MP-ID aus Sparte Strom",
+    "edifact_format": "COMDIS"
+  },
+  {
+    "condition_key": "492",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Strom",
+    "edifact_format": "COMDIS"
+  },
+  {
+    "condition_key": "505",
+    "condition_text": "Hinweis: BGM DE1004 aus der vorher per REMADV abgelehnten INVOIC-Nachricht",
+    "edifact_format": "COMDIS"
+  },
+  {
+    "condition_key": "506",
+    "condition_text": "Hinweis: BGM DE1004 aus der vorher per IFTSTA abgelehnten MSCONS- Nachricht",
+    "edifact_format": "COMDIS"
+  },
+  {
+    "condition_key": "507",
+    "condition_text": "Hinweis: Der Code 270 ist nur zu nutzen, wenn ein Lieferschein, der vor dem 1. 4.2021 erstellt wurde, storniert wird.",
+    "edifact_format": "COMDIS"
+  },
+  {
+    "condition_key": "920",
+    "condition_text": "Format: Angabe in Euro mit maximal zwei Nachkommastellen",
+    "edifact_format": "COMDIS"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "COMDIS"
+  }
+]
