@@ -1,6 +1,6 @@
 # edi_energy_ahb_conditions_and_packages
 
-Bedingungen und Paket-Definitionen, die aus Anwendungshandbüchern (AHBs) extrahiert wurden
+Bedingungen und Paket-Definitionen, die aus Anwendungshandbüchern (AHBs) extrahiert wurden.
 
 ## Sinn & Zweck
 
