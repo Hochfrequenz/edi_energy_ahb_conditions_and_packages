@@ -1,5 +1,5 @@
 """
-this function is called from a Github Action that checks the consistency of the data
+this function is called from a Github Action (consistency_check.yml) that checks the consistency of the data
 """
 import json
 from pathlib import Path
@@ -52,5 +52,7 @@ for format_version in EdifactFormatVersion:
             with open(file_path, "r", encoding="utf-8") as infile:
                 json_body = json.load(infile)
             mappings = load_function(json_body)  # must not raise an exception
-            keys = set(key_function(x) for x in mappings)
-            assert len(keys) == len(mappings)  # if the lengths differ this means there are duplicate keys
+            keys = [key_function(x) for x in mappings]
+            keys_sorted = sorted(keys, key=lambda k: int(k.strip("P")))
+            assert keys == keys_sorted  # the entries shall be sorted by key number ASC
+            assert len(set(keys)) == len(mappings)  # there shall be no duplicate keys
