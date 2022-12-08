@@ -1,0 +1,272 @@
+[
+  {
+    "condition_key": "1",
+    "condition_text": "Nur MP-ID aus Sparte Strom",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "2",
+    "condition_text": "Wenn SG5 STS+Z23+Z34 (Formel muss beim Absender angefragt werden) in einem SG5 IDEvorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "3",
+    "condition_text": "Wenn SG5 STS+Z23+Z33 (Formel angef\u00fcgt) vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "5",
+    "condition_text": "Wenn das SG8 RFF+Z19 (Referenz auf eine Messlokation) in derselben SG8 SEQ+Z37 nicht vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "6",
+    "condition_text": "Wenn das SG8 RFF+Z23 (Referenz auf Rechenschritt) in derselben SG8 SEQ+Z37 nicht vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "7",
+    "condition_text": "Wenn in derselben SG8 SEQ+Z37 das SG8 RFF+Z19 (Referenz aufeine Messlokation) vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "8",
+    "condition_text": "Rechenschrittidentifikato r aus einem SG8 SEQ+Z37 (Bestandteil des Rechenschritts) DE1050 desselben SG5 IDE+24",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "9",
+    "condition_text": "Der hier angegebene Rechenschrittidentifikato r darf nicht identisch mit dem Rechenschrittidentifikato r aus diesem SG8 SEQ+Z37 DE1050 sein",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "10",
+    "condition_text": "wenn vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "11",
+    "condition_text": "Wenn in SG8 SEQ+Z37 SG9 CCI+++Z86 CAV+Z69/Z70 (Addition / Subtraktion) vorhanden, darf es in dem Vorgang beliebig viele weitere SG8 SEQ+Z37 mit identischem Rechenschrittidentifikato r geben, die jedoch ausschlie\u00dflich die Operatoren Z69/Z70 enthalten d\u00fcrfen",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "12",
+    "condition_text": "Wenn in SG8 SEQ+Z37 SG9 CCI+++Z86 CAV+Z83 (Positivwert) vorhanden, darf es in dem Vorgang keine weitere SG8 SEQ+Z37 mit identischem Rechenschrittidentifikato r geben",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "13",
+    "condition_text": "Wenn in SG8 SEQ+Z37 SG9 CCI+++Z86 CAV+Z80/Z81 (Divisor / Dividend) vorhanden, muss in diesem Vorgang genau eine zweite SG8 SEQ+Z37 mit identischen Rechenschrittidentifikato r vorhanden sein, sodass das eine SG8 SEQ+Z37 den Operator Z80 (Divisor) und das andere SG8 SEQ+Z37 den Operator Z81 (Dividend) enth\u00e4lt",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "14",
+    "condition_text": "Wenn in SG8 SEQ+Z37 SG9 CCI+++Z86 CAV+Z82 (Faktor) vorhanden, darf es in dem Vorgang beliebig viele weitere SG8 SEQ+Z37 mit identischem",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "15",
+    "condition_text": "Wenn in einem SG5 IDE+24 nur eine SEQ+Z37 mit einer SG8 RFF+Z19 (Messlokation) vorhanden ist",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "16",
+    "condition_text": "Der hier angegebene Code des Pr\u00fcfschritt muss im EBD dem Cluster Zustimmung zugeordnet sein",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "17",
+    "condition_text": "Der hier angegebene Code des Pr\u00fcfschritt muss im EBD dem Cluster Ablehnung zugeordnet sein",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "18",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempf\u00e4nger) in der Rolle LF",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "21",
+    "condition_text": "Wenn in dieser CAV+ZD3 der Wert im DE7110 mit Z32 (sonstiger Z\u00e4hlzeitdefinitionstyp) vorhanden ist",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "22",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS (Nachrichtenabsender) in der Rolle NB",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "24",
+    "condition_text": "Wenn STS+Z36+Z02 vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "25",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempf\u00e4nger) in der Rolle LF",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "26",
+    "condition_text": "sofern per ORDERS reklamiert",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "27",
+    "condition_text": "Wenn in SG9 CAV+ZD4+Z26 (keine Verwendung des Hochlastzeitfensters) vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "29",
+    "condition_text": "Wenn in SG8+Z43 DTM+Z33 (Z\u00e4hlzeit\u00e4nderungszeitpunkt) im DE2379 der Code 303 vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "30",
+    "condition_text": "Der Wert von CCYY in diesemDE muss genau um eins h\u00f6her sein, als der Wert CCYY des DTM+Z34 (G\u00fcltigkeitsbeginn) DE2380",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "31",
+    "condition_text": "Wenn im DE2379 dieses Segments der Code 303 vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "32",
+    "condition_text": "Ein Datum muss dem DTM+Z34 (G\u00fcltigkeitsbeginn) DE2380 entsprechen",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "33",
+    "condition_text": "Kein Datum darf j\u00fcnger sein als das Datum vom DTM+Z35 (G\u00fcltigkeitsende) DE2380",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "34",
+    "condition_text": "Wenn im DE2379 diesesSegments der Code 401 vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "35",
+    "condition_text": "Die \u00e4lteste Angabe muss mit 0000 vorhanden sein",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "36",
+    "condition_text": "Wenn in SG8+Z43 DTM+Z33 (Z\u00e4hlzeit\u00e4nderungszeitpunkt) im DE2379 der Code 401 vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "37",
+    "condition_text": "Wenn ein G\u00fcltigkeitsende bereits angegeben werden kann.",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "38",
+    "condition_text": "Wenn DTM+Z35 (G\u00fcltigkeitsende) vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "39",
+    "condition_text": "Wenn DTM+Z35 (G\u00fcltigkeitsende) nicht vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "40",
+    "condition_text": "Kein Datum darf \u00e4lter sein als das Datum vom DTM+Z34 (G\u00fcltigkeitsbeginn) DE2380",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "494",
+    "condition_text": "Das hier genannte Datum muss der Zeitpunkt sein, zu dem das Dokument erstellt wurde, oder ein Zeitpunkt, der davor liegt.",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "500",
+    "condition_text": "Hinweis: Zeitpunkt, ab dem die Berechnungsformel anzuwenden ist",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "501",
+    "condition_text": "Hinweis: Verwendung der ID der Marktlokation",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "502",
+    "condition_text": "Hinweis: Verwendung der ID der Messlokation",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "504",
+    "condition_text": "Hinweis: Wert aus BGM+Z55 DE1004 der ORDERS mit der die Reklamation einer Z\u00e4hlzeitdefinition erfolgt ist",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "505",
+    "condition_text": "Hinweis: Jede ausgerollte Z\u00e4hlzeitdefinition ist in einem eigenen IDE anzugeben",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "506",
+    "condition_text": "Hinweis: Zeitpunkt, ab dem die \u00dcbersicht der Z\u00e4hlzeitdefinitionen g\u00fcltig ist",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "507",
+    "condition_text": "Hinweis: Es ist die Zeit nach der deutschen gesetzlichen Zeit anzugeben",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "912",
+    "condition_text": "Format: Wert kann mit maximal 6 Nachkommastellen angegeben werden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "913",
+    "condition_text": "Format: M\u00f6gliche Werte: 1 bis 99999",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "914",
+    "condition_text": "Format: M\u00f6glicher Wert: > 0",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "915",
+    "condition_text": "Format: M\u00f6glicher Wert: \u2260 1",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "947",
+    "condition_text": "Format: MMDDHHMM = 12312300",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "950",
+    "condition_text": "Format: Marktlokations-ID",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "951",
+    "condition_text": "Format: Z\u00e4hlpunktbezeichnung",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "2000",
+    "condition_text": "Segment ist bis zu viermal je SG9 CCI+Z27 anzugeben",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "2001",
+    "condition_text": "Segment bzw. Segmentgruppe ist genau einmal anzugeben",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "2002",
+    "condition_text": "Segmentgruppe ist mindestens je SG8 SEQ+Z42 (Z\u00e4hlzeitdefinition) zweimal anzugeben",
+    "edifact_format": "UTILTS"
+  }
+]

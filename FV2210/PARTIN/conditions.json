@@ -1,0 +1,102 @@
+[
+  {
+    "condition_key": "1",
+    "condition_text": "Nur MP-ID aus Sparte Strom",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "2",
+    "condition_text": "Wenn der Code im DE3207 in der \"EDI@Energy Codeliste der europ\u00e4ischen L\u00e4ndercodes\" in der Spalte \"PLZ vorhanden\" ein \"X\" enth\u00e4lt",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "3",
+    "condition_text": "wenn vorhanden",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "4",
+    "condition_text": "Wenn Vorg\u00e4ngerversion vorhanden",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "5",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempf\u00e4nger) in der Rolle LF",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "6",
+    "condition_text": "wenn im DE3155 im demselben COM der Code EM vorhanden ist",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "7",
+    "condition_text": "wenn im DE3155 im demselben COM der Code TE / FX / AJ / AL vorhanden ist",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "8",
+    "condition_text": "wenn im DE3155 im demselben COM der Code TE / FX vorhanden ist",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "9",
+    "condition_text": "Wenn die Kommunikationsdaten vom Absender nicht mehr aktiv sind.",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "10",
+    "condition_text": "Wenn BGM DE1373 = 11 (Dokument nicht verf\u00fcgbar) nicht vorhanden",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "494",
+    "condition_text": "Das hier genannte Datum muss der Zeitpunkt sein, zu dem das Dokument erstellt wurde, oder ein Zeitpunkt, der davor liegt.",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "500",
+    "condition_text": "Hinweis: Es kann der Firmenname eines Dienstleisters oder die identische Firmenbezeichnung aus SG4 NAD+SU / DDM / DEB eingetragen werden.",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "501",
+    "condition_text": "Hinweis: Es darf kein Name einernat\u00fcrlichen Person \u00fcbermittelt werden, stattdessen ist die organisatorische Einheit im Unternehmen zu nennen.",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "502",
+    "condition_text": "Hinweis: Es darf nur eine Information im DE3148 \u00fcbermittelt werden",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "503",
+    "condition_text": "Hinweis: Angabe erfolgt in gesetzlicher deutscher Zeit",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "504",
+    "condition_text": "Hinweis: Es ist mindestens die Umsatzsteuer- bzw. Steuernummer zu nennen, die in der INVOIC genutzt wird.",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "908",
+    "condition_text": "Format: M\u00f6gliche Werte: 1 bis n",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "939",
+    "condition_text": "Format: Die Zeichenkette muss die Zeichen @ und . enthalten",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "940",
+    "condition_text": "Format: Die Zeichenkette muss mit dem Zeichen + beginnen und danach d\u00fcrfen nur noch Ziffern folgen",
+    "edifact_format": "PARTIN"
+  }
+]
