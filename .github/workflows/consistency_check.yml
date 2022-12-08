@@ -1,5 +1,5 @@
 name: Consistency Check
-on: [push, pull_request]
+on: [pull_request]
 jobs:
   check:
     name: Check all JSON Files
