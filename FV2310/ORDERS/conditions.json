@@ -1,0 +1,77 @@
+[
+  {
+    "condition_key": "6",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle LF vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "7",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle NB vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "15",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle MSB vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "23",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR mit Rolle NB vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "26",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle \u00dcNB vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "27",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR mit Rolle MSB vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "28",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR aus Sparte Strom",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "29",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR aus Sparte Gas",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "36",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR mit Rolle NB nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "39",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle \u00dcNB nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "45",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle MSB nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "101",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR mit Rolle MSB in der Sparte Gas nicht vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "492",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Strom",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "493",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Gas",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "519",
+    "condition_text": "Hinweis: Bei Gas bezieht sich die Anforderung immer sowohl auf die vorl\u00e4ufigen Profilwerte als auch auf die endg\u00fcltigen Profilwerte, falls diese bereits vorliegen.",
+    "edifact_format": "ORDERS"
+  }
+]

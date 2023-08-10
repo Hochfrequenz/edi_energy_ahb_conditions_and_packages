@@ -1,0 +1,22 @@
+[
+  {
+    "condition_key": "8",
+    "condition_text": "Wenn SG28 CCI+++E13 CAV+EHZ vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "25",
+    "condition_text": "Wenn SG28 CCI+++E13 CAV+MME vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "492",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Strom",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "493",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Gas",
+    "edifact_format": "QUOTES"
+  }
+]

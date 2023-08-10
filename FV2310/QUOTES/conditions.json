@@ -1,0 +1,42 @@
+[
+  {
+    "condition_key": "8",
+    "condition_text": "Wenn SG28 CCI+++E13 CAV+EHZ vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "25",
+    "condition_text": "Wenn SG28 CCI+++E13 CAV+MME vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "65",
+    "condition_text": "Wenn DTM+203 (Ausf\u00fchrungsdatum) im DE2380 < 202312312300?+00",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "66",
+    "condition_text": "Wenn DTM+469 (Beginn zum (n\u00e4chstm\u00f6glichen Termin)) im DE2380 < 202312312300?+00",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "67",
+    "condition_text": "Wenn DTM+203 (Ausf\u00fchrungsdatum) im DE2380 \u2265 202312312300?+00",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "68",
+    "condition_text": "Wenn DTM+469 (Beginn zum (n\u00e4chstm\u00f6glichen Termin)) im DE2380 \u2265 202312312300?+00",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "492",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Strom",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "493",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Gas",
+    "edifact_format": "QUOTES"
+  }
+]

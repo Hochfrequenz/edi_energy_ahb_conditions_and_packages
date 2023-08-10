@@ -1,0 +1,52 @@
+[
+  {
+    "condition_key": "6",
+    "condition_text": "Wenn SG2 NAD+MR DE3207 = \u201eDE\u201c",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "12",
+    "condition_text": "Wenn SG26 QTY+136 vorhanden",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "19",
+    "condition_text": "Wenn IMD++WIM vorhanden",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "29",
+    "condition_text": "Wenn DTM+155 (Rechnungsperiode Beginndatum) nicht gr\u00f6\u00dfer 31.12.2015",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "47",
+    "condition_text": "Wenn IMD++Z43 vorhanden",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "51",
+    "condition_text": "Wenn SG26 DTM+156 (Rechnungsperiode Endedatum) \u2264 1.1. 2023 0:00 gesetzlicher deutscher Zeit",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "56",
+    "condition_text": "Wenn DTM+137 (Nachrichtendatum \u2265",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "59",
+    "condition_text": "Wenn SG26 DTM+155 (Positionsbezogener Abrechnungszeitraum Beginn) \u2265 1.1.2023 0: 00 gesetzlicher deutscher Zeit",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "492",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4ng er) aus Sparte Strom",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "493",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4ng er) aus Sparte Gas",
+    "edifact_format": "INVOIC"
+  }
+]

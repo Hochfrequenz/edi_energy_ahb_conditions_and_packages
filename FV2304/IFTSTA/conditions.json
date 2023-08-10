@@ -1,0 +1,67 @@
+[
+  {
+    "condition_key": "16",
+    "condition_text": "Wenn MP-ID in SG1 NAD+MR in der Rolle BKV",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "20",
+    "condition_text": "Wenn MP-ID in SG1 NAD+MR in der Rolle LF",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "26",
+    "condition_text": "Wenn MP-ID in SG1 NAD+MR in der Rolle NB",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "29",
+    "condition_text": "Wenn MP-ID in SG1 NAD+MR in der Rolle \u00dcNB",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "91",
+    "condition_text": "Wenn in diesem STS DE1131 = E_0472",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "92",
+    "condition_text": "Wenn in diesem STS DE1131 = E_0501",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "95",
+    "condition_text": "Wenn in diesem STS DE1131 = E_0499",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "96",
+    "condition_text": "Wenn in diesem STS DE1131 = E_0487",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "114",
+    "condition_text": "Wenn MP-ID in SG1 NAD+MS in der Rolle MSB",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "115",
+    "condition_text": "Wenn MP-ID in SG1 NAD+MS in der Rolle NB",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "492",
+    "condition_text": "wenn MP-ID in NAD+MR aus Sparte Strom",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "493",
+    "condition_text": "wenn MP-ID in NAD+MR aus Sparte Gas",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "503",
+    "condition_text": "Hinweis: Auf Selbsteinbau eines iMS oder einer mME wird verzichtet",
+    "edifact_format": "IFTSTA"
+  }
+]
