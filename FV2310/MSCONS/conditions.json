@@ -1,0 +1,187 @@
+[
+  {
+    "condition_key": "11",
+    "condition_text": "Wenn SG9 PIA+5+7-0?: 52.0.22/7-0?:54.0.16/7-0?: 54.0.20/7-0?:54.0.22",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "12",
+    "condition_text": "Wenn nicht SG9 PIA+5+7-0?:52.0.22/7-0?:54. 0.16/7-0?:54.0.20/7-0?:54.0. 22",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "17",
+    "condition_text": "Wenn nicht SG9 PIA+5+1-b?:9.99.0 (b= Kanal: Wert gem\u00e4\u00df Codeliste der OBIS- Kennzahlen und Medien)",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "18",
+    "condition_text": "Wenn SG9 PIA+5+1-b?:9.99.0 (b= Kanal: Wert gem\u00e4\u00df Codeliste der OBIS- Kennzahlen und Medien)",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "23",
+    "condition_text": "Wenn UNH DE0070 mit 1 vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "24",
+    "condition_text": "Bei Aufteilung, in der Nachricht mit der h\u00f6chsten \u00dcbermittlungsnummer",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "32",
+    "condition_text": "wenn MP-ID in SG2 NAD+MS in der Rolle NB",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "33",
+    "condition_text": "wenn MP-ID in SG2 NAD+MR in der Rolle LF",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "35",
+    "condition_text": "wenn MP-ID in SG2 NAD+MS in der Rolle MSB",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "36",
+    "condition_text": "wenn MP-ID in SG2 NAD+MR in der Rolle NB",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "42",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR in der Rolle MSB",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "46",
+    "condition_text": "Wenn Wert in SG6 LOC+172 DE3225 genau 11 Stellen",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "70",
+    "condition_text": "Wenn BGM+BK vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "71",
+    "condition_text": "Wenn BGM+Z39 vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "77",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR der RB HKN-R",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "78",
+    "condition_text": "Wenn SG9 PIA+5+1-66?:13.6.0/1- 66?:14.6.0/1-66?:13.9. 0/1-66?:14.9.0 vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "79",
+    "condition_text": "Wenn SG9 PIA+5+1-66?:13.6.0/1- 66?:14.6.0/1-66?:13.9. 0/1-66?:14.9.0 nicht vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "80",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR in der Rolle \u00dcNB",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "83",
+    "condition_text": "Wenn in derselben SG9 LIN die Angabe STS+10+Z38 nicht vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "84",
+    "condition_text": "Wenn in derselben SG9 LIN die Angabe STS+10+Z39 nicht vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "85",
+    "condition_text": "Wenn in derselben SG9 LIN die Angabe STS+10+Z36 nicht vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "86",
+    "condition_text": "Wenn in derselben SG9 LIN die Angabe STS+10+Z37 nicht vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "87",
+    "condition_text": "Wenn der Wert in DTM+163 DE2380 derselben SG6 LOC+172 mit demselben Wert in SG9 PIA+5 DE7140 der fr\u00fcheste angegebene Zeitpunkt ist",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "88",
+    "condition_text": "Wenn der Wert in DTM+164 DE2380 derselben SG6 LOC+172 mit demselben Wert in SG9 PIA+5 DE7140 der sp\u00e4teste angegebene Zeitpunkt ist",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "98",
+    "condition_text": "Wenn SG9 PIA+5+SOL:Z08 vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "99",
+    "condition_text": "Wenn SG9 PIA+5+WID:Z08 vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "100",
+    "condition_text": "Wenn in derselben SG9 LIN das PIA+5+AUA:Z08 vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "101",
+    "condition_text": "Wenn in derselben SG9 LIN das PIA+5+FPA:Z08 vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "141",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR in der Rolle MGV",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "492",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Strom",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "506",
+    "condition_text": "Hinweis: Nur bei Einspeisemengen und bei Gas zur st\u00fcndlichen Energiedaten\u00fcbermittlung",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "544",
+    "condition_text": "Hinweis: Bei einer Mengenaufteilung (z. B. Aufgrund einer Abgrenzung) f\u00fcr SG6 LOC+172 muss f\u00fcr den fr\u00fchesten angegebenen Zeitpunkt zum Beginn des Zeitintervalls \u00a0(\u00fcber alle Wiederholungen der LIN-Segmente derselben SG6 LOC+172 hinweg) zu jeder OBIS-Kennziffer ein Z\u00e4hlerstand vorhanden und kommuniziert sein.",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "545",
+    "condition_text": "Hinweis: Bei einer Mengenaufteilung (z. B. Aufgrund einer Abgrenzung) f\u00fcr SG6 LOC+172 muss f\u00fcr den sp\u00e4testen angegebenen Zeitpunkt zum Ende des Zeitintervalls (\u00fcber alle Wiederholungen der",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "568",
+    "condition_text": "Hinweis: Verwendung ist nur zul\u00e4ssig, wenn es sich um 1:n Beziehung zwischen Markt- und Messlokation handelt und auf Ebene der Messlokation unterschiedliche Ersatzwertbildungsverfahren verwendet und kommuniziert wurden.",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "570",
+    "condition_text": "Hinweis: Verwendung ist nur zul\u00e4ssig, wenn es sich um 1:n Beziehung zwischen Markt- und Messlokation handelt und auf Ebene der Messlokation unterschiedliche Gr\u00fcnde f\u00fcr die Ersatzwertbildung vorliegen",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "571",
+    "condition_text": "Hinweis: Verwendung ist nur zul\u00e4ssig, wenn es sich um 1:n Beziehung handelt und auf Ebene der Netzkopplungspunkte unterschiedliche Gr\u00fcnde f\u00fcr die Ersatzwertbildung vorliegen und kommuniziert wurden.",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "572",
+    "condition_text": "Hinweis: Verwendung ist nur zul\u00e4ssig, wenn es sich um 1:n Beziehung handelt und auf Ebene der Netzkopplungspunkte unterschiedliche Ersatzwertbildungsverfahren vorliegen und kommuniziert wurden.",
+    "edifact_format": "MSCONS"
+  }
+]

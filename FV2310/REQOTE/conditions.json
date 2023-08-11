@@ -1,0 +1,12 @@
+[
+  {
+    "condition_key": "35",
+    "condition_text": "Wenn MP-ID in SG11 NAD+MS mit Rolle LF vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "36",
+    "condition_text": "Wenn MP-ID in SG11 NAD+MS mit Rolle NB vorhanden",
+    "edifact_format": "REQOTE"
+  }
+]

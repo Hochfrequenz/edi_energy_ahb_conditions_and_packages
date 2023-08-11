@@ -1,0 +1,42 @@
+[
+  {
+    "condition_key": "4",
+    "condition_text": "Wenn MP-ID in SG3 NAD+MR mit Rolle LF vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "9",
+    "condition_text": "Wenn MP-ID in SG3 NAD+MS mit Rolle LF vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "10",
+    "condition_text": "Wenn MP-ID in SG3 NAD+MS mit Rolle MSB",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "15",
+    "condition_text": "Wenn MP-ID in SG3 NAD+MR mit Rolle NB vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "24",
+    "condition_text": "Wenn BGM+Z51 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "25",
+    "condition_text": "Wenn BGM+Z52 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "492",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Strom",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "493",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Gas",
+    "edifact_format": "ORDRSP"
+  }
+]

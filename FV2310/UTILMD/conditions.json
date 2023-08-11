@@ -1,0 +1,307 @@
+[
+  {
+    "condition_key": "2",
+    "condition_text": "Wenn UNH DE 0070 (\u00dcbermittlungsfolgenummer) mit 1 vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "3",
+    "condition_text": "Bei Aufteilung, in der Nachricht mit der h\u00f6chsten \u00dcbermittlungsfolgenummer",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "4",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "5",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS (Nachrichtenabsender) in der Rolle LF",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "6",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempf\u00e4nger) in der Rolle \u00dcNB",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "20",
+    "condition_text": "Wenn SG8 SEQ+Z01 (Daten der Marktlokation) SG10 CCI+Z30++Z07 (Verbrauch) vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "54",
+    "condition_text": "Wenn SG8 SEQ+Z01 (Daten der Marktlokation) SG10 CCI+Z30++Z06 (Lieferrichtung: Erzeugung) vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "66",
+    "condition_text": "Wenn SG10 CCI+Z19 (Bilanzkreis) im Vorgang mehr als einmal vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "68",
+    "condition_text": "Wenn SG10 CCI+Z19 (Bilanzkreis) im Vorgang mehr als zweimal vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "69",
+    "condition_text": "Wenn SG10 CCI+Z19 (Bilanzkreis) im Vorgang mehr als dreimal vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "70",
+    "condition_text": "Wenn SG10 CCI+Z19 (Bilanzkreis) im Vorgang f\u00fcnfmal vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "98",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS (Nachrichtenabsender) in der Rolle NB",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "99",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS (Nachrichtenabsender) in der Rolle \u00dcNB",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "102",
+    "condition_text": "Wenn SG10 CCI+++ZA6 (Prognosegrundlage der Marktlokation: Prognose auf Basis von Profilen) CAV+Z36 (TEP mit Ref.messung) in dieser SG8 vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "103",
+    "condition_text": "Wenn SG9 QTY+265 (Arbeit / Leistung f\u00fcr tagesparameterabh\u00e4ngig e Marktlokation: Veranschlagte Jahresmenge Gesamt) in dieser SG8 vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "104",
+    "condition_text": "Wenn SG9 QTY+Z08 (Arbeit / Leistung f\u00fcr tagesparameterabh\u00e4ngige Marktlokation: angepasste elektrische Arbeit nach Anhang D) in dieser SG8 vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "105",
+    "condition_text": "Wenn SG9 QTY+Z10 (Arbeit / Leistung f\u00fcr tagesparameterabh\u00e4ngige Marktlokation: Leistung der Marktlokation) in dieser SG8 vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "114",
+    "condition_text": "Wenn das SG10 CCI+E03 (Spannungsebene der Marktlokation) CAV E06 (Niederspannung) in dieser SG vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "115",
+    "condition_text": "Wenn das SG10 CCI+E03 (Spannungsebene der Marktlokation) CAV E05 (Mittelspannung) in dieser SG vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "116",
+    "condition_text": "Wenn das SG10 CCI+E03 (Spannungsebene der Marktlokation) CAV E04 (Hochspannung) in dieser SG vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "136",
+    "condition_text": "Wenn SG10 CCI+++E13 (Z\u00e4hlertyp) CAV+EHZ (elektronischer Haushaltsz\u00e4hler) vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "148",
+    "condition_text": "M\u00f6glich wenn SG10 CCI+Z31++ZA9 (bereits ausg. Aggreg. verantw. in MaBiS: \u00dcNB) nicht vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "156",
+    "condition_text": "Wenn SG4 STS+7++ZP1/ ZR6 (Transaktionsgrund: Stammdatensynchronisa tion / -St\u00e4rkung der",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "185",
+    "condition_text": "Wenn SG10 CCI+++ZB1 (Bereits ausgetauschte Prognosegrundlage der Marktlokation: Prognose auf Basis von Profilen) CAV+Z36 (TEP mit Ref.messung) vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "189",
+    "condition_text": "Wenn SG10 CCI+Z31++ZA9 (bereits ausgetauschte Aggreg. verantw. \u00dcNB) nicht vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "193",
+    "condition_text": "Wenn das SG10 CCI ZB5 (Spannungsebene der Summenzeitreihe) CAV E06 (Niederspannung) in dieser SG vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "194",
+    "condition_text": "Wenn das SG10 CCI ZB5 (Spannungsebene der Summenzeitreihe) CAV E05 (Mittelspannung) in dieser SG vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "195",
+    "condition_text": "Wenn das SG10 CCI ZB5 (Spannungsebene der Summenzeitreihe) CAV E04 (Hochspannung) in dieser SG vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "216",
+    "condition_text": "Wenn CCI+++Z88 (Netznutzung) CAV+Z74:::Z08 (Netznutzungsvertrag: Direkter Vertrag zwischen Kunden und NB) vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "222",
+    "condition_text": "Wenn das RFF+Z18 (Marktlokation) aus dieser SG8 auf das gleiche SG5 LOC+Z16 (Marktlokation), wie ein RFF+Z18 (Marktlokation) aus einer SG8 SEQ+Z01 (Daten der Marktlokation) verweist, und dort das SG10 CCI+Z30++Z07 (Lieferrichtung: Verbrauch) vorhanden ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "223",
+    "condition_text": "Wenn das RFF+Z18 (Marktlokation) aus dieser SG8 auf das gleiche SG5 LOC+Z16 (Marktlokation), wie ein RFF+Z18 (Marktlokation) aus einer SG8 SEQ+Z01 (Daten der Marktlokation) verweist, und dort das SG10 CCI+Z30++Z06 (Lieferrichtung: Erzeugung) vorhanden ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "233",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempf\u00e4nger) in der Rolle NB",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "241",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempf\u00e4nger) in der Rolle MSB",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "251",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS (Nachrichtensender) in der Rolle BIKO",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "332",
+    "condition_text": "Wenn im SG8 SEQ+Z01 (Daten der Marktlokation) das SG10 CCI+6++ZA9 (Aggreg. verantw. \u00dcNB) nicht vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "340",
+    "condition_text": "Wenn CCI+++ZB4 (Bezeichnung der Summenzeitreihe) CAV+Z95/ Z97/ Z98/ Z99/ ZA1/ ZA2/ ZA3/ ZA4/ ZA5/ ZA6 vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "341",
+    "condition_text": "Wenn CCI+++ZB4",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "346",
+    "condition_text": "Wenn SG10 CCI+++E13 (Z\u00e4hlertyp) CAV+MME (mME) vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "379",
+    "condition_text": "Wenn SG10 CCI+15++Z21 (\u00dcberf\u00fchrungszeitreihentyp) CAV+ Code f\u00fcr EEG- \u00dcberf\u00fchrungszeitreihen (ausgenommen AU1) vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "380",
+    "condition_text": "Wenn SG10 CCI+15++Z21 (\u00dcberf\u00fchrungszeitreihentyp) CAV+AUS/AU1 vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "392",
+    "condition_text": "Wenn in diesem PIA der Code im Format n1-n2-n1 angegeben ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "393",
+    "condition_text": "Wenn in diesem PIA der Code im Format n1-n2-n1-n3 angegeben ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "394",
+    "condition_text": "Wenn in diesem PIA der Code im Format n1-n2-n1-n8-n2 angegeben ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "395",
+    "condition_text": "Wenn in diesem PIA der Code im Format n1-n2-n1-n8 angegeben ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "397",
+    "condition_text": "Wenn in diesem PIA der Code im DE7140 mit 1-08-1/1-08-4 beginnt",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "398",
+    "condition_text": "Wenn in diesem PIA der Code im DE7140 mit 1-08-2/1-08-5 beginnt",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "417",
+    "condition_text": "Wenn f\u00fcr den erforderlichen Wert keine Z\u00e4hlzeit ben\u00f6tigt wird",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "441",
+    "condition_text": "Wenn im SG8+SEQ+Z03 (Z\u00e4hleinrichtungsdaten) f\u00fcr die in diesem RFF DE1154 genannte Ger\u00e4tenummer eines Z\u00e4hlers das RFF+Z14 (Referenz auf das Smartmeter-Gateway) nicht vorhanden ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "442",
+    "condition_text": "Wenn in keinem SG8+SEQ+Z09 Mengenumwerterdaten das RFF+MG (Referenz auf die Ger\u00e4tenummer) der in diesem RFF DE1154 genannte Ger\u00e4tenummer des Z\u00e4hlers vorhanden ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "502",
+    "condition_text": "Hinweis:  Ersatzbelieferung gibt es nur bei  - Marktlokationen in der  Niederdruckebene, die kein Haushaltskunde gem. EnWG sind und die nicht mehr der gesetzlichen Ersatzversorgung (drei Monate) unterliegen und - f\u00fcr Marktlokationen, die in Mitteldruck einer Versorgung zugef\u00fchrt werden sollen. Grundlage f\u00fcr eine Ersatzbelieferung ist die bilaterale Vereinbarung.",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "510",
+    "condition_text": "Hinweis: Zu verwenden bei der Abmeldung der ESV",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "580",
+    "condition_text": "Hinweis:  Ersatzbelieferung gibt es nur bei  - Marktlokationen in der  Niederspannung, die kein Haushaltskunde gem. EnWG sind und die nicht mehr der gesetzlichen Ersatzversorgung (drei Monate) unterliegen und - f\u00fcr Marktlokationen, die in Mittelspannung/ Hochspannung einer Versorgung zugef\u00fchrt werden sollen. Grundlage f\u00fcr eine Ersatzbelieferung ist die bilaterale Vereinbarung.",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "613",
+    "condition_text": "Hinweis: Der Code wird verwendet um die Aggregationsverantwort ung einer Marktlokation auf den \u00dcNB zu \u00fcbertragen",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "637",
+    "condition_text": "Hinweis: Bei Verpflichtungsanfrage",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "638",
+    "condition_text": "Hinweis: Bei Aufforderung zur \u00dcbernahme der einzelnen Messlokation durch den gMSB",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "639",
+    "condition_text": "Hinweis: Wenn Antwort auf Deaktivierung",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "640",
+    "condition_text": "Hinweis: Wenn Antwort auf Aktivierung",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "641",
+    "condition_text": "Hinweis: Wenn Einzelanforderung vorliegt",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "642",
+    "condition_text": "Hinweis: Wenn Abo vorliegt",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "656",
+    "condition_text": "Hinweis: Anzugeben wenn der NB den Use-Case \u201eStammdaten\u00e4nderung NB (verantwortlich)",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "2236",
+    "condition_text": "Code einmal je SG4 IDE+24 (Vorgang)",
+    "edifact_format": "UTILMD"
+  }
+]
