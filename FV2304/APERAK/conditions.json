@@ -1,0 +1,87 @@
+[
+  {
+    "condition_key": "1",
+    "condition_text": "Wenn SG3 CTA+IC vorhanden.",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "2",
+    "condition_text": "Wenn fehlerhafter Inhalt vorhanden.",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "3",
+    "condition_text": "Wenn fehlerhafter Inhalt vorhanden.",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "4",
+    "condition_text": "Wenn in dieser SG4, RFF+TN nicht vorhanden.",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "5",
+    "condition_text": "Wenn SG4 ERC+Z29 vorhanden.",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "6",
+    "condition_text": "Wenn Fehler innerhalb der Vorgangsebene von IFTSTA, INSRPT, UTILMD oder UTILTS vorhanden.",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "7",
+    "condition_text": "Wenn SG4 ERC+Z21 vorhanden.",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "8",
+    "condition_text": "Wenn SG4 ERC+Z16 vorhanden.",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "9",
+    "condition_text": "Wenn SG4 ERC+Z35 vorhanden.",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "10",
+    "condition_text": "Wenn SG4 ERC+Z38 vorhanden.",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "11",
+    "condition_text": "Wenn SG4 ERC+Z39 vorhanden.",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "12",
+    "condition_text": "Wenn SG4 ERC+Z41 vorhanden.",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "13",
+    "condition_text": "Wenn SG4 ERC+Z40 vorhanden.",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "494",
+    "condition_text": "Das hier genannte Datum muss der Zeitpunkt sein, zu dem das Dokument erstellt wurde, oder ein Zeitpunkt, der davor liegt",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "500",
+    "condition_text": "Hinweis: Für Folgeprozesse.",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "501",
+    "condition_text": "Hinweis: Für Initialprozesse.",
+    "edifact_format": "APERAK"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "APERAK"
+  }
+]

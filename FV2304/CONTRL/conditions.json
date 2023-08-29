@@ -1,0 +1,37 @@
+[
+  {
+    "condition_key": "1",
+    "condition_text": "Wenn Angabe möglich.",
+    "edifact_format": "CONTRL"
+  },
+  {
+    "condition_key": "2",
+    "condition_text": "Wenn Syntaxfehler in UNH vorhanden.",
+    "edifact_format": "CONTRL"
+  },
+  {
+    "condition_key": "3",
+    "condition_text": "Wenn Syntaxfehler in UNT vorhanden.",
+    "edifact_format": "CONTRL"
+  },
+  {
+    "condition_key": "5",
+    "condition_text": "Wenn Fehler auf Segment(gruppen)ebene vorhanden.",
+    "edifact_format": "CONTRL"
+  },
+  {
+    "condition_key": "6",
+    "condition_text": "Wenn Fehler auf Datenelement-, Gruppendatenelement- oder Datengruppenebene vorhanden.",
+    "edifact_format": "CONTRL"
+  },
+  {
+    "condition_key": "8",
+    "condition_text": "Wenn SG1 UCM DE0013 vorhanden.",
+    "edifact_format": "CONTRL"
+  },
+  {
+    "condition_key": "9",
+    "condition_text": "Wenn SG1 UCM DE0013 nicht vorhanden.",
+    "edifact_format": "CONTRL"
+  }
+]
