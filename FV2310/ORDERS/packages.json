@@ -1,0 +1,58 @@
+[
+  {
+    "package_key": "2P",
+    "package_expression": "[78]",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "package_key": "3P",
+    "package_expression": "[84] ∧ [76] ∧ [79]",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "package_key": "4P",
+    "package_expression": "[84] ∧ [76] ∧ [80]",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "package_key": "5P",
+    "package_expression": "[84] ∧ [81] ∧ [82]",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "package_key": "6P",
+    "package_expression": "[84] ∧ [81] ∧ [83]",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "package_key": "7P",
+    "package_expression": "[35] ∧ [81] ∧ [82]",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "package_key": "8P",
+    "package_expression": "[35] ∧ [81] ∧ [83]",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "package_key": "9P",
+    "package_expression": "[35] ∧ [76] ∧ [79]",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "package_key": "10P",
+    "package_expression": "[84] ∧ [85] ∧ [79]",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "package_key": "11P",
+    "package_expression": "[35] ∧ [76] ∧ [80]",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "package_key": "12P",
+    "package_expression": "[91]",
+    "edifact_format": "ORDERS"
+  }
+]
+
