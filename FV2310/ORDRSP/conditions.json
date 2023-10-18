@@ -1,42 +1,17 @@
 [
   {
-    "condition_key": "4",
-    "condition_text": "Wenn MP-ID in SG3 NAD+MR mit Rolle LF vorhanden",
+    "condition_key": "30",
+    "condition_text": "MP-ID nur aus Sparte Strom",
     "edifact_format": "ORDRSP"
   },
   {
-    "condition_key": "9",
-    "condition_text": "Wenn MP-ID in SG3 NAD+MS mit Rolle LF vorhanden",
+    "condition_key": "494",
+    "condition_text": "Das hier genannte Datum muss der Zeitpunkt sein, zu dem das Dokument erstellt wurde, oder ein Zeitpunkt, der davor liegt.",
     "edifact_format": "ORDRSP"
   },
   {
-    "condition_key": "10",
-    "condition_text": "Wenn MP-ID in SG3 NAD+MS mit Rolle MSB",
-    "edifact_format": "ORDRSP"
-  },
-  {
-    "condition_key": "15",
-    "condition_text": "Wenn MP-ID in SG3 NAD+MR mit Rolle NB vorhanden",
-    "edifact_format": "ORDRSP"
-  },
-  {
-    "condition_key": "24",
-    "condition_text": "Wenn BGM+Z51 vorhanden",
-    "edifact_format": "ORDRSP"
-  },
-  {
-    "condition_key": "25",
-    "condition_text": "Wenn BGM+Z52 vorhanden",
-    "edifact_format": "ORDRSP"
-  },
-  {
-    "condition_key": "492",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Strom",
-    "edifact_format": "ORDRSP"
-  },
-  {
-    "condition_key": "493",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Gas",
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
     "edifact_format": "ORDRSP"
   }
 ]
