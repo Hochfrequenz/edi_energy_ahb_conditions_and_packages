@@ -45,7 +45,7 @@ Alle Dateien sind mit [prettier](https://www.prettier.io/) formatiert.
 
 ## Motivation
 
-Wir freuen uns über jede durch dieses Repository ersparte Stunde Arbeit, in der wichtige Probleme gelöst werden können anstatt AHBs zu scrapen.
+Wir freuen uns über jede durch dieses Repository ersparte Stunde Arbeit, in der wichtige Probleme gelöst werden können, anstatt AHBs zu scrapen.
 Wir freuen uns auch über jeden Pull Request, der die Datengrundlage verbessert.
 
 ## Urheberrecht
