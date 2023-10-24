@@ -236,12 +236,12 @@
   },
   {
     "condition_key": "68",
-    "condition_text": "Es sind nur die Artikel-ID erlaubt, die im Kapitel 3 „Codeliste der Gruppenartikel-ID und Artikel-ID“  in der Codeliste der Artikelnummern und Artikel-ID ein „X“ in der Spalte „INVOIC Codeverwendung“ haben.",
+    "condition_text": "Es sind nur die Artikel-ID erlaubt, die im Kapitel 3 „Codeliste der Gruppenartikel-ID und Artikel-ID“ in der Codeliste der Artikelnummern und Artikel-ID ein „X“ in der Spalte „INVOIC Codeverwendung“ haben.",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "69",
-    "condition_text": "Es sind nur die Artikel-ID erlaubt, die im Kapitel 3 „Codeliste der Gruppenartikel-ID und Artikel-ID“  in der Codeliste der Artikelnummern und Artikel-ID ein „SOR“ in der Spalte „INVOIC Codeverwendung“ haben.",
+    "condition_text": "Es sind nur die Artikel-ID erlaubt, die im Kapitel 3 „Codeliste der Gruppenartikel-ID und Artikel-ID“ in der Codeliste der Artikelnummern und Artikel-ID ein „SOR“ in der Spalte „INVOIC Codeverwendung“ haben.",
     "edifact_format": "INVOIC"
   },
   {
@@ -331,7 +331,7 @@
   },
   {
     "condition_key": "518",
-    "condition_text": "Hinweis:  Im Fall der Stornierung des Auftrags der Unterbrechung: Der Tag an dem der NB die Stornierung empfangen hat Bei erfolgreicher Sperrung: Tag der durchgeführten Sperrung Bei erfolgloser Sperrung: Letzter Sperrversuchstag",
+    "condition_text": "Hinweis: Im Fall der Stornierung des Auftrags der Unterbrechung: Der Tag an dem der NB die Stornierung empfangen hat Bei erfolgreicher Sperrung: Tag der durchgeführten Sperrung Bei erfolgloser Sperrung: Letzter Sperrversuchstag",
     "edifact_format": "INVOIC"
   },
   {

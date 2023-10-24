@@ -396,7 +396,7 @@
   },
   {
     "condition_key": "191",
-    "condition_text": "Wenn im SG4 IDE+Z01 (Identifikation einer Liste)  STS+E01 (Status der Antwort der Liste) nicht vorhanden",
+    "condition_text": "Wenn im SG4 IDE+Z01 (Identifikation einer Liste) STS+E01 (Status der Antwort der Liste) nicht vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -731,7 +731,7 @@
   },
   {
     "condition_key": "502",
-    "condition_text": "Hinweis:  Ersatzbelieferung gibt es nur bei  - Marktlokationen in der  Niederdruckebene, die kein Haushaltskunde gem. EnWG sind und die nicht mehr der gesetzlichen Ersatzversorgung (drei Monate) unterliegen und - für Marktlokationen, die in Mitteldruck einer Versorgung zugeführt werden sollen. Grundlage für eine Ersatzbelieferung ist die bilaterale Vereinbarung.",
+    "condition_text": "Hinweis: Ersatzbelieferung gibt es nur bei - Marktlokationen in der Niederdruckebene, die kein Haushaltskunde gem. EnWG sind und die nicht mehr der gesetzlichen Ersatzversorgung (drei Monate) unterliegen und - für Marktlokationen, die in Mitteldruck einer Versorgung zugeführt werden sollen. Grundlage für eine Ersatzbelieferung ist die bilaterale Vereinbarung.",
     "edifact_format": "UTILMD"
   },
   {
@@ -986,7 +986,7 @@
   },
   {
     "condition_key": "644",
-    "condition_text": "Hinweis: Wenn in der zugehörigen Anmeldung (44001) in diesem Segmente \"Einzug in Neuanlage\" (SG4 STS+7++E02) enthalten ist, wird in diesem Geschäftsvorfall  der Code E01 verwendet",
+    "condition_text": "Hinweis: Wenn in der zugehörigen Anmeldung (44001) in diesem Segmente \"Einzug in Neuanlage\" (SG4 STS+7++E02) enthalten ist, wird in diesem Geschäftsvorfall der Code E01 verwendet",
     "edifact_format": "UTILMD"
   },
   {
