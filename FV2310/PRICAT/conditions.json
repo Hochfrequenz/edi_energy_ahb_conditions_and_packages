@@ -1,7 +1,17 @@
 [
   {
+    "condition_key": "1",
+    "condition_text": "Wenn Vorgängerversion vorhanden",
+    "edifact_format": "PRICAT"
+  },
+  {
     "condition_key": "2",
     "condition_text": "Wenn in dieser SG36 LIN in DE7140 9990001000813 vorhanden",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "3",
+    "condition_text": "Wenn IMD+X vorhanden",
     "edifact_format": "PRICAT"
   },
   {
@@ -25,6 +35,16 @@
     "edifact_format": "PRICAT"
   },
   {
+    "condition_key": "9",
+    "condition_text": "Wenn BGM DE1373 =11 nicht vorhanden",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "19",
+    "condition_text": "Nur MP-ID aus Sparte Strom",
+    "edifact_format": "PRICAT"
+  },
+  {
     "condition_key": "30",
     "condition_text": "wenn MP-ID in SG2 NAD+MR in der Rolle LF",
     "edifact_format": "PRICAT"
@@ -41,7 +61,117 @@
   },
   {
     "condition_key": "33",
-    "condition_text": "wenn der Zeitpunkt im DTM+157 DE2380 \u2265 01.01. 2024 00:00 Uhr gesetzlicher",
+    "condition_text": "wenn der Zeitpunkt im DTM+157 DE2380 ≥ 01.01. 2024 00:00 Uhr gesetzlicher deutscher Zeit",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "34",
+    "condition_text": "wenn BGM DE1001 = Z77",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "35",
+    "condition_text": "Wenn das in DE1001 angegebene Preisblatt vom MSB nicht genutzt wird.",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "494",
+    "condition_text": "Das hier genannte Datum muss der Zeitpunkt sein, zu dem das Dokument erstellt wurde, oder ein Zeitpunkt, der davor liegt",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "495",
+    "condition_text": "Der Zeitpunkt muss ≤ dem Wert im DE2380 des DTM+137 sein",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "502",
+    "condition_text": "Hinweis: Preis in Euro je MWh",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "503",
+    "condition_text": "Hinweis: Hier ist immer der Wert 1000 einzutragen, da in DE5118 der Preis in €/MWh angegeben wird.",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "504",
+    "condition_text": "Hinweis: Dokumentennummer der PRICAT",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "505",
+    "condition_text": "Hinweis: Vom Programm vergebene Positionsnummer innerhalb der Nachricht, mit 1 beginnend",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "507",
+    "condition_text": "Hinweis: Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in der Spalte MaBiS ein X haben",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "508",
+    "condition_text": "Hinweis: Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in der Spalte H ein X haben",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "513",
+    "condition_text": "Hinweis: Die anzugebende Einheit ist in der Codeliste definiert",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "514",
+    "condition_text": "Hinweis: Wenn BGM DE1001 = Z32 und LIN DE7140 im Format n1-n2-n1-n3, dann muss der hier genannte Zeitpunkt ≥ 01.01.2024 00:00 Uhr gesetzlicher deutscher Zeit sein.",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "515",
+    "condition_text": "Hinweis: Wenn BGM DE1001 = Z77, dann muss der hier genannte Zeitpunkt ≥ 01. 10.2023 00:00 Uhr gesetzlicher deutscher Zeit sein.",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "516",
+    "condition_text": "Hinweis: Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in dieser in Kapitel 3.5 \"Abrechnung Messstellenbetrieb für die Sparte Strom\" genannt sind",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "517",
+    "condition_text": "Hinweis: Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in dieser in Kapitel 3.4 \"Artikel-ID für den Universalbestellprozess für die Sparte Strom\" genannt sind",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "518",
+    "condition_text": "Hinweis: Wenn BGM DE1001 = Z32 und LIN DE7140 im Format n13, dann muss der hier genannte Zeitpunkt < 01. 01.2024 00:00 Uhr gesetzlicher deutscher Zeit sein.",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "908",
+    "condition_text": "Format: Mögliche Werte: 1 bis n",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "912",
+    "condition_text": "Format: max. 6 Nachkommastellen",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "941",
+    "condition_text": "Format: Artikelnummer",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "942",
+    "condition_text": "Format: n1-n2-n1-n3",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "959",
+    "condition_text": "Format: n13-n2",
     "edifact_format": "PRICAT"
   }
 ]

@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "condition_key": "1",
+    "condition_text": "Nur MP-ID aus Sparte Strom",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "21",
+    "condition_text": "Wenn in dieser CAV+ZD3 der Wert im",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "22",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS (Nachrichtenabsender) in der Rolle NB",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "24",
+    "condition_text": "Wenn SG5 STS+Z36+Z45 (Definitionen werden verwendet) vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "25",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempfänger) in der Rolle LF",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "26",
+    "condition_text": "sofern per ORDERS reklamiert",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "27",
+    "condition_text": "Wenn in SG9 CAV+ZD4+Z26 (keine Verwendung des Hochlastzeitfensters) vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "41",
+    "condition_text": "Wenn SG8 SEQ+Z42 (Zählzeitdefinition) vorhanden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "42",
+    "condition_text": "Der in diesem Datenlement angegebene Code der Schaltzeitdefinition muss innerhalb eines Vorgangs (IDE) eindeutig sein.",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "43",
+    "condition_text": "Der in diesem Datenlement angegebene Code der Leistungskurvendefinitio n muss innerhalb eines Vorgangs (IDE) eindeutig sein.",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "44",
+    "condition_text": "Der in diesem Datenlement angegebene Code der Zählzeitdefinition muss innerhalb eines Vorgangs (IDE) eindeutig sein.",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "494",
+    "condition_text": "Das hier genannte Datum muss der Zeitpunkt sein, zu dem das Dokument erstellt wurde, oder ein Zeitpunkt, der davor liegt.",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "504",
+    "condition_text": "Hinweis: Wert aus BGM+Z55 DE1004 der ORDERS mit der die",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "506",
+    "condition_text": "Hinweis: Zeitpunkt, ab dem die Übersicht der Zählzeitdefinitionen gültig ist",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "508",
+    "condition_text": "Hinweis: Zeitpunkt, ab dem die Übersicht der",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "2001",
+    "condition_text": "Segment bzw. Segmentgruppe ist genau einmal anzugeben",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "2002",
+    "condition_text": "Für jeden Code der Zählzeit aus SG8 SEQ+Z42 (Zählzeitdefinition) SG9 CCI+Z39 (Code der Zählzeitdefinition) sind mindestens zwei Register anzugeben, bei denen in dieser SG8 das SG8 RFF+Z27 mit diesem Code gefüllt ist",
+    "edifact_format": "UTILTS"
+  }
+]

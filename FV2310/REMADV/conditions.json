@@ -1,12 +1,132 @@
 [
   {
+    "condition_key": "2",
+    "condition_text": "Wenn SG7 AJT+28 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "3",
+    "condition_text": "Bei SG5 DOC+389 / Z25 ist der Wert aus derselben SG5 MOA+9 mit (-1) multipliziert anzugeben.",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "4",
+    "condition_text": "Bei SG5 DOC+380 / 457 ist der Wert aus derselben SG5 MOA+9 unverändert anzugeben.",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "8",
+    "condition_text": "Wenn SG7 AJT+A01/ A02+E_0505 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "9",
+    "condition_text": "Wenn SG7 AJT+A32/ A99+E_0503 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "59",
+    "condition_text": "Wenn SG7 AJT+A99+E_0459 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "60",
+    "condition_text": "Wenn SG7 AJT+A99+E_0243 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "61",
+    "condition_text": "Wenn SG7 AJT+A99+E_0261 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "62",
+    "condition_text": "Wenn SG7 AJT+A99+E_1007 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "63",
+    "condition_text": "Wenn SG7 AJT+A01/ A02+E_1009 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "72",
+    "condition_text": "Wenn SG7 AJT+A99+E_0518 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "73",
+    "condition_text": "Wenn SG7 AJT+A99+E_0522 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "74",
+    "condition_text": "Wenn SG7 AJT+A99+E_0267 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
     "condition_key": "492",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Strom",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Strom",
     "edifact_format": "REMADV"
   },
   {
     "condition_key": "493",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "501",
+    "condition_text": "Hinweis: An dieser Stelle ist der Betrag aus SG50 MOA+9 der zugrundeliegenden INVOIC zu übernehmen.",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "502",
+    "condition_text": "Hinweis: Bei positivem Betrag ergibt sich eine Forderung des Rechnungsstellers. Bei negativem Betrag ergibt sich eine Forderung für den Rechnungsempfänger.",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "503",
+    "condition_text": "Hinweis: Empfohlen, um bei Abweisung Ansprechpartner für Rückfragen zu erreichen.",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "510",
+    "condition_text": "Hinweis: Bei Ablehnung einer vorherigen COMDIS",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "511",
+    "condition_text": "Hinweis: BGM DE1004 aus der abgelehnten INVOIC- Nachricht",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "512",
+    "condition_text": "Hinweis: BGM DE1004 aus der abgelehnten COMDIS-Nachricht",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "515",
+    "condition_text": "Hinweis: BGM DE1004 aus der bestätigten INVOIC- Nachricht",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "548",
+    "condition_text": "Hinweis: Die Befüllung des Datenelements ergibt sich aus dem zugehörigen EBD.",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "926",
+    "condition_text": "Format: Möglicher Wert: 0",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "930",
+    "condition_text": "Format: max. 2 Nachkommastellen",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
     "edifact_format": "REMADV"
   }
 ]
