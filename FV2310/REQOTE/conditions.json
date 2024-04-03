@@ -1,5 +1,150 @@
 [
   {
+    "condition_key": "1",
+    "condition_text": "Wenn DTM+203 (Ausführungsdatum) nicht vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "2",
+    "condition_text": "Wenn DTM+469 (Beginn zum (nächstmöglichen Termin)) nicht vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "7",
+    "condition_text": "Wenn in derselben Nachricht eine SG27 mit Z16 (Erforderliches Messprodukt der Tranche) in LIN DE1229 nicht vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "8",
+    "condition_text": "Wenn in derselben Nachricht eine SG27 mit Z27 (Erforderliches Messprodukt der Marktlokation) in LIN DE1229 nicht vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "10",
+    "condition_text": "MP-ID nur aus Sparte Strom",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "11",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.6 \"Codelisten der Messprodukte Strom für ESA\", in der Spalte \"Ebene\" das Objekt \"Marktlokation\" angegeben ist.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "12",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die inder Codeliste der Konfigurationen im Kapitel 4.6 \"Codelisten der Messprodukte Strom für ESA\", in der Spalte \"Ebene\" das Objekt \"Tranche\" angegeben ist.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "13",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.6 \"Codelisten derMessprodukte Strom für ESA\", in der Spalte \"Ebene\" das Objekt \"Netzlokation\" angegeben ist.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "14",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.6 \"Codelisten der Messprodukte Strom für ESA\", in der Spalte \"Ebene\" das Objekt \"Messlokation\" angegeben ist.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "15",
+    "condition_text": "Wenn DTM+76 (Datum zum geplanten Leistungsbeginn) nicht vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "16",
+    "condition_text": "Wenn SG1 RFF+Z41 (Referenznummer des Vorgangs der Anmeldung nach WiM) nicht vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "17",
+    "condition_text": "Wenn SG1 RFF+Z41 (Referenznummer des Vorgangs der Anmeldung nach WiM) vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "18",
+    "condition_text": "Wenn IMD++Z55 (Änderung Konfiguration) vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "19",
+    "condition_text": "Wenn SG27 LIN++Z64 (Erforderliches Produkt Schaltzeitdefinitionen) vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "20",
+    "condition_text": "Wenn SG27 LIN++Z65 (Erforderliches Produkt Leistungskurvendefinitionen) vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "21",
+    "condition_text": "Wenn SG27 LIN++Z66 (Erforderliches Produkt Ad-hoc- Steuerkanal) vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "22",
+    "condition_text": "Wenn SG27 LIN++Z67 (Erforderliches Messprodukt für Werte nach Typ 2 aus Backend) vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "23",
+    "condition_text": "Wenn SG27 LIN++Z68 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "24",
+    "condition_text": "Wenn Produkt bestellt werden soll",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "25",
+    "condition_text": "Wenn in LOC+172 DE3225 (Meldepunkt) die ID einer Marktlokation angegeben ist.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "26",
+    "condition_text": "Wenn in LOC+172 DE3225 (Meldepunkt) die ID einer Messlokation angegeben ist.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "27",
+    "condition_text": "Wenn in LOC+172 DE3225 (Meldepunkt) die ID einer Netzlokation angegeben ist.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "28",
+    "condition_text": "Wenn in LOC+172 DE3225 (Meldepunkt) die ID einer Steuerbaren Ressource angegeben ist.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "29",
+    "condition_text": "Es sind nur die Konfigurations-Produkte erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.1 „Konfigurationsprodukte Schaltzeitdefinition“ enthaltensind.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "30",
+    "condition_text": "Es sind nur die Konfigurations-Produkte erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.2 „Konfigurationsprodukte Leistungskurvendefinition“ enthalten sind.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "31",
+    "condition_text": "Es sind nur die Konfigurations-Produkte erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.3 „Konfigurationsprodukte Ad- Hoc-Steuerkanal“ enthalten sind.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "32",
+    "condition_text": "Es sind nur die Messprodukte erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.5 „Messprodukte für Werte nach Typ 2 aus Backend für LF und NB“ enthalten sind.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "33",
+    "condition_text": "Es sind nur die Messprodukte erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.4 „Messprodukte mit Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW“ enthalten sind.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "34",
+    "condition_text": "Wenn in derselben Nachricht eine SG27 mit Z53 (Erforderliches Messprodukt der Netzlokation) in LIN DE1229 nicht vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
     "condition_key": "35",
     "condition_text": "Wenn MP-ID in SG11 NAD+MS mit Rolle LF vorhanden",
     "edifact_format": "REQOTE"
@@ -7,6 +152,171 @@
   {
     "condition_key": "36",
     "condition_text": "Wenn MP-ID in SG11 NAD+MS mit Rolle NB vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "37",
+    "condition_text": "Es sind nur die Messprodukt-Position-Codes erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.7 „Art der Werte für Messprodukte nach Typ 2“ enthalten sind.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "38",
+    "condition_text": "Wenn innerhalb derselben SG27 LIN im PIA+5 DE7140 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) ein Produkt angegeben ist, das in der Codeliste der Konfigurationen im Kapitel 4.4 „Messprodukte mit Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW“ in der Spalte \"Auslöser\" mit dem Wert \"Bei Schwellwertunter- / - überschreitung\" gekennzeichnet ist.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "494",
+    "condition_text": "Das hier genannte Datum muss der Zeitpunkt sein, zu dem das Dokument erstellt wurde, oder ein Zeitpunkt, der davor liegt.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "500",
+    "condition_text": "Hinweis: Angabe eines technischen Ansprechpartners für die Geräteübernahme",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "501",
+    "condition_text": "Hinweis: Angabe eines Ansprechpartners für die Rechnungsabwicklung",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "502",
+    "condition_text": "Hinweis: Verwendung der ID der Marktlokation",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "503",
+    "condition_text": "Hinweis: Verwendung der ID der Messlokation",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "504",
+    "condition_text": "Hinweis: Verwendung der ID der Tranche",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "507",
+    "condition_text": "Hinweis: Vorgangsnummer aus SG4 IDE+24 DE7402 der UTILMD mit BGM+E01 mit der die Anmeldung des MSB-Wechsels erfolgt ist.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "508",
+    "condition_text": "Hinweis: Wert aus BGM+Z73 DE1004 der IFTSTA mit der die Antwort auf die Bestellung der Konfiguration übermittelt wurde",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "509",
+    "condition_text": "Hinweis: Vorgangsnummer aus CNI DE1490 der IFTSTA mit BGM+Z73 mit der die Antwort auf die Bestellung der Konfiguration übermittelt wurde",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "510",
+    "condition_text": "Hinweis: Verwendung der ID der Netzlokation",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "511",
+    "condition_text": "Hinweis: Verwendung der ID der Steuerbaren Ressource",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "512",
+    "condition_text": "Hinweis: Für den Empfang der Werte nach Typ 2 aus dem SMGW.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "513",
+    "condition_text": "Hinweis: Für den Empfang der Mitteilung zum weiteren Vorgehen eines Steuerbefehls und der Antwort auf die Anweisung eines Steuerbefehls.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "903",
+    "condition_text": "Format: Möglicher Wert: 1",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "906",
+    "condition_text": "Format: max. 3 Nachkommastellen",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "950",
+    "condition_text": "Format: Marktlokations-ID",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "951",
+    "condition_text": "Format: Zählpunktbezeichnung",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "960",
+    "condition_text": "Format: Netzlokations-ID",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "961",
+    "condition_text": "Format: SR-ID",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "962",
+    "condition_text": "Format: max. 6 Vorkommastellen",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "967",
+    "condition_text": "Format: Zertifikatskörper gemäß X509.1, BSI TR-03109-4",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "2003",
+    "condition_text": "Für 11-stellige ID im SG11 LOC+172 (Meldepunkt) DE3225 genau einmal anzugeben",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "2004",
+    "condition_text": "Für 33-stellige ID im SG11 LOC+172 (Meldepunkt) DE3225 genau einmal anzugeben",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "2005",
+    "condition_text": "Pro Nachricht ist die SG27 genau einmal anzugeben",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "2060",
+    "condition_text": "Pro Nachricht ist die SG27 LIN+Z64 (Erforderliches Produkt Schaltzeitdefinitionen) maximal einmal anzugeben",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "2061",
+    "condition_text": "Pro Nachricht ist die SG27 LIN++Z65 (Erforderliches Produkt Leistungskurvendefinitionen) maximal einmal anzugeben",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "2062",
+    "condition_text": "Pro Nachricht ist die SG27 LIN++Z66 (Erforderliches Produkt Ad-hoc-Steuerkanal) maximal einmal anzugeben",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "2063",
+    "condition_text": "Pro Nachricht ist die SG27 LIN++Z67 (Erforderliches Messprodukt für Werte nach Typ 2 aus Backend) maximal einmal anzugeben",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "2064",
+    "condition_text": "Pro Nachricht ist die SG27 LIN++Z68 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) maximal einmal anzugeben",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "2065",
+    "condition_text": "Diese SG28 ist so oft zu wiederholen, wie zu den unterschiedlichen Messprodukt- Position-Codes zu dem innerhalb derselben SG27 LIN im PIA+5 DE7140 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) angegebenen Produkt ein Produkt angegeben ist, das in der Codeliste der Konfigurationen im Kapitel 4.4 „Messprodukte mit Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW“ in der Spalte \"Auslöser\" mit dem Wert \"Bei Schwellwertunter- / - überschreitung\" gekennzeichnet ist.",
     "edifact_format": "REQOTE"
   }
 ]

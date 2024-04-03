@@ -11,7 +11,7 @@
   },
   {
     "condition_key": "3",
-    "condition_text": "Wenn SG5 STS+Z23+Z33 (Formel angef\u00fcgt) vorhanden",
+    "condition_text": "Wenn SG5 STS+Z23+Z33 (Formel angefügt) vorhanden",
     "edifact_format": "UTILTS"
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "condition_key": "7",
-    "condition_text": "Wenn in derselben SG8 SEQ+Z37 das SG8 RFF+Z19 (Referenz aufeine Messlokation) vorhanden",
+    "condition_text": "Wenn in derselben SG8 SEQ+Z37 das SG8 RFF+Z19 (Referenz auf eine Messlokation) vorhanden",
     "edifact_format": "UTILTS"
   },
   {
@@ -46,7 +46,7 @@
   },
   {
     "condition_key": "11",
-    "condition_text": "Wenn in SG8 SEQ+Z37 SG9 CCI+++Z86 CAV+Z69/Z70 (Addition / Subtraktion) vorhanden, darf es in dem Vorgang beliebig viele weitere SG8 SEQ+Z37 mit identischem Rechenschrittidentifikato r geben, die jedoch ausschlie\u00dflich die Operatoren Z69/Z70 enthalten d\u00fcrfen",
+    "condition_text": "Wenn in SG8 SEQ+Z37 SG9 CCI+++Z86 CAV+Z69/Z70 (Addition / Subtraktion) vorhanden, darf es in dem Vorgang beliebig viele weitere SG8 SEQ+Z37 mit identischem Rechenschrittidentifikato r geben, die jedoch ausschließlich die Operatoren Z69/Z70 enthalten dürfen",
     "edifact_format": "UTILTS"
   },
   {
@@ -56,12 +56,12 @@
   },
   {
     "condition_key": "13",
-    "condition_text": "Wenn in SG8 SEQ+Z37 SG9 CCI+++Z86 CAV+Z80/Z81 (Divisor / Dividend) vorhanden, muss in diesem Vorgang genau eine zweite SG8 SEQ+Z37 mit identischen Rechenschrittidentifikato r vorhanden sein, sodass das eine SG8 SEQ+Z37 den Operator Z80 (Divisor) und das andere SG8 SEQ+Z37 den Operator Z81 (Dividend) enth\u00e4lt",
+    "condition_text": "Wenn in SG8 SEQ+Z37 SG9 CCI+++Z86 CAV+Z80/Z81 (Divisor / Dividend) vorhanden, muss in diesem Vorgang genau eine zweite SG8 SEQ+Z37 mit identischen Rechenschrittidentifikato r vorhanden sein, sodass das eine SG8 SEQ+Z37 den Operator Z80 (Divisor) und das andere SG8 SEQ+Z37 den Operator Z81 (Dividend) enthält",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "14",
-    "condition_text": "Wenn in SG8 SEQ+Z37 SG9 CCI+++Z86 CAV+Z82 (Faktor) vorhanden, darf es in dem Vorgang beliebig viele weitere SG8 SEQ+Z37 mit identischem",
+    "condition_text": "Wenn in SG8 SEQ+Z37 SG9 CCI+++Z86 CAV+Z82 (Faktor) vorhanden, darf es in dem Vorgang beliebig viele weitere SG8 SEQ+Z37 mit identischemRechenschrittidentifikato r geben, die jedoch ausschließlich CAV+Z82 enthalten",
     "edifact_format": "UTILTS"
   },
   {
@@ -71,22 +71,22 @@
   },
   {
     "condition_key": "16",
-    "condition_text": "Der hier angegebene Code des Pr\u00fcfschritt muss im EBD dem Cluster Zustimmung zugeordnet sein",
+    "condition_text": "Der hier angegebene Code des Prüfschritt muss im EBD dem Cluster Zustimmung zugeordnet sein",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "17",
-    "condition_text": "Der hier angegebene Code des Pr\u00fcfschritt muss im EBD dem Cluster Ablehnung zugeordnet sein",
+    "condition_text": "Der hier angegebene Code des Prüfschritt muss im EBD dem Cluster Ablehnung zugeordnet sein",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "18",
-    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempf\u00e4nger) in der Rolle LF",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempfänger) in der Rolle LF",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "21",
-    "condition_text": "Wenn in dieser CAV+ZD3 der Wert im DE7110 mit Z32 (sonstiger Z\u00e4hlzeitdefinitionstyp) vorhanden ist",
+    "condition_text": "Wenn in dieser CAV+ZD3 der Wert im DE7110 mit Z32 (sonstiger Zählzeitdefinitionstyp) vorhanden ist",
     "edifact_format": "UTILTS"
   },
   {
@@ -101,7 +101,7 @@
   },
   {
     "condition_key": "25",
-    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempf\u00e4nger) in der Rolle LF",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempfänger) in der Rolle LF",
     "edifact_format": "UTILTS"
   },
   {
@@ -116,12 +116,12 @@
   },
   {
     "condition_key": "29",
-    "condition_text": "Wenn in SG8+Z43 DTM+Z33 (Z\u00e4hlzeit\u00e4nderungszeitpunkt) im DE2379 der Code 303 vorhanden",
+    "condition_text": "Wenn in SG8+Z43 DTM+Z33 (Zählzeitänderungszeitpunkt) im DE2379 der Code 303 vorhanden",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "30",
-    "condition_text": "Der Wert von CCYY in diesemDE muss genau um eins h\u00f6her sein, als der Wert CCYY des DTM+Z34 (G\u00fcltigkeitsbeginn) DE2380",
+    "condition_text": "Der Wert von CCYY in diesemDE muss genau um eins höher sein, als der Wert CCYY des DTM+Z34 (Gültigkeitsbeginn) DE2380",
     "edifact_format": "UTILTS"
   },
   {
@@ -131,47 +131,42 @@
   },
   {
     "condition_key": "32",
-    "condition_text": "Ein Datum muss dem DTM+Z34 (G\u00fcltigkeitsbeginn) DE2380 entsprechen",
+    "condition_text": "Der Zeitpunkt in diesem DE muss ≥ dem Zeitpunkt aus dem DE2380 des Gültigkeitsbeginn der ausgerollten Zählzeit (SG5 DTM+Z34) sein",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "33",
-    "condition_text": "Kein Datum darf j\u00fcnger sein als das Datum vom DTM+Z35 (G\u00fcltigkeitsende) DE2380",
+    "condition_text": "Der Zeitpunkt in diesem DE muss ≤ dem Zeitpunkt aus dem DE2380 des Gültigkeitsende der ausgerollten Zählzeit (SG5 DTM+Z35) sein",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "34",
-    "condition_text": "Wenn im DE2379 diesesSegments der Code 401 vorhanden",
-    "edifact_format": "UTILTS"
-  },
-  {
-    "condition_key": "35",
-    "condition_text": "Die \u00e4lteste Angabe muss mit 0000 vorhanden sein",
+    "condition_text": "Wenn im DE2379 dieses Segments der Code 401 vorhanden",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "36",
-    "condition_text": "Wenn in SG8+Z43 DTM+Z33 (Z\u00e4hlzeit\u00e4nderungszeitpunkt) im DE2379 der Code 401 vorhanden",
+    "condition_text": "Wenn in SG8+Z43 DTM+Z33 (Zählzeitänderungszeitpunkt) im DE2379 der Code 401 vorhanden",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "37",
-    "condition_text": "Wenn ein G\u00fcltigkeitsende bereits angegeben werden kann.",
+    "condition_text": "Wenn ein Gültigkeitsende bereits angegeben werden kann.",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "38",
-    "condition_text": "Wenn DTM+Z35 (G\u00fcltigkeitsende) vorhanden",
+    "condition_text": "Wenn DTM+Z35 (Gültigkeitsende) vorhanden",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "39",
-    "condition_text": "Wenn DTM+Z35 (G\u00fcltigkeitsende) nicht vorhanden",
+    "condition_text": "Wenn DTM+Z35 (Gültigkeitsende) nicht vorhanden",
     "edifact_format": "UTILTS"
   },
   {
-    "condition_key": "40",
-    "condition_text": "Kein Datum darf \u00e4lter sein als das Datum vom DTM+Z34 (G\u00fcltigkeitsbeginn) DE2380",
+    "condition_key": "41",
+    "condition_text": "Wenn SG8 SEQ+Z42 (Zählzeitdefinition) vorhanden",
     "edifact_format": "UTILTS"
   },
   {
@@ -196,22 +191,42 @@
   },
   {
     "condition_key": "504",
-    "condition_text": "Hinweis: Wert aus BGM+Z55 DE1004 der ORDERS mit der die Reklamation einer Z\u00e4hlzeitdefinition erfolgt ist",
+    "condition_text": "Hinweis: Wert aus BGM+Z55 DE1004 der ORDERS mit der die Reklamation einer Zählzeitdefinition erfolgt ist",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "505",
-    "condition_text": "Hinweis: Jede ausgerollte Z\u00e4hlzeitdefinition ist in einem eigenen IDE anzugeben",
+    "condition_text": "Hinweis: Jede ausgerollte Zählzeitdefinition ist in einem eigenen IDE anzugeben",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "506",
-    "condition_text": "Hinweis: Zeitpunkt, ab dem die \u00dcbersicht der Z\u00e4hlzeitdefinitionen g\u00fcltig ist",
+    "condition_text": "Hinweis: Zeitpunkt, ab dem die Übersicht der Zählzeitdefinitionen gültig ist",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "507",
     "condition_text": "Hinweis: Es ist die Zeit nach der deutschen gesetzlichen Zeit anzugeben",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "510",
+    "condition_text": "Hinweis: Für jeden Zählzeitänderungszeitpunkt (SG8 DTM+Z33) ist diese Sementgruppe einmal anzugeben",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "511",
+    "condition_text": "Hinweis: Der Zählzeitänderungszeitpunkt (SG8DTM+Z33) dieser SG8 darf in keiner anderen SG8 „Ausgerollte Zählzeit“ wiederholt werden",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "512",
+    "condition_text": "Hinweis: Wenn der Code 303 im DE2379 des Zählzeitänderungszeitpunkt (SG8 DTM+Z33) genutzt wird, muss genau ein Wert im DE2380 des Zählzeitänderungszeitpunkt (SG8 DTM+Z33) identisch mit dem Wert aus DE2380 des Gültigkeitsbeginn der ausgerollten Zählzeit (SG5 DTM+Z34) sein",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "513",
+    "condition_text": "Hinweis: Wenn der Code 401 im DE2379 des Zählzeitänderungszeitpunkt (SG8 DTM+Z33) genutzt wird, muss genau ein Wert = 0000 im DE2380 des Zählzeitänderungszeitpunkt (SG8 DTM+Z33) sein",
     "edifact_format": "UTILTS"
   },
   {
@@ -221,17 +236,17 @@
   },
   {
     "condition_key": "913",
-    "condition_text": "Format: M\u00f6gliche Werte: 1 bis 99999",
+    "condition_text": "Format: Mögliche Werte: 1 bis 99999",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "914",
-    "condition_text": "Format: M\u00f6glicher Wert: > 0",
+    "condition_text": "Format: Möglicher Wert: > 0",
     "edifact_format": "UTILTS"
   },
   {
     "condition_key": "915",
-    "condition_text": "Format: M\u00f6glicher Wert: \u2260 1",
+    "condition_text": "Format: Möglicher Wert: ≠ 1",
     "edifact_format": "UTILTS"
   },
   {
@@ -251,7 +266,17 @@
   },
   {
     "condition_key": "951",
-    "condition_text": "Format: Z\u00e4hlpunktbezeichnung",
+    "condition_text": "Format: Zählpunktbezeichnung",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "964",
+    "condition_text": "Format: HHMM ≥ 0000",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "condition_key": "965",
+    "condition_text": "Format: HHMM ≤ 2359",
     "edifact_format": "UTILTS"
   },
   {
@@ -266,7 +291,7 @@
   },
   {
     "condition_key": "2002",
-    "condition_text": "Segmentgruppe ist mindestens je SG8 SEQ+Z42 (Z\u00e4hlzeitdefinition) zweimal anzugeben",
+    "condition_text": "Für jeden Code der Zählzeit aus SG8 SEQ+Z42 (Zählzeitdefinition) SG9 CCI+Z39 (Code der Zählzeit) sind mindestens zwei Register anzugeben, bei denen in dieser SG8 das SG8 RFF+Z27 mit diesem Code gefüllt ist.",
     "edifact_format": "UTILTS"
   }
 ]

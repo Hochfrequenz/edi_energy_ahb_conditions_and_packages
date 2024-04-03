@@ -1,0 +1,72 @@
+[
+  {
+    "condition_key": "2",
+    "condition_text": "Wenn BGM+7 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "61",
+    "condition_text": "MP-ID nur aus Sparte Strom",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "147",
+    "condition_text": "wenn im DE3155 im demselben COM der Code EM vorhanden ist",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "148",
+    "condition_text": "wenn im DE3155 im demselben COM der Code TE / FX / AJ / AL vorhanden ist",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "494",
+    "condition_text": "Das hier genannte Datum muss der Zeitpunkt sein, zu dem das Dokument erstellt wurde, oder ein Zeitpunkt, der davor liegt.",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "521",
+    "condition_text": "Hinweis: Verwendung der ID der Marktlokation",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "522",
+    "condition_text": "Hinweis: Verwendung der ID der Messlokation",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "523",
+    "condition_text": "Hinweis: Verwendung der ID der Tranche",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "567",
+    "condition_text": "Hinweis: Es darf nur eine Information im DE3148 übermittelt werden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "939",
+    "condition_text": "Format: Die Zeichenkette muss die Zeichen @ und . enthalten",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "940",
+    "condition_text": "Format: Die Zeichenkette muss mit dem Zeichen + beginnen und danach dürfen nur noch Ziffern folgen",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "950",
+    "condition_text": "Format: Marktlokations-ID",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "951",
+    "condition_text": "Format: Zählpunktbezeichnung",
+    "edifact_format": "ORDERS"
+  }
+]

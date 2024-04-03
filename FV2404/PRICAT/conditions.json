@@ -125,6 +125,76 @@
     "edifact_format": "PRICAT"
   },
   {
+    "condition_key": "36",
+    "condition_text": "wenn MP-ID in SG2 NAD+MR in der Rolle NB",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "37",
+    "condition_text": "Wenn im DE3155 in demselben COM der Code EM vorhanden ist",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "38",
+    "condition_text": "Wenn im DE3155 in demselben COM der Code TE / FX / AJ / AL vorhanden ist",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "39",
+    "condition_text": "Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in der Spalte MaBiS ein X haben",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "40",
+    "condition_text": "Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in der Spalte H ein X haben",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "41",
+    "condition_text": "Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in der Spalte \"PRICAT Codeverwendung\" ein X haben",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "42",
+    "condition_text": "Es sind nur Werte erlaubt, die die Bildungsvorschrift der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erfüllen, und die in der Spalte \"PRICAT Codeverwendung\" ein X haben",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "43",
+    "condition_text": "Wenn BGM DE1001 = Z32 und LIN DE7140 im Format n1-n2-n1-n3, dann muss der hier genannte Zeitpunkt ≥ 01. 01.2024 00:00 Uhr gesetzlicher deutscher Zeit sein",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "44",
+    "condition_text": "Wenn BGM DE1001 = Z77, dann muss der hier genannte Zeitpunkt ≥ 01.10. 2023 00:00 Uhr gesetzlicher deutscher Zeit sein.",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "45",
+    "condition_text": "Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in dieser in Kapitel \"Abrechnung Messstellenbetrieb für die Sparte Strom\" genannt sind",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "46",
+    "condition_text": "Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in dieser in Kapitel \"Artikel-ID für den Universalbestellprozess für dieSparte Strom\" genannt sind",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "47",
+    "condition_text": "Wenn BGM DE1001 = Z32 und LIN DE7140 im Format n13, dann muss der hier genannte Zeitpunkt < 01.01. 2024 00:00 Uhr gesetzlicher deutscher Zeit sein",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "48",
+    "condition_text": "Wenn in dieser SG36 LIN in DE7140 einer der Codes 1-01-6- 005 / 1-01-9-001 / 1-01-9-002 / 1-02-0-015 / 1-03-8-001 / 1-03- 8-002 / 1-03-8-003 / 1-03-8-004 / 1-03-9-001 / 1-03-9-002 / 1-03-9-003 / 1-03-9-004 / 1-07-4-001 vorhanden",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "49",
+    "condition_text": "Wenn in dieser SG36 LIN in DE7140 keiner der Codes 1-01-6- 005 / 1-01-9-001 / 1-01-9-002 / 1-02-0-015 / 1-03-8-001 / 1-03- 8-002 / 1-03-8-003 / 1-03-8-004 / 1-03-9-001 / 1-03-9-002 / 1-03- 9-003 / 1-03-9-004 / 1-07-4-001 vorhanden",
+    "edifact_format": "PRICAT"
+  },
+  {
     "condition_key": "492",
     "condition_text": "wenn MP-ID in NAD+MR aus Sparte Strom",
     "edifact_format": "PRICAT"
@@ -155,31 +225,6 @@
     "edifact_format": "PRICAT"
   },
   {
-    "condition_key": "505",
-    "condition_text": "Hinweis: Vom Programm vergebene Positionsnummer innerhalb der Nachricht, mit 1 beginnend",
-    "edifact_format": "PRICAT"
-  },
-  {
-    "condition_key": "507",
-    "condition_text": "Hinweis: Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in der Spalte MaBiS ein X haben",
-    "edifact_format": "PRICAT"
-  },
-  {
-    "condition_key": "508",
-    "condition_text": "Hinweis: Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in der Spalte H ein X haben",
-    "edifact_format": "PRICAT"
-  },
-  {
-    "condition_key": "509",
-    "condition_text": "Hinweis: Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in der Spalte \"PRICAT Codeverwendung\" ein X haben",
-    "edifact_format": "PRICAT"
-  },
-  {
-    "condition_key": "510",
-    "condition_text": "Hinweis: Es sind nur Werte erlaubt, die die Bildungsvorschrift der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erfüllen, und die in der Spalte \"PRICAT Codeverwendung\" ein X haben",
-    "edifact_format": "PRICAT"
-  },
-  {
     "condition_key": "511",
     "condition_text": "Hinweis: 1. Der genannte Wert gehört nicht zum Intervall. 2. Wenn in dieser SG36 die letzte Ziffer von LIN DE7140 >1, dann ist der Wert identisch mit dem Wert des DE6152 im RNG-Segment, in der SG36, in der die letzte Ziffer von LIN DE7140 um 1 kleiner ist, als die letzte Ziffer von LIN DE7140 in dieser SG36. 3. Die untere Wertegrenze zu der Artikel-ID, deren Zahl an der letzten Stelle den Wert n hat, muss kleiner sein, als die untere Wertegrenze zu der Artikel-ID, deren Zahl an der letzten Stelle den Wert n+1 hat.",
     "edifact_format": "PRICAT"
@@ -191,37 +236,27 @@
   },
   {
     "condition_key": "513",
-    "condition_text": "Hinweis: Die anzugebende Einheit ist in der Codeliste definiert",
+    "condition_text": "Hinweis: Die zum Preis gehörende Einheit ist in der Codeliste definiert",
     "edifact_format": "PRICAT"
   },
   {
-    "condition_key": "514",
-    "condition_text": "Hinweis: Wenn BGM DE1001 = Z32 und LIN DE7140 im Format n1-n2-n1-n3, dann muss der hier genannte Zeitpunkt ≥ 01.01.2024 00:00 Uhr gesetzlicher deutscher Zeit sein.",
+    "condition_key": "519",
+    "condition_text": "Hinweis: Es darf nur eine Information im DE3148 übermittelt werden",
     "edifact_format": "PRICAT"
   },
   {
-    "condition_key": "515",
-    "condition_text": "Hinweis: Wenn BGM DE1001 = Z77, dann muss der hier genannte Zeitpunkt ≥ 01. 10.2023 00:00 Uhr gesetzlicher deutscher Zeit sein.",
-    "edifact_format": "PRICAT"
-  },
-  {
-    "condition_key": "516",
-    "condition_text": "Hinweis: Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in dieser in Kapitel 3.5 \"Abrechnung Messstellenbetrieb für die Sparte Strom\" genannt sind",
-    "edifact_format": "PRICAT"
-  },
-  {
-    "condition_key": "517",
-    "condition_text": "Hinweis: Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in dieser in Kapitel 3.4 \"Artikel-ID für den Universalbestellprozess für die Sparte Strom\" genannt sind",
-    "edifact_format": "PRICAT"
-  },
-  {
-    "condition_key": "518",
-    "condition_text": "Hinweis: Wenn BGM DE1001 = Z32 und LIN DE7140 im Format n13, dann muss der hier genannte Zeitpunkt < 01. 01.2024 00:00 Uhr gesetzlicher deutscher Zeit sein.",
+    "condition_key": "902",
+    "condition_text": "Format: Möglicher Wert: ≥ 0",
     "edifact_format": "PRICAT"
   },
   {
     "condition_key": "908",
     "condition_text": "Format: Mögliche Werte: 1 bis n",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "911",
+    "condition_text": "Format: Mögliche Werte: 1 bis n, je Nachricht oder Segmentgruppe bei 1 beginnend und fortlaufend aufsteigend",
     "edifact_format": "PRICAT"
   },
   {
@@ -242,6 +277,16 @@
   {
     "condition_key": "931",
     "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "939",
+    "condition_text": "Format: Die Zeichenkette muss die Zeichen @ und . enthalten",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "940",
+    "condition_text": "Format: Die Zeichenkette muss mit dem Zeichen + beginnen und danach dürfen nur noch Ziffern folgen",
     "edifact_format": "PRICAT"
   },
   {
@@ -277,6 +322,11 @@
   {
     "condition_key": "959",
     "condition_text": "Format: n13-n2",
+    "edifact_format": "PRICAT"
+  },
+  {
+    "condition_key": "968",
+    "condition_text": "Format: Möglicher Wert: ≤ 0",
     "edifact_format": "PRICAT"
   }
 ]

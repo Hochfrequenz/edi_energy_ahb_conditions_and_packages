@@ -1,7 +1,7 @@
 [
   {
     "condition_key": "1",
-    "condition_text": "Wenn Vorg\u00e4ngerversion vorhanden",
+    "condition_text": "Wenn Vorgängerversion vorhanden",
     "edifact_format": "PRICAT"
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "condition_key": "8",
-    "condition_text": "Wenn das in DE1001 angegebene Preisblatt vom NB nicht genutzt wird.11",
+    "condition_text": "Wenn das in DE1001 angegebene Preisblatt vom NB nicht genutzt wird.",
     "edifact_format": "PRICAT"
   },
   {
@@ -46,22 +46,22 @@
   },
   {
     "condition_key": "10",
-    "condition_text": "Wenn eine weitere Zone f\u00fcr diese Gruppenartikel-ID vorhanden",
+    "condition_text": "Wenn eine weitere Zone für diese Gruppenartikel-ID vorhanden",
     "edifact_format": "PRICAT"
   },
   {
     "condition_key": "12",
-    "condition_text": "je UNB ist nur eine Nachricht mit BGM+Z04 in der \u00dcbertragungsdatei erlaubt (nur eine Nachricht je \u00dcbertragungsdatei)",
+    "condition_text": "je UNB ist nur eine Nachricht mit BGM+Z04 in der Übertragungsdatei erlaubt (nur eine Nachricht je Übertragungsdatei)",
     "edifact_format": "PRICAT"
   },
   {
     "condition_key": "13",
-    "condition_text": "je UNB ist nur eine Nachricht mit BGM+Z32 in der \u00dcbertragungsdatei erlaubt (nur eine Nachricht je \u00dcbertragungsdatei)",
+    "condition_text": "je UNB ist nur eine Nachricht mit BGM+Z32 in der Übertragungsdatei erlaubt (nur eine Nachricht je Übertragungsdatei)",
     "edifact_format": "PRICAT"
   },
   {
     "condition_key": "14",
-    "condition_text": "je UNB ist maximal je Code aus DE1001 eine Nachricht in der \u00dcbertragungsdatei erlaubt",
+    "condition_text": "je UNB ist maximal je Code aus DE1001 eine Nachricht in der Übertragungsdatei erlaubt",
     "edifact_format": "PRICAT"
   },
   {
@@ -81,7 +81,7 @@
   },
   {
     "condition_key": "25",
-    "condition_text": "Wenn Preis in DE5118 zeitabh\u00e4ngig",
+    "condition_text": "Wenn Preis in DE5118 zeitabhängig",
     "edifact_format": "PRICAT"
   },
   {
@@ -96,12 +96,12 @@
   },
   {
     "condition_key": "28",
-    "condition_text": "Wenn die zugeh\u00f6rige Artikel- ID in der letzten Stelle eine 1 ist",
+    "condition_text": "Wenn die zugehörige Artikel- ID in der letzten Stelle eine 1 ist",
     "edifact_format": "PRICAT"
   },
   {
     "condition_key": "29",
-    "condition_text": "Wenn die zugeh\u00f6rige Artikel- ID in der letzten Stelle > 1 ist",
+    "condition_text": "Wenn die zugehörige Artikel- ID in der letzten Stelle > 1 ist",
     "edifact_format": "PRICAT"
   },
   {
@@ -111,7 +111,7 @@
   },
   {
     "condition_key": "495",
-    "condition_text": "Der Zeitpunkt muss \u2264 dem Wert im DE2380 des DTM+137 sein",
+    "condition_text": "Der Zeitpunkt muss ≤ dem Wert im DE2380 des DTM+137 sein",
     "edifact_format": "PRICAT"
   },
   {
@@ -121,7 +121,7 @@
   },
   {
     "condition_key": "503",
-    "condition_text": "Hinweis: Hier ist immer der Wert 1000 einzutragen, da in DE5118 der Preis in \u20ac/MWh angegeben wird.",
+    "condition_text": "Hinweis: Hier ist immer der Wert 1000 einzutragen, da in DE5118 der Preis in €/MWh angegeben wird.",
     "edifact_format": "PRICAT"
   },
   {
@@ -151,22 +151,22 @@
   },
   {
     "condition_key": "510",
-    "condition_text": "Hinweis: Es sind nur Werte erlaubt, die die Bildungsvorschrift der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erf\u00fcllen, und die in der Spalte \"PRICAT Codeverwendung\" ein X haben",
+    "condition_text": "Hinweis: Es sind nur Werte erlaubt, die die Bildungsvorschrift der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erfüllen, und die in der Spalte \"PRICAT Codeverwendung\" ein X haben",
     "edifact_format": "PRICAT"
   },
   {
     "condition_key": "511",
-    "condition_text": "Hinweis: 1. Der genannte Wert geh\u00f6rt nicht zum Intervall.  2. Wenn in dieser SG36 die letzte Ziffer von LIN DE7140 >1, dann ist der Wert identisch mit dem Wert des DE6152 im RNG-Segment, in der SG36, in der die letzte Ziffer von LIN DE7140 um 1 kleiner ist, als die letzte Ziffer von LIN DE7140 in dieser SG36. 3. Die untere Wertegrenze zu der Artikel-ID, deren Zahl an der letzten Stelle den Wert n hat, muss kleiner sein, als die untere Wertegrenze zu der Artikel-ID, deren Zahl an der letzten Stelle den Wert n+1 hat.",
+    "condition_text": "Hinweis: 1. Der genannte Wert gehört nicht zum Intervall. 2. Wenn in dieser SG36 die letzte Ziffer von LIN DE7140 >1, dann ist der Wert identisch mit dem Wert des DE6152 im RNG-Segment, in der SG36, in der die letzte Ziffer von LIN DE7140 um 1 kleiner ist, als die letzte Ziffer von LIN DE7140 in dieser SG36. 3. Die untere Wertegrenze zu der Artikel-ID, deren Zahl an der letzten Stelle den Wert n hat, muss kleiner sein, als die untere Wertegrenze zu der Artikel-ID, deren Zahl an der letzten Stelle den Wert n+1 hat.",
     "edifact_format": "PRICAT"
   },
   {
     "condition_key": "512",
-    "condition_text": "Hinweis: Der genannte Wert geh\u00f6rt zum Intervall",
+    "condition_text": "Hinweis: Der genannte Wert gehört zum Intervall",
     "edifact_format": "PRICAT"
   },
   {
     "condition_key": "908",
-    "condition_text": "Format: M\u00f6gliche Werte: 1 bis n",
+    "condition_text": "Format: Mögliche Werte: 1 bis n",
     "edifact_format": "PRICAT"
   },
   {
@@ -176,12 +176,12 @@
   },
   {
     "condition_key": "926",
-    "condition_text": "Format: M\u00f6glicher Wert: 0",
+    "condition_text": "Format: Möglicher Wert: 0",
     "edifact_format": "PRICAT"
   },
   {
     "condition_key": "929",
-    "condition_text": "Format: M\u00f6glicher Wert: 1000",
+    "condition_text": "Format: Möglicher Wert: 1000",
     "edifact_format": "PRICAT"
   },
   {

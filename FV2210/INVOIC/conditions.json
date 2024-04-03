@@ -1,42 +1,42 @@
 [
   {
     "condition_key": "1",
-    "condition_text": "Wenn in zu stornierender Rechnung gef\u00fcllt",
+    "condition_text": "Wenn in zu stornierender Rechnung gefüllt",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "2",
-    "condition_text": "Wenn es sich um eine Nutzungs\u00fcberlassung (Pacht) eines Ger\u00e4tes handelt",
+    "condition_text": "Wenn es sich um eine Nutzungsüberlassung (Pacht) eines Gerätes handelt",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "3",
-    "condition_text": "Wenn es sich um einen Kauf eines Ger\u00e4tes handelt",
+    "condition_text": "Wenn es sich um einen Kauf eines Gerätes handelt",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "4",
-    "condition_text": "Wenn Steuerschuldnerschaft des Leistungsempf\u00e4ngers vorliegt",
+    "condition_text": "Wenn Steuerschuldnerschaft des Leistungsempfängers vorliegt",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "5",
-    "condition_text": "Wenn SG2 NAD+MR DE3207 <> \u201eDE\u201c",
+    "condition_text": "Wenn SG2 NAD+MR DE3207 <> „DE“",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "6",
-    "condition_text": "Wenn SG2 NAD+MR DE3207 = \u201eDE\u201c",
+    "condition_text": "Wenn SG2 NAD+MR DE3207 = „DE“",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "7",
-    "condition_text": "Sofern keine Gro\u00dfkundenpostleitzahl verwendet wird",
+    "condition_text": "Sofern keine Großkundenpostleitza hl verwendet wird",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "8",
-    "condition_text": "Bei zeitabh\u00e4ngigen Preisen",
+    "condition_text": "Bei zeitabhängigen Preisen",
     "edifact_format": "INVOIC"
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "condition_key": "11",
-    "condition_text": "Wenn Abschlag anf\u00e4llt",
+    "condition_text": "Wenn Abschlag anfällt",
     "edifact_format": "INVOIC"
   },
   {
@@ -96,12 +96,12 @@
   },
   {
     "condition_key": "20",
-    "condition_text": "Wenn f\u00e4lliger Betrag (SG50 MOA+9) >= 0",
+    "condition_text": "Wenn fälliger Betrag (SG50 MOA+9) >= 0",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "21",
-    "condition_text": "Wenn f\u00e4lliger Betrag (SG50 MOA+9) < 0",
+    "condition_text": "Wenn fälliger Betrag (SG50 MOA+9) < 0",
     "edifact_format": "INVOIC"
   },
   {
@@ -131,12 +131,12 @@
   },
   {
     "condition_key": "28",
-    "condition_text": "Wenn Zuschlag anf\u00e4llt",
+    "condition_text": "Wenn Zuschlag anfällt",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "29",
-    "condition_text": "Wenn DTM+155 (Rechnungsperiode Beginndatum) nicht gr\u00f6\u00dfer 31.12.2015",
+    "condition_text": "Wenn DTM+155 (Rechnungsperiode Beginndatum) nicht größer 31.12.2015",
     "edifact_format": "INVOIC"
   },
   {
@@ -161,7 +161,7 @@
   },
   {
     "condition_key": "35",
-    "condition_text": "Wenn MP-ID inSG2 NAD+MR aus Sparte Strom",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR aus Sparte Strom",
     "edifact_format": "INVOIC"
   },
   {
@@ -176,7 +176,7 @@
   },
   {
     "condition_key": "40",
-    "condition_text": "Es sind nur die Artikelnummern erlaubt, die in der Codeliste der Artikelnummern und Artikel-ID mit dem entsprechenden Pr\u00fcfidentifikator versehen sind oder Artikel-ID aus der Codeliste der Artikelnummern und Artikel-ID.",
+    "condition_text": "Es sind nur die Artikelnummern erlaubt, die in der Codeliste der Artikelnummern und Artikel-ID mit dem entsprechenden Prüfidentifikator versehen sind oder Artikel-ID aus der Codeliste der Artikelnummern und Artikel-ID.",
     "edifact_format": "INVOIC"
   },
   {
@@ -186,7 +186,7 @@
   },
   {
     "condition_key": "42",
-    "condition_text": "Wenn DTM+155 (Rechnungsperiode Beginndatum) \u2265 1.1. 2023 0:00 gesetzlicher deutscher Zeit",
+    "condition_text": "Wenn DTM+155 (Rechnungsperiode Beginndatum) ≥ 1.1. 2023 0:00 gesetzlicher deutscher Zeit",
     "edifact_format": "INVOIC"
   },
   {
@@ -261,7 +261,7 @@
   },
   {
     "condition_key": "59",
-    "condition_text": "Wenn SG26 DTM+155 (Positionsbezogener Abrechnungszeitraum Beginn) \u2265 1.1.2023 0: 00 gesetzlicher deutscher Zeit",
+    "condition_text": "Wenn SG26 DTM+155 (Positionsbezogener Abrechnungszeitraum Beginn) ≥ 1.1.2023 0: 00 gesetzlicher deutscher Zeit",
     "edifact_format": "INVOIC"
   },
   {
@@ -276,12 +276,12 @@
   },
   {
     "condition_key": "492",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4ng er) aus Sparte Strom",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfäng er) aus Sparte Strom",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "493",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4ng er) aus Sparte Gas",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfäng er) aus Sparte Gas",
     "edifact_format": "INVOIC"
   },
   {
@@ -301,7 +301,7 @@
   },
   {
     "condition_key": "504",
-    "condition_text": "Hinweis: Ein positiver Betrag ist eine Forderung des Rechnungsempf\u00e4ngers .",
+    "condition_text": "Hinweis: Ein positiver Betrag ist eine Forderung des Rechnungsempfängers .",
     "edifact_format": "INVOIC"
   },
   {
@@ -311,7 +311,7 @@
   },
   {
     "condition_key": "508",
-    "condition_text": "Hinweis: Dokumentennummer der QUOTES, wenn Empf\u00e4nger LF ist",
+    "condition_text": "Hinweis: Dokumentennummer der QUOTES, wenn Empfänger LF ist",
     "edifact_format": "INVOIC"
   },
   {
@@ -326,12 +326,12 @@
   },
   {
     "condition_key": "511",
-    "condition_text": "Hinweis: Dokumentennummer der ORDERS, wenn Empf\u00e4nger NB oder MSB ist",
+    "condition_text": "Hinweis: Dokumentennummer der ORDERS, wenn Empfänger NB oder MSB ist",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "512",
-    "condition_text": "Hinweis: Hier ist entweder der Betrag aus MOA+203 oder der um den g\u00fcltigen Steuerbetrag erh\u00f6hte Betrag aus MOA+203 anzugeben.",
+    "condition_text": "Hinweis: Hier ist entweder der Betrag aus MOA+203 oder der um den gültigen Steuerbetrag erhöhte Betrag aus MOA+203 anzugeben.",
     "edifact_format": "INVOIC"
   },
   {
@@ -351,22 +351,22 @@
   },
   {
     "condition_key": "516",
-    "condition_text": "Hinweis: Ein Lieferschein zu einer Rechnung ist f\u00fcr alle Abrechnungszeitr\u00e4um e, die erstmals nach dem 1.12.2019 abgerechnet werdenund f\u00fcr alle Abrechnungszeitr\u00e4um e, f\u00fcr die sich nach dem 1.12.2019 ge\u00e4nderte Mengen oder Leistungswerte ergeben, n\u00f6tig.",
+    "condition_text": "Hinweis: Ein Lieferschein zu einer Rechnung ist für alle Abrechnungszeiträum e, die erstmals nach dem 1.12.2019 abgerechnet werdenund für alle Abrechnungszeiträum e, für die sich nach dem 1.12.2019 geänderte Mengen oder Leistungswerte ergeben, nötig.",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "517",
-    "condition_text": "Hinweis: Dokumentennummer der PDF- Kapazit\u00e4tsrechnung",
+    "condition_text": "Hinweis: Dokumentennummer der PDF- Kapazitätsrechnung",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "518",
-    "condition_text": "Hinweis:  Im Fall der Stornierung des Auftrags der Unterbrechung: Der Tag an dem der NB die Stornierung empfangen hat Bei erfolgreicher Sperrung: Tag der durchgef\u00fchrten Sperrung Bei erfolgloser Sperrung: Letzter Sperrversuchstag",
+    "condition_text": "Hinweis: Im Fall der Stornierung des Auftrags der Unterbrechung: Der Tag an dem der NB die Stornierung empfangen hat Bei erfolgreicher Sperrung: Tag der durchgeführten Sperrung Bei erfolgloser Sperrung: Letzter Sperrversuchstag",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "519",
-    "condition_text": "Hinweis: Stornierte Abschlagsrechnungen sind nicht aufzuf\u00fchren",
+    "condition_text": "Hinweis: Stornierte Abschlagsrechnungen sind nicht aufzuführen",
     "edifact_format": "INVOIC"
   },
   {
@@ -376,7 +376,7 @@
   },
   {
     "condition_key": "902",
-    "condition_text": "Format: M\u00f6glicher Wert: \u2265 0",
+    "condition_text": "Format: Möglicher Wert: ≥ 0",
     "edifact_format": "INVOIC"
   },
   {
@@ -386,17 +386,17 @@
   },
   {
     "condition_key": "908",
-    "condition_text": "Format: M\u00f6gliche Werte: 1 bis n",
+    "condition_text": "Format: Mögliche Werte: 1 bis n",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "910",
-    "condition_text": "Format: M\u00f6glicher Wert: < 0 oder \u2265 0",
+    "condition_text": "Format: Möglicher Wert: < 0 oder ≥ 0",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "911",
-    "condition_text": "Format: M\u00f6gliche Werte: 1 bis n, je Nachricht oder Segmentgruppe bei 1 beginnend und fortlaufend aufsteigend",
+    "condition_text": "Format: Mögliche Werte: 1 bis n, je Nachricht oder Segmentgruppe bei 1 beginnend und fortlaufend aufsteigend",
     "edifact_format": "INVOIC"
   },
   {
@@ -406,12 +406,12 @@
   },
   {
     "condition_key": "914",
-    "condition_text": "Format: M\u00f6glicher Wert: > 0",
+    "condition_text": "Format: Möglicher Wert: > 0",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "927",
-    "condition_text": "Format: M\u00f6glicher Wert: -1",
+    "condition_text": "Format: Möglicher Wert: -1",
     "edifact_format": "INVOIC"
   },
   {
@@ -441,7 +441,7 @@
   },
   {
     "condition_key": "951",
-    "condition_text": "Format: Z\u00e4hlpunktbezeichnung",
+    "condition_text": "Format: Zählpunktbezeichnung",
     "edifact_format": "INVOIC"
   },
   {

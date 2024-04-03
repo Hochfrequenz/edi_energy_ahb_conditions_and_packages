@@ -1,5 +1,20 @@
 [
   {
+    "condition_key": "1",
+    "condition_text": "Wenn in zu stornierender Rechnung gefüllt",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "2",
+    "condition_text": "Wenn es sich um eine Nutzungsüberlassung (Pacht) eines Gerätes handelt",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "3",
+    "condition_text": "Wenn es sich um einen Kauf eines Gerätes handelt",
+    "edifact_format": "INVOIC"
+  },
+  {
     "condition_key": "4",
     "condition_text": "Wenn Steuerschuldnerschaft des Leistungsempfängers vorliegt",
     "edifact_format": "INVOIC"
@@ -55,8 +70,23 @@
     "edifact_format": "INVOIC"
   },
   {
+    "condition_key": "15",
+    "condition_text": "Wenn eine Bilanzierung erfolgt ist",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "16",
+    "condition_text": "Wenn eine Netznutzung erfolgt ist",
+    "edifact_format": "INVOIC"
+  },
+  {
     "condition_key": "17",
     "condition_text": "Wenn DTM+Z11 vorhanden",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "18",
+    "condition_text": "Wenn IMD++WIM nicht vorhanden",
     "edifact_format": "INVOIC"
   },
   {
@@ -160,6 +190,11 @@
     "edifact_format": "INVOIC"
   },
   {
+    "condition_key": "44",
+    "condition_text": "Wenn IMD++ABS nicht vorhanden",
+    "edifact_format": "INVOIC"
+  },
+  {
     "condition_key": "45",
     "condition_text": "Nur MP-ID aus Sparte Strom",
     "edifact_format": "INVOIC"
@@ -172,6 +207,11 @@
   {
     "condition_key": "48",
     "condition_text": "Wenn IMD++Z44 vorhanden",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "49",
+    "condition_text": "Wenn IMD++Z43 und IMD+Z44 nicht vorhanden",
     "edifact_format": "INVOIC"
   },
   {
@@ -195,13 +235,28 @@
     "edifact_format": "INVOIC"
   },
   {
+    "condition_key": "55",
+    "condition_text": "Wenn IMD++ABS vorhanden",
+    "edifact_format": "INVOIC"
+  },
+  {
     "condition_key": "56",
     "condition_text": "Wenn DTM+137 (Nachrichtendatum ≥ 1.1.2023 0: 00 gesetzlicher deutscher Zeit",
     "edifact_format": "INVOIC"
   },
   {
+    "condition_key": "57",
+    "condition_text": "Wenn DTM+156 (Abrechnungszeitraum Ende) ≤ 1. 1.2023 0:00 gesetzlicher deutscher Zeit",
+    "edifact_format": "INVOIC"
+  },
+  {
     "condition_key": "58",
     "condition_text": "Wenn in dieser SG52 MOA+113 vorhanden",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "59",
+    "condition_text": "Wenn SG26 DTM+155 (Positionsbezogener Abrechnungszeitraum Beginn) ≥ 1.1.2023 0: 00 gesetzlicher deutscher Zeit",
     "edifact_format": "INVOIC"
   },
   {
@@ -221,7 +276,7 @@
   },
   {
     "condition_key": "65",
-    "condition_text": "Wenn SG26 DTM+155 (Positionsbezogener Abrechnungszeitraum Beginn) ≥ 1.1.2024 0:",
+    "condition_text": "Wenn SG26 DTM+155 (Positionsbezogener Abrechnungszeitraum Beginn) ≥ 1.1.2024 0: 00 gesetzlicher deutscher Zeit",
     "edifact_format": "INVOIC"
   },
   {
@@ -245,18 +300,33 @@
     "edifact_format": "INVOIC"
   },
   {
+    "condition_key": "70",
+    "condition_text": "Wenn IMD++Z45 nicht vorhanden",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "71",
+    "condition_text": "Wenn SG26 DTM+155 (Rechnungsperiode Beginndatum) ≥ 1.1.2024 0:00 gesetzlicher deutscher Zeit",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "72",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR in der Rolle LF",
+    "edifact_format": "INVOIC"
+  },
+  {
     "condition_key": "73",
     "condition_text": "Wenn IMD++MSB vorhanden",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "492",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfäng er) aus Sparte Strom",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Strom",
     "edifact_format": "INVOIC"
   },
   {
     "condition_key": "493",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfäng er) aus Sparte Gas",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Gas",
     "edifact_format": "INVOIC"
   },
   {
@@ -321,7 +391,7 @@
   },
   {
     "condition_key": "516",
-    "condition_text": "Hinweis: Ein",
+    "condition_text": "Hinweis: EinLieferschein zu einer Rechnung ist für alle Abrechnungszeiträum e, die erstmals nach dem 1.12.2019 abgerechnet werden und für alle Abrechnungszeiträum e, für die sich nach dem 1.12.2019 geänderte Mengen oder Leistungswerte ergeben, nötig.",
     "edifact_format": "INVOIC"
   },
   {
@@ -437,6 +507,11 @@
   {
     "condition_key": "953",
     "condition_text": "Format: SR-ID",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "2000",
+    "condition_text": "das Sgement kann bis zu 8 mal je Rechnung wiederholt werden",
     "edifact_format": "INVOIC"
   }
 ]

@@ -220,6 +220,11 @@
     "edifact_format": "PARTIN"
   },
   {
+    "condition_key": "507",
+    "condition_text": "Hinweis: Für den Empfang der Information über die erfolgreiche Einrichtung eines Steuerbefehls",
+    "edifact_format": "PARTIN"
+  },
+  {
     "condition_key": "908",
     "condition_text": "Format: Mögliche Werte: 1 bis n",
     "edifact_format": "PARTIN"
@@ -237,6 +242,11 @@
   {
     "condition_key": "940",
     "condition_text": "Format: Die Zeichenkette muss mit dem Zeichen + beginnen und danach dürfen nur noch Ziffern folgen",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "967",
+    "condition_text": "Format: Zertifikatskörper gemäß X509.1, BSI TR-03109-4",
     "edifact_format": "PARTIN"
   }
 ]

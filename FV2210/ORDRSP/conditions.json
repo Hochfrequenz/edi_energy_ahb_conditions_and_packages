@@ -21,7 +21,7 @@
   },
   {
     "condition_key": "6",
-    "condition_text": "\u00dcbernahme der Angabe aus der ORDERS, wenn dort vorhanden",
+    "condition_text": "Übernahme der Angabe aus der ORDERS, wenn dort vorhanden",
     "edifact_format": "ORDRSP"
   },
   {
@@ -56,22 +56,22 @@
   },
   {
     "condition_key": "16",
-    "condition_text": "Wenn MP-ID in SG3 NAD+MR mit Rolle \u00dcNB vorhanden",
+    "condition_text": "Wenn MP-ID in SG3 NAD+MR mit Rolle ÜNB vorhanden",
     "edifact_format": "ORDRSP"
   },
   {
     "condition_key": "17",
-    "condition_text": "Der hier angegebene Code des Pr\u00fcfschritts muss im EBD dem Cluster Zustimmung zugeordnet sein",
+    "condition_text": "Der hier angegebene Code des Prüfschritts muss im EBD dem Cluster Zustimmung zugeordnet sein",
     "edifact_format": "ORDRSP"
   },
   {
     "condition_key": "18",
-    "condition_text": "Der hier angegebene Code des Pr\u00fcfschritts muss im EBD dem Cluster Ablehnung zugeordnet sein",
+    "condition_text": "Der hier angegebene Code des Prüfschritts muss im EBD dem Cluster Ablehnung zugeordnet sein",
     "edifact_format": "ORDRSP"
   },
   {
     "condition_key": "19",
-    "condition_text": "Es sind nur die Artikelnummern erlaubt, die in der Codeliste der Artikelnummern des BDEW mit dem entsprechenden Pr\u00fcfidentifikator versehen sind.",
+    "condition_text": "Es sind nur die Artikelnummern erlaubt, die in der Codeliste der Artikelnummern des BDEW mit dem entsprechenden Prüfidentifikator versehen sind.",
     "edifact_format": "ORDRSP"
   },
   {
@@ -101,7 +101,7 @@
   },
   {
     "condition_key": "26",
-    "condition_text": "Der hier angegebene Code des Pr\u00fcfschritts muss im EBD einer Ablehnung entsprechen",
+    "condition_text": "Der hier angegebene Code des Prüfschritts muss im EBD einer Ablehnung entsprechen",
     "edifact_format": "ORDRSP"
   },
   {
@@ -151,22 +151,22 @@
   },
   {
     "condition_key": "38",
-    "condition_text": "M\u00f6glicher Wert: ZB4 oder ZB5",
+    "condition_text": "Möglicher Wert: ZB4 oder ZB5",
     "edifact_format": "ORDRSP"
   },
   {
     "condition_key": "39",
-    "condition_text": "M\u00f6glicher Wert: E17 oder Z07",
+    "condition_text": "Möglicher Wert: E17 oder Z07",
     "edifact_format": "ORDRSP"
   },
   {
     "condition_key": "40",
-    "condition_text": "Wenn der Code im DE3207 in der \"EDI@Energy Codeliste der europ\u00e4ischen L\u00e4ndercodes\" in der Spalte \"PLZ vorhanden\" ein \"X\" enth\u00e4lt",
+    "condition_text": "Wenn der Code im DE3207 in der \"EDI@Energy Codeliste der europäischen Ländercodes\" in der Spalte \"PLZ vorhanden\" ein \"X\" enthält",
     "edifact_format": "ORDRSP"
   },
   {
     "condition_key": "41",
-    "condition_text": "wenn SG2 AJT (Einzelheiten zu einer Anpassung/\u00c4nderung) DE4465 mit Wert ZB5 vorhanden",
+    "condition_text": "wenn SG2 AJT (Einzelheiten zu einer Anpassung/Änderung) DE4465 mit Wert ZB5 vorhanden",
     "edifact_format": "ORDRSP"
   },
   {
@@ -176,12 +176,12 @@
   },
   {
     "condition_key": "492",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Strom",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Strom",
     "edifact_format": "ORDRSP"
   },
   {
     "condition_key": "493",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Gas",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Gas",
     "edifact_format": "ORDRSP"
   },
   {
@@ -191,12 +191,12 @@
   },
   {
     "condition_key": "500",
-    "condition_text": "Hinweis: Angabe eines technischen Ansprechpartners f\u00fcr die Ger\u00e4te\u00fcbernahme",
+    "condition_text": "Hinweis: Angabe eines technischen Ansprechpartners für die Geräteübernahme",
     "edifact_format": "ORDRSP"
   },
   {
     "condition_key": "501",
-    "condition_text": "Hinweis: \u00dcbernahme der Angabe aus der entsprechenden Position der ORDERS",
+    "condition_text": "Hinweis: Übernahme der Angabe aus der entsprechenden Position der ORDERS",
     "edifact_format": "ORDRSP"
   },
   {
@@ -206,12 +206,12 @@
   },
   {
     "condition_key": "503",
-    "condition_text": "Hinweis: Datum, bis zu dem der MSBA zur Fortf\u00fchrung verpflichtet wurde",
+    "condition_text": "Hinweis: Datum, bis zu dem der MSBA zur Fortführung verpflichtet wurde",
     "edifact_format": "ORDRSP"
   },
   {
     "condition_key": "504",
-    "condition_text": "Hinweis: Ggf. korrigiert bei einer Zeitangabe in der ORDERS, die au\u00dferhalb des max. m\u00f6glichen Weiterverpflichtungszeitraums ist. Als Antwort wird dann in SG2 AJT Zustimmung mit Termin\u00e4nderung angegeben.",
+    "condition_text": "Hinweis: Ggf. korrigiert bei einer Zeitangabe in der ORDERS, die außerhalb des max. möglichen Weiterverpflichtungszeitraums ist. Als Antwort wird dann in SG2 AJT Zustimmung mit Terminänderung angegeben.",
     "edifact_format": "ORDRSP"
   },
   {
@@ -271,7 +271,7 @@
   },
   {
     "condition_key": "528",
-    "condition_text": "Hinweis: Der Summenbetrag ist entsprechend der Summe der Einzelbetr\u00e4ge der Bestellposition aufzuf\u00fchren. Bei der Bestellbest\u00e4tigung kann der Summenbetrag (netto) aus der ORDERS \u00fcbernommen werden",
+    "condition_text": "Hinweis: Der Summenbetrag ist entsprechend der Summe der Einzelbeträge der Bestellposition aufzuführen. Bei der Bestellbestätigung kann der Summenbetrag (netto) aus der ORDERS übernommen werden",
     "edifact_format": "ORDRSP"
   },
   {
@@ -296,27 +296,27 @@
   },
   {
     "condition_key": "535",
-    "condition_text": "Hinweis: Wert aus BGM+Z13 DE1004 der ORDERS, mit der die Ank\u00fcndigung Ger\u00e4tewechselabsicht erfolgt ist.",
+    "condition_text": "Hinweis: Wert aus BGM+Z13 DE1004 der ORDERS, mit der die Ankündigung Gerätewechselabsicht erfolgt ist.",
     "edifact_format": "ORDRSP"
   },
   {
     "condition_key": "536",
-    "condition_text": "Hinweis: Es ist die MP-ID des Eigent\u00fcmers (MSB) zur bilateralen Kl\u00e4rung anzugeben, wenn der angefragte MSB nicht selber der Eigent\u00fcmer ist.",
+    "condition_text": "Hinweis: Es ist die MP-ID des Eigentümers (MSB) zur bilateralen Klärung anzugeben, wenn der angefragte MSB nicht selber der Eigentümer ist.",
     "edifact_format": "ORDRSP"
   },
   {
     "condition_key": "903",
-    "condition_text": "Format: M\u00f6glicher Wert: 1",
+    "condition_text": "Format: Möglicher Wert: 1",
     "edifact_format": "ORDRSP"
   },
   {
     "condition_key": "908",
-    "condition_text": "Format: M\u00f6gliche Werte: 1 bis n",
+    "condition_text": "Format: Mögliche Werte: 1 bis n",
     "edifact_format": "ORDRSP"
   },
   {
     "condition_key": "911",
-    "condition_text": "Format: M\u00f6gliche Werte: 1 bis n, je Nachricht oder Segmentgruppe bei 1 beginnend und fortlaufend aufsteigend",
+    "condition_text": "Format: Mögliche Werte: 1 bis n, je Nachricht oder Segmentgruppe bei 1 beginnend und fortlaufend aufsteigend",
     "edifact_format": "ORDRSP"
   },
   {
