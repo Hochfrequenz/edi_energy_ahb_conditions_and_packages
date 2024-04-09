@@ -86,7 +86,7 @@
   },
   {
     "condition_key": "45",
-    "condition_text": "Wenn SG9 PIA+5+7-b:99.41. 16 (b=Kanal: Wert gemäß",
+    "condition_text": "Wenn SG9 PIA+5+7-b:99.41. 16 (b=Kanal: Wert gemäßCodeliste der OBIS-Kennzahlen und Medien) vorhanden",
     "edifact_format": "MSCONS"
   },
   {
@@ -111,7 +111,7 @@
   },
   {
     "condition_key": "51",
-    "condition_text": "Wenn SG9 PIA+5+7-0?: 33.86.0 vorhanden ist, darf mittels Wiederholung SG9 LIN",
+    "condition_text": "Wenn SG9 PIA+5+7-0?: 33.86.0 vorhanden ist, darf mittels Wiederholung SG9 LINin derselben Nachricht das SG9 PIA+5+7-0?:52.0.22/7-0?:54. 0.16/7-0?:54.0.20/7-0?:54.0. 22 nicht mehr angegeben werden",
     "edifact_format": "MSCONS"
   },
   {
@@ -146,7 +146,7 @@
   },
   {
     "condition_key": "72",
-    "condition_text": "Wenn SG9 PIA+5+1-b?:1.6.0/1-b?: 3.6.0/1-b?:4.6.0/1-66?: 13.6.0/1-66?:14.6.0",
+    "condition_text": "Wenn SG9 PIA+5+1-b?:1.6.0/1-b?: 3.6.0/1-b?:4.6.0/1-66?: 13.6.0/1-66?:14.6.0(b=Kanal: Wert gemäß Codeliste der OBIS- Kennzahlen und Medien) vorhanden",
     "edifact_format": "MSCONS"
   },
   {
@@ -235,6 +235,16 @@
     "edifact_format": "MSCONS"
   },
   {
+    "condition_key": "95",
+    "condition_text": "Wenn SG10 QTY DE6063 mit Wert 20 vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "96",
+    "condition_text": "Wenn SG10 QTY DE6063 mit Wert Z18 vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
     "condition_key": "97",
     "condition_text": "Wenn es sich um die Übermittlung eines Wertes aufgrund der Umstellung der Gasqualität handelt",
     "edifact_format": "MSCONS"
@@ -292,6 +302,11 @@
   {
     "condition_key": "121",
     "condition_text": "wenn BGM+Z43 vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "125",
+    "condition_text": "wenn SG9 PIA+5+7-0?:52. 0.22/7-b?:53.0.16/7-b?:55.0.16/ 7-b?:55.0.20/7-b?:55.0.22 (b=Kanal: Wert gemäß Codeliste der OBIS-Kennzahlen und Medien) vorhanden",
     "edifact_format": "MSCONS"
   },
   {
@@ -400,6 +415,11 @@
     "edifact_format": "MSCONS"
   },
   {
+    "condition_key": "493",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Gas",
+    "edifact_format": "MSCONS"
+  },
+  {
     "condition_key": "494",
     "condition_text": "Das hier genannte Datum muss der Zeitpunkt sein, zu dem das Dokument erstellt wurde, oder ein Zeitpunkt, der davor liegt.",
     "edifact_format": "MSCONS"
@@ -416,7 +436,7 @@
   },
   {
     "condition_key": "502",
-    "condition_text": "Hinweis: Einmal für die Energiemenge von Beginn des Kalenderjahres bis zum Lieferbeginn und bis zu zweimal für die zwei höchsten Monatsleistungswerte",
+    "condition_text": "Hinweis: Einmal für die Energiemenge von Beginn des Kalenderjahres bis zum Lieferbeginn und bis zu zweimal für die zwei höchsten Monatsleistungswerte(wegen KAV) von Beginn des Kalenderjahres bis zum Lieferbeginn",
     "edifact_format": "MSCONS"
   },
   {
@@ -486,7 +506,7 @@
   },
   {
     "condition_key": "523",
-    "condition_text": "Hinweis: Nur für die Übermittlung der Energiemenge im Zeitintervall zwischen zwei Messwerten vor der Netznutzungsabrechnung.",
+    "condition_text": "Hinweis: Nur für die Übermittlung der Energiemenge im Zeitintervall zwischen zwei Messwerten vor der Netznutzungsabrechnun g.",
     "edifact_format": "MSCONS"
   },
   {
@@ -525,8 +545,18 @@
     "edifact_format": "MSCONS"
   },
   {
+    "condition_key": "532",
+    "condition_text": "Hinweis: Wert aus BGM+7/ Z27/Z28/270/Z41/Z42 DE1004 der MSCONS Nachricht die storniert wird",
+    "edifact_format": "MSCONS"
+  },
+  {
     "condition_key": "535",
     "condition_text": "Hinweis: Verwendung der ID des Netzkoppelpunktes Strom/Gas",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "536",
+    "condition_text": "Hinweis: Wert aus SG6 RFF+AAV DE1154 der UTILMD mit dem der NB die vorherigen Stammdaten mittels UTILMD übermittelt hat.",
     "edifact_format": "MSCONS"
   },
   {
@@ -546,12 +576,22 @@
   },
   {
     "condition_key": "544",
-    "condition_text": "Hinweis: Bei einer Mengenaufteilung (z. B. Aufgrund einer Abgrenzung) für SG6 LOC+172 muss für den frühesten angegebenen Zeitpunkt zum Beginn des Zeitintervalls (über alle Wiederholungen der LIN-Segmente derselben",
+    "condition_text": "Hinweis: Bei einer Mengenaufteilung (z. B. Aufgrund einer Abgrenzung) für SG6 LOC+172 muss für den frühesten angegebenen Zeitpunkt zum Beginn des Zeitintervalls (über alle Wiederholungen der LIN-Segmente derselbenSG6 LOC+172 hinweg) zu jeder OBIS-Kennziffer ein Zählerstand vorhanden und kommuniziert sein.",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "545",
+    "condition_text": "Hinweis: Bei einer Mengenaufteilung (z. B. Aufgrund einer Abgrenzung) für SG6 LOC+172 muss für den spätesten angegebenen Zeitpunkt zum Ende des Zeitintervalls (über alle Wiederholungen der LIN-Segmente derselben SG6 LOC+172 hinweg) zu jeder OBIS-Kennziffer ein Zählerstand vorhanden und kommuniziert sein.",
     "edifact_format": "MSCONS"
   },
   {
     "condition_key": "546",
     "condition_text": "Hinweis: Eine Referenz auf die Stammdatenänderung des Gerätewechsels ist immer anzugeben, wenn diese dem Sender vorliegt.",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "547",
+    "condition_text": "Hinweis: Der Code 270 ist nur zu nutzen, wenn ein Lieferschein, der vor dem 1.4. 2021 erstellt wurde, storniert wird.",
     "edifact_format": "MSCONS"
   },
   {
@@ -586,7 +626,7 @@
   },
   {
     "condition_key": "559",
-    "condition_text": "Hinweis: Ein Korrekturgrund ist anzugeben, wenn: 1. ein bereits an den MP übermittelter vorläufiger Wert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 2. ein bereits an den MP übermittelter Ersatzwert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 3. ein bereits an den MP übermittelter wahrer Wert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 4. ein bereits an den MP übermittelter wahrer Wert",
+    "condition_text": "Hinweis: Ein Korrekturgrund ist anzugeben, wenn: 1. ein bereits an den MP übermittelter vorläufiger Wert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 2. ein bereits an den MP übermittelter Ersatzwert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 3. ein bereits an den MP übermittelter wahrer Wert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 4. ein bereits an den MP übermittelter wahrer Wertnach Stornierung durch einen wahren Wert ersetzt wird.",
     "edifact_format": "MSCONS"
   },
   {
@@ -606,7 +646,7 @@
   },
   {
     "condition_key": "568",
-    "condition_text": "Hinweis: Verwendung ist nur zulässig, wenn es sich um 1:n Beziehung zwischen Markt- und Messlokation handelt und auf Ebene der Messlokation unterschiedliche Ersatzwertbildungsverfahren verwendet und kommuniziert wurden.",
+    "condition_text": "Hinweis: Verwendung ist nur zulässig, wenn es sich um 1:n Beziehung zwischen Markt- und Messlokation handelt und auf Ebene der Messlokation unterschiedliche Ersatzwertbildungsverfa hren verwendet undkommuniziert wurden.",
     "edifact_format": "MSCONS"
   },
   {
@@ -706,7 +746,7 @@
   },
   {
     "condition_key": "931",
-    "condition_text": "Format: ZZZ = +00",
+    "condition_text": "Format: ZZZ = +00Anmerkung----Anmerkung----Anmerkung--------",
     "edifact_format": "MSCONS"
   },
   {
@@ -732,6 +772,11 @@
   {
     "condition_key": "2001",
     "condition_text": "Segmentgruppe ist nur einmal je UNH anzugeben",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "2002",
+    "condition_text": "Segmentgruppe ist bis zu drei Mal je SG5 NAD+DP anzugeben",
     "edifact_format": "MSCONS"
   },
   {

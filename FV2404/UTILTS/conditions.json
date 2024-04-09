@@ -405,6 +405,11 @@
     "edifact_format": "UTILTS"
   },
   {
+    "condition_key": "969",
+    "condition_text": "Format: Möglicher Wer: ≤ 1",
+    "edifact_format": "UTILTS"
+  },
+  {
     "condition_key": "2000",
     "condition_text": "Segment ist bis zu viermal je SG9 CCI+Z27 anzugeben",
     "edifact_format": "UTILTS"

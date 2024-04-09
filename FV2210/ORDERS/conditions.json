@@ -11,7 +11,7 @@
   },
   {
     "condition_key": "4",
-    "condition_text": "\u00dcbernahme der Angabe aus der QUOTES, wenn dort vorhanden",
+    "condition_text": "Übernahme der Angabe aus der QUOTES, wenn dort vorhanden",
     "edifact_format": "ORDERS"
   },
   {
@@ -81,7 +81,7 @@
   },
   {
     "condition_key": "26",
-    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle \u00dcNB vorhanden",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle ÜNB vorhanden",
     "edifact_format": "ORDERS"
   },
   {
@@ -110,6 +110,11 @@
     "edifact_format": "ORDERS"
   },
   {
+    "condition_key": "35",
+    "condition_text": "IMD++Z14+Z06 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
     "condition_key": "36",
     "condition_text": "Wenn MP-ID in SG2 NAD+MR mit Rolle NB nicht vorhanden",
     "edifact_format": "ORDERS"
@@ -121,7 +126,7 @@
   },
   {
     "condition_key": "39",
-    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle \u00dcNB nicht vorhanden",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MS mit Rolle ÜNB nicht vorhanden",
     "edifact_format": "ORDERS"
   },
   {
@@ -136,7 +141,7 @@
   },
   {
     "condition_key": "47",
-    "condition_text": "Wenn SG29 IMD++Z46 \u00a0nicht vorhanden",
+    "condition_text": "Wenn SG29 IMD++Z46 nicht vorhanden",
     "edifact_format": "ORDERS"
   },
   {
@@ -146,7 +151,7 @@
   },
   {
     "condition_key": "52",
-    "condition_text": "Es sind nur die Artikelnummern erlaubt, die in der Codeliste der Artikelnummern des BDEW mit dem entsprechenden Pr\u00fcfidentifikator versehen sind.",
+    "condition_text": "Es sind nur die Artikelnummern erlaubt, die in der Codeliste der Artikelnummern des BDEW mit dem entsprechenden Prüfidentifikator versehen sind.",
     "edifact_format": "ORDERS"
   },
   {
@@ -221,27 +226,72 @@
   },
   {
     "condition_key": "75",
-    "condition_text": "Wenn f\u00fcr den erforderlichen Wert keine Z\u00e4hlzeit ben\u00f6tigt wirdZ39",
+    "condition_text": "Wenn für den erforderlichen Wert keine Zählzeit benötigt wird",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "76",
-    "condition_text": "Wenn in derselben SG29 mit Z27 in LIN DE1229 (Erforderliches Messprodukt der Marktlokation) das PIA+5 DE7140 mit einem Messprodukt aus Codeliste der Messprodukte Kapitel 2.1.1 Standard-Messprodukt der Marktlokation mit der Wahlm\u00f6glichkeit der Zuordnung einer Z\u00e4hlzeit vorhanden ist",
+    "condition_text": "Wenn in derselben SG29 mit Z27 in LIN DE1229 (Erforderliches Messprodukt der Marktlokation) das PIA+5 DE7140 mit einem Messprodukt aus Codeliste der Messprodukte Kapitel 2.1.1 Standard-Messprodukt der Marktlokation mit der Wahlmöglichkeit der Zuordnung einer Zählzeit vorhanden ist",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "77",
-    "condition_text": "Wenn im selben CCI im DE7059 der Code Z39 (Code der Z\u00e4hlzeit) vorhanden ist",
+    "condition_text": "Wenn im selben CCI im DE7059 der Code Z39 (Code der Zählzeit) vorhanden ist",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "78",
+    "condition_text": "Wenn in derselben SG29 mit Z27 in LIN DE1229 (Erforderliches Messprodukt der Marktlokation) das PIA+5 DE7140 mit einem Messprodukt aus Codeliste der Messprodukte Kapitel 2. Codeliste der Standard-Messprodukt Strom mit der Werteigenschaft „Blindarbeit“ vorhanden ist",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "79",
+    "condition_text": "Wenn eine andere SG29 mit Z27 in LIN DE1229 (Erforderliches Messprodukt der Marktlokation) mit PIA+5+9991000000078:Z11 (für Wirkarbeit Lastgang 1/4 stündlich) vorhanden ist",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "80",
+    "condition_text": "Wenn keine andere SG29 mit Z27 in LIN DE1229 (Erforderliches Messprodukt der Marktlokation) mit PIA+5+9991000000078:Z11 (Wirkarbeit Lastgang 1/4 stündlich) vorhanden ist",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "81",
+    "condition_text": "Wenn in derselben SG29 mit Z27 in LIN DE1229 (Erforderliches Messprodukt der Marktlokation), das PIA+5+9991000000078:Z11 (Wirkarbeit Lastgang 1/4 stündlich) vorhanden ist",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "82",
+    "condition_text": "Wenn eine andere SG29 mit Z27 in LIN DE1229 (Erforderliches Messprodukt der Marktlokation) mit PIA+5 DE7140 mit einem Messprodukt aus Codeliste der Messprodukte Kapitel 2.1.1 Standard-Messprodukt der Marktlokation mit der Wahlmöglichkeit der Zuordnung einer Zählzeit vorhanden ist",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "83",
+    "condition_text": "Wenn keine andere SG29 mit Z27 in LIN DE1229 (Erforderliches Messprodukt der Marktlokation) mit PIA+5 DE7140 mit einem Messprodukt aus Codeliste der Messprodukte Kapitel 2.1.1 Standard-Messprodukt der Marktlokation mit der Wahlmöglichkeit der Zuordnung einer Zählzeit vorhanden ist",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "84",
+    "condition_text": "IMD++Z14+Z07 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "85",
+    "condition_text": "Wenn in derselben SG29 mit Z27 in LIN DE1229 (Erforderliches Messprodukt der Marktlokation), das PIA+5+9991000000086:Z11 (Wirkarbeit höchste 1/4 Stunde im Monat) vorhanden ist",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "86",
-    "condition_text": "Wenn in derselben SG29 mit Z19 in LIN DE1229 (Erforderliches Messprodukt der Messlokation) das PIA+5 DE7140 mit einem Messprodukt aus Codeliste der Messprodukte Kapitel 2.3.1 Standard-Messprodukt der Messlokation mit der Wahlm\u00f6glichkeit der Zuordnung einer Z\u00e4hlzeit vorhanden ist",
+    "condition_text": "Wenn in derselben SG29 mit Z19 in LIN DE1229 (Erforderliches Messprodukt der Messlokation) das PIA+5 DE7140 mit einem Messprodukt aus Codeliste der Messprodukte Kapitel 2.3.1 Standard-Messprodukt der Messlokation mit der Wahlmöglichkeit der Zuordnung einer Zählzeit vorhanden ist",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "87",
     "condition_text": "Wenn FTX+Z09/Z10 vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "91",
+    "condition_text": "Wenn in diesem Datenelement kein anderes Paket zur Möglichkeit der Angabe von mindestens einem anderen Code führt.",
     "edifact_format": "ORDERS"
   },
   {
@@ -261,7 +311,7 @@
   },
   {
     "condition_key": "96",
-    "condition_text": "Messprodukt-Code aus dem Kapitel 2.2 \"Standard-Messprodukte der Tranche\" der Codeliste der Messprodukte",
+    "condition_text": "Messprodukt-Code aus dem Kapitel 2.2 \"Standard- Messprodukte der Tranche\" der Codeliste der Messprodukte",
     "edifact_format": "ORDERS"
   },
   {
@@ -286,12 +336,12 @@
   },
   {
     "condition_key": "102",
-    "condition_text": "Wenn in derselben SG29 LIN das CCI+++Z25 (Ger\u00e4teart Wandler) vorhanden",
+    "condition_text": "Wenn in derselben SG29 LIN das CCI+++Z25 (Geräteart Wandler) vorhanden",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "103",
-    "condition_text": "Wenn in derselben SG29 LIN das CCI+++Z25 (Ger\u00e4teart Wandler) nicht vorhanden",
+    "condition_text": "Wenn in derselben SG29 LIN das CCI+++Z25 (Geräteart Wandler) nicht vorhanden",
     "edifact_format": "ORDERS"
   },
   {
@@ -301,17 +351,17 @@
   },
   {
     "condition_key": "105",
-    "condition_text": "Wenn die bisherige Konfiguration mit Z\u00e4hlzeiten des LF vom LF beendet werden soll",
+    "condition_text": "Wenn die bisherige Konfiguration mit Zählzeiten des LF vom LF beendet werden soll",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "106",
-    "condition_text": "wenn IMD++Z60 (Abbestellung Messprodukt mit Z\u00e4hlzeit des LF) nicht vorhanden",
+    "condition_text": "wenn IMD++Z60 (Abbestellung Messprodukt mit Zählzeit des LF) nicht vorhanden",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "107",
-    "condition_text": "Wenn IMD++Z57 (Abbestellung Z\u00e4hlzeiten) nicht vorhanden",
+    "condition_text": "Wenn IMD++Z57 (Abbestellung Zählzeiten) nicht vorhanden",
     "edifact_format": "ORDERS"
   },
   {
@@ -326,22 +376,17 @@
   },
   {
     "condition_key": "110",
-    "condition_text": "wenn DTM+163 (Beginn Zeitraum f\u00fcr Wertanfrage) vorhanden",
-    "edifact_format": "ORDERS"
-  },
-  {
-    "condition_key": "112",
-    "condition_text": "Wenn in derselben SG29 LIN++Z27 (Erforderliches Messprodukt der Marktlokation), das PIA+5+9991000000078: Z11 (Wirkarbeit Lastgang 1/4 st\u00fcndlich) vorhanden ist",
+    "condition_text": "wenn DTM+163 (Beginn Zeitraum für Wertanfrage) vorhanden",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "492",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Strom",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Strom",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "493",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Gas",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Gas",
     "edifact_format": "ORDERS"
   },
   {
@@ -351,67 +396,67 @@
   },
   {
     "condition_key": "495",
-    "condition_text": "Der Zeitpunkt muss \u2264 dem Wert im DE2380 des DTM+137 sein",
+    "condition_text": "Der Zeitpunkt muss ≤ dem Wert im DE2380 des DTM+137 sein",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "500",
-    "condition_text": "Hinweis: Z\u00e4hlpunkt der BAS",
+    "condition_text": "Hinweis: Zählpunkt der BAS",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "501",
-    "condition_text": "Hinweis: Z\u00e4hlpunkt der DZR",
+    "condition_text": "Hinweis: Zählpunkt der DZR",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "502",
-    "condition_text": "Hinweis: Der Qualifier in DE7081 muss aus der in SG1 referenzierten QUOTES \u00fcbernommen werden",
+    "condition_text": "Hinweis: Der Qualifier in DE7081 muss aus der in SG1 referenzierten QUOTES übernommen werden",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "503",
-    "condition_text": "Hinweis: Angabe eines technischen Ansprechpartners f\u00fcr die Ger\u00e4te\u00fcbernahme",
+    "condition_text": "Hinweis: Angabe eines technischen Ansprechpartners für die Geräteübernahme",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "504",
-    "condition_text": "Hinweis: \u00dcbernahme derAngabe aus der entsprechenden Position der QUOTES",
+    "condition_text": "Hinweis: Übernahme derAngabe aus der entsprechenden Position der QUOTES",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "505",
-    "condition_text": "Hinweis: Der Summenbetrag ist entsprechend der Summe der Einzelbetr\u00e4ge der Bestellposition aufzuf\u00fchren. Bei Annahme des Gesamtangebots kann der Summenbetrag (netto) aus der QUOTES \u00fcbernommen werden.",
+    "condition_text": "Hinweis: Der Summenbetrag ist entsprechend der Summe der Einzelbeträge der Bestellposition aufzuführen. Bei Annahme des Gesamtangebots kann der Summenbetrag (netto) aus der QUOTES übernommen werden.",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "506",
-    "condition_text": "Hinweis: Datum, bis zu dem der MSBA zur Fortf\u00fchrung verpflichtet wird",
+    "condition_text": "Hinweis: Datum, bis zu dem der MSBA zur Fortführung verpflichtet wird",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "514",
-    "condition_text": "Hinweis: Das Abonnement kann fr\u00fchestens ab dem aktuellen Liefermonat beim Netzbetreiber gestartet werden.",
+    "condition_text": "Hinweis: Das Abonnement kann frühestens ab dem aktuellen Liefermonat beim Netzbetreiber gestartet werden.",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "515",
-    "condition_text": "Hinweis: Das angegebene Betrachtungszeitintervall bestimmt beim Start Abo bzw. Ende Abo ab bzw. bis wann (einschlie\u00dflich) das Abo laufen soll.",
+    "condition_text": "Hinweis: Das angegebene Betrachtungszeitintervall bestimmt beim Start Abo bzw. Ende Abo ab bzw. bis wann (einschließlich) das Abo laufen soll.",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "517",
-    "condition_text": "Hinweis: Z\u00e4hlpunkt der LF- AASZR",
+    "condition_text": "Hinweis: Zählpunkt der LF- AASZR",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "518",
-    "condition_text": "Hinweis: Das angegebene Ausf\u00fchrungsdatum bestimmt beim Start Abo bzw. Ende Abo ab bzw. bis wann(einschlie\u00dflich) das Abo laufen soll.",
+    "condition_text": "Hinweis: Das angegebene Ausführungsdatum bestimmt beim Start Abo bzw. Ende Abo ab bzw. bis wann(einschließlich) das Abo laufen soll.",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "519",
-    "condition_text": "Hinweis: Bei Gas bezieht sich die Anforderung immer sowohl auf die vorl\u00e4ufigen Profilwerte als auch auf die endg\u00fcltigen Profilwerte, falls diese bereits vorliegen.",
+    "condition_text": "Hinweis: Bei Gas bezieht sich die Anforderung immer sowohl auf die vorläufigen Profilwerte als auch auf die endgültigen Profilwerte, falls diese bereits vorliegen.",
     "edifact_format": "ORDERS"
   },
   {
@@ -436,7 +481,7 @@
   },
   {
     "condition_key": "527",
-    "condition_text": "Hinweis: Z\u00e4hlpunkt der BG-SZR (Kategorie B)",
+    "condition_text": "Hinweis: Zählpunkt der BG-SZR (Kategorie B)",
     "edifact_format": "ORDERS"
   },
   {
@@ -471,12 +516,12 @@
   },
   {
     "condition_key": "539",
-    "condition_text": "Hinweis: Es sind nur Codes von Z\u00e4hlzeiten aus Liste des NB anzugeben",
+    "condition_text": "Hinweis: Es sind nur Codes von Zählzeiten aus Liste des NB anzugeben",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "540",
-    "condition_text": "Hinweis: Es sind nur Codes von Z\u00e4hlzeiten aus Liste des LF anzugeben",
+    "condition_text": "Hinweis: Es sind nur Codes von Zählzeiten aus Liste des LF anzugeben",
     "edifact_format": "ORDERS"
   },
   {
@@ -491,7 +536,7 @@
   },
   {
     "condition_key": "545",
-    "condition_text": "Hinweis: Es werden nur die Messprodukte der Messlokationen angegeben, die f\u00fcr die in der SG2 genannte Marktlokation bzw. deren Tranchen erforderlich sind. Messprodukte an der Messlokation f\u00fcr weitere Marktlokationen bleiben unver\u00e4ndert.",
+    "condition_text": "Hinweis: Es werden nur die Messprodukte der Messlokationen angegeben, die für die in der SG2 genannte Marktlokation bzw. deren Tranchen erforderlich sind. Messprodukte an der Messlokation für weitere Marktlokationen bleiben unverändert.",
     "edifact_format": "ORDERS"
   },
   {
@@ -501,32 +546,32 @@
   },
   {
     "condition_key": "548",
-    "condition_text": "Hinweis: Wenn die \u00c4nderung der Ger\u00e4tekonfiguration mit einer Z\u00e4hlzeit \u00fcbermittelt wird, ist hier die MP-ID des Eigent\u00fcmers der Liste der Z\u00e4hlzeit einzutragen. Wenn anstatt der bisherigen Z\u00e4hlzeit keine Z\u00e4hlzeit mehr verwendet werden soll ist hier die MP-ID des Eigent\u00fcmers der Liste der Z\u00e4hlzeit einzutragen aus welcher bisher die Z\u00e4hlzeit verwendet wurde.",
+    "condition_text": "Hinweis: Wenn die Änderung der Gerätekonfiguration mit einer Zählzeit übermittelt wird, ist hier die MP-ID des Eigentümers der Liste der Zählzeit einzutragen. Wenn anstatt der bisherigen Zählzeit keine Zählzeit mehr verwendet werden soll ist hier die MP-ID des Eigentümers der Liste der Zählzeit einzutragen aus welcher bisher die Zählzeit verwendet wurde.",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "549",
-    "condition_text": "Hinweis: Findet bei der Reklamation von Z\u00e4hlerst\u00e4nden immer Anwendung. Einzige Ausnahme ist, wenn es sich um die Reklamation eines fehlenden Z\u00e4hlerstandes aufgrund einer Turnusablesung handelt, bei welcher der MSB am Objekt der Marktlokation die Information zur \"geplanten Turnusablesung des MSB (Strom)\" in der UTILMD im SG6 DTM+752 als Ablesezeitraum (DE2379 mit Code 104 MMWW- MMWW) in den vorherigenStammdaten \u00fcbermittelt hatte, denn dann ist keine Zeitpunktangabe m\u00f6glich, sondern das Zeitintervall in der Segmentauspr\u00e4gung DTM+163 / DTM+164 zu verwenden.",
+    "condition_text": "Hinweis: Findet bei der Reklamation von Zählerständen immer Anwendung. Einzige Ausnahme ist, wenn es sich um die Reklamation eines fehlenden Zählerstandes aufgrund einer Turnusablesung handelt, bei welcher der MSB am Objekt der Marktlokation die Information zur \"geplanten Turnusablesung des MSB (Strom)\" in der UTILMD im SG6 DTM+752 als Ablesezeitraum (DE2379 mit Code 104 MMWW- MMWW) in den vorherigenStammdaten übermittelt hatte, denn dann ist keine Zeitpunktangabe möglich, sondern das Zeitintervall in der Segmentausprägung DTM+163 / DTM+164 zu verwenden.",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "550",
-    "condition_text": "Hinweis: Findet nur dann Anwendung, wenn es sich um die Reklamation eines fehlenden Z\u00e4hlerstandes aufgrund einer Turnusablesung handelt, bei welcher der MSB am Objekt der Marktlokation die Information zur \"geplanten Turnusablesung des MSB (Strom)\" in der UTILMD im SG6 DTM+752 als Ablesezeitraum (DE2379 mit Code 104 MMWW- MMWW) in den vorherigen Stammdaten \u00fcbermittelt hatte.",
+    "condition_text": "Hinweis: Findet nur dann Anwendung, wenn es sich um die Reklamation eines fehlenden Zählerstandes aufgrund einer Turnusablesung handelt, bei welcher der MSB am Objekt der Marktlokation die Information zur \"geplanten Turnusablesung des MSB (Strom)\" in der UTILMD im SG6 DTM+752 als Ablesezeitraum (DE2379 mit Code 104 MMWW- MMWW) in den vorherigen Stammdaten übermittelt hatte.",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "903",
-    "condition_text": "Format: M\u00f6glicher Wert: 1",
+    "condition_text": "Format: Möglicher Wert: 1",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "908",
-    "condition_text": "Format: M\u00f6gliche Werte: 1 bis n",
+    "condition_text": "Format: Mögliche Werte: 1 bis n",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "911",
-    "condition_text": "Format: M\u00f6gliche Werte: 1 bis n, je Nachricht oder Segmentgruppe bei 1 beginnend und fortlaufend aufsteigend",
+    "condition_text": "Format: Mögliche Werte: 1 bis n, je Nachricht oder Segmentgruppe bei 1 beginnend und fortlaufend aufsteigend",
     "edifact_format": "ORDERS"
   },
   {
@@ -556,12 +601,12 @@
   },
   {
     "condition_key": "951",
-    "condition_text": "Format: Z\u00e4hlpunktbezeichnu ng",
+    "condition_text": "Format: Zählpunktbezeichnu ng",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "2001",
-    "condition_text": "Die SG29 ist so oft zu wiederholen, wie ab dem DTM+203 (Ausf\u00fchrungsdatum) Tranchen zu der in der SG2 genannten Marktlokation vorhanden sind.",
+    "condition_text": "Die SG29 ist so oft zu wiederholen, wie ab dem DTM+203 (Ausführungsdatum) Tranchen zu der in der SG2 genannten Marktlokation vorhanden sind.",
     "edifact_format": "ORDERS"
   },
   {
@@ -571,22 +616,22 @@
   },
   {
     "condition_key": "2003",
-    "condition_text": "Die SG29 ist so oft zu wiederholen, wie ab dem DTM+203 (Ausf\u00fchrungsdatum) Messlokationen zu der in der SG2 genannten Marktlokation vorhanden sind und f\u00fcr jede dieser Messlokationen m\u00fcssen alle Messprodukte genannt sein, die ab dem DTM+203 (Ausf\u00fchrungsdatum) in der SG2 genannten Marktlokation bzw. deren Tranchen vorhanden sind.",
+    "condition_text": "Die SG29 ist so oft zu wiederholen, wie ab dem DTM+203 (Ausführungsdatum) Messlokationen zu der in der SG2 genannten Marktlokation vorhanden sind und für jede dieser Messlokationen müssen alle Messprodukte genannt sein, die ab dem DTM+203 (Ausführungsdatum) in der SG2 genannten Marktlokation bzw. deren Tranchen vorhanden sind.",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "2004",
-    "condition_text": "Die SG29 ist so oft zu wiederholen, dass alle Ger\u00e4te der betroffenen Ger\u00e4teart die im Rahmen des Ger\u00e4tewechsels aufgrund MSB-Wechsel getauscht werden sollen genannt sind.",
+    "condition_text": "Die SG29 ist so oft zu wiederholen, dass alle Geräte der betroffenen Geräteart die im Rahmen des Gerätewechsels aufgrund MSB-Wechsel getauscht werden sollen genannt sind.",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "2005",
-    "condition_text": "Pro SG29 LIN ist die SG34RFF+Z09 (Ger\u00e4tenummer) genau einmal anzugeben",
+    "condition_text": "Pro SG29 LIN ist die SG34RFF+MG (Gerätenummer) genau einmal anzugeben",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "2006",
-    "condition_text": "Pro SG29 LIN ist die SG34 RFF+Z09 (Ger\u00e4tenummer) bis zu dreimal anzugeben",
+    "condition_text": "Pro SG29 LIN ist die SG34 RFF+MG (Gerätenummer) bis zu dreimal anzugeben",
     "edifact_format": "ORDERS"
   },
   {
@@ -596,12 +641,12 @@
   },
   {
     "condition_key": "2089",
-    "condition_text": "Die SG29 ist so oft zu wiederholen, dass alle Messprodukte ab dem DTM+203 (Ausf\u00fchrungsdatum) zu der in der SG2 genannten Marktlokation genannt sind.",
+    "condition_text": "Die SG29 ist so oft zu wiederholen, dass alle Messprodukte ab dem DTM+203 (Ausführungsdatum) zu der in der SG2 genannten Marktlokation genannt sind.",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "2090",
-    "condition_text": "F\u00fcr 33-stellige ID im SG2 LOC+172 (Meldepunk) DE3225 mindestens einmal anzugeben",
+    "condition_text": "Für 33-stellige ID im SG2 LOC+172 (Meldepunk) DE3225 mindestens einmal anzugeben",
     "edifact_format": "ORDERS"
   },
   {

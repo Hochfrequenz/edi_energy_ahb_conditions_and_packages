@@ -6,7 +6,7 @@
   },
   {
     "condition_key": "2",
-    "condition_text": "Wenn der Code im DE3207 in der \"EDI@Energy Codeliste der europ\u00e4ischen L\u00e4ndercodes\" in der Spalte \"PLZ vorhanden\" ein \"X\" enth\u00e4lt",
+    "condition_text": "Wenn der Code im DE3207 in der \"EDI@Energy Codeliste der europäischen Ländercodes\" in der Spalte \"PLZ vorhanden\" ein \"X\" enthält",
     "edifact_format": "PARTIN"
   },
   {
@@ -16,12 +16,12 @@
   },
   {
     "condition_key": "4",
-    "condition_text": "Wenn Vorg\u00e4ngerversion vorhanden",
+    "condition_text": "Wenn Vorgängerversion vorhanden",
     "edifact_format": "PARTIN"
   },
   {
     "condition_key": "5",
-    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempf\u00e4nger) in der Rolle LF",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempfänger) in der Rolle LF",
     "edifact_format": "PARTIN"
   },
   {
@@ -46,7 +46,37 @@
   },
   {
     "condition_key": "10",
-    "condition_text": "Wenn BGM DE1373 = 11 (Dokument nicht verf\u00fcgbar) nicht vorhanden",
+    "condition_text": "Wenn BGM DE1373 = 11 (Dokument nicht verfügbar) nicht vorhanden",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "11",
+    "condition_text": "Wenn SG4 NAD+SU (Lieferant) DE3207 mit Code „DE“ vorhanden",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "12",
+    "condition_text": "Wenn SG4 NAD+DDM (Netzbetreiber) DE3207 mit Code „DE“ vorhanden",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "13",
+    "condition_text": "Wenn SG4 NAD+DEB (Messstellenbetreiber) DE3207 mit Code „DE“ vorhanden",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "14",
+    "condition_text": "Wenn SG4 NAD+SU (Lieferant) DE3207 der Code „DE“ nicht vorhanden ist",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "15",
+    "condition_text": "Wenn SG4 NAD+DDM (Netzbetreiber) DE3207 der Code „DE“ nicht vorhanden ist",
+    "edifact_format": "PARTIN"
+  },
+  {
+    "condition_key": "16",
+    "condition_text": "Wenn SG4 NAD+DEB (Messstellenbetreiber) DE3207 der Code „DE“ nicht vorhanden ist",
     "edifact_format": "PARTIN"
   },
   {
@@ -61,12 +91,12 @@
   },
   {
     "condition_key": "501",
-    "condition_text": "Hinweis: Es darf kein Name einernat\u00fcrlichen Person \u00fcbermittelt werden, stattdessen ist die organisatorische Einheit im Unternehmen zu nennen.",
+    "condition_text": "Hinweis: Es darf kein Name einer natürlichen Person übermittelt werden, stattdessen ist die organisatorische Einheit im Unternehmen zu nennen.",
     "edifact_format": "PARTIN"
   },
   {
     "condition_key": "502",
-    "condition_text": "Hinweis: Es darf nur eine Information im DE3148 \u00fcbermittelt werden",
+    "condition_text": "Hinweis: Es darf nur eine Information im DE3148 übermittelt werden",
     "edifact_format": "PARTIN"
   },
   {
@@ -81,7 +111,7 @@
   },
   {
     "condition_key": "908",
-    "condition_text": "Format: M\u00f6gliche Werte: 1 bis n",
+    "condition_text": "Format: Mögliche Werte: 1 bis n",
     "edifact_format": "PARTIN"
   },
   {
@@ -96,7 +126,7 @@
   },
   {
     "condition_key": "940",
-    "condition_text": "Format: Die Zeichenkette muss mit dem Zeichen + beginnen und danach d\u00fcrfen nur noch Ziffern folgen",
+    "condition_text": "Format: Die Zeichenkette muss mit dem Zeichen + beginnen und danach dürfen nur noch Ziffern folgen",
     "edifact_format": "PARTIN"
   }
 ]

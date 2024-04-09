@@ -11,7 +11,7 @@
   },
   {
     "condition_key": "4",
-    "condition_text": "Bei SG5 DOC+380 / 457 ist der Wert aus derselben SG5 MOA+9 unver\u00e4ndert anzugeben.",
+    "condition_text": "Bei SG5 DOC+380 / 457 ist der Wert aus derselben SG5 MOA+9 unverändert anzugeben.",
     "edifact_format": "REMADV"
   },
   {
@@ -126,27 +126,27 @@
   },
   {
     "condition_key": "492",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Strom",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Strom",
     "edifact_format": "REMADV"
   },
   {
     "condition_key": "493",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Gas",
     "edifact_format": "REMADV"
   },
   {
     "condition_key": "501",
-    "condition_text": "Hinweis: An dieser Stelle ist der Betrag aus SG50 MOA+9 der zugrundeliegenden INVOIC zu \u00fcbernehmen.",
+    "condition_text": "Hinweis: An dieser Stelle ist der Betrag aus SG50 MOA+9 der zugrundeliegenden INVOIC zu übernehmen.",
     "edifact_format": "REMADV"
   },
   {
     "condition_key": "502",
-    "condition_text": "Hinweis: Bei positivemBetrag ergibt sich eine Forderung des Rechnungsstellers. Bei negativem Betrag ergibt sich eine Forderung f\u00fcr den Rechnungsempf\u00e4nger.",
+    "condition_text": "Hinweis: Bei positivemBetrag ergibt sich eine Forderung des Rechnungsstellers. Bei negativem Betrag ergibt sich eine Forderung für den Rechnungsempfänger.",
     "edifact_format": "REMADV"
   },
   {
     "condition_key": "503",
-    "condition_text": "Hinweis: Empfohlen, um bei Abweisung Ansprechpartner f\u00fcr R\u00fcckfragen zu erreichen.",
+    "condition_text": "Hinweis: Empfohlen, um bei Abweisung Ansprechpartner für Rückfragen zu erreichen.",
     "edifact_format": "REMADV"
   },
   {
@@ -166,7 +166,7 @@
   },
   {
     "condition_key": "515",
-    "condition_text": "Hinweis: BGM DE1004 aus der best\u00e4tigten INVOIC- Nachricht",
+    "condition_text": "Hinweis: BGM DE1004 aus der bestätigten INVOIC- Nachricht",
     "edifact_format": "REMADV"
   },
   {
@@ -191,7 +191,7 @@
   },
   {
     "condition_key": "521",
-    "condition_text": "Hinweis: Diese SG7 ist so oft mit AJT DE4465 = A76 zu wiederholen, bis alle Rechnungsnummern der Abschlagsrechnungen genannt sind, die in der INVOIC, die in diesem SG5 DOC DE1004 genannt ist, nicht h\u00e4tten ber\u00fccksichtigt werden d\u00fcrfen.",
+    "condition_text": "Hinweis: Diese SG7 ist so oft mit AJT DE4465 = A76 zu wiederholen, bis alle Rechnungsnummern der Abschlagsrechnungen genannt sind, die in der INVOIC, die in diesem SG5 DOC DE1004 genannt ist, nicht hätten berücksichtigt werden dürfen.",
     "edifact_format": "REMADV"
   },
   {
@@ -201,7 +201,7 @@
   },
   {
     "condition_key": "523",
-    "condition_text": "Hinweis: Jede Rechnungsnummer einer Abschlagsrechnung muss in einem separaten DE4440 angegeben werden. Reichen die f\u00fcnf DE4440 f\u00fcr die Rechnungsnummern aller anzugebenden Abschlagrechnungen nicht aus, ist das FTX+Z14 zu wiederholen.",
+    "condition_text": "Hinweis: Jede Rechnungsnummer einer Abschlagsrechnung muss in einem separaten DE4440 angegeben werden. Reichen die fünf DE4440 für die Rechnungsnummern aller anzugebenden Abschlagrechnungen nicht aus, ist das FTX+Z14 zu wiederholen.",
     "edifact_format": "REMADV"
   },
   {
@@ -216,7 +216,7 @@
   },
   {
     "condition_key": "529",
-    "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A75 vorhanden, dann d\u00fcrfen in den DE4440 dieses FTX- Segments nur Abschlagsrechnungsnummern genannt sein, welche in der Rechnung enthalten sind, deren Nummer in dieser SG7 in SG7 RFF+AFL angegeben ist.",
+    "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A75 vorhanden, dann dürfen in den DE4440 dieses FTX- Segments nur Abschlagsrechnungsnummern genannt sein, welche in der Rechnung enthalten sind, deren Nummer in dieser SG7 in SG7 RFF+AFL angegeben ist.",
     "edifact_format": "REMADV"
   },
   {
@@ -226,7 +226,7 @@
   },
   {
     "condition_key": "531",
-    "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A02/A06/ A16/A90/A95/A96 ist hier die Ursache der Ablehnung ist zu begr\u00fcnden.",
+    "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A02/A06/ A16/A90/A95/A96 ist hier die Ursache der Ablehnung ist zu begründen.",
     "edifact_format": "REMADV"
   },
   {
@@ -251,12 +251,12 @@
   },
   {
     "condition_key": "537",
-    "condition_text": "Hinweis: Diese SG7 ist so oft mit AJT DE4465 = AC5 zu wiederholen, bis alle Rechnungsnummern im RFF Segment dieser SG7 genannt sind, die in der INVOIC ber\u00fccksichtigt werden sollten, die in diesem SG5 DOC DE1004 genannt ist, aber mindestens eine davon offensichtlich nicht ber\u00fccksichtigt wurde.",
+    "condition_text": "Hinweis: Diese SG7 ist so oft mit AJT DE4465 = AC5 zu wiederholen, bis alle Rechnungsnummern im RFF Segment dieser SG7 genannt sind, die in der INVOIC berücksichtigt werden sollten, die in diesem SG5 DOC DE1004 genannt ist, aber mindestens eine davon offensichtlich nicht berücksichtigt wurde.",
     "edifact_format": "REMADV"
   },
   {
     "condition_key": "926",
-    "condition_text": "Format: M\u00f6glicher Wert: 0",
+    "condition_text": "Format: Möglicher Wert: 0",
     "edifact_format": "REMADV"
   },
   {

@@ -75,11 +75,6 @@
     "edifact_format": "MSCONS"
   },
   {
-    "condition_key": "37",
-    "condition_text": "wenn eine Korrekturenergiemenge versendet werden muss",
-    "edifact_format": "MSCONS"
-  },
-  {
     "condition_key": "38",
     "condition_text": "wenn in SG6 LOC+172 DE3225 die ID der Messlokation angegeben ist",
     "edifact_format": "MSCONS"
@@ -116,7 +111,7 @@
   },
   {
     "condition_key": "51",
-    "condition_text": "Wenn SG9 PIA+5+7-0?: 33.86.0 vorhanden ist, darf mittels Wiederholung SG9 LIN in derselben Nachricht das SG9 PIA+5+7-0?:52.0.22/7- 0?:54.0.16/7-0?:54.0.20/7- 0?:54.0.22 nicht mehr angegeben werden",
+    "condition_text": "Wenn SG9 PIA+5+7-0?: 33.86.0 vorhanden ist, darf mittels Wiederholung SG9 LINin derselben Nachricht das SG9 PIA+5+7-0?:52.0.22/7- 0?:54.0.16/7-0?:54.0.20/7- 0?:54.0.22 nicht mehr angegeben werden",
     "edifact_format": "MSCONS"
   },
   {
@@ -211,7 +206,7 @@
   },
   {
     "condition_key": "88",
-    "condition_text": "Wenn der Wert in DTM+164 DE2380 derselben SG6 LOC+172 mit demselben Wert in SG9 PIA+5 DE7140 der späteste angegebene Zeitpunkt ist",
+    "condition_text": "Wenn der Wert inDTM+164 DE2380 derselben SG6 LOC+172 mit demselben Wert in SG9 PIA+5 DE7140 der späteste angegebene Zeitpunkt ist",
     "edifact_format": "MSCONS"
   },
   {
@@ -291,7 +286,7 @@
   },
   {
     "condition_key": "113",
-    "condition_text": "wenn SG7 RFF+AGK vorhanden",
+    "condition_text": "wenn SG7 RFF+AGK (Konfigurations-ID) vorhanden",
     "edifact_format": "MSCONS"
   },
   {
@@ -345,8 +340,18 @@
     "edifact_format": "MSCONS"
   },
   {
+    "condition_key": "131",
+    "condition_text": "wenn RFF+AGK (Konfigurations-ID) nicht vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "132",
+    "condition_text": "wenn LOC+172 (Identifikationsangabe) DE3225 nicht vorhanden",
+    "edifact_format": "MSCONS"
+  },
+  {
     "condition_key": "133",
-    "condition_text": "Wenn innerhalb desselben LIN-Segments neben diesem Segment (SG10 DTM+7 Nutzungszeitpunkt) noch das SG10 DTM+9 (Ablesedatum) mit dem Code 102 im DE2379 vorhanden ist, darf der Wert der Differenz zwischen dem Wert an der Stelle CCYYMMDD des größeren und dem kleineren Zeitpunkt der DTM-Segmente an der Stelle CCYYMMDD ausschließlich 0 oder 1 Tag sein.",
+    "condition_text": "Wenn innerhalb desselbenLIN-Segments neben diesem Segment (SG10 DTM+7 Nutzungszeitpunkt) noch das SG10 DTM+9 (Ablesedatum) mit dem Code 102 im DE2379 vorhanden ist, darf der Wert der Differenz zwischen dem Wert an der Stelle CCYYMMDD des größeren und dem kleineren Zeitpunkt der DTM-Segmente an der Stelle CCYYMMDD ausschließlich 0 oder 1 Tag sein.",
     "edifact_format": "MSCONS"
   },
   {
@@ -372,6 +377,16 @@
   {
     "condition_key": "138",
     "condition_text": "Wenn es sich um eine Korrekturenergiemenge auf einen Wert aus einem iMS handelt",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "139",
+    "condition_text": "Wenn der Wert an der Stelle CCYYMMDDHHMM im DE2380 des DTM+137 (Nachrichtendatum) < 202309302200 ist",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "140",
+    "condition_text": "Wenn der Wert an der Stelle CCYYMMDDHHMM im DE2380 des DTM+137 (Nachrichtendatum) ≥ 202309302200 ist",
     "edifact_format": "MSCONS"
   },
   {
@@ -406,7 +421,7 @@
   },
   {
     "condition_key": "502",
-    "condition_text": "Hinweis: Einmal für die Energiemenge von Beginn des Kalenderjahres bis zum Lieferbeginn und bis zu zweimal für die zwei höchsten Monatsleistungswerte (wegen KAV) von Beginn des Kalenderjahres biszum Lieferbeginn",
+    "condition_text": "Hinweis: Einmal für die Energiemenge von Beginn des Kalenderjahres bis zum Lieferbeginn und bis zu zweimal für die zwei höchsten Monatsleistungswerte (wegen KAV) von Beginn des Kalenderjahres bis zum Lieferbeginn",
     "edifact_format": "MSCONS"
   },
   {
@@ -476,7 +491,7 @@
   },
   {
     "condition_key": "523",
-    "condition_text": "Hinweis: Nur für die Übermittlung derEnergiemenge im Zeitintervall zwischen zwei Messwerten vor der Netznutzungsabrechnun g.",
+    "condition_text": "Hinweis: Nur für die Übermittlung der Energiemenge im Zeitintervall zwischen zwei Messwerten vor der Netznutzungsabrechnun g.",
     "edifact_format": "MSCONS"
   },
   {
@@ -521,7 +536,7 @@
   },
   {
     "condition_key": "535",
-    "condition_text": "Hinweis: Verwendung der ID des Netzkoppelpunktes Strom/ Gas",
+    "condition_text": "Hinweis: Verwendung der ID des Netzkoppelpunktes Strom/Gas",
     "edifact_format": "MSCONS"
   },
   {
@@ -551,7 +566,7 @@
   },
   {
     "condition_key": "545",
-    "condition_text": "Hinweis: Bei einer Mengenaufteilung (z. B. Aufgrund einer Abgrenzung) für SG6 LOC+172 muss für den spätesten angegebenen Zeitpunkt zum Ende des Zeitintervalls (über alle Wiederholungen der LIN-Segmente derselbenSG6 LOC+172 hinweg) zu jeder OBIS-Kennziffer ein Zählerstand vorhanden und kommuniziert sein.",
+    "condition_text": "Hinweis: Bei einer Mengenaufteilung (z. B. Aufgrund einer Abgrenzung) für SG6 LOC+172 muss für den spätesten angegebenen Zeitpunkt zum Ende des Zeitintervalls (über alle Wiederholungen der LIN-Segmente derselben SG6 LOC+172 hinweg) zu jeder OBIS-Kennziffer ein Zählerstand vorhanden und kommuniziert sein.",
     "edifact_format": "MSCONS"
   },
   {
@@ -596,7 +611,7 @@
   },
   {
     "condition_key": "559",
-    "condition_text": "Hinweis: Ein Korrekturgrund ist anzugeben, wenn: 1. ein bereits an den MP übermittelter vorläufiger Wert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 2. ein bereits an den MP übermittelter Ersatzwert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 3. ein bereits an den MPübermittelter wahrer Wert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 4. ein bereits an den MP übermittelter wahrer Wert nach Stornierung durch einen wahren Wert ersetzt wird.",
+    "condition_text": "Hinweis: Ein Korrekturgrund ist anzugeben, wenn: 1. ein bereits an den MP übermittelter vorläufiger Wert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 2. ein bereits an den MP übermittelter Ersatzwert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 3. ein bereits an den MP übermittelter wahrer Wert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 4. ein bereits an den MP übermittelter wahrer Wertnach Stornierung durch einen wahren Wert ersetzt wird.",
     "edifact_format": "MSCONS"
   },
   {

@@ -16,7 +16,7 @@
   },
   {
     "condition_key": "6",
-    "condition_text": "Wenn f\u00fcr das 3-Tupel (MaBiS-ZP, Betrachtungszeitraum, Version der Summenzeitreihe) dem BIKO der Pr\u00fcfstatus vorliegt, so ist dieser immer zusammen mit dem Datenstatus zu \u00fcbertragen.",
+    "condition_text": "Wenn für das 3-Tupel (MaBiS-ZP, Betrachtungszeitraum, Version der Summenzeitreihe) dem BIKO der Prüfstatus vorliegt, so ist dieser immer zusammen mit dem Datenstatus zu übertragen.",
     "edifact_format": "IFTSTA"
   },
   {
@@ -31,7 +31,7 @@
   },
   {
     "condition_key": "10",
-    "condition_text": "Wenn Meldung des BKV/NB/\u00dcNB nach Frist eingeht.",
+    "condition_text": "Wenn Meldung des BKV/NB/ÜNB nach Frist eingeht.",
     "edifact_format": "IFTSTA"
   },
   {
@@ -81,7 +81,7 @@
   },
   {
     "condition_key": "29",
-    "condition_text": "Wenn MP-ID in SG1 NAD+MR in der Rolle \u00dcNB",
+    "condition_text": "Wenn MP-ID in SG1 NAD+MR in der Rolle ÜNB",
     "edifact_format": "IFTSTA"
   },
   {
@@ -106,52 +106,52 @@
   },
   {
     "condition_key": "43",
-    "condition_text": "Wenn STS+Z01+Z07 vorhanden, dann sind nur Codes aus dem EBD-Cluster Zustimmung m\u00f6glich.",
+    "condition_text": "Wenn STS+Z01+Z07 vorhanden, dann sind nur Codes aus dem EBD-Cluster Zustimmung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "44",
-    "condition_text": "Wenn STS+Z01+Z08 vorhanden, dann sind nur Codes aus dem EBD-Cluster Ablehnung m\u00f6glich.",
+    "condition_text": "Wenn STS+Z01+Z08 vorhanden, dann sind nur Codes aus dem EBD-Cluster Ablehnung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "45",
-    "condition_text": "Wenn STS+Z03+Z07 vorhanden, dann sind nur Codes aus dem EBD-Cluster Zustimmung m\u00f6glich.",
+    "condition_text": "Wenn STS+Z03+Z07 vorhanden, dann sind nur Codes aus dem EBD-Cluster Zustimmung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "46",
-    "condition_text": "Wenn STS+Z03+Z08 vorhanden, dann sind nur Codes aus dem EBD-Cluster Ablehnung m\u00f6glich.",
+    "condition_text": "Wenn STS+Z03+Z08 vorhanden, dann sind nur Codes aus dem EBD-Cluster Ablehnung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "47",
-    "condition_text": "Es sind nur Codes aus dem EBD-Cluster Ablehnung m\u00f6glich.",
+    "condition_text": "Es sind nur Codes aus dem EBD-Cluster Ablehnung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "48",
-    "condition_text": "Es sind nur Codes aus dem EBD-Cluster Zustimmung m\u00f6glich.",
+    "condition_text": "Es sind nur Codes aus dem EBD-Cluster Zustimmung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "49",
-    "condition_text": "Wenn STS+Z25+Z30 vorhanden, dann sind nur Codes aus dem EBD-Cluster Zustimmung m\u00f6glich.",
+    "condition_text": "Wenn STS+Z25+Z30 vorhanden, dann sind nur Codes aus dem EBD-Cluster Zustimmung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "50",
-    "condition_text": "Wenn STS+Z25+Z31 vorhanden, dann sind nur Codes aus dem EBD-Cluster Ablehnung m\u00f6glich.",
+    "condition_text": "Wenn STS+Z25+Z31 vorhanden, dann sind nur Codes aus dem EBD-Cluster Ablehnung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "51",
-    "condition_text": "Es sind nur Codes aus dem EBD-Cluster Abweisung m\u00f6glich.",
+    "condition_text": "Es sind nur Codes aus dem EBD-Cluster Abweisung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "52",
-    "condition_text": "Wenn STS+Z27+Z32vorhanden",
+    "condition_text": "Wenn STS+Z27+Z32 vorhanden",
     "edifact_format": "IFTSTA"
   },
   {
@@ -191,62 +191,62 @@
   },
   {
     "condition_key": "60",
-    "condition_text": "Wenn zus\u00e4tzlich zum Fahrplananteil auch die Ausfallarbeit zu identischem Wert aus RFF+ACW nicht o.k. ist",
+    "condition_text": "Wenn zusätzlich zum Fahrplananteil auch die Ausfallarbeit zu identischem Wert aus RFF+ACW nicht o.k. ist",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "61",
-    "condition_text": "Wenn zus\u00e4tzlich zur Ausfallarbeit auch der Fahrplananteil zu identischem Wert aus RFF+ACW nicht o.k. ist",
+    "condition_text": "Wenn zusätzlich zur Ausfallarbeit auch der Fahrplananteil zu identischem Wert aus RFF+ACW nicht o.k. ist",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "62",
-    "condition_text": "Wenn STS+Z27+Z30 vorhanden, dann sind nur Codes aus dem EBD-Cluster Zustimmung m\u00f6glich.",
+    "condition_text": "Wenn STS+Z27+Z30 vorhanden, dann sind nur Codes aus dem EBD-Cluster Zustimmung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "63",
-    "condition_text": "Wenn STS+Z27+Z32 vorhanden, dann sind nurCodes aus dem EBD-Cluster Ablehnung m\u00f6glich.",
+    "condition_text": "Wenn STS+Z27+Z32 vorhanden, dann sind nurCodes aus dem EBD-Cluster Ablehnung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "64",
-    "condition_text": "Wenn STS+Z28+Z30 vorhanden, dann sind nur Codes aus dem EBD-Cluster Zustimmung m\u00f6glich.",
+    "condition_text": "Wenn STS+Z28+Z30 vorhanden, dann sind nur Codes aus dem EBD-Cluster Zustimmung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "65",
-    "condition_text": "Wenn STS+Z28+Z32 vorhanden, dann sind nur Codes aus dem EBD-Cluster Ablehnung m\u00f6glich.",
+    "condition_text": "Wenn STS+Z28+Z32 vorhanden, dann sind nur Codes aus dem EBD-Cluster Ablehnung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "66",
-    "condition_text": "Wenn STS+Z29+Z30 vorhanden, dann sind nur Codes aus dem EBD-Cluster Zustimmung m\u00f6glich.",
+    "condition_text": "Wenn STS+Z29+Z30 vorhanden, dann sind nur Codes aus dem EBD-Cluster Zustimmung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "67",
-    "condition_text": "Wenn STS+Z29+Z32 vorhanden, dann sind nur Codes aus dem EBD-Cluster Ablehnung m\u00f6glich.",
+    "condition_text": "Wenn STS+Z29+Z32 vorhanden, dann sind nur Codes aus dem EBD-Cluster Ablehnung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "68",
-    "condition_text": "Wenn STS+Z30+Z30 vorhanden, dann sind nur Codes aus dem EBD-Cluster Zustimmung m\u00f6glich.",
+    "condition_text": "Wenn STS+Z30+Z30 vorhanden, dann sind nur Codes aus dem EBD-Cluster Zustimmung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "69",
-    "condition_text": "Wenn STS+Z30+Z32 vorhanden, dann sind nur Codes aus dem EBD-Cluster Ablehnung m\u00f6glich.",
+    "condition_text": "Wenn STS+Z30+Z32 vorhanden, dann sind nur Codes aus dem EBD-Cluster Ablehnung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "70",
-    "condition_text": "Wenn zus\u00e4tzlich zum Gegenvorschlag des Fahrplananteils auch der Gegenvorschlag der Ausfallarbeit zu identischem Wert aus RFF+ACW nicht o.k. ist",
+    "condition_text": "Wenn zusätzlich zum Gegenvorschlag des Fahrplananteils auch der Gegenvorschlag der Ausfallarbeit zu identischem Wert aus RFF+ACW nicht o.k. ist",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "71",
-    "condition_text": "Wenn zus\u00e4tzlich zum Gegenvorschlag der Ausfallarbeit auch der Gegenvorschlag des Fahrplananteils zu identischem Wert aus RFF+ACW nicht o.k. ist",
+    "condition_text": "Wenn zusätzlich zum Gegenvorschlag der Ausfallarbeit auch der Gegenvorschlag des Fahrplananteils zu identischem Wert aus RFF+ACW nicht o.k. ist",
     "edifact_format": "IFTSTA"
   },
   {
@@ -311,12 +311,12 @@
   },
   {
     "condition_key": "93",
-    "condition_text": "Wenn STS+Z37+Z13 vorhanden, dann sind nur Codes aus dem EBD-Cluster gescheitert m\u00f6glich.",
+    "condition_text": "Wenn STS+Z37+Z13 vorhanden, dann sind nur Codes aus dem EBD-Cluster gescheitert möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "94",
-    "condition_text": "Wenn STS+Z37+Z14 vorhanden, dann sind nur Codes aus dem EBD-Cluster erfolgreich m\u00f6glich.",
+    "condition_text": "Wenn STS+Z37+Z14 vorhanden, dann sind nur Codes aus dem EBD-Cluster erfolgreich möglich.",
     "edifact_format": "IFTSTA"
   },
   {
@@ -331,22 +331,22 @@
   },
   {
     "condition_key": "97",
-    "condition_text": "Wenn STS+Z38+Z13 vorhanden, dann sind nur Codes aus dem EBD-Cluster gescheitert m\u00f6glich.",
+    "condition_text": "Wenn STS+Z38+Z13 vorhanden, dann sind nur Codes aus dem EBD-Cluster gescheitert möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "98",
-    "condition_text": "Wenn STS+Z38+Z14 vorhanden, dann sind nur Codes aus dem EBD-Cluster erfolgreich m\u00f6glich.",
+    "condition_text": "Wenn STS+Z38+Z14 vorhanden, dann sind nur Codes aus dem EBD-Cluster erfolgreich möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "99",
-    "condition_text": "Wenn in diesem STS DE1131 = E_0487, dann ist nur der Code A01 m\u00f6glich.",
+    "condition_text": "Wenn in diesem STS DE1131 = E_0487, dann ist nur der Code A01 möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "107",
-    "condition_text": "Wenn STS+Z37+Z32 vorhanden, dann sind nur Codes aus dem EBD-Cluster Ablehnung m\u00f6glich.",
+    "condition_text": "Wenn STS+Z37+Z32 vorhanden, dann sind nur Codes aus dem EBD-Cluster Ablehnung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
@@ -396,7 +396,7 @@
   },
   {
     "condition_key": "495",
-    "condition_text": "Der Zeitpunkt muss \u2264 dem Wert im DE2380 des DTM+137sein",
+    "condition_text": "Der Zeitpunkt muss ≤ dem Wert im DE2380 des DTM+137 sein",
     "edifact_format": "IFTSTA"
   },
   {
@@ -436,7 +436,7 @@
   },
   {
     "condition_key": "510",
-    "condition_text": "Hinweis: Es ist neben der Information \u00fcber die Ablehnung auch der unver\u00e4ndert gebliebene Datenstatus informell mitzugeben.",
+    "condition_text": "Hinweis: Es ist neben der Information über die Ablehnung auch der unverändert gebliebene Datenstatus informell mitzugeben.",
     "edifact_format": "IFTSTA"
   },
   {
@@ -456,12 +456,12 @@
   },
   {
     "condition_key": "521",
-    "condition_text": "Hinweis: Zeitpunkt, ab dem der MSBN tats\u00e4chlich den Messstellenbetrieb \u00fcbernimmt",
+    "condition_text": "Hinweis: Zeitpunkt, ab dem der MSBN tatsächlich den Messstellenbetrieb übernimmt",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "522",
-    "condition_text": "Hinweis: Zeitpunkt, ab dem der gMSB den Messstellenbetrieb \u00fcbernimmt",
+    "condition_text": "Hinweis: Zeitpunkt, ab dem der gMSB den Messstellenbetrieb übernimmt",
     "edifact_format": "IFTSTA"
   },
   {
@@ -471,7 +471,7 @@
   },
   {
     "condition_key": "524",
-    "condition_text": "Hinweis: Wert aus BGM DE1004 der MSCONS, die den Gegenvorschlag enth\u00e4lt",
+    "condition_text": "Hinweis: Wert aus BGM DE1004 der MSCONS, die den Gegenvorschlag enthält",
     "edifact_format": "IFTSTA"
   },
   {
@@ -481,7 +481,7 @@
   },
   {
     "condition_key": "526",
-    "condition_text": "Hinweis: Der Absender dieser IFTSTA hat sich auf die ORDERS zu beziehen, die er vom Empf\u00e4nger dieser IFTSTA erhalten hat.",
+    "condition_text": "Hinweis: Der Absender dieser IFTSTA hat sich auf die ORDERS zu beziehen, die er vom Empfänger dieser IFTSTA erhalten hat.",
     "edifact_format": "IFTSTA"
   },
   {
@@ -496,12 +496,12 @@
   },
   {
     "condition_key": "903",
-    "condition_text": "Format: M\u00f6glicher Wert: 1",
+    "condition_text": "Format: Möglicher Wert: 1",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "911",
-    "condition_text": "Format: M\u00f6gliche Werte: 1 bis n, je Nachricht bei 1 beginnend und fortlaufend aufsteigend",
+    "condition_text": "Format: Mögliche Werte: 1 bis n, je Nachricht bei 1 beginnend und fortlaufend aufsteigend",
     "edifact_format": "IFTSTA"
   },
   {
@@ -516,7 +516,7 @@
   },
   {
     "condition_key": "951",
-    "condition_text": "Format: Z\u00e4hlpunktbezeichnung",
+    "condition_text": "Format: Zählpunktbezeichnung",
     "edifact_format": "IFTSTA"
   }
 ]

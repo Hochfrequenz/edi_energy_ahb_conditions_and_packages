@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "condition_key": "1",
+    "condition_text": "Wenn DTM+203 nicht vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "2",
+    "condition_text": "Wenn DTM+469 nicht vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "7",
+    "condition_text": "Wenn in derselben Nachricht eine SG27 mit Z16 in LIN DE1229 nicht vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "8",
+    "condition_text": "Wenn in derselben Nachricht eine SG27 mit Z27 in LIN DE1229 nicht vorhanden",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "10",
+    "condition_text": "MP-ID nur aus Sparte Strom",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "11",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 2.1 \"Standard- Messprodukte der Marktlokation\" in der Spalte \"Messprodukt gegenüber MSB von Marktrolle bestellbar\" bei ESA mit \"X\" gekennzeichnet sind.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "12",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 2.2 \"Standard- Messprodukte der Tranche\" in der Spalte \"Messprodukt gegenüber MSB von Marktrolle bestellbar\" bei ESA mit \"X\" gekennzeichnet sind.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "13",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 2.3 \"Standard- Messprodukte der Messlokation\" in der Spalte \"Messprodukt gegenüber MSB von Marktrolle bestellbar\" bei ESA mit \"X\" gekennzeichnet sind.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "14",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 4 \"Codeliste derMessprodukte Strom, die ausschließlich für die Rolle ESA Anwendung finden\" angegeben sind.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "494",
+    "condition_text": "Das hier genannte Datum muss der Zeitpunkt sein, zu dem das Dokument erstellt wurde, oder ein Zeitpunkt, der davor liegt.",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "500",
+    "condition_text": "Hinweis: Angabe eines technischen Ansprechpartners für die Geräteübernahme",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "501",
+    "condition_text": "Hinweis: Angabe eines Ansprechpartners für die Rechnungsabwicklung",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "502",
+    "condition_text": "Hinweis: Verwendung der ID der Marktlokation",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "503",
+    "condition_text": "Hinweis: Verwendung der ID der Messlokation",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "504",
+    "condition_text": "Hinweis: Verwendung der ID der Tranche",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "903",
+    "condition_text": "Format: Möglicher Wert: 1",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "950",
+    "condition_text": "Format: Marktlokations-ID",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "951",
+    "condition_text": "Format: Zählpunktbezeichnung",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "2003",
+    "condition_text": "Für 11-stellige ID im SG11 LOC+172 (Meldepunk) DE3225 genau einmal anzugeben",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "2004",
+    "condition_text": "Für 33-stellige ID im SG11 LOC+172 (Meldepunk) DE3225 genau einmal anzugeben",
+    "edifact_format": "REQOTE"
+  },
+  {
+    "condition_key": "2005",
+    "condition_text": "Pro Nachricht ist die SG27 genau einmal anzugeben",
+    "edifact_format": "REQOTE"
+  }
+]

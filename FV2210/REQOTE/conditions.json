@@ -26,22 +26,22 @@
   },
   {
     "condition_key": "11",
-    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 2.1 \"Standard- Messprodukte der Marktlokation\" in der Spalte \"Messprodukt gegen\u00fcber MSB von Marktrolle bestellbar\" bei ESA mit \"X\" gekennzeichnet sind.",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 2.1 \"Standard- Messprodukte der Marktlokation\" in der Spalte \"Messprodukt gegenüber MSB von Marktrolle bestellbar\" bei ESA mit \"X\" gekennzeichnet sind.",
     "edifact_format": "REQOTE"
   },
   {
     "condition_key": "12",
-    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 2.2 \"Standard- Messprodukte der Tranche\" in der Spalte \"Messprodukt gegen\u00fcber MSB von Marktrolle bestellbar\" bei ESA mit \"X\" gekennzeichnet sind.",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 2.2 \"Standard- Messprodukte der Tranche\" in der Spalte \"Messprodukt gegenüber MSB von Marktrolle bestellbar\" bei ESA mit \"X\" gekennzeichnet sind.",
     "edifact_format": "REQOTE"
   },
   {
     "condition_key": "13",
-    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 2.3 \"Standard- Messprodukte der Messlokation\" in der Spalte \"Messprodukt gegen\u00fcber MSB von Marktrolle bestellbar\" bei ESA mit \"X\" gekennzeichnet sind.",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 2.3 \"Standard- Messprodukte der Messlokation\" in der Spalte \"Messprodukt gegenüber MSB von Marktrolle bestellbar\" bei ESA mit \"X\" gekennzeichnet sind.",
     "edifact_format": "REQOTE"
   },
   {
     "condition_key": "14",
-    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 4 \"Codeliste derMessprodukte Strom, die ausschlie\u00dflich f\u00fcr die Rolle ESA Anwendung finden\" angegeben sind.",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 4 \"Codeliste derMessprodukte Strom, die ausschließlich für die Rolle ESA Anwendung finden\" angegeben sind.",
     "edifact_format": "REQOTE"
   },
   {
@@ -51,12 +51,12 @@
   },
   {
     "condition_key": "500",
-    "condition_text": "Hinweis: Angabe eines technischen Ansprechpartners f\u00fcr die Ger\u00e4te\u00fcbernahme",
+    "condition_text": "Hinweis: Angabe eines technischen Ansprechpartners für die Geräteübernahme",
     "edifact_format": "REQOTE"
   },
   {
     "condition_key": "501",
-    "condition_text": "Hinweis: Angabe eines Ansprechpartners f\u00fcr die Rechnungsabwicklung",
+    "condition_text": "Hinweis: Angabe eines Ansprechpartners für die Rechnungsabwicklung",
     "edifact_format": "REQOTE"
   },
   {
@@ -76,7 +76,7 @@
   },
   {
     "condition_key": "903",
-    "condition_text": "Format: M\u00f6glicher Wert: 1",
+    "condition_text": "Format: Möglicher Wert: 1",
     "edifact_format": "REQOTE"
   },
   {
@@ -91,17 +91,17 @@
   },
   {
     "condition_key": "951",
-    "condition_text": "Format: Z\u00e4hlpunktbezeichnung",
+    "condition_text": "Format: Zählpunktbezeichnung",
     "edifact_format": "REQOTE"
   },
   {
     "condition_key": "2003",
-    "condition_text": "F\u00fcr 11-stellige ID im SG11 LOC+172 (Meldepunk) DE3225genau einmal anzugeben",
+    "condition_text": "Für 11-stellige ID im SG11 LOC+172 (Meldepunk) DE3225 genau einmal anzugeben",
     "edifact_format": "REQOTE"
   },
   {
     "condition_key": "2004",
-    "condition_text": "F\u00fcr 33-stellige ID im SG11 LOC+172 (Meldepunk) DE3225 genau einmal anzugeben",
+    "condition_text": "Für 33-stellige ID im SG11 LOC+172 (Meldepunk) DE3225 genau einmal anzugeben",
     "edifact_format": "REQOTE"
   },
   {

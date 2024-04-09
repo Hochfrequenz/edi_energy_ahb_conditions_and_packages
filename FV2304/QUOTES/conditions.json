@@ -1,7 +1,97 @@
 [
   {
+    "condition_key": "1",
+    "condition_text": "Wenn Position nichtangeboten werden kann, weil rechtliche Regelungen oder Rechte Dritter dem entgegenstehen",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "2",
+    "condition_text": "Wenn in derselben SG27 LIN IMD++Z09 nicht vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "3",
+    "condition_text": "Wenn CCI+++Z64 vorhanden ist",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "4",
+    "condition_text": "Wenn am Gerät vorhanden und abweichend von Gerätenummer",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "5",
+    "condition_text": "Wenn in derselben SG27 LIN die Artikelnummer 9990001000649 vorhanden ist",
+    "edifact_format": "QUOTES"
+  },
+  {
     "condition_key": "8",
     "condition_text": "Wenn SG28 CCI+++E13 CAV+EHZ vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "9",
+    "condition_text": "Wenn in derselben SG27 LIN die Artikelnummer 9990001000657 vorhanden ist",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "10",
+    "condition_text": "Wenn SG28 CAV+MIW/ MPW/MBW vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "11",
+    "condition_text": "Wenn in derselben SG27 LINdie Artikelnummer 9990001000665 vorhanden ist",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "12",
+    "condition_text": "Wenn in derselben SG27 LIN die Artikelnummer 9990001000673 vorhanden ist",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "13",
+    "condition_text": "Wenn am Gerät vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "14",
+    "condition_text": "Nicht, wenn in allen SG27 LIN das SG27 IMD++Z09 vorhanden ist",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "15",
+    "condition_text": "Wenn in derselben SG27 LIN die Artikelnummer 9990001000772 vorhanden ist",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "16",
+    "condition_text": "Wenn in derselben SG27 LIN die Artikelnummer 9990001000780 vorhanden ist",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "17",
+    "condition_text": "Wenn das Angebot per REQOTE angefragt wurde",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "18",
+    "condition_text": "Wenn Angebot mehrere Marktlokationen abdeckt (AN nutzt mehrere Marktlokationen in einem Gebäude)",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "20",
+    "condition_text": "Wenn IMD++Z33 vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "21",
+    "condition_text": "Wenn IMD++Z34 vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "22",
+    "condition_text": "Wenn CCI+++Z75 vorhanden ist",
     "edifact_format": "QUOTES"
   },
   {
@@ -10,13 +100,198 @@
     "edifact_format": "QUOTES"
   },
   {
+    "condition_key": "26",
+    "condition_text": "Wenn DTM+203 nicht vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "27",
+    "condition_text": "Wenn DTM+469 nicht vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "28",
+    "condition_text": "Wenn RFF+AAV vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "29",
+    "condition_text": "Wenn DTM+469 in Anfrage (REQOTE) vorhanden war",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "30",
+    "condition_text": "Wenn SG27 IMD+Z09 vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "31",
+    "condition_text": "Es sind nur die Artikelnummern erlaubt, die in der Codeliste der Artikelnummern des BDEW mit dem entsprechenden Prüfidentifikator versehen sind.",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "32",
+    "condition_text": "Wenn 11-stellige ID im SG11 LOC+172 (Meldepunk) DE3225 vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "33",
+    "condition_text": "Wenn 33-stellige ID im SG11 LOC+172 (Meldepunk) DE3225 vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "36",
+    "condition_text": "Wenn in derselben Nachricht eine SG27 mit Z16 in LIN DE1229 nicht vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "37",
+    "condition_text": "Wenn in derselben Nachricht eine SG27 mit Z27 in LIN DE1229 nicht vorhanden",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "39",
+    "condition_text": "MP-ID nur aus Sparte Strom",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "42",
+    "condition_text": "In derselben Nachricht muss immer derselbe Messprodukt- Code angegeben werden.",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "43",
+    "condition_text": "Nicht wenn Messprodukt in derselben Nachricht in DE7140 eines PIA mit Z11 in DE7143 aus Kapitel 4 der Codeliste der Messprodukte vorhanden und der Übertragungsweg aus dem SMGw ist.",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "44",
+    "condition_text": "Wenn MSBA nicht Eigentümer des Gerätes/der Geräte ist",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "45",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 2.1 \"Standard- Messprodukte der Marktlokation\"in der Spalte \"Messprodukt gegenüber MSB von Marktrolle bestellbar\" bei ESA mit \"X\" gekennzeichnet sind.",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "46",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 2.2 \"Standard- Messprodukte der Tranche\" in der Spalte \"Messprodukt gegenüber MSB von Marktrolle bestellbar\" bei ESA mit \"X\" gekennzeichnet sind.",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "47",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 2.3 \"Standard- Messprodukte der Messlokation\" in der Spalte \"Messprodukt gegenüber MSB von Marktrollebestellbar\" bei ESA mit \"X\" gekennzeichnet sind.",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "48",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Messprodukte im Kapitel 4 \"Codeliste der Mess- produkte Strom, die ausschließlich für die Rolle ESA Anwendung finden\" angegeben sind.",
+    "edifact_format": "QUOTES"
+  },
+  {
     "condition_key": "492",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Strom",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Strom",
     "edifact_format": "QUOTES"
   },
   {
     "condition_key": "493",
-    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempf\u00e4nger) aus Sparte Gas",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Gas",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "494",
+    "condition_text": "Das hier genannte Datum muss der Zeitpunkt sein, zu dem das Dokument erstellt wurde, oder ein Zeitpunkt, der davor liegt.",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "500",
+    "condition_text": "Hinweis: Angabe eines technischen Ansprechpartners für die Geräteübernahme",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "501",
+    "condition_text": "Hinweis: Verwendung der ID der Marktlokation",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "502",
+    "condition_text": "Hinweis: Verwendung der ID der Messlokation",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "503",
+    "condition_text": "Hinweis: Es ist die MP-ID des Eigentümers (MSB) zur bilateralen Klärung anzugeben, wenn z. B. der MSBA das Gerät / die Geräte selbst gepachtet hat.",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "504",
+    "condition_text": "Hinweis: Wert aus BGM+311 DE1004 der REQOTE mit der die Angebotsanfrage erfolgt ist.",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "505",
+    "condition_text": "Hinweis: Wert aus BGM+Z29 DE1004 der REQOTE, mit der die Anfrage Rechnungsabwicklung erfolgt ist.",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "506",
+    "condition_text": "Hinweis: Wenn zu einer Position (z. B. Messwandlersatz) mehrere Gerätenummern existieren, sind die Gerätenummern in derselben Position (LIN-Segment) mittels Wiederholung der SG32 RFF+Z09 anzugeben",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "507",
+    "condition_text": "Hinweis: Verwendung der ID der Tranche",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "510",
+    "condition_text": "Hinweis: Ein Mal für die regelmäßige Übermittlung der Werte und ein Mal, wenn vorhanden, für die initiale Einrichtung der Wertübermittlung",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "908",
+    "condition_text": "Format: Mögliche Werte: 1 bis n",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "911",
+    "condition_text": "Format: Mögliche Werte: 1 bis n, je Nachricht oder Segmentgruppe bei 1 beginnend und fortlaufend aufsteigend",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "912",
+    "condition_text": "Format: max. 6 Nachkommastellen",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "914",
+    "condition_text": "Format: Möglicher Wert: > 0",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "930",
+    "condition_text": "Format: max. 2 Nachkommastellen",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "950",
+    "condition_text": "Format: Marktlokations-ID",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "951",
+    "condition_text": "Format: Zählpunktbezeichnung",
+    "edifact_format": "QUOTES"
+  },
+  {
+    "condition_key": "2041",
+    "condition_text": "Pro Nachricht ist die SG27 bis zu zwei Mal anzugeben. Wird die SG27 zwei Mal angegeben, dann ist SG31 ein Mal mit Stückpreis und ein Mal mit Tagespreis anzugeben. Wird die SG27 ein Mal angegeben, dann ist SG31 ein Mal mit Tagespreis anzugeben.",
     "edifact_format": "QUOTES"
   }
 ]

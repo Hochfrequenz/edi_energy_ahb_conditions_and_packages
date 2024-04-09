@@ -21,7 +21,7 @@
   },
   {
     "condition_key": "9",
-    "condition_text": "Wenn SG7 AJT+A32/A99+E_0503 vorhanden",
+    "condition_text": "Wenn SG7 AJT+A32/ A99+E_0503 vorhanden",
     "edifact_format": "REMADV"
   },
   {
@@ -61,7 +61,7 @@
   },
   {
     "condition_key": "26",
-    "condition_text": "Wenn in dieser SG12 AJT DE4465 = A27/A51/A62/ A82/AA1/AA6/AA7/AB8/AD6",
+    "condition_text": "Wenn in dieser SG12 AJT DE4465 = A51/A62/A82/ AA1/AA6/AA7/AB8/AD6",
     "edifact_format": "REMADV"
   },
   {
@@ -86,7 +86,7 @@
   },
   {
     "condition_key": "36",
-    "condition_text": "Wenn in dieser SG7 AJT DE4465 = A12/A75/A80",
+    "condition_text": "Wenn in dieser SG7 AJT DE4465 = A12/A75/A80/AE1",
     "edifact_format": "REMADV"
   },
   {
@@ -110,6 +110,11 @@
     "edifact_format": "REMADV"
   },
   {
+    "condition_key": "43",
+    "condition_text": "Wenn in SG12 AJT DE4465=28",
+    "edifact_format": "REMADV"
+  },
+  {
     "condition_key": "45",
     "condition_text": "Nur MP-ID aus Sparte Strom",
     "edifact_format": "REMADV"
@@ -126,12 +131,12 @@
   },
   {
     "condition_key": "49",
-    "condition_text": "Wenn in dieser SG7 AJT DE4465 =A05/A22/A23/A90/ A96",
+    "condition_text": "Wenn in dieser SG7 AJT DE4465 = A05/A22/A23/ A90/A96",
     "edifact_format": "REMADV"
   },
   {
     "condition_key": "50",
-    "condition_text": "Wenn in dieser SG7 AJT DE4465 =A05/A18/A19/A20/ A90/A96",
+    "condition_text": "Wenn in dieser SG7 AJT DE4465 = A05/A18/A19/ A20/A90/A96",
     "edifact_format": "REMADV"
   },
   {
@@ -146,7 +151,7 @@
   },
   {
     "condition_key": "53",
-    "condition_text": "Wenn in dieser SG12 AJT DE4465 = A25/A99",
+    "condition_text": "Wenn in dieser SG12 AJT DE4465 = A25/A99/AF1",
     "edifact_format": "REMADV"
   },
   {
@@ -190,6 +195,186 @@
     "edifact_format": "REMADV"
   },
   {
+    "condition_key": "62",
+    "condition_text": "Wenn SG7 AJT+A99+E_1007 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "63",
+    "condition_text": "Wenn SG7 AJT+A01/ A02+E_1009 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "64",
+    "condition_text": "Wenn in dieser SG12 AJT DE1082 = E_0264",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "65",
+    "condition_text": "Wenn in dieser SG12 AJT DE1082 = E_0515",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "66",
+    "condition_text": "Wenn in dieser SG12 AJT DE1082 = E_0519",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "67",
+    "condition_text": "Wenn in dieser SG12 AJT DE1082 = E_0266",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "68",
+    "condition_text": "Wenn in dieser SG12 AJT DE1082 = E_0517",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "69",
+    "condition_text": "Wenn in dieser SG12 AJT DE1082 = E_0521",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "70",
+    "condition_text": "Wenn in dieser SG12 AJT DE4465 = A15",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "71",
+    "condition_text": "Wenn in dieser SG12 AJT DE4465 = A99",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "72",
+    "condition_text": "Wenn SG7 AJT+A99+E_0518 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "73",
+    "condition_text": "Wenn SG7 AJT+A99+E_0522 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "74",
+    "condition_text": "Wenn SG7 AJT+A99+E_0267 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "75",
+    "condition_text": "Wenn in diesem AJT DE1082 = E_0264",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "76",
+    "condition_text": "Wenn in diesem AJT DE1082 = E_0266",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "77",
+    "condition_text": "Wenn in diesem AJT DE1082 = E_0515",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "78",
+    "condition_text": "Wenn in diesem AJT DE1082 = E_0517",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "79",
+    "condition_text": "Wenn in diesem AJT DE1082 = E_0519",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "80",
+    "condition_text": "Wenn in diesem AJT DE1082 = E_0521",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "81",
+    "condition_text": "Wenn in dieser SG7 AJT DE1082 = E_0264",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "82",
+    "condition_text": "Wenn in dieser SG7 AJT DE1082 = E_0515",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "83",
+    "condition_text": "Wenn in dieser SG7 AJT DE1082 = E_0519",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "84",
+    "condition_text": "Wenn in dieser SG7 AJT DE1082 = E_0266",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "85",
+    "condition_text": "Wenn in dieser SG7 AJT DE1082 = E_0517",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "86",
+    "condition_text": "Wenn in dieser SG7 AJT DE1082 = E_0521",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "87",
+    "condition_text": "Wenn in dieser SG7 AJT DE4465 = A05/A21/A22/ A23/A90/A96/AE7",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "88",
+    "condition_text": "Wenn in dieser SG7 AJT DE4465 = A25",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "89",
+    "condition_text": "wenn im DE3155 in demselben COM der Code EM vorhanden ist",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "90",
+    "condition_text": "wenn im DE3155 in demselben COM der Code TE / FX / AJ / AL vorhanden ist",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "91",
+    "condition_text": "Wenn in dieser SG7 AJT DE1082 = E_0566",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "92",
+    "condition_text": "Wenn in dieser SG7 AJT DE1082 = E_0568",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "93",
+    "condition_text": "Wenn SG7 AJT+A99+E_0804 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "94",
+    "condition_text": "Wenn SG7 AJT+A99+E_0806 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "95",
+    "condition_text": "Wenn SG7 AJT+A99+E_0569 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "96",
+    "condition_text": "Wenn SG7 AJT DE1082 = E_0568",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "97",
+    "condition_text": "Wenn in dieser SG12 AJT DE4465 = A27",
+    "edifact_format": "REMADV"
+  },
+  {
     "condition_key": "492",
     "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Strom",
     "edifact_format": "REMADV"
@@ -206,7 +391,7 @@
   },
   {
     "condition_key": "502",
-    "condition_text": "Hinweis: Bei positivem Betrag ergibt sich eine Forderung desRechnungsstellers. Bei negativem Betrag ergibt sich eine Forderung für den Rechnungsempfänger.",
+    "condition_text": "Hinweis: Bei positivem Betrag ergibt sich eine Forderung des Rechnungsstellers. Bei negativem Betrag ergibt sich eine Forderung für den Rechnungsempfänger.",
     "edifact_format": "REMADV"
   },
   {
@@ -246,7 +431,7 @@
   },
   {
     "condition_key": "519",
-    "condition_text": "Hinweis: Diese SG7 ist so oft mit AJT DE4465 = A74 zuwiederholen, bis alle Rechnungsnummern im RFF- Segment dieser SG7 genannt sind, die in der INVOIC fehlen, die in diesem SG5 DOC DE1004 genannt ist",
+    "condition_text": "Hinweis: Diese SG7 ist so oft mit AJT DE4465 = A74 zu wiederholen, bis alle Rechnungsnummern im RFF- Segment dieser SG7 genannt sind, die in der INVOIC fehlen, die in diesem SG5 DOC DE1004 genannt ist",
     "edifact_format": "REMADV"
   },
   {
@@ -257,11 +442,6 @@
   {
     "condition_key": "521",
     "condition_text": "Hinweis: Diese SG7 ist so oft mit AJT DE4465 = A76 zu wiederholen, bis alle Rechnungsnummern der Abschlagsrechnungen genannt sind, die in der INVOIC, die in diesem SG5 DOC DE1004 genannt ist, nicht hätten berücksichtigt werden dürfen.",
-    "edifact_format": "REMADV"
-  },
-  {
-    "condition_key": "522",
-    "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A66/A67/ A68/A69/AC3/AC4 ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus DE5305) des SG52 TAX der INVOIC, die in diesem SG5 DOC DE1004 genannt ist, anzugeben.",
     "edifact_format": "REMADV"
   },
   {
@@ -276,22 +456,12 @@
   },
   {
     "condition_key": "526",
-    "condition_text": "Hinweis: Wert ausDE1082 der SG26 in der sich der nachfolgende Fehler in der INVOIC befindet, die in diesem SG5 DOC DE1004 genannt ist.",
+    "condition_text": "Hinweis: Wert aus DE1082 der SG26 in der sich der nachfolgende Fehler in der INVOIC befindet, die in diesem SG5 DOC DE1004 genannt ist.",
     "edifact_format": "REMADV"
   },
   {
     "condition_key": "529",
-    "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A75 vorhanden, dann dürfen in den DE4440 dieses FTX- Segments nur Abschlagsrechnungsnummerngenannt sein, welche in der Rechnung enthalten sind, deren Nummer in dieser SG7 in SG7 RFF+AFL angegeben ist.",
-    "edifact_format": "REMADV"
-  },
-  {
-    "condition_key": "530",
-    "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A78 ist hier die erwartete Artikel-ID anzugeben.",
-    "edifact_format": "REMADV"
-  },
-  {
-    "condition_key": "531",
-    "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A02/A06/ A16/A90/A95/A96 ist hier die Ursache der Ablehnung zu begründen.",
+    "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A75 vorhanden, dann dürfen in den DE4440 dieses FTX- Segments nur Abschlagsrechnungsnummern genannt sein, welche in der Rechnung enthalten sind, deren Nummer in dieser SG7 in SG7 RFF+AFL angegeben ist.",
     "edifact_format": "REMADV"
   },
   {
@@ -306,7 +476,7 @@
   },
   {
     "condition_key": "535",
-    "condition_text": "Hinweis: Diese SG7 ist so oft mit AJT DE4465 = A80 zu wiederholen, bis die Rechnungsnummern der nicht stornierten Sonderrechnungen mit derselben Sonderrechnungsart wie sie in Sonderrechnung genannt ist die in diesem SG5 DOC DE1004 genannt ist, und sich auf dieselbe Rechnung beziehen, die die in diesem SG5 DOC DE1004 genannt ist.",
+    "condition_text": "Hinweis: Diese SG7 ist so oft mit AJT DE4465 = A80 zu wiederholen, bis die Rechnungsnummern der nicht stornierten Sonderrechnungen mit derselben Sonderrechnungsart wie sie in Sonderrechnung genannt ist die in diesem SG5 DOC DE1004 genannt ist, und sich auf dieselbe Rechnung beziehen, die die in diesemSG5 DOC DE1004 genannt ist.",
     "edifact_format": "REMADV"
   },
   {
@@ -321,32 +491,22 @@
   },
   {
     "condition_key": "538",
-    "condition_text": "Hinweis: Jede Positionsnummer eines Angebotes muss in einem separaten DE4440 angegeben werden. Reichen die fünf DE4440 für die Positionsnummern aller anzugebenden Angebote nicht aus, ist das FTX+Z14 zu wiederholen.",
-    "edifact_format": "REMADV"
-  },
-  {
-    "condition_key": "540",
-    "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A05/A90/ A96 ist hier die Ursache der Ablehnung zu begründen.",
-    "edifact_format": "REMADV"
-  },
-  {
-    "condition_key": "541",
-    "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A05/A18/ A90/A96 ist hier die Ursache der Ablehnung zu begründen.",
-    "edifact_format": "REMADV"
-  },
-  {
-    "condition_key": "542",
-    "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A22/A23 ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus DE5305) des SG52 TAX der INVOIC, die in diesem SG5 DOC DE1004 genannt ist, anzugeben.",
-    "edifact_format": "REMADV"
-  },
-  {
-    "condition_key": "543",
-    "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A19/A20 ist der Steuersatz (aus DE5278) und die Steuerkategorie (aus DE5305) des SG52 TAX der INVOIC, die in diesem SG5 DOC DE1004 genannt ist, anzugeben.",
+    "condition_text": "Hinweis: Jede Positionsnummer eines Angebotes muss in einem separaten DE4440 angegeben werden. Reichen die fünf DE4440 für die Positionsnummern aller anzugebenden Angebote nicht aus, ist das SG7 FTX+Z16 zu wiederholen.",
     "edifact_format": "REMADV"
   },
   {
     "condition_key": "544",
     "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A21 vorhanden, dann darf in den DE4440 dieses FTX-Segments jeweils nur eine Positionsnummer genannt sein, welche aus dem bestätigten Angebot nicht in der Rechung enthalten sind.",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "548",
+    "condition_text": "Hinweis: Die Befüllung des Datenelements ergibt sich aus dem zugehörigen EBD.",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "549",
+    "condition_text": "Hinweis: Es darf nur eine Information im DE3148 übermittelt werden",
     "edifact_format": "REMADV"
   },
   {
@@ -362,6 +522,16 @@
   {
     "condition_key": "931",
     "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "939",
+    "condition_text": "Format: Die Zeichenkette muss die Zeichen @ und . enthalten",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "940",
+    "condition_text": "Format: Die Zeichenkette muss mit dem Zeichen + beginnen und danach dürfen nur noch Ziffern folgen",
     "edifact_format": "REMADV"
   }
 ]
