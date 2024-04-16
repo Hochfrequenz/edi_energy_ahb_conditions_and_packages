@@ -2,16 +2,16 @@
   {
     "package_key": "2P",
     "package_expression": "[492]",
-    "edifact_format": "INVOIC"
+    "edifact_format": "REMADV"
   },
   {
     "package_key": "3P",
     "package_expression": "[493]",
-    "edifact_format": "INVOIC"
+    "edifact_format": "REMADV"
   },
   {
     "package_key": "4P",
     "package_expression": "[41] ∧ [492]",
-    "edifact_format": "INVOIC"
+    "edifact_format": "REMADV"
   }
 ]

@@ -371,7 +371,7 @@
   },
   {
     "condition_key": "105",
-    "condition_text": "Wenn SG9 QTY+Z10 (Arbeit / Leistung für tagesparameterabhängig e Marktlokation: Leistung der Marktlokation) in dieser SG8 vorhanden",
+    "condition_text": "Wenn SG9 QTY+Z10 (Arbeit / Leistung für tagesparameterabhän gige Marktlokation: Leistung der Marktlokation) in dieser SG8 vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -477,11 +477,6 @@
   {
     "condition_key": "131",
     "condition_text": "Wenn Information nach StromStG §9 erforderlich",
-    "edifact_format": "UTILMD"
-  },
-  {
-    "condition_key": "132",
-    "condition_text": "Wenn in derselben SG8 SEQ+Z15 (Daten der Tranche) das SG9 QTY+11 (Prozentualer Anteil der Tranche an der erzeugenden Marktlokation) nicht vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -647,11 +642,6 @@
   {
     "condition_key": "195",
     "condition_text": "Wenn das SG10 CCI ZB5 (Spannungsebene der Summenzeitreihe) CAV E04 (Hochspannung) in dieser SG vorhanden",
-    "edifact_format": "UTILMD"
-  },
-  {
-    "condition_key": "196",
-    "condition_text": "Wenn SG4 STS+E01++Z35 (Status der Antwort: Ablehnung der Abmeldeanfrage) vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -1530,6 +1520,16 @@
     "edifact_format": "UTILMD"
   },
   {
+    "condition_key": "439",
+    "condition_text": "Wenn SG8 SEQ+Z15 (Daten der Tranche) RFF+Z20 (Referenz auf die ID der Tranche) nicht vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "440",
+    "condition_text": "Wenn SG8 SEQ+Z01 (Daten der Marktlokation) RFF+Z18 (Referenz auf die ID der Marktlokation) nicht vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
     "condition_key": "441",
     "condition_text": "Wenn im SG8+SEQ+Z03 (Zähleinrichtungsdaten) für die in diesem RFF DE1154 genannte Gerätenummer eines Zählers das RFF+Z14 (Referenz auf das Smartmeter-Gateway) nicht vorhanden ist",
     "edifact_format": "UTILMD"
@@ -2200,6 +2200,11 @@
     "edifact_format": "UTILMD"
   },
   {
+    "condition_key": "958",
+    "condition_text": "Format: Möglicher Wert: 100",
+    "edifact_format": "UTILMD"
+  },
+  {
     "condition_key": "2056",
     "condition_text": "Einmal für jede Marktlokation bzw. Tranche, für die der LF nicht die gemeldete Ansicht des NB teilt",
     "edifact_format": "UTILMD"
@@ -2256,7 +2261,7 @@
   },
   {
     "condition_key": "2113",
-    "condition_text": "Für die ggf. zweite vorhandene 11-stellige ID im SG5 LOC DE3225(Meldepunkt) auf die das RFF+Z18 (Referenz auf die ID der Marktlokation) der SG8+Z01 (Daten der Marktlokation) nicht referenziert genau einmal anzugeben",
+    "condition_text": "Für die ggf. zweite vorhandene 11-stellige ID im SG5 LOC DE3225 (Meldepunkt) auf die das RFF+Z18 (Referenz auf die ID der Marktlokation) der SG8+Z01 (Daten der Marktlokation) nicht referenziert genau einmal anzugeben",
     "edifact_format": "UTILMD"
   },
   {
