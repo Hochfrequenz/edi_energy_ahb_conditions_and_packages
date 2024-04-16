@@ -311,7 +311,7 @@
   },
   {
     "condition_key": "96",
-    "condition_text": "Messprodukt-Code aus dem Kapitel 2.2 \"Standard- Messprodukte der Tranche\" der Codeliste der Messprodukte",
+    "condition_text": "Messprodukt-Code aus dem Kapitel 2.2 \"Standard-Messprodukte der Tranche\" der Codeliste der Messprodukte",
     "edifact_format": "ORDERS"
   },
   {
@@ -377,6 +377,11 @@
   {
     "condition_key": "110",
     "condition_text": "wenn DTM+163 (Beginn Zeitraum für Wertanfrage) vorhanden",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "112",
+    "condition_text": "Wenn in derselben SG29 LIN++Z27 (Erforderliches Messprodukt der Marktlokation), das PIA+5+9991000000078: Z11 (Wirkarbeit Lastgang 1/4 stündlich) vorhanden ist",
     "edifact_format": "ORDERS"
   },
   {
@@ -626,12 +631,12 @@
   },
   {
     "condition_key": "2005",
-    "condition_text": "Pro SG29 LIN ist die SG34RFF+MG (Gerätenummer) genau einmal anzugeben",
+    "condition_text": "Pro SG29 LIN ist die SG34RFF+Z09 (Gerätenummer) genau einmal anzugeben",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "2006",
-    "condition_text": "Pro SG29 LIN ist die SG34 RFF+MG (Gerätenummer) bis zu dreimal anzugeben",
+    "condition_text": "Pro SG29 LIN ist die SG34 RFF+Z09 (Gerätenummer) bis zu dreimal anzugeben",
     "edifact_format": "ORDERS"
   },
   {

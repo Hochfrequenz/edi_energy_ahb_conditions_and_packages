@@ -1,0 +1,12 @@
+[
+  {
+    "package_key": "2P",
+    "package_expression": "[492]",
+    "edifact_format": "REMADV"
+  },
+  {
+    "package_key": "3P",
+    "package_expression": "[493]",
+    "edifact_format": "REMADV"
+  }
+]

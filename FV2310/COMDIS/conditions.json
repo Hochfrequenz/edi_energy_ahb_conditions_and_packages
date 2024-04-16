@@ -6,7 +6,7 @@
   },
   {
     "condition_key": "2",
-    "condition_text": "wenn SG3 AJT+Z58+S_0109 oder SG3 AJT+Z59+S_0109 oder SG3 AJT+Z60+S_0109 vorhanden.",
+    "condition_text": "wenn SG3 AJT+Z58+S_0109 oder SG3 AJT+Z59+S_0109 oder SG3 AJT+Z60+S_0109vorhanden.",
     "edifact_format": "COMDIS"
   },
   {
@@ -71,7 +71,7 @@
   },
   {
     "condition_key": "15",
-    "condition_text": "wenn SG3 AJT+A01/A04/A06/A09+E_1008 vorhanden",
+    "condition_text": "wenn SG3 AJT+A01/ A04/A06/A09+E_1008 vorhanden",
     "edifact_format": "COMDIS"
   },
   {
@@ -100,6 +100,31 @@
     "edifact_format": "COMDIS"
   },
   {
+    "condition_key": "23",
+    "condition_text": "Wenn MP-ID in NAD+MS (Nachrichtensender) mit Rolle MSB vorhanden",
+    "edifact_format": "COMDIS"
+  },
+  {
+    "condition_key": "24",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) mit Rolle ESA vorhanden",
+    "edifact_format": "COMDIS"
+  },
+  {
+    "condition_key": "25",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) mit Rolle LF vorhanden",
+    "edifact_format": "COMDIS"
+  },
+  {
+    "condition_key": "26",
+    "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) mit Rolle NB vorhanden",
+    "edifact_format": "COMDIS"
+  },
+  {
+    "condition_key": "27",
+    "condition_text": "Wenn MP-ID in NAD+MS (Nachrichtensender) mit Rolle NB vorhanden",
+    "edifact_format": "COMDIS"
+  },
+  {
     "condition_key": "492",
     "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Strom",
     "edifact_format": "COMDIS"
@@ -116,7 +141,7 @@
   },
   {
     "condition_key": "506",
-    "condition_text": "Hinweis: BGM DE1004 aus der vorher per IFTSTA abgelehnten MSCONS- Nachricht",
+    "condition_text": "Hinweis: BGM DE1004 aus der vorher per IFTSTA abgelehnten MSCONS-Nachricht",
     "edifact_format": "COMDIS"
   },
   {

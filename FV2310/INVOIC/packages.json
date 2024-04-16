@@ -11,7 +11,7 @@
   },
   {
     "package_key": "4P",
-    "package_expression": "[41] ^ [492]",
+    "package_expression": "[41] ∧ [492]",
     "edifact_format": "INVOIC"
   }
 ]

@@ -380,6 +380,11 @@
     "edifact_format": "IFTSTA"
   },
   {
+    "condition_key": "117",
+    "condition_text": "Wenn MP-ID in SG1 NAD+MR in der Rolle MSB",
+    "edifact_format": "IFTSTA"
+  },
+  {
     "condition_key": "492",
     "condition_text": "wenn MP-ID in NAD+MR aus Sparte Strom",
     "edifact_format": "IFTSTA"

@@ -31,7 +31,7 @@
   },
   {
     "condition_key": "7",
-    "condition_text": "Wenn SG4 STS+7++ZG9/ZH1/ZH2 (Transaktionsgrund: Aufhebung einer zukünftigen Zuordnung wegen Auszug des Kunden / -wegen Stilllegung / -wegen aufgehobenemVertragsverhältnis) vorhanden",
+    "condition_text": "Wenn SG4 STS+7++ZG9/ZH1/ZH2 (Transaktionsgrund: Aufhebung einer zukünftigen Zuordnung wegen Auszug des Kunden / -wegen Stilllegung / -wegen aufgehobenem Vertragsverhältnis) vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -106,12 +106,12 @@
   },
   {
     "condition_key": "25",
-    "condition_text": "Wenn SG5 LOC+Z16 (Marktlokation) vorhanden",
+    "condition_text": "Wenn der Meldepunkt im SG5 LOC+172 (Meldepunkt) DE3225 das Format der Marktlokations-ID hat",
     "edifact_format": "UTILMD"
   },
   {
     "condition_key": "26",
-    "condition_text": "Wenn SG4 FTX+Z17 (Zieladresse URI) vorhanden",
+    "condition_text": "Wenn der Meldepunkt im SG5 LOC+172 (Meldepunkt) DE3225 das Format der Zählpunktbezeichnung hat",
     "edifact_format": "UTILMD"
   },
   {
@@ -170,6 +170,11 @@
     "edifact_format": "UTILMD"
   },
   {
+    "condition_key": "39",
+    "condition_text": "Wenn LF beabsichtigt Zählerstand zu übermitteln",
+    "edifact_format": "UTILMD"
+  },
+  {
     "condition_key": "40",
     "condition_text": "Wenn SG4 STS+7++E02 (Transaktionsgrund: Einzug in Neuanlage) vorhanden",
     "edifact_format": "UTILMD"
@@ -181,7 +186,7 @@
   },
   {
     "condition_key": "46",
-    "condition_text": "Wenn ID für Objekt vergeben wurde",
+    "condition_text": "Wenn in SG8 SEQ+Z35 ein SG10 CCI+Z12 (Lastprofil) CAV (Lastprofil) DE3055 der Wert 293 enthalten ist",
     "edifact_format": "UTILMD"
   },
   {
@@ -192,6 +197,11 @@
   {
     "condition_key": "48",
     "condition_text": "Wenn in dieser SG4 das STS+E01++E14/ A99 (Status der Antwort: Ablehnung Sonstiges) vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "51",
+    "condition_text": "Bei rückwirkendem Lieferende/Lieferbeginn",
     "edifact_format": "UTILMD"
   },
   {
@@ -226,7 +236,7 @@
   },
   {
     "condition_key": "58",
-    "condition_text": "Wenn in diesem CCI das DE3055 mit dem Code 293 vorhanden",
+    "condition_text": "Wenn in diesem CCI das DE3055 mit dem Code 293 vorhandenBeschreibung Anfrage an Antwort auf Ablehnung Nicht bila.rel. Nicht bila.rel. Antwort auf Bedingung MSB ohne Anfrage Anfrage Anfrage an Anfrage an Anfrage Abhängigkeite MSB ohne MSB ohne n Abhängigkeite Abhängigkeite n n Kommunikation von LF NB [Verteiler] NB [Verteiler] NB [Verteiler] NB MSB an NB [Berechtigt] an LF an LF an MSB [Berechtigt] an NB [Berechtigt] [Berechtigt] an MSB [Verteiler] Prüfidentifikator 44162 44163 44164 44165 44166 44167",
     "edifact_format": "UTILMD"
   },
   {
@@ -237,6 +247,31 @@
   {
     "condition_key": "64",
     "condition_text": "Wenn SG4 DTM+158 (Bilanzierungsbeginn) vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "65",
+    "condition_text": "Wenn Marktgebietsüber- lappung besteht, sind alle Bilanzkreise des LF zu melden in denen freie Kapazitäten beim NB bestehen",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "66",
+    "condition_text": "Wenn SG10 CCI+Z19 (Bilanzkreis) im Vorgang mehr als einmal vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "68",
+    "condition_text": "Wenn SG10 CCI+Z19 (Bilanzkreis) im Vorgang mehr als zweimal vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "69",
+    "condition_text": "Wenn SG10 CCI+Z19 (Bilanzkreis) im Vorgang mehr als dreimal vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "70",
+    "condition_text": "Wenn SG10 CCI+Z19 (Bilanzkreis) im Vorgang fünfmal vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -272,6 +307,11 @@
   {
     "condition_key": "80",
     "condition_text": "Wenn SG4 STS+7++Z37 (Transaktionsgrund: EoG aus Einzug in Neuanlage) vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "81",
+    "condition_text": "Wenn SG4 FTX+ABO+Z05 (Beschreibung der Abweichung zur übermittelten Liste: Änderung vorhanden) vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -370,6 +410,11 @@
     "edifact_format": "UTILMD"
   },
   {
+    "condition_key": "108",
+    "condition_text": "Wenn in derselben SG8 SEQ+Z45 (Netznutzungsabrechnungsdat en der Marktlokation) eine Gruppen-/Artikel-ID im SG8 PIA+Z02 (Gruppenartikel-ID / Artikel-ID), welche mit 1-08- 1/2/3/4/5 beginnt, vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
     "condition_key": "109",
     "condition_text": "Wenn in dieser SG4 das STS+E01++A14 vorhanden",
     "edifact_format": "UTILMD"
@@ -426,12 +471,12 @@
   },
   {
     "condition_key": "123",
-    "condition_text": "Wenn noch mindestens eine weitere SG8 SEQ+Z20 (OBIS-Daten der Zähleinrichtung Smartmeter-Gateway) mit dem SG8 RFF+MG (Gerätenummer des Zählers) auf die gleiche Identifikation/ Nummer des Gerätes referenziert",
+    "condition_text": "Wenn noch mindestens eine weitere SG8 SEQ+Z20 (OBIS- Daten der Zähleinrichtung / Mengenumwerter) mit dem SG8 RFF+MG / Z11 (Gerätenummer des Zählers / Mengenumwerters) auf die gleiche Identifikation/Nummer des Gerätes referenziert",
     "edifact_format": "UTILMD"
   },
   {
     "condition_key": "124",
-    "condition_text": "Wenn in derselben SG8 SEQ+Z15 (Daten der Tranche) das RFF+Z20 (Referenz auf die IDder Tranche) nicht vorhanden",
+    "condition_text": "Wenn in derselben SG8 SEQ+Z15 (Daten der Tranche) das RFF+Z20 (Referenz auf die ID der Tranche) nicht vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -655,6 +700,11 @@
     "edifact_format": "UTILMD"
   },
   {
+    "condition_key": "200",
+    "condition_text": "Wenn BGM+Z26 (Vorläufige Meldung zur Marktraumumstellung) vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
     "condition_key": "201",
     "condition_text": "Wenn die Marktlokation / Tranche nicht den ganzen Bilanzierungsmonat dem gleichen Tupel aus Bilanzkreis, Zeitreihentyp,Spannungsebene und Lieferant zugeordnet ist",
     "edifact_format": "UTILMD"
@@ -671,7 +721,7 @@
   },
   {
     "condition_key": "205",
-    "condition_text": "Wenn SG5 LOC+Z19 (Steuerbare Ressource) vorhanden",
+    "condition_text": "Wenn SG9 QTY+Y02 (TUM Kundenwert) nicht vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -776,7 +826,7 @@
   },
   {
     "condition_key": "237",
-    "condition_text": "Wenn in derselben SG8 im DE7140 des PIA+Z02 (Gruppenartikel-ID / Artikel- ID) eine Gruppenartikel-ID / Artikel-ID mit 1-06 (entspricht Entgelte des Messstellenbetriebs bei kME)beginnt",
+    "condition_text": "Wenn in derselben SG8 im DE7140 des PIA+Z02 (Gruppenartikel-ID / Artikel- ID) eine Gruppenartikel-ID / Artikel-ID mit 1-06 (entspricht Entgelte desMessstellenbetriebs bei kME) beginnt",
     "edifact_format": "UTILMD"
   },
   {
@@ -826,7 +876,7 @@
   },
   {
     "condition_key": "249",
-    "condition_text": "Innerhalb eines SG4 IDE müssen alle DE1131 der SG4Beschreibung Nicht bila.rel. Antwort auf Ablehnung Nicht bila.rel. Nicht bila.rel. Antwort auf Bedingung Anfrage an LF Anfrage Anfrage Anfrage an LF Anfrage an LF Anfrage Kommunikation von MSB an NB NB [Verteiler] NB [Verteiler] NB [Verteiler] NB LF an NB [Verteiler] an MSB an MSB an LF [Berechtigt] [Verteiler] an LF LF an NB [Berechtigt] Prüfidentifikator 55133 55134 55135 55136 55137 55138STS+E01 den identischen Wert enthalten",
+    "condition_text": "Innerhalb eines SG4 IDE müssen alle DE1131 der SG4 STS+E01 den identischen Wert enthalten Beschreibung Anfrage an Antwort auf Ablehnung Nicht bila.rel. Nicht bila.rel. Antwort auf Bedingung MSB ohne Anfrage Anfrage Anfrage an Anfrage an Anfrage Abhängigkeite MSB ohne MSB ohne n Abhängigkeite Abhängigkeite n n Kommunikation von LF NB [Verteiler] NB [Verteiler] NB [Verteiler] NB MSB an NB [Berechtigt] an LF an LF an MSB [Berechtigt] an NB [Berechtigt] [Berechtigt] an MSB [Verteiler] Prüfidentifikator 44162 44163 44164 44165 44166 44167",
     "edifact_format": "UTILMD"
   },
   {
@@ -856,7 +906,7 @@
   },
   {
     "condition_key": "257",
-    "condition_text": "Wenn in derselben SG8 SEQ+Z02 (OBIS- Daten der Marktlokation) das PIA+5+1-b?:1.9.e vorhanden",
+    "condition_text": "Wenn in derselben SG8 SEQ+Z02 (OBIS- Daten der Marktlokation) das PIA+5+7-0?:33.86.0 vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -915,6 +965,11 @@
     "edifact_format": "UTILMD"
   },
   {
+    "condition_key": "274",
+    "condition_text": "Wenn in derselben SG8 SEQ+Z20 (OBIS-Daten der Zähleinrichtung / Mengenumwerter) das PIA+5+7- b?:3.0.0 / 7-b?:6.0.0 / 7-b?:3.1.0 / 7-b?:6.1.0 / 7-b?:3.2.0 / 7-b?:6.2.0 / 7-b?:13.2.0 / 7-b?:16.2.0 / 7- b?:1.0.0 / 7-b?:2.0.0 / 7-b?:4.0.0 / 7-b?:5.0.0 / 7-b?:11.2.0 / 7-b?: 12.2.0 / 7-b?:14.2.0 / 7-b?:15.2.0 vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
     "condition_key": "278",
     "condition_text": "Wenn in dieser SG4 das STS+E01++A97/A98 vorhanden",
     "edifact_format": "UTILMD"
@@ -966,7 +1021,7 @@
   },
   {
     "condition_key": "290",
-    "condition_text": "Wenn der Objektcode im RFF+Z33 (Referenz auf den Objektcode in der Lokationsbündelstruktur) im DE1154 derselben SG8 SEQ+Z58 (Zuordnung Lokation zum Objektcode des Lokationsbündels) in einem weiteren SG8 SEQ+Z58 vorhanden ist",
+    "condition_text": "Wenn der Objektcode im RFF+Z33 (Referenz auf den Objektcode in der Lokationsbündelstrukt ur) im DE1154 derselben SG8 SEQ+Z58 (Zuordnung Lokation zum Objektcode des Lokationsbündels) in einem weiteren SG8 SEQ+Z58 vorhanden ist",
     "edifact_format": "UTILMD"
   },
   {
@@ -1050,6 +1105,11 @@
     "edifact_format": "UTILMD"
   },
   {
+    "condition_key": "315",
+    "condition_text": "Es sind alle OBISKennzahlen gem. EDI@Energy Codeliste der OBIS-Kennzahlen und Medien für den deutschen Energiemarkt Kap. 4 anzugeben welche an der Marktlokation erforderlich sind, dabei muss der Mindestumfang aus Kap. 4.6 eingehalten werden. Der Mindestumfang der OBIS- Kennzahlen ergibt sich aus den genannten Messprodukt-Codes dem Kap. 5.2 des Dokumentes \"Codeliste der Konfigurationen\"",
+    "edifact_format": "UTILMD"
+  },
+  {
     "condition_key": "316",
     "condition_text": "Wenn in derselben SG8 das RFF+Z14 (Smartmeter- Gateway) nicht vorhanden",
     "edifact_format": "UTILMD"
@@ -1077,6 +1137,11 @@
   {
     "condition_key": "323",
     "condition_text": "Es sind alle OBIS- Kennzahlen gem. EDI@Energy Codeliste der OBIS-Kennzahlen und Medien für den deutschen Energiemarkt Kap. 3. anzugeben, welche an der Zähleinrichtung genutzt werden. Der Mindestumfang der OBIS-Kennzahlen ergibt sich aus den genannten Messprodukt-Codes dem Kap. 5.1 des Dokumentes \"Codeliste der Konfigurationen\"",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "324",
+    "condition_text": "Es sind alle OBIS- Kennzahlen gem. EDI@Energy Codeliste der OBIS Kennzahlen Kap. 4. anzugeben welche an der Zähleinrichtung genutzt werden. Der Mindestumfang der OBIS-Kennzahlen ergibt sich aus den genannten Messprodukt-Codes dem Kap. 5.2 des Dokumentes \"Codeliste der Konfigurationen\"",
     "edifact_format": "UTILMD"
   },
   {
@@ -1116,7 +1181,7 @@
   },
   {
     "condition_key": "336",
-    "condition_text": "Wenn in Änderungsmeldung gefülltBeschreibung Nicht bila.rel. Antwort auf Ablehnung Nicht bila.rel. Nicht bila.rel. Antwort auf Bedingung Anfrage an LF Anfrage Anfrage Anfrage an LF Anfrage an LF Anfrage Kommunikation von MSB an NB NB [Verteiler] NB [Verteiler] NB [Verteiler] NB LF an NB [Verteiler] an MSB an MSB an LF [Berechtigt] [Verteiler] an LF LF an NB [Berechtigt] Prüfidentifikator 55133 55134 55135 55136 55137 55138",
+    "condition_text": "Wenn in Änderungsmeldung gefülltBeschreibung Anfrage an Antwort auf Ablehnung Nicht bila.rel. Nicht bila.rel. Antwort auf Bedingung MSB ohne Anfrage Anfrage Anfrage an Anfrage an Anfrage Abhängigkeite MSB ohne MSB ohne n Abhängigkeite Abhängigkeite n n Kommunikation von LF NB [Verteiler] NB [Verteiler] NB [Verteiler] NB MSB an NB [Berechtigt] an LF an LF an MSB [Berechtigt] an NB [Berechtigt] [Berechtigt] an MSB [Verteiler] Prüfidentifikator 44162 44163 44164 44165 44166 44167",
     "edifact_format": "UTILMD"
   },
   {
@@ -1230,6 +1295,16 @@
     "edifact_format": "UTILMD"
   },
   {
+    "condition_key": "361",
+    "condition_text": "Wenn STS+E01++A03/ A04 nicht vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "362",
+    "condition_text": "Wenn STS+E01++A03/ A17 nicht vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
     "condition_key": "363",
     "condition_text": "Wenn SG4 STS+E01++A50 vorhanden",
     "edifact_format": "UTILMD"
@@ -1247,6 +1322,11 @@
   {
     "condition_key": "367",
     "condition_text": "Wenn SG4 STS+E01++A04 vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "368",
+    "condition_text": "Es sind alle Codes aus der Codeliste G_0009 erlaubt",
     "edifact_format": "UTILMD"
   },
   {
@@ -1321,12 +1401,12 @@
   },
   {
     "condition_key": "389",
-    "condition_text": "Wenn mehr als eine SG8 SEQ+Z20 (OBIS-Daten der Zähleinrichtung / Smartmeter-Gateway), die mit dem RFF+MG (Referenz auf die Gerätenummer) auf die gleiche Gerätenummer referenziert, mit einer OBIS-Kennzahl der Werteart \"Zählerstand\" im PIA+5 vorhanden",
+    "condition_text": "Wenn mehr als eine SG8 SEQ+Z20 (OBIS-Daten der Zähleinrichtung / Smartmeter-Gateway), die mit dem RFF+MG (Referenz auf die Gerätenummer) auf die gleiche Gerätenummer referenziert, mit einer OBIS- Kennzahl der Werteart \"Zählerstand\" im PIA+5 vorhanden",
     "edifact_format": "UTILMD"
   },
   {
     "condition_key": "390",
-    "condition_text": "Wenn mindestens eine weitere SG8 SEQ+Z20 (OBIS-Daten der Zähleinrichtung / Smartmeter- Gateway), die mit dem RFF+Z18 (Referenz auf die ID der Marktlokation) auf die gleiche ID einer Marktlokation wie in dieser SG referenziert und mit dem RFF+MG / Z14 (Referenz auf die Gerätenummer / Referenz auf das SMGw) auf die gleiche Gerätenummer wie in dieser SG referenziert und mit dem SG8 RFF+AGK (Konfigurations-ID auf die gleich Konfigurations-ID referenziert (wenn diese vorhanden), und auch mit einer OBIS- Kennzahl für Zählerstand im PIA+5 vorhanden",
+    "condition_text": "Wenn mindestens eine weitere SG8 SEQ+Z20 (OBIS-Daten der Zähleinrichtung / Smartmeter-Gateway), die mit dem RFF+Z18 (Referenz auf die ID der Marktlokation) auf die gleiche ID einer Marktlokation wie in dieser SG referenziert und mit dem RFF+MG / Z14 (Referenz auf die Gerätenummer / Referenz auf das SMGw) auf die gleiche Gerätenummer wie in dieser SG referenziert und mit dem SG8 RFF+AGK (Konfigurations-ID auf die gleich Konfigurations-ID referenziert (wenn diese vorhanden), und auch mit einer OBIS- Kennzahl für Zählerstand im PIA+5 vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -1367,6 +1447,11 @@
   {
     "condition_key": "398",
     "condition_text": "Wenn in diesem PIA der Code im DE7140 mit 1-08-2/ 1-08-5 beginnt",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "399",
+    "condition_text": "Wenn im SG8 SEQ+Z78 RFF+Z31 (Referenz auf die Lokationsbündelstruktur) im DE1153 der Code Z31 (Lokationsbündelstruktur ) vorhanden ist und im DE1154 (ID der Lokationsbündelstruktur) der Code 9992 00000 001 8 nicht vorhanden ist.",
     "edifact_format": "UTILMD"
   },
   {
@@ -1525,8 +1610,13 @@
     "edifact_format": "UTILMD"
   },
   {
+    "condition_key": "442",
+    "condition_text": "Wenn in keinem SG8+SEQ+Z09 Mengenumwerterdaten das RFF+MG (Referenz auf die Gerätenummer) der in diesem RFF DE1154 genannte Gerätenummer des Zählers vorhanden ist",
+    "edifact_format": "UTILMD"
+  },
+  {
     "condition_key": "443",
-    "condition_text": "Wenn DTM+157 (Änderung zum) im DE2380 < 202409302200?+00",
+    "condition_text": "Wenn DTM+157(Änderung zum) im DE2380 < 202409302200?+00",
     "edifact_format": "UTILMD"
   },
   {
@@ -1675,8 +1765,13 @@
     "edifact_format": "UTILMD"
   },
   {
+    "condition_key": "501",
+    "condition_text": "Hinweis: Die Angabe wird aus dem DTM+157 (Änderung zum) der Zuordnungslisteübernommen",
+    "edifact_format": "UTILMD"
+  },
+  {
     "condition_key": "502",
-    "condition_text": "Hinweis: Es wird der Betrachtungsmonat der DZR bzw. BAS angegeben",
+    "condition_text": "Hinweis: Ersatzbelieferung gibt es nur bei - Marktlokationen in der Niederdruckebene, die kein Haushaltskunde gem. EnWG sind und die nicht mehr der gesetzlichen Ersatzversorgung (drei Monate) unterliegen und - für Marktlokationen, die in Mitteldruck einer Versorgung zugeführt werden sollen. Grundlage für eine Ersatzbelieferung ist die bilaterale Vereinbarung.",
     "edifact_format": "UTILMD"
   },
   {
@@ -1686,7 +1781,7 @@
   },
   {
     "condition_key": "504",
-    "condition_text": "Hinweis: Je Profil (ggf. inkl. Profilschar) ein Vorgang erforderlich",
+    "condition_text": "Hinweis: Der Code Z22 wird auch in der Sparte Strom genutzt. Der Verweis auf den Einspeisevergütungsinter vall ist in der Sparte Gas nicht relevant.",
     "edifact_format": "UTILMD"
   },
   {
@@ -1756,7 +1851,7 @@
   },
   {
     "condition_key": "523",
-    "condition_text": "Hinweis: Bei Geschäftsvorfall 3 prozentualer Anteil der Tranche von der Marktlokation",
+    "condition_text": "Hinweis: Bei Geschäftsvorfall 3 prozentualer Anteil der Tranche von derMarktlokation",
     "edifact_format": "UTILMD"
   },
   {
@@ -1771,7 +1866,7 @@
   },
   {
     "condition_key": "527",
-    "condition_text": "Hinweis: Es sind alle Identifikatoren der Messlokationen anzugeben",
+    "condition_text": "Hinweis: Es ist die ID der Marktlokation und alle Identifikatoren der Messlokationen anzugeben",
     "edifact_format": "UTILMD"
   },
   {
@@ -1781,7 +1876,7 @@
   },
   {
     "condition_key": "530",
-    "condition_text": "Hinweis: Es sind alle an der Lokation vorhandenen Daten, die mit dieser Segmentgruppe übermittelt werden und zum Datum „Änderung zum“ Gültigkeit haben, anzugeben. Dies kann zur Folge haben, dass Segmentgruppen bzw. Segmente zu wiederholen sind",
+    "condition_text": "Hinweis: Es sind alle an dem Meldepunkt vorhandenen Daten, die mit dieser Segmentgruppe übermittelt werden und zum Datum „Änderung zum“ Gültigkeit haben, anzugeben. Dies kann zur Folge haben, dass Segmentgruppen bzw. Segmente zu wiederholen sind",
     "edifact_format": "UTILMD"
   },
   {
@@ -1891,7 +1986,12 @@
   },
   {
     "condition_key": "583",
-    "condition_text": "Hinweis: Verwendung der ID derMarktlokation",
+    "condition_text": "Hinweis: Verwendung der ID der Marktlokation",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "584",
+    "condition_text": "Hinweis: Verwendung der ID der Messlokation",
     "edifact_format": "UTILMD"
   },
   {
@@ -1901,7 +2001,7 @@
   },
   {
     "condition_key": "590",
-    "condition_text": "Hinweis: Für den Empfang des Steuerbefehls",
+    "condition_text": "Hinweis: Es ist die ID der Marktlokation, welche dem LF zugeordnet sind, sowie alle Identifikatoren der Messlokationen anzugeben",
     "edifact_format": "UTILMD"
   },
   {
@@ -1921,7 +2021,7 @@
   },
   {
     "condition_key": "599",
-    "condition_text": "Hinweis: Es ist der Name und die Adresse des Ablesekartenempfängersfür die Messlokation anzugeben, welche in SG8 SEQ+Z18 (Daten der Messlokation) mit CCI+Z01++Z82 (Verwendungsumfang: ID der prozessual behandelten Messlokation) gekennzeichnet ist",
+    "condition_text": "Hinweis: Es ist der Name und die Adresse des Ablesekartenempfängers für die Messlokation anzugeben, welche in SG8 SEQ+Z18 (Daten der Messlokation) mit CCI+Z01++Z82 (Verwendungsumfang: ID der prozessual behandelten Messlokation) gekennzeichnet ist",
     "edifact_format": "UTILMD"
   },
   {
@@ -2066,7 +2166,7 @@
   },
   {
     "condition_key": "635",
-    "condition_text": "Hinweis: WennSG4 STS+E01++Z35 (Status der Antwort: Ablehnung der Abmeldeanfrage) vorhanden, sind die Identifikatoren aller Tranchen anzugeben zu denen eine Ablehnung der Abmelde-anfrage vorliegt",
+    "condition_text": "Hinweis: Wenn SG4 STS+E01++Z35 (Status der Antwort: Ablehnung der Abmeldeanfrage) vorhanden, sind die Identifikatoren aller Tranchen anzugeben zu denen eine Ablehnung der Abmelde-anfrage vorliegt",
     "edifact_format": "UTILMD"
   },
   {
@@ -2111,7 +2211,7 @@
   },
   {
     "condition_key": "644",
-    "condition_text": "Hinweis: Wenn in der zugehörigen Anmeldung (55001) in diesem Segment \"Einzug in Neuanlage\" (SG4 STS+7++E02) enthalten ist, wird in diesem Geschäftsvorfall der Code E01 verwendet",
+    "condition_text": "Hinweis: Wenn in der zugehörigen Anmeldung (44001) in diesem Segmente \"Einzug in Neuanlage\" (SG4 STS+7++E02) enthalten ist, wird in diesem Geschäftsvorfall der Code E01 verwendet",
     "edifact_format": "UTILMD"
   },
   {
@@ -2141,7 +2241,7 @@
   },
   {
     "condition_key": "651",
-    "condition_text": "Hinweis: Es sind die Marktlokationen anzugeben, zu welchen die hier genannte OBIS benötigt wird",
+    "condition_text": "Hinweis: Bei einer Marktraumumstellung (Gas) ist zu beachten, dass die tatsächliche Meldung zur Marktraumumstellung auf Ebene der Messlokation durch Angabe der Gasqualität erfolgt. Die betroffene Marktlokation ist vom LF und MSB selbst festzustellen",
     "edifact_format": "UTILMD"
   },
   {
@@ -2151,12 +2251,12 @@
   },
   {
     "condition_key": "654",
-    "condition_text": "Hinweis: Es sindausschließlich die Daten zum Meldepunkt anzugeben, die für den in NAD+MR (Nachrichtenempfäng er) adressierten Marktpartner relevant ist",
+    "condition_text": "Hinweis: Es sind ausschließlich die Daten zum Meldepunkt anzugeben, die für den in NAD+MR (Nachrichtenempfäng er) adressierten Marktpartner relevant ist",
     "edifact_format": "UTILMD"
   },
   {
     "condition_key": "655",
-    "condition_text": "Hinweis: Es ist die Listennummer aus der DZÜ Liste zu verwenden",
+    "condition_text": "Hinweis: Wenn ein Zähler an einen Mengenumwerter angeschlossen ist werden an dem Zähler keine OBIS-Kennzahlen angegeben Hier gibt es nur OBIS Kennzahlen vom Mengenumwerter",
     "edifact_format": "UTILMD"
   },
   {
@@ -2311,7 +2411,7 @@
   },
   {
     "condition_key": "687",
-    "condition_text": "Hinweis: Es sind alle Messlokationen zu nennen, die für die Energiemengenermittlun g aktuell und / oder zukünftig der im LOC+Z16 angegebenen Marktlokation notwendigen sind. Zudem ist über das DE5479 mit der Angabe des entsprechenden Codes der Zustand der Messlokation zu beschreiben",
+    "condition_text": "Hinweis: Es sind alle Messlokationen zu nennen, die für die Energiemengenermittlung aktuell und / oder zukünftig der im LOC+Z16 angegebenen Marktlokation notwendigen sind. Zudem ist über das DE5479 mit der Angabe des entsprechenden Codes der Zustand der Messlokation zu beschreiben",
     "edifact_format": "UTILMD"
   },
   {
@@ -2380,6 +2480,11 @@
     "edifact_format": "UTILMD"
   },
   {
+    "condition_key": "907",
+    "condition_text": "Format: max. 4 Nachkommastellen",
+    "edifact_format": "UTILMD"
+  },
+  {
     "condition_key": "910",
     "condition_text": "Format: Möglicher Wert: < 0 oder ≥ 0",
     "edifact_format": "UTILMD"
@@ -2411,7 +2516,7 @@
   },
   {
     "condition_key": "931",
-    "condition_text": "Format: ZZZ = +00Beschreibung Anfrage an Antwort auf Ablehnung Nicht bila.rel. Nicht bila.rel. Antwort auf Bedingung MSB ohne Anfrage Anfrage Anfrage an Anfrage an Anfrage Abhängigkeite MSB ohne MSB ohne n Abhängigkeite Abhängigkeite n n Kommunikation von LF/ MSB NB [Verteiler] NB [Verteiler] NB [Verteiler] NB MSB an NB [Berechtigt] an LF/ MSB an LF/ MSB an MSB [Berechtigt] an NB [Berechtigt] [Berechtigt] an MSB [Verteiler] Prüfidentifikator 55162 55163 55164 55165 55166 55167",
+    "condition_text": "Format: ZZZ = +00Beschreibung Anfrage an Antwort auf Ablehnung Nicht bila.rel. Nicht bila.rel. Antwort auf Bedingung MSB ohne Anfrage Anfrage Anfrage an Anfrage an Anfrage Abhängigkeite MSB ohne MSB ohne n Abhängigkeite Abhängigkeite n n Kommunikation von LF NB [Verteiler] NB [Verteiler] NB [Verteiler] NB MSB an NB [Berechtigt] an LF an LF an MSB [Berechtigt] an NB [Berechtigt] [Berechtigt] an MSB [Verteiler] Prüfidentifikator 44162 44163 44164 44165 44166 44167Beschreibung Anfrage an Antwort auf Ablehnung Nicht bila.rel. Nicht bila.rel. Antwort auf Bedingung MSB ohne Anfrage Anfrage Anfrage an Anfrage an Anfrage Abhängigkeite MSB ohne MSB ohne n Abhängigkeite Abhängigkeite n n Kommunikation von LF NB [Verteiler] NB [Verteiler] NB [Verteiler] NB MSB an NB [Berechtigt] an LF an LF an MSB [Berechtigt] an NB [Berechtigt] [Berechtigt] an MSB [Verteiler] Prüfidentifikator 44162 44163 44164 44165 44166 44167",
     "edifact_format": "UTILMD"
   },
   {
@@ -2467,6 +2572,11 @@
   {
     "condition_key": "952",
     "condition_text": "Format: Gerätenummer nach DIN 43863-5",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "953",
+    "condition_text": "Format: Marktlokations-ID oder Zählpunktbezeichnung",
     "edifact_format": "UTILMD"
   },
   {
@@ -2665,6 +2775,11 @@
     "edifact_format": "UTILMD"
   },
   {
+    "condition_key": "2335",
+    "condition_text": "Für jede SEQ+Z02 (OBIS- Daten der Marktlokation), welche im PIA+5 die OBIS-Kennzahl 7- 20:99.33.17/ 7-0:33.86.0 übermittelt, genau einmal anzugeben",
+    "edifact_format": "UTILMD"
+  },
+  {
     "condition_key": "2344",
     "condition_text": "Einmal für jede Marktlokation bzw. Tranche, die in der DZÜ / BG-CL / LF- SZR berücksichtigt wurde",
     "edifact_format": "UTILMD"
@@ -2692,6 +2807,11 @@
   {
     "condition_key": "2352",
     "condition_text": "Einmal je ZP einer BG- SZR, in der die Marktlokation in die Berechnung der abgerechneten Summenzeitreihe aufge- nommen wurde",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "2353",
+    "condition_text": "Für jede SEQ+Z09 (Mengenumwerter- Daten) mindestens einmal anzugeben",
     "edifact_format": "UTILMD"
   },
   {

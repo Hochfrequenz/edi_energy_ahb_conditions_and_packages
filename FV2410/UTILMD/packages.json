@@ -1,0 +1,157 @@
+[
+  {
+    "package_key": "6P",
+    "package_expression": "[243]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "7P",
+    "package_expression": "[244]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "8P",
+    "package_expression": "[145]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "9P",
+    "package_expression": "[146]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "10P",
+    "package_expression": "[20] ∧ [244]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "11P",
+    "package_expression": "[54] ∧ [244]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "12P",
+    "package_expression": "[54] ∧ [243]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "18P",
+    "package_expression": "[434]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "19P",
+    "package_expression": "[20] ∧ [428] ∧ [430]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "20P",
+    "package_expression": "[20] ∧ [428] ∧ [431]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "21P",
+    "package_expression": "[20] ∧ [432] ∧ [435]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "22P",
+    "package_expression": "[20] ∧ [432] ∧ [433]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "23P",
+    "package_expression": "[54] ∧ [432] ∧ [435]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "24P",
+    "package_expression": "[54] ∧ [432] ∧ [433]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "25P",
+    "package_expression": "[54] ∧ [428] ∧ [430]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "26P",
+    "package_expression": "[20] ∧ [430] ∧ [436]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "27P",
+    "package_expression": "[54] ∧ [428] ∧ [431]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "28P",
+    "package_expression": "[407]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "29P",
+    "package_expression": "[20] ∧ [405] ∧ [410]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "30P",
+    "package_expression": "[20] ∧ [405] ∧ [411]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "31P",
+    "package_expression": "[20] ∧ [396] ∧ [408]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "32P",
+    "package_expression": "[20] ∧ [396] ∧ [409]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "33P",
+    "package_expression": "[54] ∧ [396] ∧ [408]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "34P",
+    "package_expression": "[54] ∧ [396] ∧ [409]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "35P",
+    "package_expression": "[54] ∧ [405] ∧ [410]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "36P",
+    "package_expression": "[20] ∧ [406]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "37P",
+    "package_expression": "[54] ∧ [405] ∧ [411]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "38P",
+    "package_expression": "[419]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "39P",
+    "package_expression": "[78]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "40P",
+    "package_expression": "[40]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "43P",
+    "package_expression": "[156]",
+    "edifact_format": "UTILMD"
+  }
+]
