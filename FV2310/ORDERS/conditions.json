@@ -871,7 +871,7 @@
   },
   {
     "condition_key": "951",
-    "condition_text": "Format: Zählpunktbezeichnung",
+    "condition_text": "Format: Zählpunktbezeichnu ng",
     "edifact_format": "ORDERS"
   },
   {
@@ -956,7 +956,7 @@
   },
   {
     "condition_key": "2064",
-    "condition_text": "Pro Nachricht ist die SG29 LIN++Z68 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) maximal einmal anzugeben",
+    "condition_text": "Pro Nachricht ist die SG29 LIN++Z68 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) maximaleinmal anzugeben",
     "edifact_format": "ORDERS"
   },
   {

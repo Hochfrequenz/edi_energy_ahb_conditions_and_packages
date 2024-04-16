@@ -53,5 +53,20 @@
     "package_key": "12P",
     "package_expression": "[91]",
     "edifact_format": "ORDERS"
+  },
+  {
+    "package_key": "13P",
+    "package_expression": "[149]",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "package_key": "14P",
+    "package_expression": "[150]",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "package_key": "15P",
+    "package_expression": "[151]",
+    "edifact_format": "ORDERS"
   }
 ]

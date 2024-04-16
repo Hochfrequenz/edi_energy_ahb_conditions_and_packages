@@ -570,6 +570,16 @@
     "edifact_format": "IFTSTA"
   },
   {
+    "condition_key": "532",
+    "condition_text": "Hinweis: Verwendung der ID der Netzlokation",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "533",
+    "condition_text": "Hinweis: Verwendung der ID der Steuerbaren Ressource",
+    "edifact_format": "IFTSTA"
+  },
+  {
     "condition_key": "902",
     "condition_text": "Format: Wert darf nur positiv oder 0 sein",
     "edifact_format": "IFTSTA"
@@ -602,6 +612,16 @@
   {
     "condition_key": "951",
     "condition_text": "Format: Zählpunktbezeichnu ng",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "960",
+    "condition_text": "Format: Netzlokations- ID",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "961",
+    "condition_text": "Format: SR-ID",
     "edifact_format": "IFTSTA"
   }
 ]

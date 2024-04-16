@@ -6,7 +6,7 @@
   },
   {
     "condition_key": "2",
-    "condition_text": "Wenn UNH DE0070 (Übermittlungsfolgenum mer) mit 1 vorhanden",
+    "condition_text": "Wenn UNH DE 0070 (Übermittlungsfolgenum mer) mit 1 vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "condition_key": "4",
-    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempfänger) in der Rolle LF",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR (Nachrichtenempfäng er) in der Rolle LF",
     "edifact_format": "UTILMD"
   },
   {
@@ -76,7 +76,7 @@
   },
   {
     "condition_key": "17",
-    "condition_text": "Wenn bereits eine bestätigte Kündigungdurch Kunde oder MP vorhanden",
+    "condition_text": "Wenn bereits eine bestätigte Kündigung durch Kunde oder MP vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -151,7 +151,7 @@
   },
   {
     "condition_key": "35",
-    "condition_text": "Wenn das DE2380 von SG4 DTM+Z01 (Kündigungsfrist des Vertrags) an vierter Stelle T (Termin) enthält",
+    "condition_text": "Wenn das DE 2380 von SG4 DTM+Z01 (Kündigungsfrist des Vertrags) an vierter Stelle T (Termin) enthält",
     "edifact_format": "UTILMD"
   },
   {
@@ -541,7 +541,7 @@
   },
   {
     "condition_key": "147",
-    "condition_text": "Wenn in Anfragevorhanden",
+    "condition_text": "Wenn in Anfrage vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -760,11 +760,6 @@
     "edifact_format": "UTILMD"
   },
   {
-    "condition_key": "226",
-    "condition_text": "Wenn SG8 SEQ+Z01 (Daten der Marktlokation) SG10 CCI+6++ZA8 (Aggreg. verantw. NB) vorhanden",
-    "edifact_format": "UTILMD"
-  },
-  {
     "condition_key": "230",
     "condition_text": "Sich ergebendes Datum/ bzw. Endedatum des Turnuszeitraums aus DTM+Z21 (Termin der Netznutzungsabrechnun g) und DTM+Z09 (Nächste Netznutzungsabrechnun g) muss >= DTM+92 (Beginn zum) sein",
     "edifact_format": "UTILMD"
@@ -816,12 +811,12 @@
   },
   {
     "condition_key": "243",
-    "condition_text": "Wenn SG10 CCI+6++ZA8 (Aggreg.verantw. NB) in dieser SG8 vorhanden",
+    "condition_text": "Wenn SG10 CCI+6++ZA8 (Aggreg. verantw. NB) in dieser SG8 vorhanden",
     "edifact_format": "UTILMD"
   },
   {
     "condition_key": "244",
-    "condition_text": "Wenn SG10 CCI+6++ZA9 (Aggreg.verantw. ÜNB) in dieser SG8 vorhanden",
+    "condition_text": "Wenn SG10 CCI+6++ZA9 (Aggreg. verantw. ÜNB) in dieser SG8 vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -946,7 +941,7 @@
   },
   {
     "condition_key": "282",
-    "condition_text": "Wenn in diesem PIA der Code im DE7140 1-01-6-005, 1-01-9-001, 1-07-3-001, 1- 08-1-001, 1-08-3-001, 1-08- 4-001/002/003/004, 1-10-3- 001 enthalten ist",
+    "condition_text": "Wenn in diesem PIA der Code im DE7140 1-07-3-001, 1-08-1-001, 1-08-3-001, 1- 08-4-001/002/003/004, 1-10- 3-001 enthalten ist",
     "edifact_format": "UTILMD"
   },
   {
@@ -1386,7 +1381,7 @@
   },
   {
     "condition_key": "396",
-    "condition_text": "Wenn in derselben SG8 SEQ+Z02 (OBIS-Daten der Marktlokation) eine OBIS-Kennzahl für Wirkarbeit und 1/4 Stunde im PIA+5 vorhanden",
+    "condition_text": "Wenn in derselben SG8 SEQ+Z02 (OBIS- Daten der Marktlokation) eine OBIS-Kennzahl für Wirkarbeit und 1/4 Stunde im PIA+5 vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -1436,12 +1431,12 @@
   },
   {
     "condition_key": "410",
-    "condition_text": "Wenn eine SG8 SEQ+Z02 (OBIS-Daten der Marktlokation), mit dem RFF+Z18 (Referenz auf die ID der Marktlokation) auf die gleiche ID einer Marktlokation referenziert wie das RFF+Z18 (Referenz auf die ID der Marktlokation) in dieser SG8, mit einer OBIS-Kennzahl für Wirkarbeit und 1/4 Stunde im PIA+5 vorhanden",
+    "condition_text": "Wenn eine SG8 SEQ+Z02 (OBIS-Daten der Marktlokation), mit dem RFF+Z18 (Referenz auf die ID der Marktlokation) auf die gleiche ID einer Marktlokation refe-renziert wie das RFF+Z18 (Referenz auf die ID der Marktlokation) in dieser SG8, mit einer OBIS-Kennzahl für Wirkarbeit und 1/4 Stunde im PIA+5 vorhanden",
     "edifact_format": "UTILMD"
   },
   {
     "condition_key": "411",
-    "condition_text": "Wenn keine SG8 SEQ+Z02 (OBIS-Daten der Marktlokation), mit dem RFF+Z18 (Referenz auf die ID der Marktlokation) auf die gleiche ID einer Marktlokation refe-renziert wie das RFF+Z18 (Referenz auf die ID der Marktlokation) in dieser SG8, mit einer OBIS-Kennzahl für Wirkarbeit und 1/4 Stunde im PIA+5 vorhanden",
+    "condition_text": "Wenn keine SG8 SEQ+Z02 (OBIS-Daten der Marktlokation), mit dem RFF+Z18 (Referenz auf die ID der Marktlokation) auf die gleiche ID einer Marktlokation refe-renziert wie das RFF+Z18 (Referenz auf die ID der Marktlokation) in dieser SG8,, mit einer OBIS-Kennzahl für Wirkarbeit und 1/4 Stunde im PIA+5 vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -1486,7 +1481,7 @@
   },
   {
     "condition_key": "428",
-    "condition_text": "Wenn in derselben SG8 SEQ+Z27 (Erforderliches Messprodukt der Marktlokation) das PIA+5 DE7140 mit einem Messprodukt aus Codeliste der Konfigurationen Kapitel 2.1.1 Standard-Messprodukt der Marktlokation mit der Wahlmöglichkeit der Zuordnung einer Zählzeit vorhanden ist",
+    "condition_text": "Wenn in derselben SG8 SEQ+Z27 (Erforderliches Messprodukt der Marktlokation) das PIA+5 DE7140 mit einem Messprodukt aus Codeliste der Konfigurationen Kapitel 2.1.1 Standard- Messprodukt der Marktlokation mit der Wahlmöglichkeit der Zuordnung einer Zählzeit vorhanden ist",
     "edifact_format": "UTILMD"
   },
   {
@@ -2051,7 +2046,7 @@
   },
   {
     "condition_key": "622",
-    "condition_text": "Hinweis: Falls dieOBIS-Kennzahl für mehrere Marktrollen relevant ist, so muss die Segmentgruppe pro Marktrolle wiederholt werden",
+    "condition_text": "Hinweis: Falls die OBIS-Kennzahl für mehrere Marktrollen relevant ist, so muss die Segmentgruppe pro Marktrolle wiederholt werden",
     "edifact_format": "UTILMD"
   },
   {
@@ -2191,7 +2186,7 @@
   },
   {
     "condition_key": "654",
-    "condition_text": "Hinweis: Es sind ausschließlich die Daten zum Meldepunkt anzugeben, die für den in NAD+MR (Nachrichtenempfänger) adressierten Marktpartner relevant ist",
+    "condition_text": "Hinweis: Es sind ausschließlich die Daten zum Meldepunkt anzugeben, die für den in NAD+MR (Nachrichtenempfäng er) adressierten Marktpartner relevant ist",
     "edifact_format": "UTILMD"
   },
   {
@@ -2571,7 +2566,7 @@
   },
   {
     "condition_key": "2119",
-    "condition_text": "Je SG8 SEQ+Z13 (Smartmeter-Gateway) ist genau einmal die Segmentgruppe anzugeben",
+    "condition_text": "Je SG8 SEQ+Z13 (Smartmeter- Gateway) ist genau einmal die Segmentgruppe anzugeben",
     "edifact_format": "UTILMD"
   },
   {
@@ -2626,7 +2621,7 @@
   },
   {
     "condition_key": "2287",
-    "condition_text": "Für jede SEQ+Z03 (Zähleinrichtungsdaten) mindestens einmal anzugeben",
+    "condition_text": "Für jede SEQ+Z03 (Zähleinrichtungsdate n) mindestens einmal anzugeben",
     "edifact_format": "UTILMD"
   },
   {

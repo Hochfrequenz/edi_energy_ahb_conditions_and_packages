@@ -61,7 +61,7 @@
   },
   {
     "condition_key": "26",
-    "condition_text": "Wenn in dieser SG12 AJT DE4465 = A27/A51/A62/ A82/AA1/AA6/AA7/AB8/AD6",
+    "condition_text": "Wenn in dieser SG12 AJT DE4465 = A51/A62/ A82/AA1/AA6/AA7/AB8/AD6",
     "edifact_format": "REMADV"
   },
   {
@@ -327,6 +327,11 @@
   {
     "condition_key": "88",
     "condition_text": "Wenn in dieser SG7 AJT DE4465 =A25",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "97",
+    "condition_text": "Wenn in dieser SG12 AJT DE4465 = A27",
     "edifact_format": "REMADV"
   },
   {
