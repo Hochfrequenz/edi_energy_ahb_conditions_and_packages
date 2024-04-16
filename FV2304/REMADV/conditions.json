@@ -110,6 +110,11 @@
     "edifact_format": "REMADV"
   },
   {
+    "condition_key": "43",
+    "condition_text": "Wenn in SG12 AJT DE4465=28",
+    "edifact_format": "REMADV"
+  },
+  {
     "condition_key": "45",
     "condition_text": "Nur MP-ID aus Sparte Strom",
     "edifact_format": "REMADV"
@@ -276,12 +281,12 @@
   },
   {
     "condition_key": "526",
-    "condition_text": "Hinweis: Wert ausDE1082 der SG26 in der sich der nachfolgende Fehler in der INVOIC befindet, die in diesem SG5 DOC DE1004 genannt ist.",
+    "condition_text": "Hinweis: Wert aus DE1082 der SG26 in der sich der nachfolgende Fehler in der INVOIC befindet, die in diesem SG5 DOC DE1004 genannt ist.",
     "edifact_format": "REMADV"
   },
   {
     "condition_key": "529",
-    "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A75 vorhanden, dann dürfen in den DE4440 dieses FTX- Segments nur Abschlagsrechnungsnummerngenannt sein, welche in der Rechnung enthalten sind, deren Nummer in dieser SG7 in SG7 RFF+AFL angegeben ist.",
+    "condition_text": "Hinweis: Wenn in dieser SG7 AJT DE4465 = A75vorhanden, dann dürfen in den DE4440 dieses FTX- Segments nur Abschlagsrechnungsnummern genannt sein, welche in der Rechnung enthalten sind, deren Nummer in dieser SG7 in SG7 RFF+AFL angegeben ist.",
     "edifact_format": "REMADV"
   },
   {
@@ -321,7 +326,7 @@
   },
   {
     "condition_key": "538",
-    "condition_text": "Hinweis: Jede Positionsnummer eines Angebotes muss in einem separaten DE4440 angegeben werden. Reichen die fünf DE4440 für die Positionsnummern aller anzugebenden Angebote nicht aus, ist das FTX+Z14 zu wiederholen.",
+    "condition_text": "Hinweis: Jede Positionsnummer eines Angebotes muss in einem separaten DE4440 angegeben werden. Reichen die fünf DE4440 für die Positionsnummern aller anzugebenden Angebote nicht aus, ist das SG7 FTX+Z16 zu wiederholen.",
     "edifact_format": "REMADV"
   },
   {
