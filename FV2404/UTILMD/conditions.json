@@ -826,7 +826,7 @@
   },
   {
     "condition_key": "237",
-    "condition_text": "Wenn in derselben SG8 im DE7140 des PIA+Z02 (Gruppenartikel-ID / Artikel- ID) eine Gruppenartikel-ID / Artikel-ID mit 1-06 (entspricht Entgelte desMessstellenbetriebs bei kME) beginnt",
+    "condition_text": "Wenn in derselben SG8 im DE7140 des PIA+Z02 (Gruppenartikel-ID / Artikel- ID) eine Gruppenartikel-ID / Artikel-ID mit 1-06 (entspricht Entgelte des Messstellenbetriebs bei kME)beginnt",
     "edifact_format": "UTILMD"
   },
   {
