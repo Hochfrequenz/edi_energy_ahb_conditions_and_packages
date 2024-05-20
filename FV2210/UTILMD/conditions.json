@@ -946,7 +946,7 @@
   },
   {
     "condition_key": "282",
-    "condition_text": "Wenn in diesem PIA der Code im DE7140 1-07-3-001, 1-08-1-001, 1-08-3-001, 1-08-4- 001/002/003/004, 1- 10-3-001 enthalten ist",
+    "condition_text": "Wenn in diesem PIA der Code im DE7140 1-07-3-001, 1-08-1-001, 1-08-3-001, 1- 08-4-001/002/003/004, 1-10- 3-001 enthalten ist",
     "edifact_format": "UTILMD"
   },
   {
