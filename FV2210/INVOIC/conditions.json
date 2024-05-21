@@ -265,6 +265,16 @@
     "edifact_format": "INVOIC"
   },
   {
+    "condition_key": "60",
+    "condition_text": "Wenn DTM+203 DE2379 in demselben Segment mit Wert 303 vorhanden",
+    "edifact_format": "INVOIC"
+  },
+  {
+    "condition_key": "61",
+    "condition_text": "Wenn DTM+203 DE2379 in demselben Segment mit Wert 102 vorhanden",
+    "edifact_format": "INVOIC"
+  },
+  {
     "condition_key": "492",
     "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfäng er) aus Sparte Strom",
     "edifact_format": "INVOIC"

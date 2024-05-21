@@ -21,7 +21,7 @@
   },
   {
     "condition_key": "9",
-    "condition_text": "Wenn SG7 AJT+A99+E_0503 vorhanden",
+    "condition_text": "Wenn SG7 AJT+A32/ A99+E_0503 vorhanden",
     "edifact_format": "REMADV"
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "condition_key": "18",
-    "condition_text": "Wenn in dieser SG7 AJTDE4465 = A74/A75/A76",
+    "condition_text": "Wenn in dieser SG7 AJTDE4465 = A74/A75/A76/AC5",
     "edifact_format": "REMADV"
   },
   {
@@ -120,6 +120,11 @@
     "edifact_format": "REMADV"
   },
   {
+    "condition_key": "59",
+    "condition_text": "Wenn SG7 AJT+A99+E_0459 vorhanden",
+    "edifact_format": "REMADV"
+  },
+  {
     "condition_key": "492",
     "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Strom",
     "edifact_format": "REMADV"
@@ -136,7 +141,7 @@
   },
   {
     "condition_key": "502",
-    "condition_text": "Hinweis: Bei positivem Betrag ergibt sich eine Forderung desRechnungsstellers. Bei negativem Betrag ergibt sich eine Forderung für den Rechnungsempfänger.",
+    "condition_text": "Hinweis: Bei positivemBetrag ergibt sich eine Forderung des Rechnungsstellers. Bei negativem Betrag ergibt sich eine Forderung für den Rechnungsempfänger.",
     "edifact_format": "REMADV"
   },
   {
