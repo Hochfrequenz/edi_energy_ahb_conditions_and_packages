@@ -91,7 +91,7 @@
   },
   {
     "condition_key": "45",
-    "condition_text": "Wenn SG9 PIA+5+7-b:99.41. 16 (b=Kanal: Wert gemäß Codeliste der OBIS-Kennzahlen und Medien) vorhanden",
+    "condition_text": "Wenn SG9 PIA+5+7-b:99.41. 16 (b=Kanal: Wert gemäßCodeliste der OBIS-Kennzahlen und Medien) vorhanden",
     "edifact_format": "MSCONS"
   },
   {
@@ -316,7 +316,7 @@
   },
   {
     "condition_key": "125",
-    "condition_text": "wenn SG9 PIA+5+7-0?:52. 0.22/7-b?:53.0.16/7-b?:55.0.16/7-b?:55.0.20/7-b?:55.0.22 (b=Kanal: Wert gemäß Codeliste der OBIS-Kennzahlen und Medien) vorhanden",
+    "condition_text": "wenn SG9 PIA+5+7-0?:52. 0.22/7-b?:53.0.16/7-b?:55.0.16/ 7-b?:55.0.20/7-b?:55.0.22 (b=Kanal: Wert gemäß Codeliste der OBIS-Kennzahlen und Medien) vorhanden",
     "edifact_format": "MSCONS"
   },
   {
@@ -372,6 +372,11 @@
   {
     "condition_key": "138",
     "condition_text": "Wenn es sich um eine Korrekturenergiemenge auf einen Wert aus einem iMS handelt",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "141",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR in der Rolle MGV",
     "edifact_format": "MSCONS"
   },
   {
