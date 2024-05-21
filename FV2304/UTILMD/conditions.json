@@ -2205,6 +2205,11 @@
     "edifact_format": "UTILMD"
   },
   {
+    "condition_key": "2055",
+    "condition_text": "Einmal für jede Marktlokation bzw. Tranche, für die der NB nicht die gemeldete Ansicht des ÜNB teilt",
+    "edifact_format": "UTILMD"
+  },
+  {
     "condition_key": "2056",
     "condition_text": "Einmal für jede Marktlokation bzw. Tranche, für die der LF nicht die gemeldete Ansicht des NB teilt",
     "edifact_format": "UTILMD"
@@ -2366,7 +2371,7 @@
   },
   {
     "condition_key": "2327",
-    "condition_text": "Für jede ID im SG5 LOC+172 (Meldepunkt) DE3225, auf die ein SG8 RFF+Z20 (Tranche) einer SG8SEQ+Z31 (Daten der Tranche der beteiligten Marktrolle) referenziert, ist diese Segmentgruppe mindestens einmal anzugeben",
+    "condition_text": "Für jede ID im SG5 LOC+172 (Meldepunkt) DE3225, auf die ein SG8 RFF+Z20 (Tranche) einer SG8 SEQ+Z31 (Daten der Tranche der beteiligten Marktrolle) referenziert, ist diese Segmentgruppe mindestens einmal anzugeben",
     "edifact_format": "UTILMD"
   },
   {
