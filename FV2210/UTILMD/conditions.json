@@ -811,7 +811,7 @@
   },
   {
     "condition_key": "244",
-    "condition_text": "Wenn SG10 CCI+6++ZA9 (Aggreg.verantw. ÜNB) in dieser SG8 vorhanden",
+    "condition_text": "Wenn SG10 CCI+6++ZA9 (Aggreg. verantw. ÜNB) in dieser SG8 vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -946,7 +946,7 @@
   },
   {
     "condition_key": "282",
-    "condition_text": "Wenn in diesem PIA der Code im DE7140 1-07-3-001, 1-08-1-001, 1-08-3-001, 1- 08-4-001/002/003/004, 1-08- 6-001, 1-10-3-001 enthalten ist",
+    "condition_text": "Wenn in diesem PIA der Code im DE7140 1-07-3-001, 1-08-1-001, 1-08-3-001, 1- 08-4-001/002/003/004, 1-10- 3-001 enthalten ist",
     "edifact_format": "UTILMD"
   },
   {
@@ -1376,7 +1376,7 @@
   },
   {
     "condition_key": "404",
-    "condition_text": "Wenn nicht dieselbe MP-ID in SG2 NAD+MR (Nachrichtenempfänger) und im SG8 SEQ+Z01 (Daten der Marktlokation) SG10 CCI+++ZB3 (Zugeordnete Marktpartner) CAV+91 (Messtellenbetreiber) vorhanden",
+    "condition_text": "Wenn nicht dieselbe MP-ID in SG2 NAD+MR (Nachrichtenempfänger) und im SG8 SEQ+Z01 (Daten der Marktlokation) SG10 CCI+++ZB3 (Zugeordnete Marktpartner) CAV+Z91 (Messtellenbetreiber) vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -1531,12 +1531,17 @@
   },
   {
     "condition_key": "441",
-    "condition_text": "Wenn im SG8+SEQ+Z03 (Zähleinrichtungsdate n) für die in diesem RFF DE1154 genannte Gerätenummer eines Zählers das RFF+Z14 (Referenz auf das Smartmeter-Gateway) nicht vorhanden ist",
+    "condition_text": "Wenn im SG8+SEQ+Z03 (Zähleinrichtungsdaten) für die in diesem RFF DE1154 genannte Gerätenummer eines Zählers das RFF+Z14 (Referenz auf das Smartmeter-Gateway) nicht vorhanden ist",
     "edifact_format": "UTILMD"
   },
   {
     "condition_key": "442",
     "condition_text": "Wenn in keinem SG8+SEQ+Z09 Mengenumwerterdate n das RFF+MG (Referenz auf die Gerätenummer) der in diesem RFF DE1154 genannte Gerätenummer des Zählers vorhanden ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "443",
+    "condition_text": "Messprodukt-Code aus den Kapitel 3 \"Codeliste der Standard-Messprodukte Gas\" der Codeliste der Messprodukte",
     "edifact_format": "UTILMD"
   },
   {
@@ -1686,7 +1691,7 @@
   },
   {
     "condition_key": "556",
-    "condition_text": "Hinweis: Wenn keine Korrespondenzanschrift des Endverbrauchers/ Kunden vorliegt, ist die Anschrift der Marktlokation zu übermitteln",
+    "condition_text": "Hinweis: Wenn keine Korrespondenzanschrift des Endverbrauchers/Kunden vorliegt, ist die Anschrift der Marktlokation zu übermitteln",
     "edifact_format": "UTILMD"
   },
   {
@@ -2081,7 +2086,7 @@
   },
   {
     "condition_key": "661",
-    "condition_text": "Hinweis: Ist dem NB bereits die ab dem Lieferbeginn zu verwendende Konfuigurations-ID bekannt, teilt er diese bereits hier mit. Liegt diese noch nicht vor, teilt der NB die aktuell verwendete Konfigurations-ID mit und veranlasst beim MSB eine Konfigurationsänderung, welche nach erfolgreichem Abschluss zu einer neuen Konfigurations-ID führt,die über den Prozess Stammdatenänderung kommuniziert wird.",
+    "condition_text": "Hinweis: Ist dem NB bereits die ab dem Lieferbeginn zu verwendende Konfigurations-ID bekannt, teilt er diese bereits hier mit. Liegt diese noch nicht vor, teilt der NB die aktuell verwendete Konfigurations-ID mit und veranlasst beim MSB eine Konfigurationsänderung, welche nach erfolgreichem Abschluss zu einer neuen Konfigurations-ID führt, die über den Prozess Stammdatenänderung kommuniziert wird.",
     "edifact_format": "UTILMD"
   },
   {
