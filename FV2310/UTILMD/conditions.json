@@ -760,6 +760,11 @@
     "edifact_format": "UTILMD"
   },
   {
+    "condition_key": "226",
+    "condition_text": "Wenn SG8 SEQ+Z01 (Daten der Marktlokation) SG10 CCI+6++ZA8 (Aggreg. verantw. NB) vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
     "condition_key": "230",
     "condition_text": "Sich ergebendes Datum/ bzw. Endedatum des Turnuszeitraums aus DTM+Z21 (Termin der Netznutzungsabrechnun g) und DTM+Z09 (Nächste Netznutzungsabrechnun g) muss >= DTM+92 (Beginn zum) sein",
     "edifact_format": "UTILMD"
@@ -941,7 +946,7 @@
   },
   {
     "condition_key": "282",
-    "condition_text": "Wenn in diesem PIA der Code im DE7140 1-07-3-001, 1-08-1-001, 1-08-3-001, 1- 08-4-001/002/003/004, 1-10- 3-001 enthalten ist",
+    "condition_text": "Wenn in diesem PIA der Code im DE7140 1-01-6-005, 1-01-9-001, 1-07-3-001, 1- 08-1-001, 1-08-3-001, 1-08- 4-001/002/003/004, 1-10-3- 001 enthalten ist",
     "edifact_format": "UTILMD"
   },
   {
