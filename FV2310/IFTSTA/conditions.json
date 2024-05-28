@@ -460,6 +460,16 @@
     "edifact_format": "IFTSTA"
   },
   {
+    "condition_key": "144",
+    "condition_text": "Wenn RFF+Z45 in dieser SG15 nicht vorhanden",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "145",
+    "condition_text": "Wenn RFF+Z17 in dieser SG15 nicht vorhanden",
+    "edifact_format": "IFTSTA"
+  },
+  {
     "condition_key": "492",
     "condition_text": "wenn MP-ID in NAD+MR aus Sparte Strom",
     "edifact_format": "IFTSTA"
