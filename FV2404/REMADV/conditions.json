@@ -106,7 +106,7 @@
   },
   {
     "condition_key": "42",
-    "condition_text": "Wenn in SG7 AJT DE1082 = E_0407",
+    "condition_text": "Wenn in SG7 AJT DE1082 = E_0407/E_0568/E_0521/ E_0517/E_0266",
     "edifact_format": "REMADV"
   },
   {
@@ -365,13 +365,18 @@
     "edifact_format": "REMADV"
   },
   {
-    "condition_key": "96",
-    "condition_text": "Wenn SG7 AJT DE1082 = E_0568",
+    "condition_key": "97",
+    "condition_text": "Wenn in dieser SG12 AJT DE4465 = A27",
     "edifact_format": "REMADV"
   },
   {
-    "condition_key": "97",
-    "condition_text": "Wenn in dieser SG12 AJT DE4465 = A27",
+    "condition_key": "98",
+    "condition_text": "Wenn in SG12 AJT DE1082 = E_0407",
+    "edifact_format": "REMADV"
+  },
+  {
+    "condition_key": "99",
+    "condition_text": "Wenn in SG12 AJT DE1082 = E_0568",
     "edifact_format": "REMADV"
   },
   {
@@ -471,12 +476,12 @@
   },
   {
     "condition_key": "534",
-    "condition_text": "Hinweis: Wenn in dieser SG12 AJT DE4465 = A34/ A39/AA2/AB2, ist diese SG12 ist so oft mit AJT DE4465 = Code zu wiederholen, bis alle Nummern der Reklamationen im RFF-Segment dieser SG12 genannt sind.",
+    "condition_text": "Hinweis: Wenn in dieser SG12 AJT DE4465 = A34/ A39/AA2/AB2, ist diese SG12 ist so oft mit AJT DE4465 = Code zu wiederholen, bis alleNummern der Reklamationen im RFF-Segment dieser SG12 genannt sind.",
     "edifact_format": "REMADV"
   },
   {
     "condition_key": "535",
-    "condition_text": "Hinweis: Diese SG7 ist so oft mit AJT DE4465 = A80 zu wiederholen, bis die Rechnungsnummern der nicht stornierten Sonderrechnungen mit derselben Sonderrechnungsart wie sie in Sonderrechnung genannt ist die in diesem SG5 DOC DE1004 genannt ist, und sich auf dieselbe Rechnung beziehen, die die in diesemSG5 DOC DE1004 genannt ist.",
+    "condition_text": "Hinweis: Diese SG7 ist so oft mit AJT DE4465 = A80 zu wiederholen, bis die Rechnungsnummern der nicht stornierten Sonderrechnungen mit derselben Sonderrechnungsart wie sie in Sonderrechnung genannt ist die in diesem SG5 DOCDE1004 genannt ist, und sich auf dieselbe Rechnung beziehen, die die in diesem SG5 DOC DE1004 genannt ist.",
     "edifact_format": "REMADV"
   },
   {
