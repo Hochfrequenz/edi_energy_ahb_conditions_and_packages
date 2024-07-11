@@ -1,0 +1,12 @@
+[
+  {
+    "package_key": "2P",
+    "package_expression": "[25] ⊻ [62]",
+    "edifact_format": "UTILTS"
+  },
+  {
+    "package_key": "3P",
+    "package_expression": "[25]",
+    "edifact_format": "UTILTS"
+  }
+]

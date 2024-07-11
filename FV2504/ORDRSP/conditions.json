@@ -1,0 +1,512 @@
+[
+  {
+    "condition_key": "1",
+    "condition_text": "Wenn BGM+7 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "3",
+    "condition_text": "Wenn MP-ID in SG3 NAD+MS mit Rolle NB vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "4",
+    "condition_text": "Wenn MP-ID in SG3 NAD+MR mit Rolle LF vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "5",
+    "condition_text": "Wenn MP-ID in SG3 NAD+MS mit Rolle LF vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "9",
+    "condition_text": "Wenn MP-ID in SG3 NAD+MS mit Rolle LF vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "10",
+    "condition_text": "Wenn MP-ID in SG3 NAD+MS mit Rolle MSB vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "11",
+    "condition_text": "Wenn AJT+A09+E_0470 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "12",
+    "condition_text": "Wenn der NB eine unverbindliche Preisinformation angeben kann",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "14",
+    "condition_text": "Wenn MP-ID in SG3 NAD+MR mit Rolle MSB vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "15",
+    "condition_text": "Wenn MP-ID in SG3 NAD+MR mit Rolle NB vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "16",
+    "condition_text": "Wenn MP-ID in SG3 NAD+MR mit Rolle ÜNB vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "17",
+    "condition_text": "Der hier angegebene Code des Prüfschritts muss im EBD dem Cluster Zustimmung zugeordnet sein",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "18",
+    "condition_text": "Der hier angegebene Code des Prüfschritts muss im EBD dem Cluster Ablehnung zugeordnet sein",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "21",
+    "condition_text": "Wenn IMD++Z01 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "22",
+    "condition_text": "Wenn IMD++Z02 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "23",
+    "condition_text": "Wenn IMD++Z03 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "24",
+    "condition_text": "Wenn BGM+Z51 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "25",
+    "condition_text": "Wenn BGM+Z52 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "27",
+    "condition_text": "Wenn AJT+A05+E_0470 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "28",
+    "condition_text": "Wenn AJT+A99 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "29",
+    "condition_text": "MP-ID nur aus Sparte Gas",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "30",
+    "condition_text": "MP-ID nur aus Sparte Strom",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "31",
+    "condition_text": "MP-ID mit Rolle MSB",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "32",
+    "condition_text": "MP-ID mit Rolle NB",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "33",
+    "condition_text": "Wenn AJT+A02/ A03+E_0488 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "34",
+    "condition_text": "wenn vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "37",
+    "condition_text": "Wenn in dieser Nachricht das SG8 CUX+2 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "38",
+    "condition_text": "Möglicher Wert: ZB4 oder ZB5",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "39",
+    "condition_text": "Möglicher Wert: E17 oder Z07",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "40",
+    "condition_text": "Wenn der Code im DE3207 in der \"EDI@Energy Codeliste der europäischen Ländercodes\" in der Spalte \"PLZ vorhanden\" ein \"X\" enthält",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "41",
+    "condition_text": "wenn SG2 AJT (Einzelheiten zu einer Anpassung/Änderung) DE4465 mit Wert ZB5 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "42",
+    "condition_text": "Wenn SG2 AJT+Z07 (Antwortkategorie: Ablehnung (Keine Berechtigung)) vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "43",
+    "condition_text": "Wenn AJT+A02/ A03+E_1001 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "44",
+    "condition_text": "Wenn AJT+A05+E_1000 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "45",
+    "condition_text": "Wenn AJT+A09+E_1000 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "46",
+    "condition_text": "Wenn AJT+A06+E_0552 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "47",
+    "condition_text": "Wenn AJT+A06+E_0553 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "48",
+    "condition_text": "Wenn AJT+A06+E_0554 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "49",
+    "condition_text": "nur, wenn in ursprünglicher Nachricht IMD++Z60 (Abbestellung Messprodukt mitZählzeitdefinition des LF) vorhanden war",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "50",
+    "condition_text": "wenn im DE3155 in demselben COM der Code EM vorhanden ist",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "51",
+    "condition_text": "wenn im DE3155 in demselben COM der Code TE / FX / AJ / AL vorhanden ist",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "52",
+    "condition_text": "wenn es sich bei der Reklamation um die Reklamation der ausgerollten Leistungskurvendefinitionen handelte",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "53",
+    "condition_text": "Vorgangsnummer aus IDE DE7402 der UTILTS mit BGM+Z59",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "54",
+    "condition_text": "Vorgangsnummer aus IDE DE7402 der UTILTS mit BGM+Z80",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "55",
+    "condition_text": "Vorgangsnummer aus IDE DE7402 der UTILTS mit BGM+Z81",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "56",
+    "condition_text": "wenn SG2 AJT+A02/A03/ A06/A07/A10/A11+E_0548 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "57",
+    "condition_text": "wenn SG2 AJT+A02/A03/ A06/A07/A10/A11+E_0549 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "58",
+    "condition_text": "wenn SG2 AJT+A02/A03/ A06/A07+E_0550 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "59",
+    "condition_text": "wenn SG2 AJT+A02/A03/ A06/A07/A10/A11+E_0551 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "60",
+    "condition_text": "wenn es sich bei der Reklamation um die Reklamation der Übersicht der Zählzeitdefinitionen handelte",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "61",
+    "condition_text": "wenn es sich bei der Reklamation um die Reklamation der Übersicht der Schaltzeitdefinitionen handelte",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "62",
+    "condition_text": "wenn es sich bei der Reklamation um die Reklamation der Übersicht der Leistungskurvendefinitionen handelte",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "63",
+    "condition_text": "Dokumentennummer aus BGM+Z60 DE1004 der UTILTS",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "64",
+    "condition_text": "Dokumentennummer aus BGM+Z78 DE1004 der UTILTS",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "65",
+    "condition_text": "Dokumentennummer aus BGM+Z79 DE1004 der UTILTS",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "66",
+    "condition_text": "wenn SG2 AJT+A01/A02/ A03+E_0544 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "67",
+    "condition_text": "wenn SG2 AJT+A01/A02/ A03+E_0545 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "68",
+    "condition_text": "wenn SG2 AJT+A02/ A03+E_0546 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "69",
+    "condition_text": "wenn SG2 AJT+A01/A02/ A03+E_0547 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "70",
+    "condition_text": "wenn es sich bei der Reklamation um die Reklamation der ausgerollten Zählzeitdefinitionen handelte",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "71",
+    "condition_text": "wenn es sich bei der Reklamation um die Reklamation der ausgerollten Schaltzeitdefinitionen handelte",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "72",
+    "condition_text": "wenn AJT+A04+E_0552 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "73",
+    "condition_text": "wenn AJT+A04+E_0553 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "74",
+    "condition_text": "wenn AJT+A04+E_0554 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "75",
+    "condition_text": "Wenn es sich um die Antwort auf eine Bestellung handelt in der ein Messprodukt der Codeliste der Konfigurationen aus dem Kapitel 4.6.2 „Werte nach Typ 2 aus SMGW“ bestellt wurde.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "76",
+    "condition_text": "Wenn FTX+Z27 (IP-Adresse des Absenders) nicht vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "77",
+    "condition_text": "Wenn FTX+Z28 (IP-Range des Absenders) nicht vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "492",
+    "condition_text": "wenn MP-ID in NAD+MR aus Sparte Strom",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "493",
+    "condition_text": "wenn MP-ID in NAD+MR aus Sparte Gas",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "494",
+    "condition_text": "Das hier genannte Datum muss der Zeitpunkt sein, zu dem das Dokument erstellt wurde, oder ein Zeitpunkt, der davor liegt.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "500",
+    "condition_text": "Hinweis: Angabe eines technischen Ansprechpartners für die Geräteübernahme",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "503",
+    "condition_text": "Hinweis: Datum, bis zu dem der MSBA zur Fortführung verpflichtet wurde",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "504",
+    "condition_text": "Hinweis: Ggf. korrigiert bei einer Zeitangabe in der ORDERS, die außerhalb des max. möglichen Weiterverpflichtungszeitraum s ist. Als Antwort wird dann in SG2 AJT Zustimmung mit Terminänderung angegeben.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "513",
+    "condition_text": "Hinweis: Wert aus BGM+Z12 DE1004 der ORDERS, mit der die Bestellung erfolgt ist.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "518",
+    "condition_text": "Hinweis: Wert aus BGM+Z10 DE1004 der ORDERS, mit der die Bestellung erfolgt ist",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "519",
+    "condition_text": "Hinweis: Wert aus BGM+7 DE1004 der ORDERS, mit der die Bestellung erfolgt ist.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "520",
+    "condition_text": "Hinweis: Wert aus BGM+Z29 DE1004 derORDERS, mit der die Anfrage zur Beendigung der Rechnungsabwicklung erfolgt ist.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "521",
+    "condition_text": "Hinweis: Wert aus BGM+Z14/Z61/Z62 DE1004 der ORDERS, mit der die Anforderung von Stammdaten erfolgt ist",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "522",
+    "condition_text": "Hinweis: Wert aus BGM+7/ Z28/Z48 DE1004 der ORDERS, mit der die Anforderung von Werten erfolgt ist.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "523",
+    "condition_text": "Hinweis: Wert aus BGM+7 DE1004 der ORDERS, mit der die Anforderung Anforderung von Brennwert und Zustandszahl erfolgt ist.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "524",
+    "condition_text": "Hinweis: Wert aus BGM+Z14 DE1004 der ORDERS, mit der die Anfrage vom MSB Gas erfolgt ist.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "525",
+    "condition_text": "Hinweis: Wert aus BGM+Z24 DE1004 der ORDERS, mit der die Anforderung Allokationsliste erfolgt ist",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "526",
+    "condition_text": "Hinweis: Wert aus BGM+Z23 DE1004 der ORDERS, mit der die Anforderung bilanzierte Menge erfolgt ist",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "527",
+    "condition_text": "Hinweis: Wert aus BGM+Z34 DE1004 der ORDERS, mit der die Reklamation von Werten erfolgt ist.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "529",
+    "condition_text": "Hinweis: Dokumentennummer aus BGM DE1004 der ORDERS",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "530",
+    "condition_text": "Hinweis: Dokumentennummer aus BGM DE1004 der ORDCHG",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "533",
+    "condition_text": "Hinweis: Wert aus BGM+Z51 DE1004 der ORDCHG",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "534",
+    "condition_text": "Hinweis: Wert aus BGM+Z52 DE1004 der ORDCHG",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "535",
+    "condition_text": "Hinweis: Wert aus BGM+Z13 DE1004 der ORDERS, mit der die Ankündigung Gerätewechselabsicht erfolgt ist.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "536",
+    "condition_text": "Hinweis: Es ist die MP-ID des Eigentümers (MSB) zur bilateralen Klärung anzugeben, wenn der angefragte MSB nicht selber der Eigentümer ist.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "537",
+    "condition_text": "Hinweis: Wert aus BGM+Z72 DE1004 der ORDERS, mit der die Bestellung Beendigung der Konfiguration erfolgt ist.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "538",
+    "condition_text": "Hinweis: Wert aus BGM+Z76 DE1004 der ORDERS, mit der die Reklamation der Konfiguration erfolgt ist.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "539",
+    "condition_text": "Hinweis: Wert aus BGM+Z73/Z74 DE1004 der ORDERS, mit der die Bestellung der Konfiguration erfolgt ist.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "540",
+    "condition_text": "Hinweis: Es darf nur eine Information im DE3148 übermittelt werden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "542",
+    "condition_text": "Hinweis: Wert aus BGM+Z91 DE1004 der ORDERS, mit der die Bestellung Änderung der Abrechnungsdaten erfolgt ist.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "902",
+    "condition_text": "Format: Format: Möglicher Wert: ≥ 0",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "903",
+    "condition_text": "Format: Möglicher Wert: 1",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "930",
+    "condition_text": "Format: max. 2 Nachkommastellen",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "939",
+    "condition_text": "Format: Die Zeichenkette muss die Zeichen @ und . enthalten",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "940",
+    "condition_text": "Format: Die Zeichenkette muss mit dem Zeichen + beginnen und danach dürfen nur noch Ziffern folgen",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "2036",
+    "condition_text": "Pro Nachricht ist die SG27 genau einmal anzugeben",
+    "edifact_format": "ORDRSP"
+  }
+]
