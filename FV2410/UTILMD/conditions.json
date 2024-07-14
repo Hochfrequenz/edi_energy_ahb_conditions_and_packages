@@ -766,7 +766,7 @@
   },
   {
     "condition_key": "220",
-    "condition_text": "Wenn SG8 SEQ+Z01 (Daten der Marktlokation) SG10CCI+Z30++Z06 (Lieferrichtung: Erzeugung) in dieser SG8 vorhanden",
+    "condition_text": "Wenn SG8 SEQ+Z01 (Daten der Marktlokation) SG10 CCI+Z30++Z06 (Lieferrichtung: Erzeugung) in dieser SG8 vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -1101,7 +1101,7 @@
   },
   {
     "condition_key": "314",
-    "condition_text": "Es sind alle OBIS- Kennzahlen gem. EDI@Energy Codeliste der OBIS-Kennzahlen und Medien für den deutschen Energiemarkt Kap. 3 anzugeben welche an der Marktlokation erforderlich sind, dabei muss der Mindestumfang aus Kap. 3.4 eingehalten werden. Der Mindestumfang der OBIS- Kennzahlen ergibt sich aus den genannten Messprodukt- Codes dem Kap. 5.1 des Dokumentes \"Codeliste der Konfigurationen\"",
+    "condition_text": "Es sind alle OBIS- Kennzahlen gem. EDI@Energy Codeliste der OBIS-Kennzahlen und Medien für den deutschen Energiemarkt Kap. 3 anzugeben welche an der Marktlokation erforderlich sind, dabei muss der Mindestumfang aus Kap. 3.4 eingehalten werden. Der Mindestumfang der OBIS-Kennzahlen ergibt sich aus den genannten Messprodukt-Codes dem Kap. 5.1 des Dokumentes \"Codeliste der Konfigurationen\"",
     "edifact_format": "UTILMD"
   },
   {
@@ -1401,12 +1401,12 @@
   },
   {
     "condition_key": "389",
-    "condition_text": "Wenn mehr als eine SG8 SEQ+Z20 (OBIS-Daten der Zähleinrichtung / Smartmeter-Gateway), die mit dem RFF+MG (Referenz auf die Gerätenummer) auf die gleiche Gerätenummer referenziert, mit einer OBIS- Kennzahl der Werteart \"Zählerstand\" im PIA+5 vorhanden",
+    "condition_text": "Wenn mehr als eine SG8 SEQ+Z20 (OBIS-Daten der Zähleinrichtung / Smartmeter-Gateway), die mit dem RFF+MG/ Z14 (Referenz auf die Gerätenummer) auf die gleiche Gerätenummer referenziert, mit einer OBIS-Kennzahl der Werteart \"Zählerstand\" im PIA+5 vorhanden",
     "edifact_format": "UTILMD"
   },
   {
     "condition_key": "390",
-    "condition_text": "Wenn mindestens eine weitere SG8 SEQ+Z20 (OBIS-Daten der Zähleinrichtung / Smartmeter-Gateway), die mit dem RFF+Z18 (Referenz auf die ID der Marktlokation) auf die gleiche ID einer Marktlokation wie in dieser SG referenziert und mit dem RFF+MG / Z14 (Referenz auf die Gerätenummer / Referenz auf das SMGw) auf die gleiche Gerätenummer wie in dieser SG referenziert und mit dem SG8 RFF+AGK (Konfigurations-ID auf die gleich Konfigurations-ID referenziert (wenn diese vorhanden), und auch mit einer OBIS- Kennzahl für Zählerstand im PIA+5 vorhanden",
+    "condition_text": "Wenn mindestens eine weitere SG8 SEQ+Z20 (OBIS-Daten der Zähleinrichtung / Smartmeter- Gateway), die mit dem RFF+Z18 (Referenz auf die ID der Marktlokation) auf die gleiche ID einer Marktlokation wie in dieser SG referenziert und mit dem RFF+MG / Z14 (Referenz auf die Gerätenummer / Referenz auf das SMGw) auf die gleiche Gerätenummer wie in dieser SG referenziert und mit dem SG8 RFF+AGK (Konfigurations-ID auf die gleich Konfigurations-ID referenziert (wenn diese vorhanden), und auch mit einer OBIS- Kennzahl für Zählerstand im PIA+5 vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -1616,7 +1616,7 @@
   },
   {
     "condition_key": "443",
-    "condition_text": "Wenn DTM+157(Änderung zum) im DE2380 < 202409302200?+00",
+    "condition_text": "Wenn DTM+157 (Änderung zum) im DE2380 < 202409302200?+00",
     "edifact_format": "UTILMD"
   },
   {
@@ -1736,7 +1736,7 @@
   },
   {
     "condition_key": "467",
-    "condition_text": "Wenn in derselben SG8 SEQ+Z52 (Daten der Technischen Ressource) das CAV+ZG8 (Technischen Ressource fällt unter § 14a EnWG) vorhanden ist",
+    "condition_text": "Wenn in derselben SG8 SEQ+Z52 (Daten der Technischen Ressource) das CAV+ZG8 (Technischen Ressource fällt unter §14a EnWG) vorhanden ist",
     "edifact_format": "UTILMD"
   },
   {
@@ -1751,7 +1751,17 @@
   },
   {
     "condition_key": "470",
-    "condition_text": "Wenn in derselben SG8 SEQ+Z52 (Daten der Technischen Ressource) das CAV+ZH5 (Wechsel in das in das § 14a EnWG-Modell gem. Festlegung BK6-22-300 wurde durchgeführt) vorhanden ist",
+    "condition_text": "Wenn in derselben SG8 SEQ+Z52 (Daten der Technischen Ressource) das CAV+ZH5 (Wechsel in das in das §14a EnWG-Modell gem. Festlegung BK6-22-300 wurde durchgeführt) vorhanden ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "471",
+    "condition_text": "Wenn in demselben RFF der Code Z35 (vorgelagerte Netzlokation) im DE1153 vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "472",
+    "condition_text": "Wenn in demselben RFF der Code Z34 (vorgelagerte Messlokation) im DE1153 vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -1851,7 +1861,7 @@
   },
   {
     "condition_key": "523",
-    "condition_text": "Hinweis: Bei Geschäftsvorfall 3 prozentualer Anteil der Tranche von derMarktlokation",
+    "condition_text": "Hinweis: Bei Geschäftsvorfall 3 prozentualer Anteil der Tranche von der Marktlokation",
     "edifact_format": "UTILMD"
   },
   {
@@ -2016,7 +2026,7 @@
   },
   {
     "condition_key": "598",
-    "condition_text": "Hinweis: Die Übermittlung dieser Angabe dient dazu, dass der LF auch bei iMS gemessenen Marktlokationen mit Prognosegrundlage auf Basis von Werten einen belastbare Information für die Energiebeschaffung hat",
+    "condition_text": "Hinweis: Die Übermittlung dieser Angabe dient dazu, dass der LF auch bei iMS gemessenen Marktlokationen mit Prognosegrundlage auf Basis von Werten einenbelastbare Information für die Energiebeschaffung hat",
     "edifact_format": "UTILMD"
   },
   {
@@ -2251,7 +2261,7 @@
   },
   {
     "condition_key": "654",
-    "condition_text": "Hinweis: Es sind ausschließlich die Daten zum Meldepunkt anzugeben, die für den in NAD+MR (Nachrichtenempfäng er) adressierten Marktpartner relevant ist",
+    "condition_text": "Hinweis: Es sind ausschließlich die Daten zum Meldepunkt anzugeben, die für den in NAD+MR (Nachrichtenempfänger) adressierten Marktpartner relevant ist",
     "edifact_format": "UTILMD"
   },
   {
@@ -2411,7 +2421,7 @@
   },
   {
     "condition_key": "687",
-    "condition_text": "Hinweis: Es sind alle Messlokationen zu nennen, die für die Energiemengenermittlung aktuell und / oder zukünftig der im LOC+Z16 angegebenen Marktlokation notwendigen sind. Zudem ist über das DE5479 mit der Angabe des entsprechenden Codes der Zustand der Messlokation zu beschreiben",
+    "condition_text": "Hinweis: Es sind alle Messlokationen zu nennen, die für die Energiemengenermittlung aktuell und / oder zukünftig der im LOC+Z16 angegebenen Marktlokation notwendig sind. Zudem ist über das DE5479 mit der Angabe des entsprechenden Codes der Zustand der Messlokation zu beschreiben",
     "edifact_format": "UTILMD"
   },
   {
