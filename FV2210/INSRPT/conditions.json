@@ -1,1 +1,157 @@
-[]
+[
+  {
+    "condition_key": "1",
+    "condition_text": "Wenn Nachrichtenabsender vom Kunden informiert wurde.",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "2",
+    "condition_text": "Wenn SG7 STS+Z06+Z10+ZC1 vorhanden.",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "3",
+    "condition_text": "Wenn vorhanden.",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "4",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR in der Rolle NB",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "5",
+    "condition_text": "Wenn MP-ID in SG2 NAD+MR in der Rolle LF",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "6",
+    "condition_text": "Wenn keine Störung festgestellt werden konnte.",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "7",
+    "condition_text": "Wenn keine weitere SG7 mit demselben Meldepunkt und DTM+9 vorhanden",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "8",
+    "condition_text": "Wenn in dieser SG7 STS+Z06+Z10 vorhanden",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "9",
+    "condition_text": "Wenn eine Störung festgestellt wurde, die durch den MSB selbständig und unverschuldet nicht behoben werden konnte.",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "10",
+    "condition_text": "Wenn in diesem STS DE4405 = Z09",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "11",
+    "condition_text": "Wenn in diesem STS DE4405 = Z10",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "12",
+    "condition_text": "Wenn eine Störung festgestellt wurde, die durch denMSB behoben wurde.",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "13",
+    "condition_text": "Wenn DE2379 = 303",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "14",
+    "condition_text": "Nur MP-ID aus Sparte Strom",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "494",
+    "condition_text": "Das hier genannte Datum muss der Zeitpunkt sein, zu dem das Dokument erstellt wurde, oder ein Zeitpunkt, der davor liegt",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "495",
+    "condition_text": "Der Zeitpunkt muss ≤ dem Wert im DE2380 des DTM+137 sein",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "500",
+    "condition_text": "Hinweis: Vorgangsnummer (DOC DE1004) aus Prozessschritt 4b „Bestätigung der Störungsmeldung“ (Gas) bzw. Prozessschritt 2 „Antwort“ (Strom).",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "506",
+    "condition_text": "Hinweis: Zu nutzen, wenn Behebung der Störung durch den MSB selbständig und unverschuldet nicht möglich ist.",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "507",
+    "condition_text": "Hinweis: In SG7 FTX+AAO ist anzugeben, was die übergeordnete Ursache ist, aufgrund derer der MSB nicht in der Lage ist die Störung zu beheben.",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "508",
+    "condition_text": "Hinweis: Vorgangsnummer aus DOC DE1004.",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "509",
+    "condition_text": "Hinweis: Verwendung der ID der Messlokation",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "510",
+    "condition_text": "Hinweis: Verwendung der ID der Marktlokation",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "511",
+    "condition_text": "Hinweis: Die Nummerierung beginnt in jedem Dokument bei 1",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "512",
+    "condition_text": "Hinweis: Wurde eine Störung festgestellt und durch den MSB behoben, ist die Segmentgruppe mit demselben Meldepunkt zweimal anzugeben",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "513",
+    "condition_text": "Hinweis: Wurde keine Störung festgestellt, ist die Segmentgruppe genau einmal anzugeben",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "514",
+    "condition_text": "Hinweis: Wurde eine Störung festgestellt, die nicht durch den MSB behoben werden konnte, ist die Segmentgruppe genau einmal anzugeben",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "515",
+    "condition_text": "Hinweis: \"≤ dem Wert im DE2380 des DTM+137\" bedeutet, dass der dort genannte Tag ≥ dem in diesem DTM genannten Tag sein muss, wenn in DE2379 der Code 102 steht.",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "908",
+    "condition_text": "Format: Mögliche Werte: 1 bis n",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "931",
+    "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "950",
+    "condition_text": "Format: Marktlokations-ID",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "condition_key": "951",
+    "condition_text": "Format: Zählpunktbezeichnung",
+    "edifact_format": "INSRPT"
+  }
+]
