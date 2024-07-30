@@ -206,7 +206,7 @@
   },
   {
     "condition_key": "67",
-    "condition_text": "Wenn DTM+163 nicht vorhanden",
+    "condition_text": "Wenn DTM+163 nichtvorhanden",
     "edifact_format": "ORDERS"
   },
   {
@@ -366,7 +366,7 @@
   },
   {
     "condition_key": "108",
-    "condition_text": "Wenn RFF+AGK (Konfigurations-ID) nicht vorhanden",
+    "condition_text": "Wenn RFF+AGK(Konfigurations-ID) nicht vorhanden",
     "edifact_format": "ORDERS"
   },
   {
@@ -406,12 +406,12 @@
   },
   {
     "condition_key": "117",
-    "condition_text": "Wenn SG29 LIN++Z64(Erforderliches Produkt Schaltzeitdefinitionen) vorhanden",
+    "condition_text": "Wenn SG29 LIN++Z64 (Erforderliches Produkt Schaltzeitdefinitionen) vorhanden",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "118",
-    "condition_text": "Wenn SG29 LIN++Z65 (Erforderliches Produkt Leistungskurvendefinitionen) vorhanden",
+    "condition_text": "Wenn SG29 LIN++Z65 (Erforderliches ProduktLeistungskurvendefinitionen) vorhanden",
     "edifact_format": "ORDERS"
   },
   {
@@ -552,16 +552,6 @@
   {
     "condition_key": "146",
     "condition_text": "Wenn für die Netzlokation in LOC+172 DE3225 (Meldepunkt), das Produkt bestellt werden soll",
-    "edifact_format": "ORDERS"
-  },
-  {
-    "condition_key": "147",
-    "condition_text": "wenn im DE3155 im demselben COM der Code EM vorhanden ist",
-    "edifact_format": "ORDERS"
-  },
-  {
-    "condition_key": "148",
-    "condition_text": "wenn im DE3155 im demselben COM der Code TE / FX / AJ / AL vorhanden ist",
     "edifact_format": "ORDERS"
   },
   {
@@ -731,7 +721,7 @@
   },
   {
     "condition_key": "543",
-    "condition_text": "Hinweis: Wert aus BGM+Z57 DE1004 der ORDERS mit der die Bestellung der Werte erfolgt ist.",
+    "condition_text": "Hinweis: Wert ausBGM+Z57 DE1004 der ORDERS mit der die Bestellung der Werte erfolgt ist.",
     "edifact_format": "ORDERS"
   },
   {
@@ -746,12 +736,12 @@
   },
   {
     "condition_key": "548",
-    "condition_text": "Hinweis: Wenn die Änderung der Gerätekonfiguration mit einer Zählzeit übermittelt wird, ist hier die MP-ID des Eigentümers der Liste der Zählzeit einzutragen. Wenn anstatt der bisherigen Zählzeit keine Zählzeit mehr verwendet werden soll ist hier die MP-ID des Eigentümers der Liste der Zählzeit einzutragen aus welcher bisher die Zählzeit verwendet wurde.",
+    "condition_text": "Hinweis: Wenn dieÄnderung der Gerätekonfiguration mit einer Zählzeit übermittelt wird, ist hier die MP-ID des Eigentümers der Liste der Zählzeit einzutragen. Wenn anstatt der bisherigen Zählzeit keine Zählzeit mehr verwendet werden soll ist hier die MP-ID des Eigentümers der Liste der Zählzeit einzutragen aus welcher bisher die Zählzeit verwendet wurde.",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "549",
-    "condition_text": "Hinweis: Findet bei der Reklamation von Zählerständen immer Anwendung. Einzige Ausnahme ist, wenn es sich um die Reklamation eines fehlenden Zählerstandes aufgrund einer Turnusablesung handelt, bei welcher der MSB am Objekt der Marktlokation die Information zur \"geplanten Turnusablesung des MSB (Strom)\" in der UTILMD im SG6 DTM+752 als Ablesezeitraum (DE2379 mit Code 104 MMWW- MMWW) in den vorherigen Stammdaten übermittelt hatte,denn dann ist keine Zeitpunktangabe möglich, sondern das Zeitintervall in der Segmentausprägung DTM+163 / DTM+164 zu verwenden.",
+    "condition_text": "Hinweis: Findet bei der Reklamation von Zählerständen immer Anwendung. Einzige Ausnahme ist, wenn es sich um die Reklamation eines fehlenden Zählerstandes aufgrund einer Turnusablesung handelt, bei welcher der MSB am Objekt der Marktlokation die Information zur \"geplanten Turnusablesung des MSB (Strom)\" in der UTILMD im SG6 DTM+752 als Ablesezeitraum (DE2379 mit Code 104 MMWW- MMWW) in den vorherigen Stammdaten übermittelt hatte, denn dann ist keine Zeitpunktangabe möglich, sondern das Zeitintervall in der Segmentausprägung DTM+163 / DTM+164 zu verwenden.",
     "edifact_format": "ORDERS"
   },
   {
@@ -835,11 +825,6 @@
     "edifact_format": "ORDERS"
   },
   {
-    "condition_key": "567",
-    "condition_text": "Hinweis: Es darf nur eine Information im DE3148 übermittelt werden",
-    "edifact_format": "ORDERS"
-  },
-  {
     "condition_key": "903",
     "condition_text": "Format: Möglicher Wert: 1",
     "edifact_format": "ORDERS"
@@ -880,16 +865,6 @@
     "edifact_format": "ORDERS"
   },
   {
-    "condition_key": "939",
-    "condition_text": "Format: Die Zeichenkette muss die Zeichen @ und . enthalten",
-    "edifact_format": "ORDERS"
-  },
-  {
-    "condition_key": "940",
-    "condition_text": "Format: Die Zeichenkette muss mit dem Zeichen + beginnen und danach dürfen nur noch Ziffern folgen",
-    "edifact_format": "ORDERS"
-  },
-  {
     "condition_key": "950",
     "condition_text": "Format: Marktlokations-ID",
     "edifact_format": "ORDERS"
@@ -926,7 +901,7 @@
   },
   {
     "condition_key": "2002",
-    "condition_text": "Ist mindestens zwei Mal anzugeben",
+    "condition_text": "Ist mindestens zwei Malanzugeben",
     "edifact_format": "ORDERS"
   },
   {
@@ -936,7 +911,7 @@
   },
   {
     "condition_key": "2004",
-    "condition_text": "Die SG29 ist so oft zu wiederholen, dass alle Geräte der betroffenen Geräteart die im Rahmen des Gerätewechsels aufgrund MSB-Wechsel getauscht werden sollen genannt sind.",
+    "condition_text": "Die SG29 ist so oft zu wiederholen, dass alle Geräte der betroffenen Geräteart die im Rahmen des Gerätewechsels aufgrund MSB-Wechsel getauschtwerden sollen genannt sind.",
     "edifact_format": "ORDERS"
   },
   {
@@ -951,7 +926,7 @@
   },
   {
     "condition_key": "2007",
-    "condition_text": "Die SG29 ist so oft zu wiederholen, wie ab dem DTM+203 (Ausführungsdatum)Messlokationen zu der in der SG2 genannten Netzlokation vorhanden sind und für jede dieser Messlokationen müssen alle Messprodukte genannt sein, die ab dem DTM+203 (Ausführungsdatum) in der SG2 genannten Netzlokation vorhanden sind.",
+    "condition_text": "Die SG29 ist so oft zu wiederholen, wie ab dem DTM+203 (Ausführungsdatum) Messlokationen zu der in der SG2 genannten Netzlokation vorhanden sind und für jede dieser Messlokationen müssen alle Messprodukte genannt sein, die ab dem DTM+203 (Ausführungsdatum) in der SG2 genannten Netzlokation vorhanden sind.",
     "edifact_format": "ORDERS"
   },
   {
@@ -976,12 +951,12 @@
   },
   {
     "condition_key": "2063",
-    "condition_text": "Pro Nachricht ist die SG29 LIN++Z67 (Erforderliches Messprodukt für Werte nach Typ 2 aus Backend) maximal einmal anzugeben",
+    "condition_text": "Pro Nachricht ist die SG29LIN++Z67 (Erforderliches Messprodukt für Werte nach Typ 2 aus Backend) maximal einmal anzugeben",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "2064",
-    "condition_text": "Pro Nachricht ist die SG29 LIN++Z68 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) maximaleinmal anzugeben",
+    "condition_text": "Pro Nachricht ist die SG29 LIN++Z68 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) maximal einmal anzugeben",
     "edifact_format": "ORDERS"
   },
   {
@@ -1011,7 +986,7 @@
   },
   {
     "condition_key": "2093",
-    "condition_text": "Pro SG29 LIN (Erforderliches Modul der Netzentgelte) ist die SG30 (Erforderliches Modul der Netzentgelte) mindestens einmal und maximal zweimal anzugeben.",
+    "condition_text": "Pro SG29 LIN (Erforderliches Modul derNetzentgelte) ist die SG30 (Erforderliches Modul der Netzentgelte) mindestens einmal und maximal zweimal anzugeben.",
     "edifact_format": "ORDERS"
   }
 ]
