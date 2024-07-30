@@ -1,0 +1,17 @@
+[
+  {
+    "package_key": "2P",
+    "package_expression": "[6]",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "package_key": "3P",
+    "package_expression": "[12]",
+    "edifact_format": "INSRPT"
+  },
+  {
+    "package_key": "4P",
+    "package_expression": "[9]",
+    "edifact_format": "INSRPT"
+  }
+]
