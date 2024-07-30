@@ -76,7 +76,7 @@
   },
   {
     "condition_key": "21",
-    "condition_text": "Wenn IMD++Z01 vorhanden",
+    "condition_text": "Wenn IMD++Z01vorhanden",
     "edifact_format": "ORDRSP"
   },
   {
@@ -176,7 +176,7 @@
   },
   {
     "condition_key": "44",
-    "condition_text": "Wenn AJT+A05+E_1000 vorhanden",
+    "condition_text": "Wenn AJT+A05+E_1000vorhanden",
     "edifact_format": "ORDRSP"
   },
   {
@@ -201,7 +201,7 @@
   },
   {
     "condition_key": "49",
-    "condition_text": "nur, wenn in ursprünglicher Nachricht IMD++Z60 (Abbestellung Messprodukt mitZählzeitdefinition des LF) vorhanden war",
+    "condition_text": "nur, wenn in ursprünglicher Nachricht IMD++Z60 (Abbestellung Messprodukt mit Zählzeitdefinition des LF) vorhanden war",
     "edifact_format": "ORDRSP"
   },
   {
@@ -301,7 +301,7 @@
   },
   {
     "condition_key": "71",
-    "condition_text": "wenn es sich bei der Reklamation um die Reklamationder ausgerollten Schaltzeitdefinitionen handelte",
+    "condition_text": "wenn es sich bei der Reklamation um die Reklamation der ausgerollten Schaltzeitdefinitionen handelte",
     "edifact_format": "ORDRSP"
   },
   {
@@ -356,12 +356,12 @@
   },
   {
     "condition_key": "504",
-    "condition_text": "Hinweis: Ggf. korrigiert bei einer Zeitangabe in der ORDERS, die außerhalb des max. möglichen Weiterverpflichtungszeitraum s ist. Als Antwort wird dann inSG2 AJT Zustimmung mit Terminänderung angegeben.",
+    "condition_text": "Hinweis: Ggf. korrigiert bei einer Zeitangabe in der ORDERS, die außerhalb des max. möglichen Weiterverpflichtungszeitraum s ist. Als Antwort wird dann in SG2 AJT Zustimmung mit Terminänderung angegeben.",
     "edifact_format": "ORDRSP"
   },
   {
     "condition_key": "513",
-    "condition_text": "Hinweis: Wert aus BGM+Z12 DE1004 derORDERS, mit der die Bestellung erfolgt ist.",
+    "condition_text": "Hinweis: Wert aus BGM+Z12 DE1004 der ORDERS, mit der die Bestellung erfolgt ist.",
     "edifact_format": "ORDRSP"
   },
   {
@@ -376,7 +376,7 @@
   },
   {
     "condition_key": "520",
-    "condition_text": "Hinweis: Wert aus BGM+Z29 DE1004 der ORDERS, mit der die Anfrage zur Beendigung der Rechnungsabwicklung erfolgt ist.",
+    "condition_text": "Hinweis: Wert aus BGM+Z29 DE1004 derORDERS, mit der die Anfrage zur Beendigung der Rechnungsabwicklung erfolgt ist.",
     "edifact_format": "ORDRSP"
   },
   {
@@ -411,7 +411,7 @@
   },
   {
     "condition_key": "527",
-    "condition_text": "Hinweis: Wert aus BGM+Z34 DE1004 der ORDERS, mit der dieReklamation von Werten erfolgt ist.",
+    "condition_text": "Hinweis: Wert aus BGM+Z34 DE1004 der ORDERS, mit der die Reklamation von Werten erfolgt ist.",
     "edifact_format": "ORDRSP"
   },
   {
