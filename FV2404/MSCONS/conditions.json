@@ -6,7 +6,7 @@
   },
   {
     "condition_key": "2",
-    "condition_text": "Wenn dasZeitintervall zwischen ersten SG10 DTM+163 und letzten SG10 DTM+164 mindestens einen Monat umfasst",
+    "condition_text": "Wenn das Zeitintervall zwischen ersten SG10 DTM+163 und letzten SG10 DTM+164 mindestens einen Monat umfasst",
     "edifact_format": "MSCONS"
   },
   {
@@ -206,7 +206,7 @@
   },
   {
     "condition_key": "88",
-    "condition_text": "Wenn der Wert inDTM+164 DE2380 derselben SG6 LOC+172 mit demselben Wert in SG9 PIA+5 DE7140 der späteste angegebene Zeitpunkt ist",
+    "condition_text": "Wenn der Wert in DTM+164 DE2380 derselben SG6 LOC+172 mit demselben Wert in SG9 PIA+5 DE7140 der späteste angegebene Zeitpunkt ist",
     "edifact_format": "MSCONS"
   },
   {
@@ -246,7 +246,7 @@
   },
   {
     "condition_key": "97",
-    "condition_text": "Wenn es sich um die Übermittlung eines Wertes aufgrund der Umstellung der Gasqualität handelt",
+    "condition_text": "Wenn es sich um die Übermittlung eines Wertes aufgrund der Umstellung der Gasqualität handeltAnmerkung--Wie bisher ist bei allen Lastgängen der Wandlerfaktor bei der Übermittlung bereits mit eingerechnet.Wie bisher ist bei allen Lastgängen der Wandlerfaktor bei der Übermittlung bereits mit eingerechnet.Für die NetzgangzeitreiheFür die Netzgangzeitreihe----Anmerkung----Wie bisher ist bei allen Lastgängen der Wandlerfaktor bei der Übermittlung bereits mit eingerechnet.Wie bisher ist bei allen Lastgängen der Wandlerfaktor bei der Übermittlung bereits mit eingerechnet.",
     "edifact_format": "MSCONS"
   },
   {
@@ -331,7 +331,7 @@
   },
   {
     "condition_key": "130",
-    "condition_text": "Wenn innerhalb desselben LIN-Segments neben diesem Segment (SG10 DTM+7 Nutzungszeitpunkt) noch das SG10 DTM+60 (Ausführungs- / Änderungszeitpunkt) oder das SG10 DTM+9 (Ablesedatum) vorhanden, darf der Wert der Differenz zwischen dem größeren und dem kleineren Zeitpunkt der DTM-Segmente ausschließlich < 24 Stunden sein. Findet zwischen den beiden Zeitpunkten die Sommer/Winter-Zeitumschaltung statt, darf der Wert der Differenz ausschließlich < 25 Stunden sein. Findet zwischen den beiden Zeitpunkten die Winter/Sommer- Zeitumschaltung statt, darf der Wert der Differenz ausschließlich < 23 Stunden sein.",
+    "condition_text": "Wenn innerhalb desselben LIN-Segments neben diesem Segment (SG10 DTM+7 Nutzungszeitpunkt) noch das SG10 DTM+60 (Ausführungs- / Änderungszeitpunkt) oder das SG10 DTM+9 (Ablesedatum) vorhanden, darf der Wert der Differenz zwischen dem größeren und dem kleineren Zeitpunkt der DTM-Segmente ausschließlich < 24 Stunden sein. Findet zwischen den beiden Zeitpunkten die Sommer/Winter- Zeitumschaltung statt, darf der Wert der Differenz ausschließlich < 25 Stunden sein. Findet zwischen den beiden Zeitpunkten die Winter/Sommer- Zeitumschaltung statt, darf der Wert der Differenz ausschließlich < 23 Stunden sein.",
     "edifact_format": "MSCONS"
   },
   {
@@ -406,7 +406,7 @@
   },
   {
     "condition_key": "147",
-    "condition_text": "Wenn in derselben S9 LIN das SG10 DTM+7 (Nutzungszeitpunkt) nicht vorhanden ist.",
+    "condition_text": "Wenn in derselben S9 LIN das SG10 DTM+7(Nutzungszeitpunkt) nicht vorhanden ist.",
     "edifact_format": "MSCONS"
   },
   {
@@ -436,7 +436,7 @@
   },
   {
     "condition_key": "495",
-    "condition_text": "Der Zeitpunkt muss ≤ dem Wert im DE2380 des DTM+137 sein",
+    "condition_text": "Der Zeitpunkt muss ≤ dem Wert im DE2380 des DTM+137 seinAnmerkung----------Anmerkungfür die Übermittlung der Energiemenge im Zeitintervall zwischen zwei Messwerten und für rechnerisch ermittelte Messwertefür rechnerisch ermittelte MesswerteFür die Übermittlung von Abrechnungsbrennwert und Z-Zahl für den vom Lieferanten über eine Geschäftsdatenanfrage angeforderten Zeitraum.Zur Übermittlung der Korrekturenergiemengen im Zeitintervall zwischen zwei Messwerten für rechnerisch ermittelte Messwerte auf Ebene der Messlokation (z. B. bei Zählerdefekt).",
     "edifact_format": "MSCONS"
   },
   {
@@ -566,7 +566,7 @@
   },
   {
     "condition_key": "536",
-    "condition_text": "Hinweis: Wert aus SG6 RFF+AAV DE1154 der UTILMD mit dem der NB die vorherigen Stammdaten mittels UTILMD übermittelt hat.",
+    "condition_text": "Hinweis: Wert aus SG6 RFF+AAV DE1154 der UTILMD mitdem der NB die vorherigen Stammdaten mittels UTILMD übermittelt hat.",
     "edifact_format": "MSCONS"
   },
   {
@@ -586,7 +586,7 @@
   },
   {
     "condition_key": "544",
-    "condition_text": "Hinweis: Bei einer Mengenaufteilung (z. B. Aufgrund einer Abgrenzung) für SG6 LOC+172 muss für den frühesten angegebenen Zeitpunkt zum Beginn des Zeitintervalls (über alle Wiederholungen der LIN-Segmente derselben SG6 LOC+172 hinweg) zu jeder OBIS-Kennziffer ein Zählerstand vorhanden und kommuniziert sein.",
+    "condition_text": "Hinweis: Bei einer Mengenaufteilung (z. B.Aufgrund einer Abgrenzung) für SG6 LOC+172 muss für den frühesten angegebenen Zeitpunkt zum Beginn des Zeitintervalls (über alle Wiederholungen der LIN-Segmente derselben SG6 LOC+172 hinweg) zu jeder OBIS-Kennziffer ein Zählerstand vorhanden und kommuniziert sein.",
     "edifact_format": "MSCONS"
   },
   {
@@ -606,7 +606,7 @@
   },
   {
     "condition_key": "551",
-    "condition_text": "Hinweis: Ein Korrekturgrund ist anzugeben, wenn: 1. ein bereits an den MP übermittelter vorläufiger Wertdurch einen Ersatzwert ersetzt wird, oder 2. ein bereits an den MP übermittelter Ersatzwert durch einen Ersatzwert ersetzt wird, oder 3. ein bereits an den MP übermittelter wahrer Wert durch einen Ersatzwert ersetzt wird, oder 4. ein bereits an den MP übermittelter wahrer Wert durch einen wahren Wert ersetzt wird.",
+    "condition_text": "Hinweis: Ein Korrekturgrund ist anzugeben, wenn: 1. ein bereits an den MP übermittelter vorläufiger Wert durch einen Ersatzwert ersetzt wird, oder 2. ein bereits an den MP übermittelter Ersatzwert durch einen Ersatzwert ersetzt wird, oder 3. ein bereits an den MP übermittelter wahrer Wert durch einen Ersatzwert ersetzt wird, oder4. ein bereits an den MP übermittelter wahrer Wert durch einen wahren Wert ersetzt wird.",
     "edifact_format": "MSCONS"
   },
   {
@@ -636,7 +636,7 @@
   },
   {
     "condition_key": "559",
-    "condition_text": "Hinweis: Ein Korrekturgrund ist anzugeben, wenn:1. ein bereits an den MP übermittelter vorläufiger Wert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 2. ein bereits an den MP übermittelter Ersatzwert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 3. ein bereits an den MP übermittelter wahrer Wert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 4. ein bereits an den MP übermittelter wahrer Wert nach Stornierung durch einen wahren Wert ersetzt wird.",
+    "condition_text": "Hinweis: Ein Korrekturgrund ist anzugeben, wenn: 1. ein bereits an den MP übermittelter vorläufiger Wert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 2. ein bereits an den MP übermittelter Ersatzwert nach Stornierung durch einen Ersatzwert ersetzt wird, oder 3. ein bereits an den MP übermittelter wahrer Wertnach Stornierung durch einen Ersatzwert ersetzt wird, oder 4. ein bereits an den MP übermittelter wahrer Wert nach Stornierung durch einen wahren Wert ersetzt wird.",
     "edifact_format": "MSCONS"
   },
   {
@@ -656,7 +656,7 @@
   },
   {
     "condition_key": "568",
-    "condition_text": "Hinweis: Verwendung ist nur zulässig, wenn es sich um 1:n Beziehung zwischen Markt- und Messlokation handelt und auf Ebene der Messlokation unterschiedliche Ersatzwertbildungsverfa hren verwendet und kommuniziert wurden.",
+    "condition_text": "Hinweis:Verwendung ist nur zulässig, wenn es sich um 1:n Beziehung zwischen Markt- und Messlokation handelt und auf Ebene der Messlokation unterschiedliche Ersatzwertbildungsverfa hren verwendet und kommuniziert wurden.",
     "edifact_format": "MSCONS"
   },
   {
@@ -666,7 +666,7 @@
   },
   {
     "condition_key": "570",
-    "condition_text": "Hinweis: Verwendung ist nur zulässig, wenn es sich um 1:n Beziehung zwischen Markt- und Messlokation handelt und auf Ebene der Messlokation unterschiedliche Gründe für die Ersatzwertbildung vorliegen und kommuniziert wurden.",
+    "condition_text": "Hinweis: Verwendung ist nur zulässig, wenn es sich um 1:n Beziehung zwischenMarkt- und Messlokation handelt und auf Ebene der Messlokation unterschiedliche Gründe für die Ersatzwertbildung vorliegen und kommuniziert wurden.Anmerkung------Zur Abstimmung der Netzzeitreihen--",
     "edifact_format": "MSCONS"
   },
   {
@@ -681,7 +681,7 @@
   },
   {
     "condition_key": "573",
-    "condition_text": "Hinweis: Eine Energiemenge in der Sparte Gas ist gemäß DVGW G685Arbeitsblatt 4 Kapitel 5.3 auf ganze Kilowattstunden zu runden.",
+    "condition_text": "Hinweis: Eine Energiemenge in der Sparte Gas ist gemäß DVGW G685 Arbeitsblatt 4 Kapitel 5.3 auf ganze Kilowattstunden zu runden.",
     "edifact_format": "MSCONS"
   },
   {
@@ -761,7 +761,7 @@
   },
   {
     "condition_key": "931",
-    "condition_text": "Format: ZZZ = +00",
+    "condition_text": "Format: ZZZ = +00Bemerkung--Eine Korrektur erfolgt über die Versionierung der Zeitreihen. Der Absender ist für die Versionierung der Zeitreihen verantwortlich.Eine Korrektur erfolgt über die Versionierung der Zeitreihen. Der Absender ist für die Versionierung der Zeitreihen verantwortlich.Eine Korrektur erfolgt über die Versionierung der Nachricht. Der Absender ist für die Versionierung der Nachricht verantwortlich.Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.Auf Ebene der Messlokation: Bei der Korrektur von „Korrekturenergiemengen“, die auf Ebene der Messlokation übermittelt worden sind. Hinweis: Bei „Korrekturenergiemengen“, die auf Ebene der Messlokation übermittelt werden, muss in jedem Fall ein Korrekturgrund mitgegeben werden.Bei der Korrektur von Energiemengen auf Ebene der Marktlokation, die als Auslöser aufgrund eines Zählerstandes auf Ebene der Messlokation erzeugt wurden, der den Endzeitpunkt einer Rechnung darstellt. Eine Korrektur erfolgt über die Versionierung der Zeitreihen. Der Absender ist für die Versionierung der Zeitreihen verantwortlich.Eine Korrektur erfolgt über die Versionierung der Zeitreihen. Der Absender ist für die Versionierung der Zeitreihen verantwortlich.Eine Korrektur erfolgt über die Versionierung der Zeitreihen. Der Absender ist für die Versionierung der Zeitreihen verantwortlich.Eine Korrektur erfolgt über die Versionierung der Liste. Der Absender ist für die Versionierung der Liste verantwortlich. Eine Liste, auch wenn diese aufgrund Ihrer Größe in mehrere Listen aufgeteilt wurde, enthält immer dieselbe Versionierung. Referenz auf die bilanzierte Energiemenge in der INVOIC------Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.Auf Ebene der Messlokation: Bei der Korrektur von „Korrekturenergiemengen“, die auf Ebene der Messlokation übermittelt worden sind. Hinweis: Bei „Korrekturenergiemengen“, die auf Ebene der Messlokation übermittelt werden, muss in jedem Fall ein Korrekturgrund mitgegeben werden.Bei der Korrektur von Energiemengen auf Ebene der Marktlokation.Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.Eine Korrektur erfolgt über die Versionierung der Zeitreihen. Der Absender ist für die Versionierung der Zeitreihen verantwortlich.Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.--",
     "edifact_format": "MSCONS"
   },
   {
@@ -796,7 +796,7 @@
   },
   {
     "condition_key": "2001",
-    "condition_text": "Segmentgruppe ist nur einmal je UNH anzugeben",
+    "condition_text": "Segmentgruppe ist nur einmal je UNH anzugebenEreignisBestellung mit ORDERS BGM+7, IMD+Z13, IMD+Z48 (Wechselereignis)Bestellung mit ORDERS BGM+7, IMD+Z13, IMD+Z48 (Wechselereignis)Bestellung ORDERS BGM+7, IMD+Z13, IMD+Z49 (Zwischenablesung)Ausführungs- / Änderungszeitpunkt (SG10 DTM+60)------Auslöser für die Bereitstellung von Mengen an der Marktlokation?--ja, Bereitstellung von Werten auf Ebene der Marktlokation--EreignisAuf Basis der bisher ausgetauschten Stammdaten bzw. bei Änderung auf Basis: Stammdatenänderung UTILMD BGM+E03, STS+7++ZG7 (Änderung vom MSB ohne Abhängigkeiten) und der damit einhergehenden Verpflichtung des MSBAusführungs- / Änderungszeitpunkt (SG10 DTM+60)--Auslöser für die Bereitstellung von Mengen an der Marktlokation?ja, Bereitstellung von Werten auf Ebene der MarktlokationEreignisÄnderung der Parametrierung ist durchgeführt und: Stammdatenänderung UTILMD BGM+E03, STS+7++ZE8 (Änderung vom MSB mit Abhängigkeiten) versendet.Änderung der Parametrierung ist durchgeführt und: Stammdatenänderung UTILMD BGM+E03, STS+7++ZE8 (Änderung vom MSB mit Abhängigkeiten) versendet.Ausführungs- / Änderungszeitpunkt (SG10 DTM+60)Zeitpunkt zu dem die Änderung der Parametrierung tatsächlich stattgefunden hatZeitpunkt zu dem die Änderung der Parametrierung tatsächlich stattgefunden hatAuslöser für die Bereitstellung von Mengen an der Marktlokation?--ja, Bereitstellung von Werten auf Ebene der MarktlokationEreignisGerätewechsel ist durchgeführt und: Stammdatenänderung UTILMD BGM+E03, STS+7++ZE8 (Änderung vom MSB mit Abhängigkeiten) versendetGerätewechsel ist durchgeführt und: Stammdatenänderung UTILMD BGM+E03, STS+7++ZE8 (Änderung vom MSB mit Abhängigkeiten) versendetAusführungs- / Änderungszeitpunkt (SG10 DTM+60)Zeitpunkt zu dem der Einbau des Gerätes tatsächlich stattgefunden hat.Zeitpunkt zu dem der Ausbau des Gerätes tatsächlich stattgefunden hat.Auslöser für die Bereitstellung von Mengen an der Marktlokation?--ja, Bereitstellung von Werten auf Ebene der MarktlokationEreignisMSB-Wechsel erfolgreich durchgeführt und: IFTSTA BGM+Z09 SG15 STS+Z10+Z14 zu dem der MSB-Wechsel vollzogen wurde, liegt vor.MSB-Wechsel erfolgreich durchgeführt und: IFTSTA BGM+Z09 SG15 STS+Z10+Z14 zu dem der MSB-Wechsel vollzogen wurde, liegt vor.Ausführungs- / Änderungszeitpunkt (SG10 DTM+60)----Auslöser für die Bereitstellung von Mengen an der Marktlokation?--ja, Bereitstellung von Werten auf Ebene der MarktlokationEreignisWert liegt beim NB / LF vor und soll dem MSB zur Verfügung gestellt werdenAusführungs- / Änderungszeitpunkt (SG10 DTM+60)--Auslöser für die Bereitstellung von Mengen an der Marktlokation?--EreignisBestellung ORDERS BGM+7, IMD+Z13, IMD+Z47 (Abgrenzung)Ausführungs- / Änderungszeitpunkt (SG10 DTM+60)--Auslöser für die Bereitstellung von Mengen an der Marktlokation?--",
     "edifact_format": "MSCONS"
   },
   {

@@ -31,12 +31,12 @@
   },
   {
     "condition_key": "12",
-    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die inder Codeliste der Konfigurationen im Kapitel 4.6 \"Codelisten der Messprodukte Strom für ESA\", in der Spalte \"Ebene\" das Objekt \"Tranche\" angegeben ist.",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.6 \"Codelisten der Messprodukte Strom für ESA\", in der Spalte \"Ebene\" das Objekt \"Tranche\" angegeben ist.",
     "edifact_format": "REQOTE"
   },
   {
     "condition_key": "13",
-    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.6 \"Codelisten derMessprodukte Strom für ESA\", in der Spalte \"Ebene\" das Objekt \"Netzlokation\" angegeben ist.",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.6 \"Codelisten der Messprodukte Strom für ESA\", in der Spalte \"Ebene\" das Objekt \"Netzlokation\" angegeben ist.",
     "edifact_format": "REQOTE"
   },
   {
@@ -116,7 +116,7 @@
   },
   {
     "condition_key": "29",
-    "condition_text": "Es sind nur die Konfigurations-Produkte erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.1 „Konfigurationsprodukte Schaltzeitdefinition“ enthaltensind.",
+    "condition_text": "Es sind nur die Konfigurations-Produkte erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.1 „Konfigurationsprodukte Schaltzeitdefinition“ enthalten sind.",
     "edifact_format": "REQOTE"
   },
   {

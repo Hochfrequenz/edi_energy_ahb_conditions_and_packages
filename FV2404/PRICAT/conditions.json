@@ -86,7 +86,7 @@
   },
   {
     "condition_key": "28",
-    "condition_text": "Wenn die zugehörige Artikel- ID in der letzten Stelle eine 1 ist",
+    "condition_text": "Wenn die zugehörige Artikel-ID in der letzten Stelle eine 1 ist",
     "edifact_format": "PRICAT"
   },
   {
@@ -176,7 +176,7 @@
   },
   {
     "condition_key": "46",
-    "condition_text": "Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in dieser in Kapitel \"Artikel-ID für den Universalbestellprozess für dieSparte Strom\" genannt sind",
+    "condition_text": "Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die in dieser in Kapitel \"Artikel-ID für den Universalbestellprozess für die Sparte Strom\" genannt sind",
     "edifact_format": "PRICAT"
   },
   {
@@ -186,12 +186,12 @@
   },
   {
     "condition_key": "48",
-    "condition_text": "Wenn in dieser SG36 LIN in DE7140 einer der Codes 1-01-6- 005 / 1-01-9-001 / 1-01-9-002 / 1-02-0-015 / 1-03-8-001 / 1-03- 8-002 / 1-03-8-003 / 1-03-8-004 / 1-03-9-001 / 1-03-9-002 / 1-03-9-003 / 1-03-9-004 / 1-07-4-001 vorhanden",
+    "condition_text": "Wenn in dieser SG36 LIN in DE7140 einer der Codes 1-01-6- 005 / 1-01-9-001 / 1-01-9-002 / 1-02-0-015 / 1-03-8-001 / 1-03- 8-002 / 1-03-8-003 / 1-03-8-004 / 1-03-9-001 / 1-03-9-002 / 1-03- 9-003 / 1-03-9-004 / 1-07-4-001 vorhanden",
     "edifact_format": "PRICAT"
   },
   {
     "condition_key": "49",
-    "condition_text": "Wenn in dieser SG36 LIN in DE7140 keiner der Codes 1-01-6- 005 / 1-01-9-001 / 1-01-9-002 / 1-02-0-015 / 1-03-8-001 / 1-03- 8-002 / 1-03-8-003 / 1-03-8-004 / 1-03-9-001 / 1-03-9-002 / 1-03- 9-003 / 1-03-9-004 / 1-07-4-001 vorhanden",
+    "condition_text": "Wenn in dieser SG36 LIN in DE7140 keiner der Codes 1-01-6- 005 / 1-01-9-001 / 1-01-9-002 /1-02-0-015 / 1-03-8-001 / 1-03- 8-002 / 1-03-8-003 / 1-03-8-004 / 1-03-9-001 / 1-03-9-002 / 1-03- 9-003 / 1-03-9-004 / 1-07-4-001 vorhanden",
     "edifact_format": "PRICAT"
   },
   {

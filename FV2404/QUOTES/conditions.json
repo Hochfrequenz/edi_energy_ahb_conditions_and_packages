@@ -41,7 +41,7 @@
   },
   {
     "condition_key": "11",
-    "condition_text": "Wenn in derselben SG27 LINdie Artikelnummer 9990001000665 vorhanden ist",
+    "condition_text": "Wenn in derselben SG27 LIN die Artikelnummer 9990001000665 vorhanden ist",
     "edifact_format": "QUOTES"
   },
   {
@@ -176,7 +176,7 @@
   },
   {
     "condition_key": "46",
-    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.6 \"Codelisten derMessprodukte Strom für ESA\", in der Spalte \"Ebene\" das Objekt \"Tranche\" angegeben ist.",
+    "condition_text": "Es sind nur die Messprodukt-Codes erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.6 \"Codelisten der Messprodukte Strom für ESA\", in der Spalte \"Ebene\" das Objekt \"Tranche\" angegeben ist.",
     "edifact_format": "QUOTES"
   },
   {
@@ -196,12 +196,12 @@
   },
   {
     "condition_key": "51",
-    "condition_text": "Wenn SG27 LIN++Z66 (Erforderliches Produkt Ad-hoc-Steuerkanal) vorhanden",
+    "condition_text": "Wenn SG27 LIN++Z66 (Erforderliches Produkt Ad-hoc- Steuerkanal) vorhanden",
     "edifact_format": "QUOTES"
   },
   {
     "condition_key": "52",
-    "condition_text": "Wenn SG27 LIN++Z67 (Erforderliches Messprodukt für Werte nach Typ 2 aus Backend) vorhanden",
+    "condition_text": "Wenn SG27 LIN++Z67 (Erforderliches Messprodukt für Werte nach Typ 2 aus Backend)vorhanden",
     "edifact_format": "QUOTES"
   },
   {
@@ -246,12 +246,12 @@
   },
   {
     "condition_key": "61",
-    "condition_text": "Es sind nur die Konfigurations-Produkte erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.3 „Konfigurationsprodukte Ad-hoc- Steuerkanal“ enthalten sind.",
+    "condition_text": "Es sind nur die Konfigurations-Produkte erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.3„Konfigurationsprodukte Ad-hoc- Steuerkanal“ enthalten sind.",
     "edifact_format": "QUOTES"
   },
   {
     "condition_key": "62",
-    "condition_text": "Es sind nur die Messprodukte erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.5 „Messprodukte für Werte nach Typ 2 aus Backend für LF und NB“ enthalten sind.",
+    "condition_text": "Es sind nur die Messprodukte erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.5 „Messprodukte für Werte nachTyp 2 aus Backend für LF und NB“ enthalten sind.",
     "edifact_format": "QUOTES"
   },
   {
@@ -286,7 +286,7 @@
   },
   {
     "condition_key": "69",
-    "condition_text": "Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die im Kapitel 3.5 \"Abrechnung Messstellenbetrieb für die Sparte Strom\" genannt sind.",
+    "condition_text": "Es sind nur Werte aus der EDI@Energy Codeliste der Artikelnummern und Artikel-ID erlaubt, die im Kapitel 3.5\"Abrechnung Messstellenbetrieb für die Sparte Strom\" genannt sind.",
     "edifact_format": "QUOTES"
   },
   {
@@ -296,7 +296,7 @@
   },
   {
     "condition_key": "71",
-    "condition_text": "Wenn innerhalb derselben SG27 LIN im PIA+5 DE7140 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) ein Produkt angegeben ist, das in der Codeliste der Konfigurationen im Kapitel 4.4 „Messprodukte mit Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW“ in der Spalte \"Auslöser\" mit dem Wert \"Bei Schwellwertunter- / - überschreitung\" gekennzeichnetist.",
+    "condition_text": "Wenn innerhalb derselben SG27 LIN im PIA+5 DE7140 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) ein Produkt angegeben ist, das in der Codeliste der Konfigurationen im Kapitel 4.4 „Messprodukte mit Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW“ in der Spalte \"Auslöser\" mit dem Wert \"Bei Schwellwertunter- / - überschreitung\" gekennzeichnet ist.",
     "edifact_format": "QUOTES"
   },
   {
@@ -346,7 +346,7 @@
   },
   {
     "condition_key": "506",
-    "condition_text": "Hinweis: Wenn zu einer Position (z. B. Messwandlersatz)mehrere Gerätenummern existieren, sind die Gerätenummern in derselben Position (LIN-Segment) mittels Wiederholung der SG32 RFF+Z09 anzugeben",
+    "condition_text": "Hinweis: Wenn zu einer Position (z. B. Messwandlersatz) mehrere Gerätenummern existieren, sind die Gerätenummern in derselben Position (LIN-Segment) mittels Wiederholung der SG32 RFF+Z09 anzugeben",
     "edifact_format": "QUOTES"
   },
   {
@@ -486,7 +486,7 @@
   },
   {
     "condition_key": "2066",
-    "condition_text": "Diese SG28 ist so oft zu wiederholen, wie zu den unterschiedlichen Messprodukt- Position-Codes zu dem innerhalb derselben SG27 LIN im PIA+5 DE7140 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) angegebenen Produkt ein Produkt angegeben ist, das in der Codeliste der Konfigurationen im Kapitel 4.4 „Messprodukte mit Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW“ in der Spalte \"Auslöser\" mit dem Wert \"Bei Schwellwertunter- / - überschreitung\" gekennzeichnet ist.",
+    "condition_text": "Diese SG28 ist so oft zu wiederholen, wie zu den unterschiedlichen Messprodukt- Position-Codes zu dem innerhalb derselben SG27 LIN im PIA+5 DE7140 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) angegebenen Produkt ein Produkt angegeben ist, das in derCodeliste der Konfigurationen im Kapitel 4.4 „Messprodukte mit Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW“ in der Spalte \"Auslöser\" mit dem Wert \"Bei Schwellwertunter- / - überschreitung\" gekennzeichnet ist.",
     "edifact_format": "QUOTES"
   }
 ]
