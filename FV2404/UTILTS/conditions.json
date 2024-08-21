@@ -166,7 +166,7 @@
   },
   {
     "condition_key": "43",
-    "condition_text": "Der in diesemDatenlement angegebene Code der Leistungskurvendefinitio n muss innerhalb eines Vorgangs (IDE) eindeutig sein.",
+    "condition_text": "Der in diesem Datenlement angegebene Code der Leistungskurvendefinitio n muss innerhalb eines Vorgangs (IDE) eindeutig sein.",
     "edifact_format": "UTILTS"
   },
   {
@@ -261,7 +261,7 @@
   },
   {
     "condition_key": "512",
-    "condition_text": "Hinweis: Wenn der Code 303 im DE2379 des Zählzeitänderungszeitpu nkt (SG8 DTM+Z33) genutzt wird, muss genau ein Wert im DE2380 des Zählzeitänderungszeitpu nkt (SG8 DTM+Z33) identisch mit dem Wert aus DE2380 desGültigkeitsbeginn der ausgerollten Definition (SG5 DTM+Z34) sein",
+    "condition_text": "Hinweis: Wenn der Code 303 im DE2379 des Zählzeitänderungszeitpu nkt (SG8 DTM+Z33) genutzt wird, muss genau ein Wert im DE2380 des Zählzeitänderungszeitpu nkt (SG8 DTM+Z33) identisch mit dem Wert aus DE2380 des Gültigkeitsbeginn der ausgerollten Definition (SG5 DTM+Z34) sein",
     "edifact_format": "UTILTS"
   },
   {
@@ -291,7 +291,7 @@
   },
   {
     "condition_key": "518",
-    "condition_text": "Hinweis: Für jeden Leistungskurvenänderun gszeitpunkt (SG8DTM+Z45) ist diese Sementgruppe einmal anzugeben",
+    "condition_text": "Hinweis: Für jeden Leistungskurvenänderun gszeitpunkt (SG8 DTM+Z45) ist diese Sementgruppe einmal anzugeben",
     "edifact_format": "UTILTS"
   },
   {
@@ -316,7 +316,7 @@
   },
   {
     "condition_key": "523",
-    "condition_text": "Hinweis: Jede ausgerollte Leistungskurvendefinitio n ist in einem eigenen IDE anzugeben",
+    "condition_text": "Hinweis: Jede ausgerollte Leistungskurvendefinition ist in einem eigenen IDE anzugeben",
     "edifact_format": "UTILTS"
   },
   {
