@@ -26,17 +26,17 @@
   },
   {
     "condition_key": "7",
-    "condition_text": "Wenn derDatenstatus \"Abgerechnete Daten\" bzw. \"Abgerechnete Daten Korrektur-BKA\" nicht vorhanden.",
+    "condition_text": "Wenn der Datenstatus \"Abgerechnete Daten\" bzw. \"Abgerechnete Daten Korrektur-BKA\" nicht vorhanden.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "8",
-    "condition_text": "Wenn der Datenstatus einer NZR vom BIKO an NB nicht vorhanden.",
+    "condition_text": "Wenn derDatenstatus einer NZR vom BIKO an NB nicht vorhanden.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "10",
-    "condition_text": "Wenn Meldung des BKV/NB/ÜNB nach Frist eingeht.",
+    "condition_text": "Wenn Meldung des BKV/NB/ÜNB nach Fristeingeht.",
     "edifact_format": "IFTSTA"
   },
   {
@@ -211,7 +211,7 @@
   },
   {
     "condition_key": "63",
-    "condition_text": "Wenn STS+Z27+Z32 vorhanden, dann sind nurCodes aus dem EBD-Cluster Ablehnung möglich.",
+    "condition_text": "Wenn STS+Z27+Z32 vorhanden, dann sind nur Codes aus dem EBD-Cluster Ablehnung möglich.",
     "edifact_format": "IFTSTA"
   },
   {
@@ -246,7 +246,7 @@
   },
   {
     "condition_key": "70",
-    "condition_text": "Wenn zusätzlich zum Gegenvorschlag des Fahrplananteils auch der Gegenvorschlag der Ausfallarbeit zu identischem Wert aus RFF+ACW nicht o.k. ist",
+    "condition_text": "Wenn zusätzlich zumGegenvorschlag des Fahrplananteils auch der Gegenvorschlag der Ausfallarbeit zu identischem Wert aus RFF+ACW nicht o.k. ist",
     "edifact_format": "IFTSTA"
   },
   {
@@ -336,7 +336,7 @@
   },
   {
     "condition_key": "98",
-    "condition_text": "Wenn STS+Z38+Z14 vorhanden, dann sind nur Codes aus dem EBD-Cluster erfolgreich möglich.",
+    "condition_text": "Wenn STS+Z38+Z14vorhanden, dann sind nur Codes aus dem EBD-Cluster erfolgreich möglich.",
     "edifact_format": "IFTSTA"
   },
   {
@@ -576,7 +576,7 @@
   },
   {
     "condition_key": "531",
-    "condition_text": "Vom MSBN in Schritt 1 des SD verwendete Vorgangsnummer, damit der LF diese bei der Bestellung einer Konfigurationbeim MSBN, unter dem Vorbehalt, dass der MSB-Wechsel an der Messlokation erfolgreich sein wird, verwenden kann.",
+    "condition_text": "Vom MSBN in Schritt 1 des SD verwendete Vorgangsnummer, damit der LF diese bei der Bestellung einer Konfiguration beim MSBN, unter dem Vorbehalt, dass der MSB-Wechsel an der Messlokation erfolgreich sein wird, verwenden kann.",
     "edifact_format": "IFTSTA"
   },
   {
