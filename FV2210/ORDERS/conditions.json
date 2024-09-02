@@ -291,7 +291,7 @@
   },
   {
     "condition_key": "91",
-    "condition_text": "Wenn in diesem Datenelement kein anderes Paket zur Möglichkeit der Angabe von mindestens einem anderen Code führt.",
+    "condition_text": "Wenn in diesem Datenelement kein anderes Paket in dieser SG30 in derselben SG29 LIN zur Möglichkeit der Angabe von mindestens einem anderen Code führt.",
     "edifact_format": "ORDERS"
   },
   {
