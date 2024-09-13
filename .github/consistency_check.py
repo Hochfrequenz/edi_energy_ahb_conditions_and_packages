@@ -53,6 +53,6 @@ for format_version in EdifactFormatVersion:
                 json_body = json.load(infile)
             mappings = load_function(json_body)  # must not raise an exception
             keys = [key_function(x) for x in mappings]
-            keys_sorted = sorted(keys, key=lambda k: int(k.strip("P")))
+            keys_sorted = sorted(keys, key=lambda k: int(k.lstrip("UB").rstrip("P")))
             assert keys == keys_sorted  # the entries shall be sorted by key number ASC
             assert len(set(keys)) == len(mappings)  # there shall be no duplicate keys
