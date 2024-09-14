@@ -420,6 +420,16 @@
     "edifact_format": "MSCONS"
   },
   {
+    "condition_key": "490",
+    "condition_text": "wenn Wert in diesem DE, an der Stelle CCYYMMDDHHMM ein Zeitpunkt aus dem angegeben Zeitraum der Tabelle Kapitel 3.5 „Übersicht gesetzliche deutsche Sommerzeit (MESZ)“ der Spalten:\n›\t„Sommerzeit (MESZ) von“ Darstellung in UTC und\n›\t„Sommerzeit (MESZ) bis“ Darstellung in UTC ist.",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "491",
+    "condition_text": "wenn Wert in diesem DE, an der Stelle CCYYMMDDHHMM ein Zeitpunkt aus dem angegeben Zeitraum der Tabelle Kapitel 3.6 „Übersicht gesetzliche deutsche Zeit (MEZ)“ der Spalten: \n›\t„Winterzeit (MEZ) von“ Darstellung in UTC und\n›\t„Winterzeit (MEZ) bis“ Darstellung in UTC ist.",
+    "edifact_format": "MSCONS"
+  },
+  {
     "condition_key": "492",
     "condition_text": "Wenn MP-ID in NAD+MR (Nachrichtenempfänger) aus Sparte Strom",
     "edifact_format": "MSCONS"
@@ -762,6 +772,26 @@
   {
     "condition_key": "931",
     "condition_text": "Format: ZZZ = +00Bemerkung--Eine Korrektur erfolgt über die Versionierung der Zeitreihen. Der Absender ist für die Versionierung der Zeitreihen verantwortlich.Eine Korrektur erfolgt über die Versionierung der Zeitreihen. Der Absender ist für die Versionierung der Zeitreihen verantwortlich.Eine Korrektur erfolgt über die Versionierung der Nachricht. Der Absender ist für die Versionierung der Nachricht verantwortlich.Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.Auf Ebene der Messlokation: Bei der Korrektur von „Korrekturenergiemengen“, die auf Ebene der Messlokation übermittelt worden sind. Hinweis: Bei „Korrekturenergiemengen“, die auf Ebene der Messlokation übermittelt werden, muss in jedem Fall ein Korrekturgrund mitgegeben werden.Bei der Korrektur von Energiemengen auf Ebene der Marktlokation, die als Auslöser aufgrund eines Zählerstandes auf Ebene der Messlokation erzeugt wurden, der den Endzeitpunkt einer Rechnung darstellt. Eine Korrektur erfolgt über die Versionierung der Zeitreihen. Der Absender ist für die Versionierung der Zeitreihen verantwortlich.Eine Korrektur erfolgt über die Versionierung der Zeitreihen. Der Absender ist für die Versionierung der Zeitreihen verantwortlich.Eine Korrektur erfolgt über die Versionierung der Zeitreihen. Der Absender ist für die Versionierung der Zeitreihen verantwortlich.Eine Korrektur erfolgt über die Versionierung der Liste. Der Absender ist für die Versionierung der Liste verantwortlich. Eine Liste, auch wenn diese aufgrund Ihrer Größe in mehrere Listen aufgeteilt wurde, enthält immer dieselbe Versionierung. Referenz auf die bilanzierte Energiemenge in der INVOIC------Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.Auf Ebene der Messlokation: Bei der Korrektur von „Korrekturenergiemengen“, die auf Ebene der Messlokation übermittelt worden sind. Hinweis: Bei „Korrekturenergiemengen“, die auf Ebene der Messlokation übermittelt werden, muss in jedem Fall ein Korrekturgrund mitgegeben werden.Bei der Korrektur von Energiemengen auf Ebene der Marktlokation.Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.Eine Korrektur erfolgt über die Versionierung der Zeitreihen. Der Absender ist für die Versionierung der Zeitreihen verantwortlich.Eine Korrektur erfolgt über die Versionierung der Werte. Der Absender ist für die Versionierung der Werte verantwortlich.--",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "932",
+    "condition_text": "Format: HHMM = 2200",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "933",
+    "condition_text": "Format: HHMM = 2300",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "934",
+    "condition_text": "Format: HHMM = 0400",
+    "edifact_format": "MSCONS"
+  },
+  {
+    "condition_key": "935",
+    "condition_text": "Format: HHMM = 0500",
     "edifact_format": "MSCONS"
   },
   {
