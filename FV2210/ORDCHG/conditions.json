@@ -5,6 +5,26 @@
     "edifact_format": "ORDCHG"
   },
   {
+    "condition_key": "490",
+    "condition_text": "wenn Wert in diesem DE, an der Stelle CCYYMMDDHHMM ein Zeitpunkt aus dem angegeben Zeitraum der Tabelle Kapitel 3.5 „Übersicht gesetzliche deutsche Sommerzeit (MESZ)“ der Spalten:\n›\t„Sommerzeit (MESZ) von“ Darstellung in UTC und\n›\t„Sommerzeit (MESZ) bis“ Darstellung in UTC ist.",
+    "edifact_format": "ORDCHG"
+  },
+  {
+    "condition_key": "491",
+    "condition_text": "wenn Wert in diesem DE, an der Stelle CCYYMMDDHHMM ein Zeitpunkt aus dem angegeben Zeitraum der Tabelle Kapitel 3.6 „Übersicht gesetzliche deutsche Zeit (MEZ)“ der Spalten: \n›\t„Winterzeit (MEZ) von“ Darstellung in UTC und\n›\t„Winterzeit (MEZ) bis“ Darstellung in UTC ist.",
+    "edifact_format": "ORDCHG"
+  },
+  {
+    "condition_key": "492",
+    "condition_text": "wenn MP-ID in NAD+MR aus Sparte Strom",
+    "edifact_format": "ORDCHG"
+  },
+  {
+    "condition_key": "493",
+    "condition_text": "wenn MP-ID in NAD+MR aus Sparte Gas",
+    "edifact_format": "ORDCHG"
+  },
+  {
     "condition_key": "494",
     "condition_text": "Das hier genannte Datum muss der Zeitpunkt sein, zu dem das Dokument erstellt wurde, oder ein Zeitpunkt, der davor liegt.",
     "edifact_format": "ORDCHG"
@@ -17,6 +37,26 @@
   {
     "condition_key": "931",
     "condition_text": "Format: ZZZ = +00",
+    "edifact_format": "ORDCHG"
+  },
+  {
+    "condition_key": "932",
+    "condition_text": "Format: HHMM = 2200",
+    "edifact_format": "ORDCHG"
+  },
+  {
+    "condition_key": "933",
+    "condition_text": "Format: HHMM = 2300",
+    "edifact_format": "ORDCHG"
+  },
+  {
+    "condition_key": "934",
+    "condition_text": "Format: HHMM = 0400",
+    "edifact_format": "ORDCHG"
+  },
+  {
+    "condition_key": "935",
+    "condition_text": "Format: HHMM = 0500",
     "edifact_format": "ORDCHG"
   }
 ]
