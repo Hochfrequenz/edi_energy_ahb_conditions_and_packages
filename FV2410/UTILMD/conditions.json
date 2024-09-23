@@ -476,7 +476,7 @@
   },
   {
     "condition_key": "124",
-    "condition_text": "Wenn in derselben SG8 SEQ+Z15 (Daten der Tranche) das RFF+Z20 (Referenz auf die ID der Tranche) nicht vorhanden",
+    "condition_text": "Wenn in derselben SG8 SEQ+Z15 (Daten der Tranche) das RFF+Z20 (Referenz auf die ID der Tranche) nichtvorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -826,7 +826,7 @@
   },
   {
     "condition_key": "237",
-    "condition_text": "Wenn in derselben SG8 im DE7140 des PIA+Z02 (Gruppenartikel-ID / Artikel- ID) eine Gruppenartikel-ID / Artikel-ID mit 1-06 (entspricht Entgelte des Messstellenbetriebs bei kME)beginnt",
+    "condition_text": "Wenn in derselben SG8 im DE7140 des PIA+Z02 (Gruppenartikel-ID / Artikel- ID) eine Gruppenartikel-ID / Artikel-ID mit 1-06 (entspricht Entgelte des Messstellenbetriebs bei kME) beginnt",
     "edifact_format": "UTILMD"
   },
   {
@@ -1586,7 +1586,7 @@
   },
   {
     "condition_key": "437",
-    "condition_text": "Wenn in dieser DG4 das STS+E01+++A06:E:0502 vorhanden",
+    "condition_text": "Wenn in dieser DG4 das STS+E01+++A06:E:0502vorhanden",
     "edifact_format": "UTILMD"
   },
   {
@@ -1762,6 +1762,61 @@
   {
     "condition_key": "472",
     "condition_text": "Wenn in demselben RFF der Code Z34 (vorgelagerte Messlokation) im DE1153 vorhanden",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "473",
+    "condition_text": "Wenn im RFF+Z33 (Referenz auf den Objektcode in der Lokationsbündelstrukt ur) das DE1156 (Fortlaufende Nummer eines Lokationsbündels im Geschäftsvorfall) in derselben SG8 SEQ+Z58 (Zuordnung Lokation zum Objektcode des Lokationsbündels) nicht vorhanden ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "474",
+    "condition_text": "Wenn im RFF+Z33 (Referenz auf den Objektcode in der Lokationsbündelstrukt ur) das DE1156 Fortlaufende Nummer eines Lokationsbündels im Geschäftsvorfall) in derselben SG8 SEQ+Z58 Zuordnung Lokation zum Objektcode des Lokationsbündels) vorhanden ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "475",
+    "condition_text": "Wenn der Objektcode im RFF+Z33 (Referenz auf den Objektcode in der Lokationsbündelstruktur) im DE1154 derselben SG8 SEQ+Z58 (Zuordnung Lokation zum Objektcode des Lokationsbündels) in einem weiteren SG8 SEQ+Z58 mit derselben fortlaufenden Nummer vorhanden ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "476",
+    "condition_text": "Wenn in demselben Segment das DE1153 mit dem Code Z34 vorgelagerte Messlokation vorhanden ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "477",
+    "condition_text": "Wenn in demselben Segment das DE1153 mit dem Code Z35 vorgelagerte Netzlokation vorhanden ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "478",
+    "condition_text": "Wenn das LOC+Z18 (Netzlokation) vorhanden ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "479",
+    "condition_text": "Wenn der Objektcode im RFF+Z33 (Referenz auf den Objektcode in der Lokationsbündelstrukt ur) im DE1154 derselben SG8 SEQ+Z58 (Zuordnung Lokation zum Objektcode des Lokationsbündels) in einem weiteren SG8 SEQ+Z58 (Zuordnung Lokation zum Objektcode des Lokationsbündels) vorhanden ist",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "490",
+    "condition_text": "wenn Wert in diesem DE, an der Stelle CCYYMMDDHHMM ein Zeitpunkt aus dem angegeben Zeitraum der Tabelle Kapitel 3.5 „Übersicht gesetzliche deutsche Sommerzeit (MESZ)“ der Spalten:\n›\t„Sommerzeit (MESZ) von“ Darstellung in UTC und\n›\t„Sommerzeit (MESZ) bis“ Darstellung in UTC ist.",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "491",
+    "condition_text": "wenn Wert in diesem DE, an der Stelle CCYYMMDDHHMM ein Zeitpunkt aus dem angegeben Zeitraum der Tabelle Kapitel 3.6 „Übersicht gesetzliche deutsche Zeit (MEZ)“ der Spalten: \n›\t„Winterzeit (MEZ) von“ Darstellung in UTC und\n›\t„Winterzeit (MEZ) bis“ Darstellung in UTC ist.",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "492",
+    "condition_text": "wenn MP-ID in NAD+MR aus Sparte Strom",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "493",
+    "condition_text": "wenn MP-ID in NAD+MR aus Sparte Gas",
     "edifact_format": "UTILMD"
   },
   {
@@ -1981,7 +2036,7 @@
   },
   {
     "condition_key": "580",
-    "condition_text": "Hinweis: Ersatzbelieferung gibt es nur bei - Marktlokationen in der Niederspannung, die kein Haushaltskunde gem. EnWG sind und die nicht mehr dergesetzlichen Ersatzversorgung (drei Monate) unterliegen und - für Marktlokationen, die in Mittelspannung/ Hochspannung einer Versorgung zugeführt werden sollen. Grundlage für eine Ersatzbelieferung ist die bilaterale Vereinbarung.",
+    "condition_text": "Hinweis: Ersatzbelieferung gibt es nur bei - Marktlokationen in der Niederspannung, die kein Haushaltskunde gem. EnWG sind und die nicht mehr der gesetzlichen Ersatzversorgung (drei Monate) unterliegen und - für Marktlokationen, die in Mittelspannung/Hochspannung einer Versorgung zugeführt werden sollen. Grundlage für eine Ersatzbelieferung ist die bilaterale Vereinbarung.",
     "edifact_format": "UTILMD"
   },
   {
@@ -2026,7 +2081,7 @@
   },
   {
     "condition_key": "598",
-    "condition_text": "Hinweis: Die Übermittlung dieser Angabe dient dazu, dass der LF auch bei iMS gemessenen Marktlokationen mit Prognosegrundlage auf Basis von Werten einenbelastbare Information für die Energiebeschaffung hat",
+    "condition_text": "Hinweis: Die Übermittlung dieser Angabe dient dazu, dass der LF auch bei iMS gemessenen Marktlokationen mit Prognosegrundlage auf Basis von Werten einen belastbare Informationfür die Energiebeschaffung hat",
     "edifact_format": "UTILMD"
   },
   {
@@ -2176,7 +2231,7 @@
   },
   {
     "condition_key": "635",
-    "condition_text": "Hinweis: Wenn SG4 STS+E01++Z35 (Status der Antwort: Ablehnung der Abmeldeanfrage) vorhanden, sind die Identifikatoren aller Tranchen anzugeben zu denen eine Ablehnung der Abmelde-anfrage vorliegt",
+    "condition_text": "Hinweis: Wenn SG4 STS+E01++Z35 (Status der Antwort: Ablehnung der Abmeldeanfrage)vorhanden, sind die Identifikatoren aller Tranchen anzugeben zu denen eine Ablehnung der Abmelde-anfrage vorliegt",
     "edifact_format": "UTILMD"
   },
   {
@@ -2376,7 +2431,7 @@
   },
   {
     "condition_key": "678",
-    "condition_text": "Hinweis: Es sind alle Marktlokationen, zu nennen, die aktuell und / oder zukünftig dem gleichen Lokationsbündel angehören wie die prozessual behandelte Messlokation. Zudem ist über das DE5479 mit der Angabe des entsprechenden Codes der Zustand der Marktlokation zu beschreiben",
+    "condition_text": "Hinweis: Es sind alleMarktlokationen, zu nennen, die aktuell und / oder zukünftig dem gleichen Lokationsbündel angehören wie die prozessual behandelte Messlokation. Zudem ist über das DE5479 mit der Angabe des entsprechenden Codes der Zustand der Marktlokation zu beschreiben",
     "edifact_format": "UTILMD"
   },
   {
@@ -2391,7 +2446,7 @@
   },
   {
     "condition_key": "681",
-    "condition_text": "Hinweis: Es sind alle Tranchen, zu nennen, die aktuell und / oder zukünftig dem gleichen Lokationsbündel angehören wie die prozessual behandelte Messlokation. Zudem ist über das DE5479 mit der Angabe des entsprechenden Codes der Zustand der Tranche zu beschreiben",
+    "condition_text": "Hinweis: Es sind alle Tranchen, zu nennen, die aktuell und / oder zukünftig dem gleichen Lokationsbündel angehören wie die prozessual behandelte Messlokation.Zudem ist über das DE5479 mit der Angabe des entsprechenden Codes der Zustand der Tranche zu beschreiben",
     "edifact_format": "UTILMD"
   },
   {
@@ -2421,7 +2476,7 @@
   },
   {
     "condition_key": "687",
-    "condition_text": "Hinweis: Es sind alle Messlokationen zu nennen, die für die Energiemengenermittlung aktuell und / oder zukünftig der im LOC+Z16 angegebenen Marktlokation notwendig sind. Zudem ist über das DE5479 mit der Angabe des entsprechenden Codes der Zustand der Messlokation zu beschreiben",
+    "condition_text": "Hinweis: Es sind alle Messlokationen zu nennen, die für die Energiemengenermittlun g aktuell und / oder zukünftig der im LOC+Z16 angegebenen Marktlokation notwendig sind. Zudem ist über das DE5479 mit der Angabe des entsprechenden Codes der Zustand der Messlokation zu beschreiben",
     "edifact_format": "UTILMD"
   },
   {
@@ -2527,6 +2582,26 @@
   {
     "condition_key": "931",
     "condition_text": "Format: ZZZ = +00Beschreibung Anfrage an Antwort auf Ablehnung Nicht bila.rel. Nicht bila.rel. Antwort auf Bedingung MSB ohne Anfrage Anfrage Anfrage an Anfrage an Anfrage Abhängigkeite MSB ohne MSB ohne n Abhängigkeite Abhängigkeite n n Kommunikation von LF NB [Verteiler] NB [Verteiler] NB [Verteiler] NB MSB an NB [Berechtigt] an LF an LF an MSB [Berechtigt] an NB [Berechtigt] [Berechtigt] an MSB [Verteiler] Prüfidentifikator 44162 44163 44164 44165 44166 44167Beschreibung Anfrage an Antwort auf Ablehnung Nicht bila.rel. Nicht bila.rel. Antwort auf Bedingung MSB ohne Anfrage Anfrage Anfrage an Anfrage an Anfrage Abhängigkeite MSB ohne MSB ohne n Abhängigkeite Abhängigkeite n n Kommunikation von LF NB [Verteiler] NB [Verteiler] NB [Verteiler] NB MSB an NB [Berechtigt] an LF an LF an MSB [Berechtigt] an NB [Berechtigt] [Berechtigt] an MSB [Verteiler] Prüfidentifikator 44162 44163 44164 44165 44166 44167",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "932",
+    "condition_text": "Format: HHMM = 2200",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "933",
+    "condition_text": "Format: HHMM = 2300",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "934",
+    "condition_text": "Format: HHMM = 0400",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "condition_key": "935",
+    "condition_text": "Format: HHMM = 0500",
     "edifact_format": "UTILMD"
   },
   {
