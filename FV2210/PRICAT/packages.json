@@ -2,31 +2,16 @@
   {
     "package_key": "UB1",
     "package_expression": "([931] ∧ [932] [490]) ⊻ ([931] ∧ [933] [491])",
-    "edifact_format": "REMADV"
+    "edifact_format": "PRICAT"
   },
   {
     "package_key": "UB2",
     "package_expression": "([931] ∧ [934] [490]) ⊻ ([931] ∧ [935] [491])",
-    "edifact_format": "REMADV"
+    "edifact_format": "PRICAT"
   },
   {
     "package_key": "UB3",
     "package_expression": "([931] ∧ [932] [492] ∧ [490]) ⊻ ([931] ∧ [933] [492] ∧ [491]) ⊻ ([931] ∧ [934] [493] ∧ [490]) ⊻ ([931] ∧ [935] [493] ∧ [491])",
-    "edifact_format": "REMADV"
-  },
-  {
-    "package_key": "2P",
-    "package_expression": "[492]",
-    "edifact_format": "REMADV"
-  },
-  {
-    "package_key": "3P",
-    "package_expression": "[493]",
-    "edifact_format": "REMADV"
-  },
-  {
-    "package_key": "4P",
-    "package_expression": "[41] ∧ [492]",
-    "edifact_format": "REMADV"
+    "edifact_format": "PRICAT"
   }
 ]
