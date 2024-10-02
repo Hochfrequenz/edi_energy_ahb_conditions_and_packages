@@ -10,11 +10,11 @@ jobs:
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install maus[xml] ahbicht
+          pip install maus[xml] ahbicht==0.9.3
       - name: Run Consistency Check
         run: |
           python .github/consistency_check.py
