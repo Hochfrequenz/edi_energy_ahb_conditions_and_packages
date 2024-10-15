@@ -196,7 +196,7 @@
   },
   {
     "condition_key": "60",
-    "condition_text": "Wenn zusätzlich zumFahrplananteil auch die Ausfallarbeit zu identischem Wert aus RFF+ACW nicht o.k. ist",
+    "condition_text": "Wenn zusätzlich zum Fahrplananteil auch die Ausfallarbeit zu identischemWert aus RFF+ACW nicht o.k. ist",
     "edifact_format": "IFTSTA"
   },
   {
@@ -251,7 +251,7 @@
   },
   {
     "condition_key": "71",
-    "condition_text": "Wenn zusätzlich zum Gegenvorschlag der Ausfallarbeit auch der Gegenvorschlag des Fahrplananteils zuidentischem Wert aus RFF+ACW nicht o.k. ist",
+    "condition_text": "Wenn zusätzlich zum Gegenvorschlag der Ausfallarbeit auch der Gegenvorschlag des Fahrplananteils zu identischem Wert aus RFF+ACW nicht o.k. ist",
     "edifact_format": "IFTSTA"
   },
   {
@@ -316,7 +316,7 @@
   },
   {
     "condition_key": "93",
-    "condition_text": "Wenn STS+Z37+Z13 vorhanden, dann sind nur Codes aus dem EBD-Cluster \"gescheitert\" möglich.",
+    "condition_text": "Wenn STS+Z37+Z13 vorhanden, dann sind nur Codesaus dem EBD-Cluster \"gescheitert\" möglich.",
     "edifact_format": "IFTSTA"
   },
   {
@@ -401,12 +401,12 @@
   },
   {
     "condition_key": "129",
-    "condition_text": "WennSTS+Z20+Z32+A99:E_0524 in dieser SG14 vorhanden",
+    "condition_text": "Wenn STS+Z20+Z32+A99:E_0524 in dieser SG14 vorhanden",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "130",
-    "condition_text": "Wenn STS+Z20+Z32+A99:E_0531 in dieser SG14 vorhanden",
+    "condition_text": "WennSTS+Z20+Z32+A99:E_0531 in dieser SG14 vorhanden",
     "edifact_format": "IFTSTA"
   },
   {
@@ -571,7 +571,7 @@
   },
   {
     "condition_key": "512",
-    "condition_text": "Hinweis: Aus MSCONS BGM DE1004",
+    "condition_text": "Hinweis: Aus MSCONS BGMDE1004",
     "edifact_format": "IFTSTA"
   },
   {
@@ -586,7 +586,7 @@
   },
   {
     "condition_key": "521",
-    "condition_text": "Hinweis: Zeitpunkt, ab dem der MSBN tatsächlich denMessstellenbetrieb übernimmt",
+    "condition_text": "Hinweis: Zeitpunkt, ab dem der MSBN tatsächlich den Messstellenbetrieb übernimmt",
     "edifact_format": "IFTSTA"
   },
   {
@@ -611,7 +611,7 @@
   },
   {
     "condition_key": "530",
-    "condition_text": "Hinweis: Hier ist die Arbeit bzw. Leistung anzugeben, die der Sender der IFTSTA im Lieferscheinfür den von ihm genannten Zeitraum / Leistungsperiode erwartet hätte.",
+    "condition_text": "Hinweis: Hier ist die Arbeit bzw. Leistung anzugeben, die der Sender der IFTSTA im Lieferschein für den von ihm genannten Zeitraum / Leistungsperiode erwartet hätte.",
     "edifact_format": "IFTSTA"
   },
   {
@@ -640,6 +640,11 @@
     "edifact_format": "IFTSTA"
   },
   {
+    "condition_key": "536",
+    "condition_text": "Hinweis: Verwendung der ID der Technischen Ressource",
+    "edifact_format": "IFTSTA"
+  },
+  {
     "condition_key": "902",
     "condition_text": "Format: Wert darf nur positiv oder 0 sein",
     "edifact_format": "IFTSTA"
@@ -657,6 +662,11 @@
   {
     "condition_key": "911",
     "condition_text": "Format: Mögliche Werte: 1 bis n, je Nachricht bei 1 beginnend und fortlaufend aufsteigend",
+    "edifact_format": "IFTSTA"
+  },
+  {
+    "condition_key": "922",
+    "condition_text": "Format: TR-ID",
     "edifact_format": "IFTSTA"
   },
   {

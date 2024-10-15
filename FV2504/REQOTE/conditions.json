@@ -86,12 +86,12 @@
   },
   {
     "condition_key": "29",
-    "condition_text": "Es sind nur die Konfigurations-Produkte erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.1 „Konfigurationsprodukte Schaltzeitdefinition“ enthalten sind.",
+    "condition_text": "Es sind nur dieKonfigurations-Produkte erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.1 „Konfigurationsprodukte Schaltzeitdefinition“ enthalten sind.",
     "edifact_format": "REQOTE"
   },
   {
     "condition_key": "30",
-    "condition_text": "Es sind nur dieKonfigurations-Produkte erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.2 „Konfigurationsprodukte Leistungskurvendefinition“ enthalten sind.",
+    "condition_text": "Es sind nur die Konfigurations-Produkte erlaubt, die in der Codeliste der Konfigurationen im Kapitel 4.2 „Konfigurationsprodukte Leistungskurvendefinition“ enthalten sind.",
     "edifact_format": "REQOTE"
   },
   {
@@ -151,7 +151,7 @@
   },
   {
     "condition_key": "43",
-    "condition_text": "Wenn innerhalb derselben SG27 LIN im PIA+5 DE7140 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) ein Produkt angegeben ist, das in der Codeliste der Konfigurationen im Kapitel 4.6.2 „Werte nach Typ 2 aus SMGW“ in der Spalte\"Auslöser\" mit dem Wert \"Bei Schwellwertunter- / - überschreitung\" gekennzeichnet ist.",
+    "condition_text": "Wenn innerhalb derselben SG27 LIN im PIA+5 DE7140 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) ein Produkt angegeben ist, das in der Codeliste der Konfigurationen im Kapitel 4.6.2 „Werte nach Typ 2 aus SMGW“ in der Spalte \"Auslöser\" mit dem Wert \"Bei Schwellwertunter- / - überschreitung\" gekennzeichnet ist.",
     "edifact_format": "REQOTE"
   },
   {
@@ -232,11 +232,6 @@
   {
     "condition_key": "512",
     "condition_text": "Hinweis: Für den Empfang der Werte nach Typ 2 aus dem SMGW.",
-    "edifact_format": "REQOTE"
-  },
-  {
-    "condition_key": "513",
-    "condition_text": "Hinweis: Für den Empfang der Mitteilung zum weiteren Vorgehen eines Steuerbefehls und der Antwort auf die Anweisung eines Steuerbefehls.",
     "edifact_format": "REQOTE"
   },
   {
@@ -361,12 +356,12 @@
   },
   {
     "condition_key": "2065",
-    "condition_text": "Diese SG28 ist so oft zu wiederholen, wie zu den unterschiedlichen Messprodukt- Position-Codes zu dem innerhalb derselben SG27 LIN im PIA+5 DE7140 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) angegebenen Produkt ein Produktangegeben ist, das in der Codeliste der Konfigurationen im Kapitel 4.4 „Messprodukte mit Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW“ in der Spalte \"Auslöser\" mit dem Wert \"Bei Schwellwertunter- / - überschreitung\" gekennzeichnet ist.",
+    "condition_text": "Diese SG28 ist so oft zu wiederholen, wie zu den unterschiedlichen Messprodukt- Position-Codes zu dem innerhalb derselben SG27 LIN im PIA+5 DE7140 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) angegebenen Produkt ein Produkt angegeben ist, das in der Codeliste der Konfigurationen im Kapitel 4.4 „Messprodukte mit Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW“ in der Spalte \"Auslöser\" mit dem Wert \"Bei Schwellwertunter- / - überschreitung\" gekennzeichnet ist.",
     "edifact_format": "REQOTE"
   },
   {
     "condition_key": "2066",
-    "condition_text": "Diese SG28 ist so oft zu wiederholen, wie zu den unterschiedlichen Messprodukt- Position-Codes zu dem innerhalb derselben SG27 LIN im PIA+5 DE7140 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) angegebenen Produkt ein Produkt angegeben ist, das in der Codeliste der Konfigurationen im Kapitel 4.6.2 „Werte nach Typ 2 aus SMGW“ in der Spalte \"Auslöser\" mit dem Wert \"Bei Schwellwertunter- / - überschreitung\" gekennzeichnet ist.",
+    "condition_text": "Diese SG28 ist so oft zu wiederholen, wie zu den unterschiedlichen Messprodukt-Position-Codes zu dem innerhalb derselben SG27 LIN im PIA+5 DE7140 (Erforderliches Produkt Konfigurationserlaubnis für Werte nach Typ 2 aus SMGW) angegebenen Produkt ein Produkt angegeben ist, das in der Codeliste der Konfigurationen im Kapitel 4.6.2 „Werte nach Typ 2 aus SMGW“ in der Spalte \"Auslöser\" mit dem Wert \"Bei Schwellwertunter- / - überschreitung\" gekennzeichnet ist.",
     "edifact_format": "REQOTE"
   }
 ]

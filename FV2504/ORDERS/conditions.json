@@ -146,12 +146,12 @@
   },
   {
     "condition_key": "55",
-    "condition_text": "Wenn DTM+469 nicht vorhanden",
+    "condition_text": "Wenn DTM+469 (Beginn zum nächstmöglichen Termin) nicht vorhanden",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "56",
-    "condition_text": "Wenn DTM+203 nicht vorhanden",
+    "condition_text": "Wenn DTM+203 (Ausführungsdatum) nicht vorhanden",
     "edifact_format": "ORDERS"
   },
   {
@@ -466,7 +466,7 @@
   },
   {
     "condition_key": "133",
-    "condition_text": "Wenn in LOC+172 DE3225 (Meldepunkt) die ID einer Steuerbaren Ressource angegeben ist",
+    "condition_text": "Wenn in LOC+172 DE3225(Meldepunkt) die ID einer Steuerbaren Ressource angegeben ist",
     "edifact_format": "ORDERS"
   },
   {
@@ -546,7 +546,7 @@
   },
   {
     "condition_key": "155",
-    "condition_text": "Es sind nur die Produkt- Codes erlaubt, die in der Codeliste der Konfigurationen im Kapitel 7 \"Produkte zur Bestellung einer Änderung an einer Lokation\" die in der Spalte \"Ebene\" mit demWert \"Technische Ressource\" vorhanden sind.",
+    "condition_text": "Es sind nur die Produkt- Codes erlaubt, die in der Codeliste der Konfigurationen im Kapitel 7 \"Produkte zur Bestellung einer Änderung an einer Lokation\" die in der Spalte \"Ebene\" mit dem Wert \"Technische Ressource\" vorhanden sind.",
     "edifact_format": "ORDERS"
   },
   {
@@ -581,7 +581,7 @@
   },
   {
     "condition_key": "162",
-    "condition_text": "Es ist nur der Wertebereich erlaubt, der zu dem in derselben SG29 LIN im PIA+5 (Erforderliches Produkt Abrechnungsdaten) DE7140 genannten Produkt, das in der Codeliste der Konfigurationen im Kapitel 6.2 \"Produkte zur Bestellung einer Änderung von Abrechnungsdaten\" in derselben Zeile wie der Produkt-Code in der Spalte \"Wertedetails für Position\" genannt ist.",
+    "condition_text": "Es ist nur der Wertebereich erlaubt, der zu dem in derselben SG29 LIN im PIA+5 (Erforderliches Produkt Abrechnungsdaten) DE7140 genannten Produkt, das inder Codeliste der Konfigurationen im Kapitel 6.2 \"Produkte zur Bestellung einer Änderung von Abrechnungsdaten\" in derselben Zeile wie der Produkt-Code in der Spalte \"Wertedetails für Position\" genannt ist.",
     "edifact_format": "ORDERS"
   },
   {
@@ -596,7 +596,7 @@
   },
   {
     "condition_key": "165",
-    "condition_text": "Wenn die Konfiguration der in SG34 RFF+Z20 DE1154 (Referenz auf ID der Tranche) genannte Tranche innerhalb derselben SG29 LIN++Z16 (Erforderliches Produkt der Tranche) aufgrund einerZuordnung eines LF neu konfiguriert werden soll oder die Tranche neu gebildet wurde.",
+    "condition_text": "Wenn die Konfiguration der in SG34 RFF+Z20 DE1154 (Referenz auf ID der Tranche) genannte Tranche innerhalb derselben SG29 LIN++Z16 (Erforderliches Produkt der Tranche) aufgrund einer Zuordnung eines LF neu konfiguriert werden soll oder die Tranche neu gebildet wurde.",
     "edifact_format": "ORDERS"
   },
   {
@@ -666,12 +666,12 @@
   },
   {
     "condition_key": "179",
-    "condition_text": "Wenn in derselben SG29 LIN im PIA+5 (Erforderliches Produkt Abrechnungsdaten) DE7140 das Produkt \"Empfänger der Vergütung zur Einspeisung\" aus der Codeliste der Konfigurationen im Kapitel 6.2 \"Produkte zur Bestellung einer Änderung von Abrechnungsdaten\" genannt ist und in derselben SG29 LIN im SG30 CAV+ZH9 (Code der Produkteigenschaft) im DE7110 aus der Spalte \"Code der Produkteigenschaft (Wertebereich)\" mit dem Code \"Lieferant\" gefüllt ist.",
+    "condition_text": "Wenn in derselben SG29 LIN im PIA+5 (Erforderliches Produkt Abrechnungsdaten) DE7140 das Produkt \"Empfänger der Vergütung zur Einspeisung\" aus der Codeliste der Konfigurationen im Kapitel 6.2 \"Produkte zur Bestellung einer Änderung von Abrechnungsdaten\" genannt ist und in derselben SG29 LIN im SG30 CAV+ZH9 (Code der Produkteigenschaft) im DE7110 aus der Spalte \"Code derProdukteigenschaft (Wertebereich)\" mit dem Code \"Lieferant\" gefüllt ist.",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "180",
-    "condition_text": "Wenn in derselben SG29 LIN im PIA+5 (Erforderliches Produkt Abrechnungsdaten) DE7140 ein Produkt-Code genannt ist der in der Codeliste der Konfigurationen im Kapitel 6.2 \"Produkte zur Bestellung einer Änderung vonAbrechnungsdaten\" in der Spalte „Wertedetails für Position“ die ggf. enthaltene Bedingung erfüllt ist.",
+    "condition_text": "Wenn in derselben SG29 LIN im PIA+5 (Erforderliches Produkt Abrechnungsdaten) DE7140 ein Produkt-Code genannt ist der in der Codeliste der Konfigurationen im Kapitel 6.2 \"Produkte zur Bestellung einer Änderung von Abrechnungsdaten\" in der Spalte „Wertedetails für Position“ die ggf. enthaltene Bedingung erfüllt ist.",
     "edifact_format": "ORDERS"
   },
   {
@@ -816,12 +816,12 @@
   },
   {
     "condition_key": "542",
-    "condition_text": "Hinweis: Wert aus BGM+Z57 DE1004 der QUOTES mit der das Angeboterfolgt ist.",
+    "condition_text": "Hinweis: Wert aus BGM+Z57 DE1004 der QUOTES mit der das Angebot erfolgt ist.",
     "edifact_format": "ORDERS"
   },
   {
     "condition_key": "543",
-    "condition_text": "Hinweis: Wert aus BGM+Z57 DE1004 der ORDERS mit der die Bestellung der Werte erfolgt ist.",
+    "condition_text": "Hinweis: Wert ausBGM+Z57 DE1004 der ORDERS mit der die Bestellung der Werte erfolgt ist.",
     "edifact_format": "ORDERS"
   },
   {
@@ -846,7 +846,7 @@
   },
   {
     "condition_key": "550",
-    "condition_text": "Hinweis: Findet nur dann Anwendung, wenn es sich um die Reklamation eines fehlenden Zählerstandes aufgrund einer Turnusablesung handelt, bei welcher der MSB am Objekt der Marktlokation die Information zur \"geplanten Turnusablesung des MSB (Strom)\" in der UTILMD im SG6 DTM+752 als Ablesezeitraum (DE2379 mit Code 104 MMWW-MMWW) in den vorherigen Stammdaten übermittelt hatte.",
+    "condition_text": "Hinweis: Findet nur dann Anwendung, wenn es sich um die Reklamation eines fehlenden Zählerstandes aufgrund einer Turnusablesung handelt, bei welcher der MSB am Objekt der Marktlokation die Information zur \"geplanten Turnusablesung des MSB (Strom)\" in der UTILMD im SG6 DTM+752 als Ablesezeitraum (DE2379 mit Code 104 MMWW- MMWW) in den vorherigen Stammdaten übermittelt hatte.",
     "edifact_format": "ORDERS"
   },
   {
@@ -886,7 +886,7 @@
   },
   {
     "condition_key": "559",
-    "condition_text": "Hinweis: Dokumentennummer ausBGM+Z79 DE1004 der UTILTS",
+    "condition_text": "Hinweis: Dokumentennummer aus BGM+Z79 DE1004 der UTILTS",
     "edifact_format": "ORDERS"
   },
   {
@@ -912,11 +912,6 @@
   {
     "condition_key": "564",
     "condition_text": "Hinweis: Für den Empfang der Werte nach Typ 2 aus dem SMGW.",
-    "edifact_format": "ORDERS"
-  },
-  {
-    "condition_key": "565",
-    "condition_text": "Hinweis: Für den Empfang der Mitteilung zum weiteren Vorgehen eines Steuerbefehls und der Antwort auf die Anweisung eines Steuerbefehls.",
     "edifact_format": "ORDERS"
   },
   {
@@ -946,7 +941,7 @@
   },
   {
     "condition_key": "571",
-    "condition_text": "Hinweis: MSB der Marktlokation, an den die Werte der weiteren Energieflussrichtung der Messlokation zu übermitteln sind.",
+    "condition_text": "Hinweis: MSB der Marktlokation, an den die Werteder weiteren Energieflussrichtung der Messlokation zu übermitteln sind.",
     "edifact_format": "ORDERS"
   },
   {
@@ -962,6 +957,16 @@
   {
     "condition_key": "574",
     "condition_text": "Hinweis: Es ist eine URI IPv6 für die Bereitstellung der Werte anzugeben.",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "575",
+    "condition_text": "Hinweis: Wenn der gewünschte Änderungszeitpunkt ein fixer Zeitpunkt ist.",
+    "edifact_format": "ORDERS"
+  },
+  {
+    "condition_key": "576",
+    "condition_text": "Hinweis: Wenn der gewünschte Änderungszeitpunkt ein nächst möglicher Termin zum oder nach dem angegebenen Zeitpunkt ist.",
     "edifact_format": "ORDERS"
   },
   {
@@ -1116,7 +1121,7 @@
   },
   {
     "condition_key": "2062",
-    "condition_text": "Pro Nachricht ist die SG29 LIN++Z66 (Erforderliches Produkt Ad-hoc-Steuerkanal) maximal einmal anzugeben",
+    "condition_text": "Pro Nachricht ist die SG29 LIN++Z66 (Erforderliches Produkt Ad-hoc-Steuerkanal) maximaleinmal anzugeben",
     "edifact_format": "ORDERS"
   },
   {
@@ -1136,7 +1141,7 @@
   },
   {
     "condition_key": "2066",
-    "condition_text": "Die SG3 RFF+Z37 Referenz auf ID der Technischen Ressource ist so oft zu wiederholen, bis alle IDs der Technischen Ressourcen angegeben sind, die zusätzlich zur Technischen Ressource in LOC+172 DE3225, die der Steuerbaren Ressource in SG3 RFF+Z38 Referenz auf ID derSteuerbaren Ressource, DE1154 mit diesem Vorgang zugeordnet werden sollen genannt sind.",
+    "condition_text": "Die SG3 RFF+Z37 Referenz auf ID der Technischen Ressource ist so oft zu wiederholen, bis alle IDs der Technischen Ressourcen angegeben sind, die zusätzlich zur Technischen Ressource in LOC+172 DE3225, die der Steuerbaren Ressource in SG3 RFF+Z38 Referenz auf ID der Steuerbaren Ressource, DE1154 mit diesem Vorgang zugeordnet werden sollen genannt sind.",
     "edifact_format": "ORDERS"
   },
   {
@@ -1176,7 +1181,7 @@
   },
   {
     "condition_key": "2097",
-    "condition_text": "Die SG29 ist so oft zu wiederholen, dass für alle in SG3 Referenz auf ID der Tranche genannten Tranchen mindestens eine SG29 vorhanden ist.",
+    "condition_text": "Die SG29 ist so oft zu wiederholen, dass für alle in SG3 Referenz auf ID der Tranchegenannten Tranchen mindestens eine SG29 vorhanden ist.",
     "edifact_format": "ORDERS"
   },
   {
