@@ -2081,7 +2081,7 @@
   },
   {
     "condition_key": "598",
-    "condition_text": "Hinweis: Die Übermittlung dieser Angabe dient dazu, dass der LF auch bei iMS gemessenen Marktlokationen mit Prognosegrundlage auf Basis von Werten einen belastbare Informationfür die Energiebeschaffung hat",
+    "condition_text": "Hinweis: Die Übermittlung dieser Angabe dient dazu, dass der LF auch bei iMS gemessenen Marktlokationen mit Prognosegrundlage auf Basis von Werten einen belastbare Information für die Energiebeschaffung hat",
     "edifact_format": "UTILMD"
   },
   {
