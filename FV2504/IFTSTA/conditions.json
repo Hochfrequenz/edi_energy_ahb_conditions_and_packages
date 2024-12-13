@@ -21,7 +21,7 @@
   },
   {
     "condition_key": "6",
-    "condition_text": "Wenn für das 3-Tupel (MaBiS-ZP, Betrachtungszeitraum, Version der Summenzeitreihe) dem BIKO der Prüfstatus vorliegt, so ist dieser immer zusammen mit dem Datenstatus zu übertragen.",
+    "condition_text": "Wenn für das 3-Tupel (MaBiS-ZP, Betrachtungszeitraum,Version der Summenzeitreihe) dem BIKO der Prüfstatus vorliegt, so ist dieser immer zusammen mit dem Datenstatus zu übertragen.",
     "edifact_format": "IFTSTA"
   },
   {
@@ -66,7 +66,7 @@
   },
   {
     "condition_key": "23",
-    "condition_text": "Wenn SG15 STS+Z25+Z31+A06 / A09 / A10 / A11 / A13 / A14 / A15 / A16 vorhanden.",
+    "condition_text": "Wenn SG15 STS+Z25+Z31+A06 / A09 / A10 /A11 / A13 / A14 / A15 / A16 vorhanden.",
     "edifact_format": "IFTSTA"
   },
   {
@@ -196,7 +196,7 @@
   },
   {
     "condition_key": "60",
-    "condition_text": "Wenn zusätzlich zum Fahrplananteil auch die Ausfallarbeit zu identischemWert aus RFF+ACW nicht o.k. ist",
+    "condition_text": "Wenn zusätzlich zum Fahrplananteil auch die Ausfallarbeit zu identischem Wert aus RFF+ACW nicht o.k. ist",
     "edifact_format": "IFTSTA"
   },
   {
@@ -316,12 +316,12 @@
   },
   {
     "condition_key": "93",
-    "condition_text": "Wenn STS+Z37+Z13 vorhanden, dann sind nur Codesaus dem EBD-Cluster \"gescheitert\" möglich.",
+    "condition_text": "Wenn STS+Z37+Z13 vorhanden, dann sind nur Codes aus dem EBD-Cluster \"gescheitert\" möglich.",
     "edifact_format": "IFTSTA"
   },
   {
     "condition_key": "94",
-    "condition_text": "Wenn STS+Z37+Z14 vorhanden, dann sind nur Codes aus dem EBD-Cluster \"erfolgreich\" möglich.",
+    "condition_text": "Wenn STS+Z37+Z14 vorhanden, dann sind nur Codes aus dem EBD-Cluster \"erfolgreich\"möglich.",
     "edifact_format": "IFTSTA"
   },
   {
@@ -406,7 +406,7 @@
   },
   {
     "condition_key": "130",
-    "condition_text": "WennSTS+Z20+Z32+A99:E_0531 in dieser SG14 vorhanden",
+    "condition_text": "Wenn STS+Z20+Z32+A99:E_0531 in dieser SG14 vorhanden",
     "edifact_format": "IFTSTA"
   },
   {
@@ -446,7 +446,7 @@
   },
   {
     "condition_key": "138",
-    "condition_text": "Wenn in diesem STS DE1131 = E_1020",
+    "condition_text": "Wenn in diesem STS DE1131= E_1020",
     "edifact_format": "IFTSTA"
   },
   {
@@ -571,7 +571,7 @@
   },
   {
     "condition_key": "512",
-    "condition_text": "Hinweis: Aus MSCONS BGMDE1004",
+    "condition_text": "Hinweis: Aus MSCONS BGM DE1004",
     "edifact_format": "IFTSTA"
   },
   {
@@ -640,11 +640,6 @@
     "edifact_format": "IFTSTA"
   },
   {
-    "condition_key": "536",
-    "condition_text": "Hinweis: Verwendung der ID der Technischen Ressource",
-    "edifact_format": "IFTSTA"
-  },
-  {
     "condition_key": "902",
     "condition_text": "Format: Wert darf nur positiv oder 0 sein",
     "edifact_format": "IFTSTA"
@@ -662,11 +657,6 @@
   {
     "condition_key": "911",
     "condition_text": "Format: Mögliche Werte: 1 bis n, je Nachricht bei 1 beginnend und fortlaufend aufsteigend",
-    "edifact_format": "IFTSTA"
-  },
-  {
-    "condition_key": "922",
-    "condition_text": "Format: TR-ID",
     "edifact_format": "IFTSTA"
   },
   {
