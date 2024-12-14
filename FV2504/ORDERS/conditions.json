@@ -516,7 +516,7 @@
   },
   {
     "condition_key": "143",
-    "condition_text": "Wenn in LOC+172 DE3225 (Meldepunkt) die ID einer Technischen Ressource angegeben ist",
+    "condition_text": "Wenn in LOC+172 DE3225 (Meldepunkt) die ID einer Steuerbaren Ressource angegeben ist",
     "edifact_format": "ORDERS"
   },
   {
@@ -546,7 +546,7 @@
   },
   {
     "condition_key": "155",
-    "condition_text": "Es sind nur die Produkt- Codes erlaubt, die in der Codeliste der Konfigurationen im Kapitel 7 \"Produkte zur Bestellung einer Änderung an einer Lokation\" die in der Spalte \"Ebene\" mit dem Wert \"Technische Ressource\" vorhanden sind.",
+    "condition_text": "Es sind nur die Produkt- Codes erlaubt, die in der Codeliste der Konfigurationen im Kapitel 7 \"Produkte zur Bestellung einer Änderung an einer Lokation\" die in der Spalte \"Ebene\" mit dem Wert \"Steuerbare Ressource\" vorhanden sind.",
     "edifact_format": "ORDERS"
   },
   {
@@ -586,7 +586,7 @@
   },
   {
     "condition_key": "163",
-    "condition_text": "Wenn innerhalb der Nachricht eine SG30 CCI+++ZA9 (Messprodukt für Übertragungsnetzbetreiber relevant) vorhanden ist.",
+    "condition_text": "Wenn innerhalb derNachricht eine SG30 CCI+++ZA9 (Messprodukt für Übertragungsnetzbetreiber relevant) vorhanden ist.",
     "edifact_format": "ORDERS"
   },
   {
@@ -941,7 +941,7 @@
   },
   {
     "condition_key": "571",
-    "condition_text": "Hinweis: MSB der Marktlokation, an den die Werteder weiteren Energieflussrichtung der Messlokation zu übermitteln sind.",
+    "condition_text": "Hinweis: MSB der Marktlokation, an den die Werte der weiteren Energieflussrichtung der Messlokation zu übermitteln sind.",
     "edifact_format": "ORDERS"
   },
   {
@@ -1141,7 +1141,7 @@
   },
   {
     "condition_key": "2066",
-    "condition_text": "Die SG3 RFF+Z37 Referenz auf ID der Technischen Ressource ist so oft zu wiederholen, bis alle IDs der Technischen Ressourcen angegeben sind, die zusätzlich zur Technischen Ressource in LOC+172 DE3225, die der Steuerbaren Ressource in SG3 RFF+Z38 Referenz auf ID der Steuerbaren Ressource, DE1154 mit diesem Vorgang zugeordnet werden sollen genannt sind.",
+    "condition_text": "Die SG3 RFF+Z37 Referenz auf ID der Technischen Ressource ist so oft zu wiederholen, bis alle IDs der Technischen Ressourcen angegeben sind, die der Steuerbaren Ressource in LOC+172 DE3225 (Meldepunkt) mit diesem Vorgang zugeordnet werden sollen genannt sind.",
     "edifact_format": "ORDERS"
   },
   {
@@ -1181,7 +1181,7 @@
   },
   {
     "condition_key": "2097",
-    "condition_text": "Die SG29 ist so oft zu wiederholen, dass für alle in SG3 Referenz auf ID der Tranchegenannten Tranchen mindestens eine SG29 vorhanden ist.",
+    "condition_text": "Die SG29 ist so oft zu wiederholen, dass für alle in SG3 Referenz auf ID der Tranche genannten Tranchen mindestens eine SG29 vorhanden ist.",
     "edifact_format": "ORDERS"
   },
   {

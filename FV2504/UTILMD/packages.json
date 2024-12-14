@@ -173,5 +173,50 @@
     "package_key": "38P",
     "package_expression": "[419]",
     "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "39P",
+    "package_expression": "[480] ∧ [405] ∧ [410]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "40P",
+    "package_expression": "[480] ∧ [405] ∧ [411]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "41P",
+    "package_expression": "[480] ∧ [396] ∧ [408]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "42P",
+    "package_expression": "[480] ∧ [396] ∧ [409]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "43P",
+    "package_expression": "[479] ∧ [396] ∧ [408]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "44P",
+    "package_expression": "[479] ∧ [396] ∧ [409]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "45P",
+    "package_expression": "[479] ∧ [405] ∧ [410]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "46P",
+    "package_expression": "[480] ∧ [406]",
+    "edifact_format": "UTILMD"
+  },
+  {
+    "package_key": "47P",
+    "package_expression": "[479] ∧ [405] ∧ [411]",
+    "edifact_format": "UTILMD"
   }
 ]
