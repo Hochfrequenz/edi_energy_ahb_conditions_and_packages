@@ -76,7 +76,7 @@
   },
   {
     "condition_key": "21",
-    "condition_text": "Wenn IMD++Z01vorhanden",
+    "condition_text": "Wenn IMD++Z01 vorhanden",
     "edifact_format": "ORDRSP"
   },
   {
@@ -176,7 +176,7 @@
   },
   {
     "condition_key": "44",
-    "condition_text": "Wenn AJT+A05+E_1000vorhanden",
+    "condition_text": "Wenn AJT+A05+E_1000 vorhanden",
     "edifact_format": "ORDRSP"
   },
   {
@@ -202,6 +202,16 @@
   {
     "condition_key": "49",
     "condition_text": "nur, wenn in ursprünglicher Nachricht IMD++Z60 (Abbestellung Messprodukt mit Zählzeitdefinition des LF) vorhanden war",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "50",
+    "condition_text": "wenn im DE3155 in demselben COM der Code EM vorhanden ist",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "51",
+    "condition_text": "wenn im DE3155 in demselben COM der Code TE / FX / AJ / AL vorhanden ist",
     "edifact_format": "ORDRSP"
   },
   {
@@ -317,6 +327,21 @@
   {
     "condition_key": "74",
     "condition_text": "wenn AJT+A04+E_0554 vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "75",
+    "condition_text": "Wenn es sich um die Antwort auf eine Bestellung handelt in der ein Messprodukt der Codeliste der Konfigurationen aus dem Kapitel 4.6.2 „Werte nach Typ 2 aus SMGW“ bestellt wurde.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "76",
+    "condition_text": "Wenn FTX+Z27 (IP-Adresse des Absenders) nicht vorhanden",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "77",
+    "condition_text": "Wenn FTX+Z28 (IP-Range des Absenders) nicht vorhanden",
     "edifact_format": "ORDRSP"
   },
   {
@@ -475,8 +500,18 @@
     "edifact_format": "ORDRSP"
   },
   {
+    "condition_key": "540",
+    "condition_text": "Hinweis: Es darf nur eine Information im DE3148 übermittelt werden",
+    "edifact_format": "ORDRSP"
+  },
+  {
     "condition_key": "541",
     "condition_text": "Hinweis: Wert aus BGM+Z84 DE1004 der ORDERS, mit der die Bestellung Änderung Netzentgelte aufgrund netzorientierter Steuerung erfolgt ist.",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "542",
+    "condition_text": "Hinweis: Wert aus BGM+Z91 DE1004 der ORDERS, mit der die Bestellung Änderung der Abrechnungsdaten erfolgt ist.",
     "edifact_format": "ORDRSP"
   },
   {
@@ -532,6 +567,16 @@
   {
     "condition_key": "935",
     "condition_text": "Format: HHMM = 0500",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "939",
+    "condition_text": "Format: Die Zeichenkette muss die Zeichen @ und . enthalten",
+    "edifact_format": "ORDRSP"
+  },
+  {
+    "condition_key": "940",
+    "condition_text": "Format: Die Zeichenkette muss mit dem Zeichen + beginnen und danach dürfen nur noch Ziffern folgen",
     "edifact_format": "ORDRSP"
   },
   {
