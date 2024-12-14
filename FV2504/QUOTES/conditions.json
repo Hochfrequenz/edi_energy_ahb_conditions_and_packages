@@ -551,12 +551,12 @@
   },
   {
     "condition_key": "2069",
-    "condition_text": "Pro SG27 LIN ist die SG31 PRI genau einmal anzugeben. Dabei muss in der SG31 PRI im DE6411 eine Preisangabe mit dem Code H87 (Stück) angeben sein.",
+    "condition_text": "Pro SG27 LIN ist die SG31 PRI genau einmal anzugeben. Dabei muss in der SG31 PRI im DE5284 eine Mengenangabe mit dem Code H87 (Stück) im DE6411 angegeben sein.",
     "edifact_format": "QUOTES"
   },
   {
     "condition_key": "2070",
-    "condition_text": "Pro SG27 LIN ist die SG31 PRI zweimal anzugeben. Dabei muss in genau einer SG31 PRI im DE6411 eine Preisangabe mit dem Code H87 (Stück) angeben sein und in genau einer SG31 PRI im DE6411 eine Preisangabe mit dem Code DAY (Tag).",
+    "condition_text": "Pro SG27 LIN ist die SG31 PRI zweimal anzugeben. Dabei muss genau eine SG31 PRI mit Preis- und Mengenangabe und dem Code H87 (Stück) im DE6411 und genau eine SG31 PRI mitPreis- und Mengenangabe und dem Code DAY (Tag) im DE6411 vorhanden sein.",
     "edifact_format": "QUOTES"
   },
   {

@@ -16,7 +16,7 @@
   },
   {
     "condition_key": "6",
-    "condition_text": "Wenn das SG8 RFF+Z23 (Referenz auf Rechenschritt) in derselben SG8 SEQ+Z37 und der selben Zeitraum-ID nicht vorhanden",
+    "condition_text": "Wenn das SG8 RFF+Z23 (Referenz auf Rechenschritt) in derselben SG8 SEQ+Z37 nicht vorhanden",
     "edifact_format": "UTILTS"
   },
   {
@@ -51,7 +51,7 @@
   },
   {
     "condition_key": "13",
-    "condition_text": "Wenn in SG8 SEQ+Z37 SG9 CCI+++Z86 CAV+Z80/Z81 (Divisor / Dividend) vorhanden, muss in diesem Vorgang genau eine zweiteSG8 SEQ+Z37 mit identischen Rechenschrittidentifikator und derselben Zeitraum-ID vorhanden sein, sodass das eine SG8 SEQ+Z37 den Operator Z80 (Divisor) und das andere SG8 SEQ+Z37 den Operator Z81 (Dividend) enthält",
+    "condition_text": "Wenn in SG8 SEQ+Z37 SG9 CCI+++Z86 CAV+Z80/Z81 (Divisor / Dividend) vorhanden, muss in diesem Vorgang genau eine zweite SG8 SEQ+Z37 mit identischen Rechenschrittidentifikator undderselben Zeitraum-ID vorhanden sein, sodass das eine SG8 SEQ+Z37 den Operator Z80 (Divisor) und das andere SG8 SEQ+Z37 den Operator Z81 (Dividend) enthält",
     "edifact_format": "UTILTS"
   },
   {
@@ -396,7 +396,7 @@
   },
   {
     "condition_key": "531",
-    "condition_text": "Hinweis: für weitere Details siehe Kapitel 4.1 \"Übermittlung einer Vielzahl von Berechnungsformeln in einem Vorgang\"",
+    "condition_text": "Hinweis: Für weitere Details siehe Kapitel 4.1 \"Übermittlung einer Vielzahl von Berechnungsformeln in einem Vorgang\"",
     "edifact_format": "UTILTS"
   },
   {
@@ -527,11 +527,6 @@
   {
     "condition_key": "2002",
     "condition_text": "Für jeden Code der Zählzeit aus SG8 SEQ+Z42 (Zählzeitdefinition) SG9 CCI+Z39 (Code der Zählzeitdefinition) sind mindestens zwei Register anzugeben, bei denen in dieser SG8 das SG8 RFF+Z27 mit diesem Code gefüllt ist",
-    "edifact_format": "UTILTS"
-  },
-  {
-    "condition_key": "2003",
-    "condition_text": "Segmentgruppe ist genau einmal für jede Zeitraum-ID aus dem DE1156 der SG6 RFF+Z49 (Verwendungszeitraum der Daten: \"Gültige Daten\") anzugeben",
     "edifact_format": "UTILTS"
   },
   {
