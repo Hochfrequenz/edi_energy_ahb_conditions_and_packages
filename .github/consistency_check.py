@@ -1,6 +1,7 @@
 """
 this function is called from a Github Action (consistency_check.yml) that checks the consistency of the data
 """
+
 import json
 from pathlib import Path
 
@@ -10,7 +11,7 @@ from ahbicht.mapping_results import (
     PackageKeyConditionExpressionMapping,
     PackageKeyConditionExpressionMappingSchema,
 )
-from maus.edifact import EdifactFormat, EdifactFormatVersion
+from efoli import EdifactFormat, EdifactFormatVersion
 
 _repo_root = Path(__file__).parent.parent
 
