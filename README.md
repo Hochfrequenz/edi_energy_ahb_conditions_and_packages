@@ -1,5 +1,11 @@
 # edi_energy_ahb_conditions_and_packages
 
+> [!WARNING]  
+> Dieses Repository wurde bis Ende 2024 [automatisch](https://github.com/Hochfrequenz/edi_energy_mirror/blob/89ffed627162d1c64ed6fdd783aec1650b084c40/.github/workflows/kohlrahbi.yml#L40-L49) (mittels [kohlrahbi](https://github.com/Hochfrequenz/kohlrahbi)) mit Informationen aus den `.docx`-Fassungen der Anwendunghandbücher befüllt.
+> Wir sind mittlerweile Hochfrequenz-intern auf die (kostenpflichtigen<!-- 🙄 -->) XML-Versionen der Anwendungshandbücher umgestiegen und laden die Bedingungen, Pakete und UB-Bedingungen aus den XMLs in eine Datenbank, die wir dann in unsere Anwendungen einbinden.
+> (Dazu verwenden wir [fundamend](https://github.com/Hochfrequenz/xml-fundamend-python/?tab=readme-ov-file#bef%C3%BCllen-einer-datenbank-mit-ahb-informationen)).
+> Dieses Repository wird daher nicht mehr maintained.
+
 Bedingungen und Paket-Definitionen, die aus Anwendungshandbüchern (AHBs) extrahiert wurden.
 
 ## Sinn & Zweck
